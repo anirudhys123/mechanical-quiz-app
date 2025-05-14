@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Which dimensionless number represents convective heat transfer?",
+    "options": ["Nusselt", "Reynolds", "Prandtl", "Grashof"],
+    "answer": "Nusselt"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Which law governs thermal radiation?",
+    "options": ["Fourier's Law", "Planck's Law", "Newton’s Law", "Kirchhoff’s Law"],
+    "answer": "Planck's Law"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Thermal diffusivity is defined as:",
+    "options": ["k/(ρ·cp)", "cp/(ρ·k)", "ρ/k", "k·cp"],
+    "answer": "k/(ρ·cp)"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "What is critical radius of insulation?",
+    "options": ["Minimum radius to avoid heat loss", "Radius at max heat loss", "Point of insulation failure", "None"],
+    "answer": "Radius at max heat loss"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "For fully developed laminar flow in a pipe, Nusselt number is:",
+    "options": ["4.36", "3.14", "1.75", "10"],
+    "answer": "4.36"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "In natural convection, which number indicates buoyancy to viscous force?",
+    "options": ["Prandtl", "Reynolds", "Grashof", "Nusselt"],
+    "answer": "Grashof"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Stefan–Boltzmann constant is used in which equation?",
+    "options": ["Blackbody radiation", "Heat conduction", "Heat convection", "Concentration gradient"],
+    "answer": "Blackbody radiation"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Which surface emits most radiation at a given temperature?",
+    "options": ["White", "Gray", "Blackbody", "Polished"],
+    "answer": "Blackbody"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Logarithmic mean temperature difference (LMTD) is used in:",
+    "options": ["Heat exchangers", "Radiators", "Pipes", "Air conditioners"],
+    "answer": "Heat exchangers"
+  },
+  {
+    "category": "Heat Transfer",
+    "difficulty": "Medium",
+    "question": "Which fin efficiency is ideal?",
+    "options": ["0", "1", ">1", "<0"],
+    "answer": "1"
+  }
+]

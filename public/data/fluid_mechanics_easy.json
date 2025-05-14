@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which property defines the resistance of fluid to flow?",
+    "options": [
+      "Viscosity",
+      "Density",
+      "Pressure",
+      "Surface tension"
+    ],
+    "answer": "Viscosity"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which instrument is used to measure fluid pressure?",
+    "options": [
+      "Manometer",
+      "Barometer",
+      "Thermometer",
+      "Calorimeter"
+    ],
+    "answer": "Manometer"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "What is the unit of dynamic viscosity in SI units?",
+    "options": [
+      "Pa·s",
+      "N/m²",
+      "kg/m³",
+      "m²/s"
+    ],
+    "answer": "Pa·s"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which principle explains the rise of fluid in a capillary tube?",
+    "options": [
+      "Pascal's law",
+      "Archimedes’ principle",
+      "Capillary action",
+      "Bernoulli’s equation"
+    ],
+    "answer": "Capillary action"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which law states that pressure applied to an enclosed fluid is transmitted equally in all directions?",
+    "options": [
+      "Bernoulli's theorem",
+      "Newton's law",
+      "Pascal's law",
+      "Archimedes’ principle"
+    ],
+    "answer": "Pascal's law"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which device is used to measure flow rate of fluid in a pipe?",
+    "options": [
+      "Venturimeter",
+      "Thermometer",
+      "Hygrometer",
+      "Altimeter"
+    ],
+    "answer": "Venturimeter"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which principle explains the lift force on an airplane wing?",
+    "options": [
+      "Newton's third law",
+      "Archimedes’ principle",
+      "Bernoulli's principle",
+      "Law of continuity"
+    ],
+    "answer": "Bernoulli's principle"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "What is the term for the flow of fluid with no crossing streamlines?",
+    "options": [
+      "Turbulent flow",
+      "Compressible flow",
+      "Laminar flow",
+      "Steady flow"
+    ],
+    "answer": "Laminar flow"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "Which property of fluid determines whether the flow is laminar or turbulent?",
+    "options": [
+      "Reynolds number",
+      "Mach number",
+      "Prandtl number",
+      "Froude number"
+    ],
+    "answer": "Reynolds number"
+  },
+  {
+    "category": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "What is the force experienced by an object submerged in a fluid called?",
+    "options": [
+      "Drag force",
+      "Buoyant force",
+      "Friction force",
+      "Lift force"
+    ],
+    "answer": "Buoyant force"
+  }
+]

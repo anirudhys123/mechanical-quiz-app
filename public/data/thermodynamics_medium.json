@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "What is the change in internal energy for an isothermal process?",
+    "options": ["Zero", "Positive", "Negative", "Depends on volume"],
+    "answer": "Zero"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "In a reversible adiabatic process, which property remains constant?",
+    "options": ["Enthalpy", "Entropy", "Internal Energy", "Heat"],
+    "answer": "Entropy"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "Which thermodynamic cycle is used in steam power plants?",
+    "options": ["Otto Cycle", "Rankine Cycle", "Brayton Cycle", "Diesel Cycle"],
+    "answer": "Rankine Cycle"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "Which of the following is a point function?",
+    "options": ["Heat", "Work", "Entropy", "Distance"],
+    "answer": "Entropy"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "In which process is no heat exchanged with surroundings?",
+    "options": ["Isothermal", "Adiabatic", "Isobaric", "Isochoric"],
+    "answer": "Adiabatic"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "The efficiency of a Carnot engine depends on:",
+    "options": ["Working fluid", "Temperature limits", "Pressure limits", "Mass flow rate"],
+    "answer": "Temperature limits"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "Which law provides the direction of heat flow?",
+    "options": ["Zeroth Law", "First Law", "Second Law", "Third Law"],
+    "answer": "Second Law"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "What is the relationship between Cp and Cv for ideal gases?",
+    "options": ["Cp < Cv", "Cp = Cv", "Cp > Cv", "No relation"],
+    "answer": "Cp > Cv"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "What does the area under a PV curve represent in a thermodynamic cycle?",
+    "options": ["Heat added", "Entropy change", "Work done", "Internal energy"],
+    "answer": "Work done"
+  },
+  {
+    "category": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "What type of system allows energy but not mass to cross boundaries?",
+    "options": ["Closed system", "Open system", "Isolated system", "Adiabatic system"],
+    "answer": "Closed system"
+  }
+]
