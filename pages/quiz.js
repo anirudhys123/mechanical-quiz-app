@@ -17,7 +17,9 @@ export default function Quiz() {
   const [selected, setSelected] = useState('');
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
+  const [timer, setTimer] = useState(60); // 1-minute timer
 
+  // Fetch and shuffle questions
   useEffect(() => {
     if (difficulty && category) {
       fetch(`/data/${category.toLowerCase().replace(/\s+/g, '_')}_${difficulty}.json`)
@@ -25,7 +27,7 @@ export default function Quiz() {
         .then((data) => {
           const shuffledQuestions = shuffleArray(data).map(q => ({
             ...q,
-            options: shuffleArray(q.options) // shuffle options as well
+            options: shuffleArray(q.options)
           }));
           setQuestions(shuffledQuestions);
           setStartTime(Date.now());
@@ -33,17 +35,38 @@ export default function Quiz() {
     }
   }, [category, difficulty]);
 
-  const handleNext = () => {
-    if (selected === questions[current].answer) {
-      setScore(score + 1);
+  // Timer countdown
+  useEffect(() => {
+    if (questions.length === 0) return;
+
+    if (timer === 0) {
+      handleNext(true); // Automatically move to next on timeout
+      return;
     }
 
+    const interval = setInterval(() => {
+      setTimer((prev) => prev - 1);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [timer, questions]);
+
+  // Reset timer on new question
+  useEffect(() => {
+    setTimer(60);
+  }, [current]);
+
+  const handleNext = (auto = false) => {
+    const isCorrect = selected === questions[current].answer;
+    const updatedScore = isCorrect ? score + 1 : score;
+
     if (current + 1 < questions.length) {
+      setScore(updatedScore);
       setCurrent(current + 1);
       setSelected('');
     } else {
       const timeTaken = Math.floor((Date.now() - startTime) / 1000);
-      const finalScore = score + (selected === questions[current].answer ? 1 : 0);
+      const finalScore = auto && isCorrect ? updatedScore : updatedScore + (selected === questions[current].answer ? 1 : 0);
       const accuracy = Math.round((finalScore / questions.length) * 100);
 
       router.push(
@@ -58,6 +81,7 @@ export default function Quiz() {
     <div className="container mt-5">
       <h4>Question {current + 1} of {questions.length}</h4>
       <p className="lead">{questions[current].question}</p>
+      <div className="mb-2 text-danger fw-bold">Time left: {timer}s</div>
 
       <div className="list-group">
         {questions[current].options.map((opt, idx) => (
@@ -71,7 +95,7 @@ export default function Quiz() {
         ))}
       </div>
 
-      <button className="btn btn-success mt-4" disabled={!selected} onClick={handleNext}>
+      <button className="btn btn-success mt-4" disabled={!selected} onClick={() => handleNext()}>
         {current + 1 === questions.length ? 'Finish' : 'Next'}
       </button>
     </div>
