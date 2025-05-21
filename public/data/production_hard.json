@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Casting",
+    "difficulty": "Hard",
+    "question": "Chvorinov’s rule in casting relates solidification time to:",
+    "options": ["Volume and surface area of the casting", "Temperature difference", "Cooling rate", "Pouring time"],
+    "answer": "Volume and surface area of the casting"
+  },
+  {
+    "category": "Welding",
+    "difficulty": "Hard",
+    "question": "In friction stir welding, the heat is generated due to:",
+    "options": ["Friction between tool and material", "Arc", "Chemical reaction", "Electric current"],
+    "answer": "Friction between tool and material"
+  },
+  {
+    "category": "Machining",
+    "difficulty": "Hard",
+    "question": "Taylor’s tool life equation is used to relate tool life and:",
+    "options": ["Cutting speed", "Tool material", "Chip thickness", "Tool geometry"],
+    "answer": "Cutting speed"
+  },
+  {
+    "category": "Forming",
+    "difficulty": "Hard",
+    "question": "In deep drawing, the ratio of blank diameter to punch diameter determines:",
+    "options": ["Drawing ratio", "Shear angle", "Reduction ratio", "Springback"],
+    "answer": "Drawing ratio"
+  },
+  {
+    "category": "Powder Metallurgy",
+    "difficulty": "Hard",
+    "question": "Hot isostatic pressing is mainly used for:",
+    "options": ["Eliminating porosity", "Cooling powders", "Inducing stresses", "Removing oxides"],
+    "answer": "Eliminating porosity"
+  },
+  {
+    "category": "Non-Traditional Machining",
+    "difficulty": "Hard",
+    "question": "Material removal in ultrasonic machining is mainly due to:",
+    "options": ["Micro-chipping and erosion", "Electrochemical reaction", "Spark erosion", "Cavitation"],
+    "answer": "Micro-chipping and erosion"
+  },
+  {
+    "category": "Additive Manufacturing",
+    "difficulty": "Hard",
+    "question": "Stereolithography uses which of the following curing methods?",
+    "options": ["UV light", "Laser sintering", "Electron beam", "Fused filament"],
+    "answer": "UV light"
+  },
+  {
+    "category": "Metallurgy - Iron Carbon",
+    "difficulty": "Hard",
+    "question": "Which microstructure is obtained when austenite is cooled rapidly?",
+    "options": ["Martensite", "Pearlite", "Bainite", "Ferrite"],
+    "answer": "Martensite"
+  },
+  {
+    "category": "Heat Treatment",
+    "difficulty": "Hard",
+    "question": "Austempering produces which microstructure?",
+    "options": ["Bainite", "Martensite", "Pearlite", "Ferrite"],
+    "answer": "Bainite"
+  },
+  {
+    "category": "Material Testing",
+    "difficulty": "Hard",
+    "question": "In fatigue testing, the S-N curve represents:",
+    "options": ["Stress vs number of cycles", "Shear vs normal stress", "Strain vs time", "Stress vs time"],
+    "answer": "Stress vs number of cycles"
+  },
+  {
+    "category": "Crystal Structure",
+    "difficulty": "Hard",
+    "question": "Miller indices (hkl) represent:",
+    "options": ["Planes in a crystal lattice", "Atomic weight", "Grain boundaries", "Point defects"],
+    "answer": "Planes in a crystal lattice"
+  },
+  {
+    "category": "Phase Diagrams",
+    "difficulty": "Hard",
+    "question": "Lever rule is used to determine:",
+    "options": ["Phase fractions", "Phase transition temperature", "Grain size", "Atomic radius"],
+    "answer": "Phase fractions"
+  },
+  {
+    "category": "Polymers",
+    "difficulty": "Hard",
+    "question": "Which polymerization type produces by-products?",
+    "options": ["Condensation", "Addition", "Chain-growth", "Free radical"],
+    "answer": "Condensation"
+  },
+  {
+    "category": "Composites",
+    "difficulty": "Hard",
+    "question": "Rule of mixtures is applied to determine:",
+    "options": ["Mechanical properties of composites", "Heat capacity", "Molecular weight", "Phase change"],
+    "answer": "Mechanical properties of composites"
+  },
+  {
+    "category": "Corrosion",
+    "difficulty": "Hard",
+    "question": "Which environment accelerates pitting corrosion?",
+    "options": ["Chloride-containing solution", "Dry air", "Distilled water", "Ammonia vapor"],
+    "answer": "Chloride-containing solution"
+  },
+  {
+    "category": "Surface Treatment",
+    "difficulty": "Hard",
+    "question": "Laser surface hardening increases hardness due to:",
+    "options": ["Rapid self-quenching", "Surface oxidation", "Phase softening", "Slow heating"],
+    "answer": "Rapid self-quenching"
+  },
+  {
+    "category": "Jigs and Fixtures",
+    "difficulty": "Hard",
+    "question": "The 3-2-1 principle is used in fixture design for:",
+    "options": ["Restricting degrees of freedom", "Increasing feed rate", "Cooling", "Lubrication"],
+    "answer": "Restricting degrees of freedom"
+  },
+  {
+    "category": "Production Planning",
+    "difficulty": "Hard",
+    "question": "Johnson’s rule is used in which scheduling type?",
+    "options": ["Two-machine flow shop", "Gantt chart", "Batch processing", "Job shop scheduling"],
+    "answer": "Two-machine flow shop"
+  },
+  {
+    "category": "Work Study",
+    "difficulty": "Hard",
+    "question": "Synthetic data method is used in:",
+    "options": ["Work measurement", "Plant layout", "Material handling", "Cost accounting"],
+    "answer": "Work measurement"
+  },
+  {
+    "category": "Metrology",
+    "difficulty": "Hard",
+    "question": "Which of the following measures surface roughness precisely?",
+    "options": ["Talysurf", "Profile projector", "Micrometer", "Height gauge"],
+    "answer": "Talysurf"
+  }
+]

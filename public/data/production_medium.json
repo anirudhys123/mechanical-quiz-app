@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Casting",
+    "difficulty": "Medium",
+    "question": "In sand casting, what is the main function of a riser?",
+    "options": ["Improve surface finish", "Compensate for shrinkage", "Control solidification rate", "Act as a core"],
+    "answer": "Compensate for shrinkage"
+  },
+  {
+    "category": "Welding",
+    "difficulty": "Medium",
+    "question": "Porosity in welding is caused mainly due to:",
+    "options": ["Excessive voltage", "Moisture in electrode", "High current", "Fast cooling rate"],
+    "answer": "Moisture in electrode"
+  },
+  {
+    "category": "Machining",
+    "difficulty": "Medium",
+    "question": "The tool life is most affected by:",
+    "options": ["Cutting speed", "Feed rate", "Tool geometry", "Depth of cut"],
+    "answer": "Cutting speed"
+  },
+  {
+    "category": "Forming",
+    "difficulty": "Medium",
+    "question": "Springback effect in sheet metal bending is due to:",
+    "options": ["Residual stresses", "Low ductility", "High toughness", "Elastic recovery"],
+    "answer": "Elastic recovery"
+  },
+  {
+    "category": "Powder Metallurgy",
+    "difficulty": "Medium",
+    "question": "In powder metallurgy, sintering is done to:",
+    "options": ["Remove porosity", "Melt the metal", "Bond particles", "Cool the compact"],
+    "answer": "Bond particles"
+  },
+  {
+    "category": "Non-Traditional Machining",
+    "difficulty": "Medium",
+    "question": "In ECM, the tool is made of:",
+    "options": ["Conductive material", "Insulating material", "Ferromagnetic material", "Non-metallic material"],
+    "answer": "Conductive material"
+  },
+  {
+    "category": "Additive Manufacturing",
+    "difficulty": "Medium",
+    "question": "In FDM 3D printing, what material is commonly used?",
+    "options": ["PLA", "Steel", "Epoxy", "Resin"],
+    "answer": "PLA"
+  },
+  {
+    "category": "Metallurgy - Iron Carbon",
+    "difficulty": "Medium",
+    "question": "Pearlite is a mixture of:",
+    "options": ["Ferrite and cementite", "Austenite and ferrite", "Austenite and cementite", "Ferrite and martensite"],
+    "answer": "Ferrite and cementite"
+  },
+  {
+    "category": "Heat Treatment",
+    "difficulty": "Medium",
+    "question": "Tempering is performed after hardening to:",
+    "options": ["Increase toughness", "Increase hardness", "Refine grain size", "Induce stress"],
+    "answer": "Increase toughness"
+  },
+  {
+    "category": "Material Testing",
+    "difficulty": "Medium",
+    "question": "In a tensile test, necking begins at:",
+    "options": ["Ultimate tensile strength", "Elastic limit", "Yield point", "Fracture point"],
+    "answer": "Ultimate tensile strength"
+  },
+  {
+    "category": "Crystal Structure",
+    "difficulty": "Medium",
+    "question": "The number of atoms per unit cell in BCC structure is:",
+    "options": ["2", "1", "4", "8"],
+    "answer": "2"
+  },
+  {
+    "category": "Phase Diagrams",
+    "difficulty": "Medium",
+    "question": "In a binary phase diagram, tie lines are used to determine:",
+    "options": ["Phase proportions", "Melting point", "Cooling rate", "Grain size"],
+    "answer": "Phase proportions"
+  },
+  {
+    "category": "Polymers",
+    "difficulty": "Medium",
+    "question": "Glass transition temperature applies to:",
+    "options": ["Amorphous polymers", "Crystalline metals", "Alloys", "Composites"],
+    "answer": "Amorphous polymers"
+  },
+  {
+    "category": "Composites",
+    "difficulty": "Medium",
+    "question": "Which failure mode is most common in fiber-reinforced composites?",
+    "options": ["Delamination", "Yielding", "Tensile fracture", "Shear fracture"],
+    "answer": "Delamination"
+  },
+  {
+    "category": "Corrosion",
+    "difficulty": "Medium",
+    "question": "Passivation helps in corrosion resistance by forming:",
+    "options": ["Oxide layer", "Hydride layer", "Galvanic cell", "Anodic film"],
+    "answer": "Oxide layer"
+  },
+  {
+    "category": "Surface Treatment",
+    "difficulty": "Medium",
+    "question": "Nitriding is done to improve:",
+    "options": ["Surface hardness and wear resistance", "Corrosion only", "Ductility", "Toughness"],
+    "answer": "Surface hardness and wear resistance"
+  },
+  {
+    "category": "Jigs and Fixtures",
+    "difficulty": "Medium",
+    "question": "Fixtures are used in:",
+    "options": ["Turning operations", "Drilling operations", "Milling only", "All machining operations"],
+    "answer": "Turning operations"
+  },
+  {
+    "category": "Production Planning",
+    "difficulty": "Medium",
+    "question": "The primary purpose of MRP (Material Requirements Planning) is:",
+    "options": ["Inventory control", "Quality check", "Packaging", "Inspection"],
+    "answer": "Inventory control"
+  },
+  {
+    "category": "Work Study",
+    "difficulty": "Medium",
+    "question": "Which of the following is used for method study?",
+    "options": ["Flow process chart", "Pareto chart", "Fishbone diagram", "Gantt chart"],
+    "answer": "Flow process chart"
+  },
+  {
+    "category": "Metrology",
+    "difficulty": "Medium",
+    "question": "Which instrument is best suited for measuring gear tooth profile?",
+    "options": ["Profile projector", "Vernier caliper", "Micrometer", "Dial gauge"],
+    "answer": "Profile projector"
+  }
+]

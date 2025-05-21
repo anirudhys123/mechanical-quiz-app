@@ -30,6 +30,8 @@ export default function Home() {
           <option value="Thermodynamics">Thermodynamics</option>
           <option value="Heat Transfer">Heat Transfer</option>
           <option value="Fluid Mechanics">Fluid Mechanics</option>
+          <option value="Production">Production Technology</option>
+          <option value="Mechanics of Solids">Strength of Materials</option>
         </select>
       </div>
 

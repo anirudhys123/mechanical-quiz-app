@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Stress and Strain",
+    "difficulty": "Medium",
+    "question": "Poisson's ratio is defined as:",
+    "options": ["Lateral strain / longitudinal strain", "Stress / strain", "Load / deformation", "Longitudinal strain / lateral strain"],
+    "answer": "Lateral strain / longitudinal strain"
+  },
+  {
+    "category": "Elastic Constants",
+    "difficulty": "Medium",
+    "question": "Bulk modulus is defined as:",
+    "options": ["Volumetric stress / volumetric strain", "Axial stress / axial strain", "Lateral stress / lateral strain", "Shear stress / shear strain"],
+    "answer": "Volumetric stress / volumetric strain"
+  },
+  {
+    "category": "Shear Force and Bending Moment",
+    "difficulty": "Medium",
+    "question": "A sudden jump in the shear force diagram indicates:",
+    "options": ["Point load", "UDL", "Moment", "Torsion"],
+    "answer": "Point load"
+  },
+  {
+    "category": "Bending Stress",
+    "difficulty": "Medium",
+    "question": "Section modulus is given by:",
+    "options": ["I/y", "M/I", "M/y", "EI"],
+    "answer": "I/y"
+  },
+  {
+    "category": "Torsion",
+    "difficulty": "Medium",
+    "question": "Polar moment of inertia is used in:",
+    "options": ["Torsion calculations", "Axial loading", "Shear force", "Bending"],
+    "answer": "Torsion calculations"
+  },
+  {
+    "category": "Principal Stresses",
+    "difficulty": "Medium",
+    "question": "Maximum shear stress in terms of principal stresses is:",
+    "options": ["(σ1 - σ2)/2", "(σ1 + σ2)/2", "σ1/2", "σ2/2"],
+    "answer": "(σ1 - σ2)/2"
+  },
+  {
+    "category": "Strain Energy",
+    "difficulty": "Medium",
+    "question": "Strain energy in axial loading is proportional to:",
+    "options": ["(Stress)^2", "(Strain)^2", "Displacement", "Length"],
+    "answer": "(Stress)^2"
+  },
+  {
+    "category": "Columns",
+    "difficulty": "Medium",
+    "question": "Slenderness ratio is defined as:",
+    "options": ["Effective length / radius of gyration", "Height / area", "Load / deflection", "Length / width"],
+    "answer": "Effective length / radius of gyration"
+  },
+  {
+    "category": "Thermal Stresses",
+    "difficulty": "Medium",
+    "question": "Thermal stress formula is:",
+    "options": ["σ = EαΔT", "σ = Eε", "σ = M/I", "σ = P/A"],
+    "answer": "σ = EαΔT"
+  },
+  {
+    "category": "Mohr's Circle",
+    "difficulty": "Medium",
+    "question": "In Mohr’s Circle, the center is located at:",
+    "options": ["(σx + σy)/2", "σx", "σy", "Maximum shear"],
+    "answer": "(σx + σy)/2"
+  }
+]

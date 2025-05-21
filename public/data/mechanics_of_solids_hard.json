@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Stress and Strain",
+    "difficulty": "Hard",
+    "question": "For a triaxial stress system, the octahedral shear stress is:",
+    "options": ["(1/3)√[(σ1−σ2)^2 + (σ2−σ3)^2 + (σ3−σ1)^2]", "σ1 − σ2", "σmax / 2", "σ1 / 3"],
+    "answer": "(1/3)√[(σ1−σ2)^2 + (σ2−σ3)^2 + (σ3−σ1)^2]"
+  },
+  {
+    "category": "Elastic Constants",
+    "difficulty": "Hard",
+    "question": "The relation among E, G, and K is:",
+    "options": ["E = 9KG / (3K + G)", "E = 3K + G", "E = 2G + 3K", "E = KG"],
+    "answer": "E = 9KG / (3K + G)"
+  },
+  {
+    "category": "Shear Force and Bending Moment",
+    "difficulty": "Hard",
+    "question": "For a beam under UDL, the bending moment diagram is:",
+    "options": ["Parabolic", "Linear", "Constant", "Cubic"],
+    "answer": "Parabolic"
+  },
+  {
+    "category": "Bending Stress",
+    "difficulty": "Hard",
+    "question": "The bending equation is:",
+    "options": ["M/I = σ/y = E/R", "σ = My/I", "E = σ/ε", "M = EI/R"],
+    "answer": "M/I = σ/y = E/R"
+  },
+  {
+    "category": "Torsion",
+    "difficulty": "Hard",
+    "question": "The strain energy in a circular shaft under torsion is:",
+    "options": ["T²L / 2GJ", "TL / G", "T² / 2J", "GJ / TL"],
+    "answer": "T²L / 2GJ"
+  },
+  {
+    "category": "Principal Stresses",
+    "difficulty": "Hard",
+    "question": "Maximum shear stress theory is also known as:",
+    "options": ["Tresca’s theory", "Rankine’s theory", "von Mises theory", "Coulomb theory"],
+    "answer": "Tresca’s theory"
+  },
+  {
+    "category": "Strain Energy",
+    "difficulty": "Hard",
+    "question": "Castigliano’s theorem is used to calculate:",
+    "options": ["Deflection", "Stress", "Strain", "Shear force"],
+    "answer": "Deflection"
+  },
+  {
+    "category": "Columns",
+    "difficulty": "Hard",
+    "question": "Euler's formula is not valid for:",
+    "options": ["Short columns", "Long columns", "Both", "None"],
+    "answer": "Short columns"
+  },
+  {
+    "category": "Thermal Stresses",
+    "difficulty": "Hard",
+    "question": "A bimetallic strip bends on heating due to:",
+    "options": ["Different coefficients of expansion", "Same expansion", "Stress concentration", "Phase change"],
+    "answer": "Different coefficients of expansion"
+  },
+  {
+    "category": "Mohr's Circle",
+    "difficulty": "Hard",
+    "question": "Maximum shear stress on Mohr’s Circle is represented by:",
+    "options": ["Radius of the circle", "Diameter", "Center", "Area"],
+    "answer": "Radius of the circle"
+  }
+]
