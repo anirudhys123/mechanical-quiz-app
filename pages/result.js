@@ -1,13 +1,23 @@
 // pages/result.js
 
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 export default function Result() {
   const router = useRouter();
   const { score, total, time, accuracy } = router.query;
+  const [analysis, setAnalysis] = useState([]);
+
+  useEffect(() => {
+    const storedData = localStorage.getItem('quiz-analysis');
+    if (storedData) {
+      setAnalysis(JSON.parse(storedData));
+    }
+  }, []);
 
   const restart = () => {
-    router.replace('/'); // Clean reload
+    localStorage.removeItem('quiz-analysis');
+    router.replace('/');
   };
 
   const getPerformanceMessage = () => {
@@ -36,7 +46,42 @@ export default function Result() {
         {getPerformanceMessage()}
       </div>
 
-      <button className="btn btn-primary mt-3" onClick={restart}>Try Again</button>
+      <h4 className="mt-5">Detailed Analysis</h4>
+      <div className="table-responsive">
+        <table className="table table-bordered mt-3">
+          <thead className="table-light">
+            <tr>
+              <th>#</th>
+              <th>Question</th>
+              <th>Your Answer</th>
+              <th>Correct Answer</th>
+            </tr>
+          </thead>
+          <tbody>
+            {analysis.map((item, index) => {
+              const isCorrect = item.selected === item.correct;
+              return (
+                <tr key={index}>
+                  <td>{index + 1}</td>
+                  <td className="text-start">{item.question}</td>
+                  <td
+                    className={`${
+                      item.selected === item.correct
+                        ? 'bg-success text-white'
+                        : 'bg-danger text-white'
+                    }`}
+                  >
+                    {item.selected}
+                  </td>
+                  <td className="bg-success text-white">{item.correct}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <button className="btn btn-primary mt-4" onClick={restart}>Try Again</button>
     </div>
   );
 }

@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-// Shuffle utility for arrays
 const shuffleArray = (arr) => {
   return [...arr].sort(() => Math.random() - 0.5);
 };
@@ -17,9 +16,9 @@ export default function Quiz() {
   const [selected, setSelected] = useState('');
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
-  const [timer, setTimer] = useState(60); // 1-minute timer
+  const [timer, setTimer] = useState(60);
+  const [answerData, setAnswerData] = useState([]);
 
-  // Fetch and shuffle questions
   useEffect(() => {
     if (difficulty && category) {
       fetch(`/data/${category.toLowerCase().replace(/\s+/g, '_')}_${difficulty}.json`)
@@ -35,12 +34,11 @@ export default function Quiz() {
     }
   }, [category, difficulty]);
 
-  // Timer countdown
   useEffect(() => {
-    if (questions.length === 0) return;
+    if (!questions.length) return;
 
     if (timer === 0) {
-      handleNext(true); // Automatically move to next on timeout
+      handleNext(true); // auto-move on timeout
       return;
     }
 
@@ -51,14 +49,21 @@ export default function Quiz() {
     return () => clearInterval(interval);
   }, [timer, questions]);
 
-  // Reset timer on new question
   useEffect(() => {
     setTimer(60);
   }, [current]);
 
   const handleNext = (auto = false) => {
-    const isCorrect = selected === questions[current].answer;
+    const currentQuestion = questions[current];
+    const isCorrect = selected === currentQuestion.answer;
     const updatedScore = isCorrect ? score + 1 : score;
+
+    const currentAnswerData = {
+      question: currentQuestion.question,
+      selected: selected || 'Not Answered',
+      correct: currentQuestion.answer,
+    };
+    setAnswerData((prev) => [...prev, currentAnswerData]);
 
     if (current + 1 < questions.length) {
       setScore(updatedScore);
@@ -66,8 +71,11 @@ export default function Quiz() {
       setSelected('');
     } else {
       const timeTaken = Math.floor((Date.now() - startTime) / 1000);
-      const finalScore = auto && isCorrect ? updatedScore : updatedScore + (selected === questions[current].answer ? 1 : 0);
+      const finalScore = auto && isCorrect ? updatedScore : updatedScore + (selected === currentQuestion.answer ? 1 : 0);
       const accuracy = Math.round((finalScore / questions.length) * 100);
+
+      const finalData = [...answerData, currentAnswerData];
+      localStorage.setItem('quiz-analysis', JSON.stringify(finalData));
 
       router.push(
         `/result?score=${finalScore}&total=${questions.length}&time=${timeTaken}&accuracy=${accuracy}`
