@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Which law of thermodynamics introduces the concept of entropy?",
+    "options": ["First Law", "Second Law", "Third Law", "Zeroth Law"],
+    "answer": "Second Law",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The internal energy of an ideal gas depends on:",
+    "options": ["Pressure", "Volume", "Temperature", "All of the above"],
+    "answer": "Temperature",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a reversible adiabatic process, which of the following remains constant?",
+    "options": ["Entropy", "Enthalpy", "Internal Energy", "Pressure"],
+    "answer": "Entropy",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of the following is an intensive property?",
+    "options": ["Volume", "Mass", "Temperature", "Enthalpy"],
+    "answer": "Temperature",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The COP of a Carnot refrigerator is given by:",
+    "options": ["T_H/T_C", "T_C/(T_H-T_C)", "T_H/(T_H-T_C)", "1 - T_C/T_H"],
+    "answer": "T_C/(T_H-T_C)",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "For a pure substance, the phase rule is given by:",
+    "options": ["F=C-P+1", "F=C-P+2", "F=C+P-2", "F=C-P"],
+    "answer": "F=C-P+2",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The entropy change for an irreversible process is:",
+    "options": ["Zero", "Negative", "Positive", "Cannot be determined"],
+    "answer": "Positive",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which cycle is used in steam power plants?",
+    "options": ["Otto", "Diesel", "Rankine", "Brayton"],
+    "answer": "Rankine",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The enthalpy is defined as:",
+    "options": ["U + PV", "U - PV", "Q - W", "P + V"],
+    "answer": "U + PV",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The specific heat at constant volume for an ideal gas is related to:",
+    "options": ["Change in pressure", "Change in temperature", "Change in volume", "Change in entropy"],
+    "answer": "Change in temperature",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which one is a path function?",
+    "options": ["Work", "Internal Energy", "Enthalpy", "Entropy"],
+    "answer": "Work",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which law is the basis for temperature measurement?",
+    "options": ["First Law", "Second Law", "Zeroth Law", "Third Law"],
+    "answer": "Zeroth Law",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a Carnot cycle, which two processes are adiabatic?",
+    "options": ["1–2 and 3–4", "2–3 and 4–1", "1–2 and 2–3", "3–4 and 4–1"],
+    "answer": "1–2 and 3–4",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of the following has the highest specific heat?",
+    "options": ["Copper", "Aluminum", "Water", "Iron"],
+    "answer": "Water",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Polytropic process with n = 1 is:",
+    "options": ["Isobaric", "Isothermal", "Isochoric", "Adiabatic"],
+    "answer": "Isothermal",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Kelvin-Planck statement is related to which of the following?",
+    "options": ["First Law", "Zeroth Law", "Second Law", "Third Law"],
+    "answer": "Second Law",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The work done in a free expansion process is:",
+    "options": ["Maximum", "Zero", "Minimum", "Negative"],
+    "answer": "Zero",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In an isentropic process, the change in entropy is:",
+    "options": ["Positive", "Zero", "Negative", "Infinite"],
+    "answer": "Zero",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "For a perfect gas undergoing isothermal process, the internal energy change is:",
+    "options": ["Positive", "Negative", "Zero", "Depends on pressure"],
+    "answer": "Zero",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which equation relates pressure, volume, and temperature in thermodynamics?",
+    "options": ["Bernoulli's equation", "Clausius-Clapeyron", "Ideal gas law", "Carnot's theorem"],
+    "answer": "Ideal gas law",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The slope of T–S diagram during a reversible adiabatic process is:",
+    "options": ["Zero", "Infinity", "Positive", "Negative"],
+    "answer": "Infinity",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which process has maximum work output between same initial and final states?",
+    "options": ["Adiabatic", "Isothermal", "Reversible", "Irreversible"],
+    "answer": "Reversible",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In a Brayton cycle, which components are involved?",
+    "options": ["Compressor, turbine, heat exchanger", "Pump, turbine, boiler", "Compressor, turbine, combustor", "Evaporator, compressor, condenser"],
+    "answer": "Compressor, turbine, combustor",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which law defines the absolute zero temperature?",
+    "options": ["Zeroth", "First", "Second", "Third"],
+    "answer": "Third",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the unit of entropy in SI?",
+    "options": ["J/kg", "J/K", "J/kg·K", "kJ/kg"],
+    "answer": "J/kg·K",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What does Clapeyron equation relate to?",
+    "options": ["Saturation temperature", "Latent heat", "Heat capacity", "Phase change"],
+    "answer": "Phase change",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following is not a thermodynamic property?",
+    "options": ["Pressure", "Work", "Temperature", "Volume"],
+    "answer": "Work",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The change in enthalpy for a reaction at constant pressure equals:",
+    "options": ["Q", "W", "ΔU", "ΔG"],
+    "answer": "Q",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The area under a P-V curve represents:",
+    "options": ["Heat", "Internal Energy", "Work", "Entropy"],
+    "answer": "Work",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Carnot engine is a theoretical concept because:",
+    "options": ["It uses real gases", "It assumes reversible processes", "It is inefficient", "It runs at low temperatures"],
+    "answer": "It assumes reversible processes",
+    "difficulty": "Hard"
+  }
+]

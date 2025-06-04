@@ -1,0 +1,606 @@
+[
+  {
+    "question": "What is the difference between bias and variance in machine learning?",
+    "options": ["Bias is the error due to overly simplistic assumptions, whereas variance is the error due to too much complexity in the model.", "Bias is the error from high complexity, variance is from low complexity.", "Bias is due to randomness, variance is due to underfitting.", "Bias and variance are the same."],
+    "answer": "Bias is the error due to overly simplistic assumptions, whereas variance is the error due to too much complexity in the model."
+  },
+  {
+    "question": "What is the curse of dimensionality?",
+    "options": ["It refers to various phenomena that arise when analyzing data in high-dimensional spaces that do not occur in low-dimensional settings.", "It refers to increased accuracy with more dimensions.", "It is the benefit of adding more features.", "It is a low variance issue."],
+    "answer": "It refers to various phenomena that arise when analyzing data in high-dimensional spaces that do not occur in low-dimensional settings."
+  },
+  {
+    "question": "Which technique is used for dimensionality reduction?",
+    "options": ["PCA", "KNN", "SVM", "Naive Bayes"],
+    "answer": "PCA"
+  },
+  {
+    "question": "What is cross-validation used for in model evaluation?",
+    "options": ["To ensure the model generalizes well to unseen data by splitting the dataset into multiple train-test sets.", "To increase overfitting.", "To reduce training time.", "To check model bias only."],
+    "answer": "To ensure the model generalizes well to unseen data by splitting the dataset into multiple train-test sets."
+  },
+  {
+    "question": "What does a confusion matrix represent?",
+    "options": ["It is a table that describes the performance of a classification model by displaying true positives, false positives, true negatives, and false negatives.", "It shows model bias.", "It plots ROC curve.", "It shows loss values."],
+    "answer": "It is a table that describes the performance of a classification model by displaying true positives, false positives, true negatives, and false negatives."
+  },
+  {
+    "question": "What is multicollinearity in regression?",
+    "options": ["It occurs when independent variables in a regression model are highly correlated.", "It happens when dependent variables are the same.", "It’s a type of classification error.", "It’s a missing data technique."],
+    "answer": "It occurs when independent variables in a regression model are highly correlated."
+  },
+  {
+    "question": "What is overfitting in machine learning?",
+    "options": ["When the model learns noise and patterns in the training data too well, resulting in poor performance on new data.", "When model underperforms on training data.", "When regularization is too high.", "When dropout is not used."],
+    "answer": "When the model learns noise and patterns in the training data too well, resulting in poor performance on new data."
+  },
+  {
+    "question": "Which activation function is commonly used in hidden layers of a neural network?",
+    "options": ["ReLU", "Sigmoid", "Softmax", "Linear"],
+    "answer": "ReLU"
+  },
+  {
+    "question": "Which type of machine learning involves labeled data?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Self-learning"],
+    "answer": "Supervised Learning"
+  },
+  {
+    "question": "What is a p-value in statistical testing?",
+    "options": ["It is the probability of obtaining test results at least as extreme as the results observed, under the null hypothesis.", "It is the error rate of a model.", "It measures standard deviation.", "It checks data normality."],
+    "answer": "It is the probability of obtaining test results at least as extreme as the results observed, under the null hypothesis."
+  },
+    {
+        "question": "What is the purpose of dropout in neural networks?",
+        "options": [
+        "To prevent overfitting by randomly setting a fraction of input units to zero during training.",
+        "To increase model complexity.",
+        "To reduce training time.",
+        "To normalize data."
+        ],
+        "answer": "To prevent overfitting by randomly setting a fraction of input units to zero during training."
+    },
+    {
+        "question": "What is the main goal of clustering algorithms?",
+        "options": [
+        "To group similar data points together based on their features.",
+        "To predict future values.",
+        "To classify data into predefined categories.",
+        "To reduce dimensionality."
+        ],
+        "answer": "To group similar data points together based on their features."
+    },
+
+
+
+
+
+
+  
+  {
+    "question": "What is the role of the learning rate in gradient descent?",
+    "options": [
+      "It controls how much we adjust the weights of our network with respect to the loss gradient.",
+      "It decides the batch size.",
+      "It controls dropout rate.",
+      "It measures accuracy."
+    ],
+    "answer": "It controls how much we adjust the weights of our network with respect to the loss gradient."
+  },
+  {
+    "question": "What is the use of regularization in machine learning?",
+    "options": [
+      "To prevent overfitting by adding a penalty term to the loss function.",
+      "To increase model complexity.",
+      "To perform data normalization.",
+      "To split data into training and testing."
+    ],
+    "answer": "To prevent overfitting by adding a penalty term to the loss function."
+  },
+  {
+    "question": "What is the ROC curve used for?",
+    "options": [
+      "To visualize the performance of a binary classifier as its discrimination threshold is varied.",
+      "To measure regression error.",
+      "To calculate learning rate.",
+      "To plot loss values."
+    ],
+    "answer": "To visualize the performance of a binary classifier as its discrimination threshold is varied."
+  },
+  {
+    "question": "What is a type I error?",
+    "options": [
+      "Rejecting the null hypothesis when it is actually true.",
+      "Failing to reject the null hypothesis when it is false.",
+      "Accepting alternative hypothesis by default.",
+      "A model overfitting case."
+    ],
+    "answer": "Rejecting the null hypothesis when it is actually true."
+  },
+  {
+    "question": "What is the role of entropy in decision trees?",
+    "options": [
+      "It measures the impurity or uncertainty in a dataset and is used to decide splits.",
+      "It helps prune trees.",
+      "It calculates accuracy.",
+      "It is used in regularization."
+    ],
+    "answer": "It measures the impurity or uncertainty in a dataset and is used to decide splits."
+  },
+  {
+    "question": "What is the purpose of feature scaling?",
+    "options": [
+      "To normalize the range of independent variables to improve convergence speed and accuracy of algorithms.",
+      "To remove outliers.",
+      "To encode categorical variables.",
+      "To split data into classes."
+    ],
+    "answer": "To normalize the range of independent variables to improve convergence speed and accuracy of algorithms."
+  },
+  {
+    "question": "What is the elbow method used for?",
+    "options": [
+      "To determine the optimal number of clusters in K-Means clustering.",
+      "To calculate model loss.",
+      "To reduce dimensionality.",
+      "To perform cross-validation."
+    ],
+    "answer": "To determine the optimal number of clusters in K-Means clustering."
+  },
+  {
+    "question": "Which metric is suitable for imbalanced classification problems?",
+    "options": [
+      "F1 Score",
+      "Accuracy",
+      "RMSE",
+      "Mean Absolute Error"
+    ],
+    "answer": "F1 Score"
+  },
+  {
+    "question": "What is gradient clipping?",
+    "options": [
+      "It limits the gradient value to prevent exploding gradients during training.",
+      "It reduces variance in model output.",
+      "It boosts training accuracy.",
+      "It clips the dataset size."
+    ],
+    "answer": "It limits the gradient value to prevent exploding gradients during training."
+  },
+  {
+    "question": "What is SMOTE used for?",
+    "options": [
+      "To oversample the minority class in imbalanced datasets.",
+      "To reduce overfitting.",
+      "To perform dimensionality reduction.",
+      "To encode categorical variables."
+    ],
+    "answer": "To oversample the minority class in imbalanced datasets."
+  },
+  {
+    "question": "Which method helps to reduce variance without increasing bias?",
+    "options": [
+      "Bagging",
+      "Boosting",
+      "Dropout",
+      "Regularization"
+    ],
+    "answer": "Bagging"
+  },
+  {
+    "question": "What is feature engineering?",
+    "options": [
+      "The process of using domain knowledge to extract features from raw data.",
+      "The process of labeling data.",
+      "Encoding class labels.",
+      "Hyperparameter tuning."
+    ],
+    "answer": "The process of using domain knowledge to extract features from raw data."
+  },
+  {
+    "question": "What is underfitting in machine learning?",
+    "options": [
+      "The model is too simple to capture the underlying trend of the data.",
+      "The model performs too well on training data.",
+      "The model uses excessive features.",
+      "The model is over-regularized."
+    ],
+    "answer": "The model is too simple to capture the underlying trend of the data."
+  },
+  {
+    "question": "Which algorithm works well for text classification?",
+    "options": [
+      "Naive Bayes",
+      "K-Means",
+      "PCA",
+      "DBSCAN"
+    ],
+    "answer": "Naive Bayes"
+  },
+  {
+    "question": "What does R² value indicate?",
+    "options": [
+      "The proportion of variance in the dependent variable that is predictable from the independent variables.",
+      "The mean squared error.",
+      "The sum of residuals.",
+      "The training time of the model."
+    ],
+    "answer": "The proportion of variance in the dependent variable that is predictable from the independent variables."
+  },
+  {
+    "question": "Which distance metric is typically used in KNN?",
+    "options": [
+      "Euclidean",
+      "Jaccard",
+      "Manhattan",
+      "Hamming"
+    ],
+    "answer": "Euclidean"
+  },
+  {
+    "question": "What is bootstrapping in statistics?",
+    "options": [
+      "A resampling technique used to estimate statistics by sampling with replacement from the original data.",
+      "A way to create neural nets.",
+      "An algorithm for decision trees.",
+      "An evaluation metric."
+    ],
+    "answer": "A resampling technique used to estimate statistics by sampling with replacement from the original data."
+  },
+  {
+    "question": "What is the central limit theorem?",
+    "options": [
+      "It states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases.",
+      "It shows mean equals median.",
+      "It checks for linearity.",
+      "It helps in encoding labels."
+    ],
+    "answer": "It states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases."
+  },
+  {
+    "question": "What is the F1 score?",
+    "options": [
+      "It is the harmonic mean of precision and recall, used as a measure of a model's accuracy.",
+      "It is a regression metric.",
+      "It is the average of true positive and false positive.",
+      "It represents loss values."
+    ],
+    "answer": "It is the harmonic mean of precision and recall, used as a measure of a model's accuracy."
+  },
+  {
+    "question": "What is a Q-Q plot used for?",
+    "options": [
+      "To check the normality of data.",
+      "To visualize classification output.",
+      "To reduce features.",
+      "To cluster variables."
+    ],
+    "answer": "To check the normality of data."
+  },
+  {
+    "question": "What is the purpose of a loss function in machine learning?",
+    "options": [
+      "To quantify how well the model's predictions match the actual data.",
+      "To encode categorical variables.",
+      "To split data into training and testing sets.",
+      "To visualize data."
+    ],
+    "answer": "To quantify how well the model's predictions match the actual data."
+  },
+  {
+    "question": "What is the main advantage of using ensemble methods?",
+    "options": [
+      "They combine multiple models to improve accuracy and robustness.",
+      "They reduce training time.",
+      "They simplify model architecture.",
+      "They eliminate the need for feature engineering."
+    ],
+    "answer": "They combine multiple models to improve accuracy and robustness."
+  },
+
+
+  
+  {
+    "question": "What is a confusion matrix used for?",
+    "options": [
+      "To visualize classification performance.",
+      "To normalize features.",
+      "To tune hyperparameters.",
+      "To check regression residuals."
+    ],
+    "answer": "To visualize classification performance."
+  },
+  {
+    "question": "What is the purpose of dropout in neural networks?",
+    "options": [
+      "To prevent overfitting by randomly disabling neurons during training.",
+      "To reduce input dimensions.",
+      "To initialize weights.",
+      "To scale the features."
+    ],
+    "answer": "To prevent overfitting by randomly disabling neurons during training."
+  },
+  {
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs well on training but poorly on testing data.",
+      "Model generalizes perfectly.",
+      "Model has high bias and low variance.",
+      "Model reduces error on new data."
+    ],
+    "answer": "Model performs well on training but poorly on testing data."
+  },
+  {
+    "question": "What is the role of a validation set?",
+    "options": [
+      "To tune model hyperparameters and prevent overfitting.",
+      "To store training data.",
+      "To create features.",
+      "To label data manually."
+    ],
+    "answer": "To tune model hyperparameters and prevent overfitting."
+  },
+  {
+    "question": "Which algorithm is suitable for anomaly detection?",
+    "options": [
+      "Isolation Forest",
+      "Linear Regression",
+      "Logistic Regression",
+      "K-Means Clustering"
+    ],
+    "answer": "Isolation Forest"
+  },
+  {
+    "question": "What does RMSE represent?",
+    "options": [
+      "Root Mean Squared Error, a measure of prediction error in regression.",
+      "Random Mean Sample Error.",
+      "Root Memory Scaling Efficiency.",
+      "Range Minimum Squared Estimate."
+    ],
+    "answer": "Root Mean Squared Error, a measure of prediction error in regression."
+  },
+  {
+    "question": "What is bagging?",
+    "options": [
+      "An ensemble method where multiple models are trained independently.",
+      "A dropout mechanism.",
+      "A PCA enhancement.",
+      "A method to convert regression to classification."
+    ],
+    "answer": "An ensemble method where multiple models are trained independently."
+  },
+  {
+    "question": "What is boosting?",
+    "options": [
+      "An ensemble technique where models are trained sequentially to correct previous errors.",
+      "A method to reduce variance.",
+      "A technique to normalize data.",
+      "A distance metric."
+    ],
+    "answer": "An ensemble technique where models are trained sequentially to correct previous errors."
+  },
+  {
+    "question": "What is Lasso regression?",
+    "options": [
+      "Linear regression with L1 regularization.",
+      "Linear regression without regularization.",
+      "Linear regression with L2 regularization.",
+      "Decision Tree method."
+    ],
+    "answer": "Linear regression with L1 regularization."
+  },
+  {
+    "question": "What does precision measure?",
+    "options": [
+      "The proportion of true positives among predicted positives.",
+      "The proportion of true negatives.",
+      "The percentage of correct clusters.",
+      "The total recall of a model."
+    ],
+    "answer": "The proportion of true positives among predicted positives."
+  },
+  {
+    "question": "Which technique reduces dimensionality?",
+    "options": [
+      "Principal Component Analysis (PCA)",
+      "Random Forest",
+      "Naive Bayes",
+      "Gradient Descent"
+    ],
+    "answer": "Principal Component Analysis (PCA)"
+  },
+  {
+    "question": "What is the difference between accuracy and F1 score?",
+    "options": [
+      "Accuracy measures overall correctness; F1 score balances precision and recall.",
+      "Accuracy is only for regression.",
+      "F1 is a loss function.",
+      "There is no difference."
+    ],
+    "answer": "Accuracy measures overall correctness; F1 score balances precision and recall."
+  },
+  {
+    "question": "What is the goal of hyperparameter tuning?",
+    "options": [
+      "To find the best model configuration for optimal performance.",
+      "To label datasets.",
+      "To eliminate overfitting data.",
+      "To evaluate loss functions."
+    ],
+    "answer": "To find the best model configuration for optimal performance."
+  },
+  {
+    "question": "What is k in k-fold cross-validation?",
+    "options": [
+      "The number of data splits used to validate a model.",
+      "The number of output classes.",
+      "The size of the dataset.",
+      "The number of trees in ensemble."
+    ],
+    "answer": "The number of data splits used to validate a model."
+  },
+  {
+    "question": "Which of the following is a classification metric?",
+    "options": [
+      "F1 Score",
+      "MSE",
+      "MAE",
+      "R²"
+    ],
+    "answer": "F1 Score"
+  },
+  {
+    "question": "What is the purpose of a correlation matrix?",
+    "options": [
+      "To show the relationship strength between pairs of variables.",
+      "To encode target classes.",
+      "To transform non-linear features.",
+      "To optimize loss functions."
+    ],
+    "answer": "To show the relationship strength between pairs of variables."
+  },
+  {
+    "question": "What is a one-hot encoding used for?",
+    "options": [
+      "To convert categorical variables into binary vectors.",
+      "To scale numerical data.",
+      "To calculate loss.",
+      "To validate data types."
+    ],
+    "answer": "To convert categorical variables into binary vectors."
+  },
+  {
+    "question": "What does softmax function do?",
+    "options": [
+      "It converts raw scores into probabilities for multiclass classification.",
+      "It normalizes numerical inputs.",
+      "It detects anomalies.",
+      "It reduces overfitting."
+    ],
+    "answer": "It converts raw scores into probabilities for multiclass classification."
+  },
+  {
+    "question": "What is AUC in ROC curve?",
+    "options": [
+      "Area Under the Curve - a measure of model performance.",
+      "Average of Useful Classes.",
+      "Advanced Utility Classification.",
+      "None of the above."
+    ],
+    "answer": "Area Under the Curve - a measure of model performance."
+  },
+  {
+    "question": "Which function measures model loss for classification?",
+    "options": [
+      "Cross-Entropy Loss",
+      "MSE",
+      "MAE",
+      "Hinge Loss"
+    ],
+    "answer": "Cross-Entropy Loss"
+  },
+  {
+    "question": "Which of the following is a non-parametric algorithm?",
+    "options": [
+      "K-Nearest Neighbors (KNN)",
+      "Logistic Regression",
+      "Linear Regression",
+      "Naive Bayes"
+    ],
+    "answer": "K-Nearest Neighbors (KNN)"
+  },
+  {
+    "question": "What does ReLU stand for?",
+    "options": [
+      "Rectified Linear Unit",
+      "Relative Learning Utility",
+      "Regularized Learning Unit",
+      "Recursive Error Linearization"
+    ],
+    "answer": "Rectified Linear Unit"
+  },
+  {
+    "question": "What is the goal of model evaluation?",
+    "options": [
+      "To assess the model’s performance on unseen data.",
+      "To delete noisy data.",
+      "To sort features alphabetically.",
+      "To change the algorithm."
+    ],
+    "answer": "To assess the model’s performance on unseen data."
+  },
+  {
+    "question": "What is meant by scaling in data preprocessing?",
+    "options": [
+      "Normalizing data within a range.",
+      "Counting labels.",
+      "Creating new labels.",
+      "Hyperparameter tuning."
+    ],
+    "answer": "Normalizing data within a range."
+  },
+  {
+    "question": "Which is a good practice when handling missing data?",
+    "options": [
+      "Imputing with mean/median values.",
+      "Deleting the entire dataset.",
+      "Ignoring nulls.",
+      "Duplicating rows."
+    ],
+    "answer": "Imputing with mean/median values."
+  },
+  {
+    "question": "Which algorithm can be used for regression tasks?",
+    "options": [
+      "Linear Regression",
+      "Decision Tree Classifier",
+      "Naive Bayes",
+      "Apriori"
+    ],
+    "answer": "Linear Regression"
+  },
+  {
+    "question": "What is the key difference between supervised and unsupervised learning?",
+    "options": [
+      "Labeled vs. Unlabeled Data",
+      "Training speed",
+      "CPU Usage",
+      "Model size"
+    ],
+    "answer": "Labeled vs. Unlabeled Data"
+  },
+  {
+    "question": "Which evaluation metric is best for regression?",
+    "options": [
+      "Mean Squared Error (MSE)",
+      "F1 Score",
+      "Accuracy",
+      "Recall"
+    ],
+    "answer": "Mean Squared Error (MSE)"
+  },
+  {
+    "question": "Which distribution is symmetric and bell-shaped?",
+    "options": [
+      "Normal Distribution",
+      "Poisson Distribution",
+      "Exponential Distribution",
+      "Binomial Distribution"
+    ],
+    "answer": "Normal Distribution"
+  },
+  {
+    "question": "What is the variance of a constant?",
+    "options": [
+      "Zero",
+      "Infinity",
+      "Depends on sample size",
+      "One"
+    ],
+    "answer": "Zero"
+  }
+
+
+
+
+]

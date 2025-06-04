@@ -1,0 +1,592 @@
+[
+  {
+    "question": "Unlike most liquids, the viscosity of water decreases as it gets colder, a property that allows life to survive under the ice.",
+    "options": [
+      "Unlike most liquids, the viscosity of water decreases as it gets colder, a property that allows life to survive under the ice.",
+      "Unlike most liquids, water’s viscosity decreases with the cold, allowing life to survive under ice.",
+      "Water, unlike most liquids, decreases in viscosity as it gets colder, allowing life under ice to survive.",
+      "Water, unlike most liquids, has a viscosity that decreases with cold, allowing life under the ice to survive.",
+      "Unlike most liquids, the viscosity of water decreasing as it gets colder, which allows life to survive under the ice."
+    ],
+    "answer": "Water, unlike most liquids, has a viscosity that decreases with cold, allowing life under the ice to survive."
+  },
+  {
+    "question": "Even though the committee were divided in their opinions, it has decided to approve the new policy.",
+    "options": [
+      "Even though the committee were divided in their opinions, it has decided to approve the new policy.",
+      "Although the committee was divided in its opinions, it has decided to approve the new policy.",
+      "The committee, being divided in their opinions, have decided to approve the new policy.",
+      "Despite being divided, the committee has decided they would approve the new policy.",
+      "Although divided in opinions, the committee have decided in favor of the new policy."
+    ],
+    "answer": "Although the committee was divided in its opinions, it has decided to approve the new policy."
+  },
+  {
+    "question": "With the cost of solar panels decreasing, it is becoming more practical for homeowners to install them on rooftops than it once was.",
+    "options": [
+      "to install them on rooftops than it once was.",
+      "to install them on rooftops than it was once.",
+      "installing them on rooftops than it once was.",
+      "to install them on rooftops than it once did.",
+      "to install them on rooftops than it once had been."
+    ],
+    "answer": "to install them on rooftops than it once was."
+  },
+  {
+    "question": "The scientist, along with her team of researchers, are preparing for the Arctic expedition scheduled for next month.",
+    "options": [
+      "are preparing for the Arctic expedition scheduled for next month.",
+      "are preparing for next month’s Arctic expedition.",
+      "have prepared for next month’s Arctic expedition.",
+      "is preparing for the Arctic expedition scheduled for next month.",
+      "are being prepared for next month’s Arctic expedition."
+    ],
+    "answer": "is preparing for the Arctic expedition scheduled for next month."
+  },
+  {
+    "question": "No other novelist of the twentieth century has captured the complexities of rural life as vividly as she did.",
+    "options": [
+      "has captured the complexities of rural life as vividly as she did.",
+      "have captured the complexities of rural life as vividly as she has.",
+      "has captured the complexities of rural life as vividly as she has.",
+      "have captured the rural complexities of life as vividly as she did.",
+      "have captured rural life's complexities as vividly as she did."
+    ],
+    "answer": "has captured the complexities of rural life as vividly as she has."
+  },
+  {
+    "question": "The number of applicants to the program have doubled in the past two years.",
+    "options": [
+      "have doubled in the past two years.",
+      "has doubled during the last two years.",
+      "has doubled in the past two years.",
+      "have doubled in the last two years.",
+      "is doubled in the past two years."
+    ],
+    "answer": "has doubled in the past two years."
+  },
+  {
+    "question": "Because the data was incomplete, the researchers were unable to finish their analysis.",
+    "options": [
+      "Because the data was incomplete",
+      "Because of the data was incomplete",
+      "Due to the data was incomplete",
+      "Since the data were incomplete",
+      "Due to incomplete data"
+    ],
+    "answer": "Due to incomplete data"
+  },
+  {
+    "question": "Having finished the report, the printer was turned on and the document was printed.",
+    "options": [
+      "Having finished the report, the printer was turned on and the document was printed.",
+      "Having finished the report, she turned on the printer and printed the document.",
+      "Finished with the report, the printer was turned on and document printed.",
+      "The report being finished, the document was printed after turning on the printer.",
+      "Upon the report's completion, the printer was turned on and the document was printed."
+    ],
+    "answer": "Having finished the report, she turned on the printer and printed the document."
+  },
+  {
+    "question": "Despite its popularity, the play was not well-received by critics, whom claimed it lacked originality.",
+    "options": [
+      "whom claimed it lacked originality.",
+      "who claimed it lacked originality.",
+      "who were claiming it lacked originality.",
+      "whom claimed that it lacked originality.",
+      "which claimed it lacked originality."
+    ],
+    "answer": "who claimed it lacked originality."
+  },
+  {
+    "question": "The CEO, in addition to the directors, were present at the annual conference.",
+    "options": [
+      "were present at the annual conference.",
+      "was present at the annual conference.",
+      "have been present at the annual conference.",
+      "are present at the annual conference.",
+      "being present at the annual conference."
+    ],
+    "answer": "was present at the annual conference."
+  },
+  {
+    "question": "Neither the manager nor the employees were aware of the changes in policy until it was too late.",
+    "options": [
+      "were aware of the changes in policy until it was too late.",
+      "was aware of the changes in policy until it was too late.",
+      "are aware of the changes in policy until it was too late.",
+      "has been aware of the changes in policy until it was too late.",
+      "had been aware of the changes in policy until it was too late."
+    ],
+    "answer": "were aware of the changes in policy until it was too late."
+  },
+  
+  
+  
+  {
+    "question": "Although the medicine was effective, its side effects are making it unpopular among patients.",
+    "options": [
+      "its side effects are making it unpopular among patients.",
+      "its side effects make it unpopular among patients.",
+      "its side effects have made it unpopular among patients.",
+      "the side effects it has make it unpopular among patients.",
+      "because of its side effects it becomes unpopular among patients."
+    ],
+    "answer": "its side effects have made it unpopular among patients."
+  },
+  {
+    "question": "The professor not only explained the concept clearly but also providing examples that reinforced it.",
+    "options": [
+      "but also providing examples that reinforced it.",
+      "but also he provided examples that reinforced it.",
+      "and he provided examples to reinforce it.",
+      "but also provided examples that reinforced it.",
+      "but he had also provided examples reinforcing it."
+    ],
+    "answer": "but also provided examples that reinforced it."
+  },
+  {
+    "question": "The results of the study were inconclusive, therefore, more tests are needed.",
+    "options": [
+      "inconclusive, therefore, more tests are needed.",
+      "inconclusive; therefore, more tests are needed.",
+      "inconclusive therefore more tests are needed.",
+      "inconclusive and so more tests are needed.",
+      "inconclusive; so more tests are needed."
+    ],
+    "answer": "inconclusive; therefore, more tests are needed."
+  },
+  {
+    "question": "The musician, along with her bandmates, have decided to take a break from touring.",
+    "options": [
+      "have decided to take a break from touring.",
+      "has decided to take a break from touring.",
+      "have taken a decision to take a break from touring.",
+      "has been decided to take a break from touring.",
+      "has decided they would take a break from touring."
+    ],
+    "answer": "has decided to take a break from touring."
+  },
+  {
+    "question": "Neither the board members nor the chairman have shown any interest in revisiting the proposal.",
+    "options": [
+      "have shown any interest",
+      "has shown any interest",
+      "are showing interest",
+      "have been showing interest",
+      "shows any interest"
+    ],
+    "answer": "has shown any interest"
+  },
+  {
+    "question": "Not only did the movie receive critical acclaim, it was also a commercial success.",
+    "options": [
+      "it was also a commercial success.",
+      "and it also achieved commercial success.",
+      "but it also was a commercial success.",
+      "but it was also commercially successful.",
+      "but it also became a commercial success."
+    ],
+    "answer": "but it also became a commercial success."
+  },
+  {
+    "question": "Each of the participants were given a certificate at the end of the seminar.",
+    "options": [
+      "were given a certificate",
+      "was given a certificate",
+      "are given a certificate",
+      "have been given certificates",
+      "was being given a certificate"
+    ],
+    "answer": "was given a certificate"
+  },
+  {
+    "question": "The new software is not only faster but also more reliable than the previous version.",
+    "options": [
+      "is not only faster but also more reliable",
+      "is faster but also more reliable not only",
+      "is not just faster, it is also more reliable",
+      "is faster and also more reliable",
+      "is not only faster but is also more reliable"
+    ],
+    "answer": "is not only faster but also more reliable"
+  },
+  {
+    "question": "The manager, whom many employees respected, were transferred to another branch last week.",
+    "options": [
+      "were transferred to another branch",
+      "was transferred to another branch",
+      "has been transferred to another branch",
+      "have been transferred to another branch",
+      "is being transferred to another branch"
+    ],
+    "answer": "was transferred to another branch"
+  },
+  {
+    "question": "Unless the team improves its performance, it may not be qualifying for the next round.",
+    "options": [
+      "it may not be qualifying for the next round.",
+      "it may not qualify for the next round.",
+      "it should not qualify for the next round.",
+      "it might not be qualified for the next round.",
+      "it may not have been qualified for the next round."
+    ],
+    "answer": "it may not qualify for the next round."
+  },
+  {
+    "question": "The novel’s protagonist, along with several supporting characters, appear in the sequel.",
+    "options": [
+      "appear in the sequel.",
+      "appears in the sequel.",
+      "is appearing in the sequel.",
+      "has appeared in the sequel.",
+      "are appearing in the sequel."
+    ],
+    "answer": "appears in the sequel."
+  },
+  {
+    "question": "The company’s policies, which have often been criticized in the media, continues to raise ethical concerns.",
+    "options": [
+      "continues to raise ethical concerns.",
+      "continue to raise ethical concerns.",
+      "are raising ethical concerns.",
+      "has raised ethical concerns.",
+      "is continuing to raise ethical concerns."
+    ],
+    "answer": "continue to raise ethical concerns."
+  },
+  {
+    "question": "The book, as well as the movie adaptation, have been popular among teenagers.",
+    "options": [
+      "have been popular",
+      "has been popular",
+      "are popular",
+      "were popular",
+      "have become popular"
+    ],
+    "answer": "has been popular"
+  },
+  {
+    "question": "There was a number of people at the rally who demanded change.",
+    "options": [
+      "There was a number of people",
+      "There were a number of people",
+      "There has been a number of people",
+      "There had been a number of people",
+      "A number of people was there"
+    ],
+    "answer": "There were a number of people"
+  },
+  {
+    "question": "Scarcely had he finished speaking when the crowd starts applauding.",
+    "options": [
+      "starts applauding.",
+      "started applauding.",
+      "has started applauding.",
+      "had started applauding.",
+      "did start applauding."
+    ],
+    "answer": "started applauding."
+  },
+  {
+    "question": "The committee meet every Thursday to discuss pending issues.",
+    "options": [
+      "meet every Thursday",
+      "meets every Thursday",
+      "is meeting every Thursday",
+      "meeting every Thursday",
+      "had met every Thursday"
+    ],
+    "answer": "meets every Thursday"
+  },
+  {
+    "question": "If she was more confident, she would apply for the leadership role.",
+    "options": [
+      "was more confident",
+      "has been more confident",
+      "were more confident",
+      "had been more confident",
+      "would have been confident"
+    ],
+    "answer": "were more confident"
+  },
+  {
+    "question": "His decision to withdraw from the race, though surprising, were welcomed by most supporters.",
+    "options": [
+      "were welcomed by",
+      "was welcomed by",
+      "have been welcomed by",
+      "is welcomed by",
+      "being welcomed by"
+    ],
+    "answer": "was welcomed by"
+  },
+  {
+    "question": "Each of the proposed changes have been evaluated thoroughly by the committee.",
+    "options": [
+      "have been evaluated thoroughly",
+      "has been evaluated thoroughly",
+      "was thoroughly evaluated",
+      "are thoroughly evaluated",
+      "being thoroughly evaluated"
+    ],
+    "answer": "has been evaluated thoroughly"
+  },
+  {
+    "question": "Because of his excellent track record, the board have extended his contract for another term.",
+    "options": [
+      "have extended his contract",
+      "has extended his contract",
+      "is extending his contract",
+      "were extending his contract",
+      "had extended his contract"
+    ],
+    "answer": "has extended his contract"
+  },
+    {
+        "question": "Neither the teacher nor the students was aware of the schedule change until it was announced.",
+        "options": [
+        "was aware of the schedule change",
+        "were aware of the schedule change",
+        "has been aware of the schedule change",
+        "are aware of the schedule change",
+        "had been aware of the schedule change"
+        ],
+        "answer": "was aware of the schedule change"
+    },
+
+     {
+    "question": "The engineers, who was responsible for the design, were praised after the successful launch.",
+    "options": [
+      "who was responsible for the design",
+      "who were responsible for the design",
+      "who are responsible for the design",
+      "whom was responsible for designing",
+      "that was responsible for the design"
+    ],
+    "answer": "who were responsible for the design"
+  },
+  {
+    "question": "While the debate continues, few of the panelists seems to be changing their positions.",
+    "options": [
+      "seems to be changing",
+      "seem to be changing",
+      "is seeming to change",
+      "appears to change",
+      "seems changing"
+    ],
+    "answer": "seem to be changing"
+  },
+  {
+    "question": "Neither the professors nor the dean were prepared for the unexpected announcement.",
+    "options": [
+      "were prepared for",
+      "was prepared for",
+      "have prepared for",
+      "had prepared for",
+      "are preparing for"
+    ],
+    "answer": "was prepared for"
+  },
+  {
+    "question": "The orchestra, including the conductor and musicians, perform at the gala annually.",
+    "options": [
+      "perform at the gala annually",
+      "performs at the gala annually",
+      "has performed at the gala annually",
+      "were performing at the gala annually",
+      "is performing at the gala annually"
+    ],
+    "answer": "performs at the gala annually"
+  },
+  {
+    "question": "As a result of the economic downturn, the company reduced its workforce and closing two factories.",
+    "options": [
+      "reduced its workforce and closing",
+      "reduces its workforce and closed",
+      "has reduced its workforce and closes",
+      "reduced its workforce and closed",
+      "was reducing its workforce and closed"
+    ],
+    "answer": "reduced its workforce and closed"
+  },
+  {
+    "question": "The study revealed that exercising regularly not only lowers blood pressure but also improving cholesterol levels.",
+    "options": [
+      "but also improving cholesterol levels",
+      "but also it improves cholesterol levels",
+      "as well as improves cholesterol levels",
+      "but also improves cholesterol levels",
+      "and also improves cholesterol levels"
+    ],
+    "answer": "but also improves cholesterol levels"
+  },
+  {
+    "question": "Each of the machines need to be calibrated before the test begins.",
+    "options": [
+      "need to be calibrated",
+      "needs to be calibrated",
+      "was to be calibrated",
+      "are calibrated",
+      "had to be calibrated"
+    ],
+    "answer": "needs to be calibrated"
+  },
+  {
+    "question": "The software, in addition to the manuals, are included in the package.",
+    "options": [
+      "are included in the package",
+      "is included in the package",
+      "have been included in the package",
+      "were included in the package",
+      "includes in the package"
+    ],
+    "answer": "is included in the package"
+  },
+  {
+    "question": "The report, together with its supporting documents, were submitted late.",
+    "options": [
+      "were submitted late",
+      "was submitted late",
+      "have been submitted late",
+      "are submitted late",
+      "was being submitted late"
+    ],
+    "answer": "was submitted late"
+  },
+  {
+    "question": "Many a student have found the new curriculum to be challenging.",
+    "options": [
+      "have found the new curriculum",
+      "has found the new curriculum",
+      "found the new curriculum",
+      "have been finding the new curriculum",
+      "was found the new curriculum"
+    ],
+    "answer": "has found the new curriculum"
+  },
+  {
+    "question": "If the proposal is accepted, it would mark a significant change in policy.",
+    "options": [
+      "is accepted, it would mark",
+      "was accepted, it will mark",
+      "is accepted, it will mark",
+      "were accepted, it would mark",
+      "was accepted, it would mark"
+    ],
+    "answer": "is accepted, it will mark"
+  },
+  {
+    "question": "The CEO, as well as the entire executive team, have endorsed the new initiative.",
+    "options": [
+      "have endorsed the new initiative",
+      "has endorsed the new initiative",
+      "were endorsing the new initiative",
+      "endorse the new initiative",
+      "has been endorsing the new initiative"
+    ],
+    "answer": "has endorsed the new initiative"
+  },
+  {
+    "question": "Neither the environmental conditions nor the equipment were ideal for the experiment.",
+    "options": [
+      "were ideal for the experiment",
+      "was ideal for the experiment",
+      "have been ideal for the experiment",
+      "are ideal for the experiment",
+      "was ideally suited for the experiment"
+    ],
+    "answer": "was ideal for the experiment"
+  },
+  {
+    "question": "Despite the difficulties, she succeeded to complete the task on time.",
+    "options": [
+      "succeeded to complete",
+      "was successful to complete",
+      "succeeded in completing",
+      "has succeeded to complete",
+      "succeeding at completing"
+    ],
+    "answer": "succeeded in completing"
+  },
+  {
+    "question": "The research paper, in addition to the lab notes, have been submitted.",
+    "options": [
+      "have been submitted",
+      "has been submitted",
+      "were submitted",
+      "is submitted",
+      "are submitted"
+    ],
+    "answer": "has been submitted"
+  },
+  {
+    "question": "Hardly had the manager left the office when the phone rings.",
+    "options": [
+      "rings",
+      "was ringing",
+      "rang",
+      "had rung",
+      "has rung"
+    ],
+    "answer": "rang"
+  },
+  {
+    "question": "The athlete, who along with his coaches, were surprised by the result.",
+    "options": [
+      "were surprised by the result",
+      "was surprised by the result",
+      "has been surprised by the result",
+      "are surprised by the result",
+      "being surprised by the result"
+    ],
+    "answer": "was surprised by the result"
+  },
+  {
+    "question": "Not only the students but also the teacher enjoy the new teaching method.",
+    "options": [
+      "enjoy the new teaching method",
+      "enjoys the new teaching method",
+      "has enjoyed the new teaching method",
+      "enjoyed the new teaching method",
+      "are enjoying the new teaching method"
+    ],
+    "answer": "enjoys the new teaching method"
+  },
+  {
+    "question": "The team, along with their coach, are arriving at the venue shortly.",
+    "options": [
+      "are arriving at the venue",
+      "is arriving at the venue",
+      "have arrived at the venue",
+      "were arriving at the venue",
+      "arrives at the venue"
+    ],
+    "answer": "is arriving at the venue"
+  },
+  {
+    "question": "Scarcely had she entered the room than everyone stood up.",
+    "options": [
+      "than everyone stood up",
+      "when everyone stood up",
+      "then everyone stood up",
+      "that everyone stood up",
+      "because everyone stood up"
+    ],
+    "answer": "when everyone stood up"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

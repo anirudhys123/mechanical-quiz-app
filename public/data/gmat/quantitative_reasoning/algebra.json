@@ -1,0 +1,229 @@
+[
+  {
+    "question": "If x + 1/x = 5, what is the value of x³ + 1/x³?",
+    "options": ["110", "115", "120", "125"],
+    "answer": "120"
+  },
+  {
+    "question": "If x² + y² = 25 and xy = 12, find the value of x⁴ + y⁴.",
+    "options": ["289", "313", "361", "397"],
+    "answer": "313"
+  },
+  {
+    "question": "Solve: (x - 3)(x + 5) = (x - 3)(x - 2)",
+    "options": ["x = 3", "x = -3", "x = 5", "x = 2"],
+    "answer": "x = 3"
+  },
+  {
+    "question": "If a + b = 7 and ab = 10, find a² + b².",
+    "options": ["39", "49", "33", "17"],
+    "answer": "39"
+  },
+  {
+    "question": "What is the sum of roots of 3x² - 5x + 2 = 0?",
+    "options": ["5", "2", "5/3", "3/5"],
+    "answer": "5/3"
+  },
+  {
+    "question": "What is the remainder when x³ + 3x² + 3x + 1 is divided by x + 1?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "0"
+  },
+  {
+    "question": "If x² + 1/x² = 98, find the value of x + 1/x.",
+    "options": ["10", "14", "7", "9"],
+    "answer": "10"
+  },
+  {
+    "question": "Find the maximum value of -x² + 6x - 9.",
+    "options": ["0", "9", "-9", "-36"],
+    "answer": "0"
+  },
+  {
+    "question": "If x + y = 6 and xy = 8, find x³ + y³.",
+    "options": ["144", "216", "280", "360"],
+    "answer": "280"
+  },
+  {
+    "question": "If x² - 4x + 3 = 0, find 1/x₁ + 1/x₂.",
+    "options": ["4/3", "1", "7/3", "2"],
+    "answer": "4/3"
+  },
+  {
+    "question": "If x - 1/x = 2, find x² + 1/x².",
+    "options": ["6", "7", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "If a + b = 4 and ab = 5, find (a - b)².",
+    "options": ["4", "6", "8", "16"],
+    "answer": "4"
+  },
+  {
+    "question": "What is the discriminant of 2x² - 4x + 5 = 0?",
+    "options": ["16", "-24", "0", "-4"],
+    "answer": "-24"
+  },
+  {
+    "question": "What is the vertex of the parabola y = 2x² - 8x + 6?",
+    "options": ["(2, -2)", "(4, 0)", "(1, 2)", "(2, -4)"],
+    "answer": "(2, -2)"
+  },
+  {
+    "question": "If a² + b² = 25 and ab = 12, find (a + b)².",
+    "options": ["49", "36", "25", "61"],
+    "answer": "49"
+  },
+  {
+    "question": "If x² + 6x + 9 = 0, then x equals?",
+    "options": ["3", "-3", "0", "±3"],
+    "answer": "-3"
+  },
+  {
+    "question": "If a = 3 and b = 4, find (a + b)² - (a - b)².",
+    "options": ["24", "48", "30", "56"],
+    "answer": "48"
+  },
+  {
+    "question": "Factor completely: x³ - 27",
+    "options": ["(x - 3)(x² + 3x + 9)", "(x + 3)(x² - 3x + 9)", "(x - 3)(x² - 3x + 9)", "(x + 3)(x² + 3x + 9)"],
+    "answer": "(x - 3)(x² + 3x + 9)"
+  },
+  {
+    "question": "Solve: x² + 4x + 5 = 0",
+    "options": ["Imaginary roots", "Real roots", "Equal roots", "No roots"],
+    "answer": "Imaginary roots"
+  },
+  {
+    "question": "If x = -1, what is the value of x⁴ + 2x² + 1?",
+    "options": ["0", "2", "4", "6"],
+    "answer": "4"
+  },
+  {
+    "question": "If x² - 5x + 6 = 0, find the sum of the squares of the roots.",
+    "options": ["25", "30", "36", "20"],
+    "answer": "25"
+  },
+  {
+    "question": "If x + y = 10 and x² + y² = 58, find xy.",
+    "options": ["24", "28", "30", "32"],
+    "answer": "24"
+  },
+  {
+    "question": "If a² - b² = 21 and a + b = 7, find a - b.",
+    "options": ["3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "question": "If x² + 2x + 1 = 0, what is the value of x?",
+    "options": ["-1", "1", "0", "-2"],
+    "answer": "-1"
+  },
+  {
+    "question": "If x² - 6x + 9 = 0, find the value of (x - 3)².",
+    "options": ["0", "1", "4", "9"],
+    "answer": "0"
+  },
+  {
+    "question": "If x + y = 8 and xy = 12, find x² + y².",
+    "options": ["28", "32", "36", "40"],
+    "answer": "28"
+  },
+
+  {
+    "question": "If x + 1/x = 4, find x³ + 1/x³.",
+    "options": ["52", "64", "70", "60"],
+    "answer": "64"
+  },
+  {
+    "question": "If (x - 2)² = 25, what are the possible values of x?",
+    "options": ["7 and -3", "5 and -5", "2 and 7", "-3 and 7"],
+    "answer": "-3 and 7"
+  },
+  {
+    "question": "If x² + y² = 13 and x + y = 5, find xy.",
+    "options": ["6", "7", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "If a - b = 4 and ab = 21, find a² + b².",
+    "options": ["46", "50", "58", "62"],
+    "answer": "50"
+  },
+  {
+    "question": "If x + y = 12 and x² + y² = 80, find xy.",
+    "options": ["32", "36", "44", "48"],
+    "answer": "44"
+  },
+  {
+    "question": "If x² - 3x = 0, what are the roots?",
+    "options": ["0, 3", "3, -3", "1, 2", "0, -3"],
+    "answer": "0, 3"
+  },
+  {
+    "question": "If x² = 2x + 3, what is x⁴?",
+    "options": ["49", "25", "36", "30"],
+    "answer": "49"
+  },
+  {
+    "question": "If a + b = 12 and ab = 35, what is a³ + b³?",
+    "options": ["1728", "1152", "1418", "1288"],
+    "answer": "1288"
+  },
+  {
+    "question": "If x³ + 1 = 0, what is x?",
+    "options": ["-1", "1", "0", "i"],
+    "answer": "-1"
+  },
+  {
+    "question": "If x = 3 + 2√2, what is 1/x?",
+    "options": ["3 - 2√2", "3 + 2√2", "5 + √2", "3 - √2"],
+    "answer": "3 - 2√2"
+  },
+  {
+    "question": "If x = 2 and y = -3, find x² + y² + 2xy.",
+    "options": ["1", "0", "-1", "25"],
+    "answer": "1"
+  },
+  {
+    "question": "If x = 2 + √3, find the conjugate of x.",
+    "options": ["2 - √3", "-2 + √3", "-2 - √3", "√3 - 2"],
+    "answer": "2 - √3"
+  },
+  {
+    "question": "If x = √5 + √2, what is the rationalized form of 1/x?",
+    "options": ["(√5 - √2)/3", "(√5 + √2)/3", "(√5 - √2)/7", "(√5 - √2)/(5 - 2)"],
+    "answer": "(√5 - √2)/3"
+  },
+  {
+    "question": "Factor: x² - 9x + 20",
+    "options": ["(x - 4)(x - 5)", "(x + 4)(x + 5)", "(x - 10)(x + 2)", "(x - 2)(x - 10)"],
+    "answer": "(x - 4)(x - 5)"
+  },
+  {
+    "question": "Factor: x³ + 27",
+    "options": ["(x + 3)(x² - 3x + 9)", "(x - 3)(x² + 3x + 9)", "(x + 3)(x² + 3x + 9)", "(x + 3)(x² - 3x - 9)"],
+    "answer": "(x + 3)(x² - 3x + 9)"
+  },
+
+   {
+    "question": "Factor: x² - 9x + 20",
+    "options": ["(x - 4)(x - 5)", "(x + 4)(x + 5)", "(x - 10)(x + 2)", "(x - 2)(x - 10)"],
+    "answer": "(x - 4)(x - 5)"
+  },
+  {
+    "question": "If x² + 4x + 4 = 0, what is the value of x?",
+    "options": ["-2", "2", "0", "-4"],
+    "answer": "-2"
+  },
+  {
+    "question": "If a² + b² = 50 and ab = 24, find (a - b)².",
+    "options": ["16", "20", "26", "30"],
+    "answer": "16"
+  },
+  {
+    "question": "If x + y = 5 and xy = 6, find x² + y².",
+    "options": ["19", "23", "25", "29"],
+    "answer": "19"
+  }
+]
