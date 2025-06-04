@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 const examSubjects = {
   GATE: ["Thermodynamics", "Heat Transfer", "Fluid Mechanics", "Production", "Mechanics of Solids"],
   GMAT: ["Quantitative Reasoning", "Verbal Reasoning", "Integrated Reasoning"],
-  PGNEET: ["Physiology", "Biochemistry", "Pharmacology", "Anatomy", "Pathology"],
+  PGNEET: [ "Pathology"],
   SOFTWARE: ["Python", "Data Science"]
 };
 
