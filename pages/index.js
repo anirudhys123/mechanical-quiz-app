@@ -11,11 +11,6 @@ const examSubjects = {
 const subjectChapters = {
   "Quantitative Reasoning": ["Algebra", "Arithmetic", "Geometry"],
   "Verbal Reasoning": ["Reading Comprehension", "Sentence Correction"],
-  "Integrated Reasoning": ["Graphics Interpretation", "Two-Part Analysis"],
-  Physiology: ["Nerve & Muscle", "Respiratory System", "Renal Physiology"],
-  Biochemistry: ["Carbohydrates", "Proteins", "Enzymes"],
-  Pharmacology: ["CNS Drugs", "Autonomic Drugs", "Cardiovascular Drugs"],
-  Anatomy: ["Upper Limb", "Lower Limb", "Thorax"],
   Pathology: ["Cell Injury", "Neoplasia", "Inflammation"]
 };
 
