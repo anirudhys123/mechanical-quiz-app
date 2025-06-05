@@ -1,0 +1,360 @@
+[
+  {
+    "question": "A sum of ₹12000 is invested at 10% p.a. compound interest compounded annually. What will be the amount after 3 years?",
+    "options": ["₹15732", "₹15972", "₹16000", "₹15820"],
+    "answer": "₹15972"
+  },
+  {
+    "question": "A sum amounts to ₹4840 in 2 years and ₹5324 in 3 years at compound interest. What is the rate of interest per annum?",
+    "options": ["9%", "10%", "12%", "11%"],
+    "answer": "10%"
+  },
+  {
+    "question": "The simple interest on a sum of money for 3 years is ₹1800 and the compound interest on the same sum at same rate for same time is ₹1891.20. What is the rate of interest?",
+    "options": ["10%", "12%", "8%", "15%"],
+    "answer": "10%"
+  },
+  {
+    "question": "In how many years will a sum of ₹6250 amount to ₹7290 at 8% p.a. compound interest, compounded annually?",
+    "options": ["2 years", "3 years", "4 years", "5 years"],
+    "answer": "2 years"
+  },
+  {
+    "question": "What sum will become ₹2030 in 2 years at 10% compound interest compounded annually?",
+    "options": ["₹1800", "₹1820", "₹1686.78", "₹2000"],
+    "answer": "₹1686.78"
+  },
+  {
+    "question": "What is the compound interest on ₹12000 at 12% p.a. for 2 years compounded annually?",
+    "options": ["₹2548.80", "₹2732.80", "₹2880", "₹3000"],
+    "answer": "₹2548.80"
+  },
+  {
+    "question": "What will be the compound interest on ₹20000 for 2 years at 5% per annum compounded annually?",
+    "options": ["₹2050", "₹2100", "₹2050.50", "₹2152.50"],
+    "answer": "₹2050"
+  },
+  {
+    "question": "The difference between compound and simple interest on a certain sum for 2 years at 5% p.a. is ₹20. What is the principal?",
+    "options": ["₹8000", "₹10000", "₹6000", "₹4000"],
+    "answer": "₹8000"
+  },
+  {
+    "question": "If the compound interest on a certain sum for 2 years is ₹820 and the simple interest is ₹800, what is the rate percent per annum?",
+    "options": ["5%", "10%", "12%", "8%"],
+    "answer": "10%"
+  },
+  {
+    "question": "At what rate percent per annum will ₹4000 amount to ₹4410 in 2 years compounded annually?",
+    "options": ["5%", "10%", "8%", "12%"],
+    "answer": "5%"
+  },
+  {
+    "question": "What is the compound interest on ₹10000 for 2 years at 10% per annum compounded semi-annually?",
+    "options": ["₹2100", "₹2200", "₹2152.25", "₹2250"],
+    "answer": "₹2152.25"
+  },
+  {
+    "question": "A sum of money is invested at compound interest payable annually. The interest accrued in 2 years is ₹525, and in 3 years is ₹788. What is the rate of interest?",
+    "options": ["10%", "12%", "15%", "20%"],
+    "answer": "10%"
+  },
+  {
+    "question": "Find the compound interest on ₹16000 for 2.5 years at 8% p.a. compounded annually.",
+    "options": ["₹3321.92", "₹3480.48", "₹3400", "₹3200"],
+    "answer": "₹3321.92"
+  },
+  {
+    "question": "A certain sum of money at compound interest amounts to ₹800 in 3 years and ₹920 in 4 years. What is the rate of interest?",
+    "options": ["10%", "12.5%", "15%", "20%"],
+    "answer": "15%"
+  },
+  {
+    "question": "What is the simple interest on ₹7500 at 6% p.a. for 4 years?",
+    "options": ["₹1800", "₹1600", "₹1500", "₹1900"],
+    "answer": "₹1800"
+  },
+  {
+    "question": "What will ₹20000 amount to in 3 years at 12% compounded annually?",
+    "options": ["₹26000", "₹25000", "₹28098.56", "₹27000"],
+    "answer": "₹28098.56"
+  },
+  {
+    "question": "What is the difference between compound and simple interest on ₹10000 for 3 years at 10% p.a.?",
+    "options": ["₹310", "₹330", "₹331", "₹300"],
+    "answer": "₹331"
+  },
+  {
+    "question": "In how many years will ₹8000 amount to ₹9261 at 7.5% p.a. compounded annually?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "question": "A sum of ₹10000 becomes ₹12100 in 2 years under compound interest. What is the rate of interest?",
+    "options": ["10%", "12%", "9%", "11%"],
+    "answer": "10%"
+  },
+  {
+    "question": "What is the compound interest on ₹5000 for 3 years at 10% p.a. compounded annually?",
+    "options": ["₹1655", "₹1500", "₹1605", "₹1700"],
+    "answer": "₹1655"
+  },
+  {
+    "question": "₹12000 is invested for 2 years at 8% p.a. compound interest compounded annually. What is the interest earned?",
+    "options": ["₹1994.40", "₹2000", "₹1980", "₹2045.80"],
+    "answer": "₹1994.40"
+  },
+  {
+    "question": "What sum should be invested at 6% p.a. compound interest to amount to ₹11236 in 2 years?",
+    "options": ["₹10000", "₹11000", "₹10500", "₹10600"],
+    "answer": "₹10000"
+  },
+  {
+    "question": "At what compound interest rate will ₹6000 amount to ₹7986 in 3 years?",
+    "options": ["10%", "12%", "9%", "11%"],
+    "answer": "10%"
+  },
+  {
+    "question": "What is the compound interest on ₹15000 at 8% per annum for 3 years compounded annually?",
+    "options": ["₹3897.12", "₹3600", "₹3700", "₹4000"],
+    "answer": "₹3897.12"
+  },
+  {
+    "question": "What will ₹10000 amount to in 2 years at 5% p.a. compound interest compounded yearly?",
+    "options": ["₹11025", "₹10500", "₹11000", "₹10250"],
+    "answer": "₹11025"
+  },
+  {
+    "question": "A certain sum triples in 8 years at compound interest. In how many years will it become 9 times?",
+    "options": ["24", "16", "18", "20"],
+    "answer": "16"
+  },
+  {
+    "question": "If the compound interest on a certain sum for 2 years is ₹552.50 and the simple interest is ₹500, what is the rate of interest?",
+    "options": ["5%", "10%", "8%", "6%"],
+    "answer": "10%"
+  },
+  {
+    "question": "What will be the compound interest on ₹25000 at 8% p.a. for 3 years compounded annually?",
+    "options": ["₹6489.60", "₹6500", "₹6250", "₹6000"],
+    "answer": "₹6489.60"
+  },
+  {
+    "question": "What is the simple interest on ₹9000 at 9% p.a. for 5 years?",
+    "options": ["₹4050", "₹4000", "₹4200", "₹4500"],
+    "answer": "₹4050"
+  },
+  {
+    "question": "If the difference between compound and simple interest on ₹10000 for 2 years is ₹64, what is the rate?",
+    "options": ["8%", "10%", "12%", "6%"],
+    "answer": "8%"
+  },
+  {
+    "question": "A sum of ₹5000 is invested at 10% p.a. compound interest compounded annually. What will be the amount after 4 years?",
+    "options": ["₹7400", "₹7500", "₹8000", "₹7600"],
+    "answer": "₹7400"
+  },
+  {
+    "question": "What is the compound interest on ₹20000 at 6% p.a. for 3 years compounded annually?",
+    "options": ["₹3784.64", "₹3600", "₹3700", "₹4000"],
+    "answer": "₹3784.64"
+  },
+  {
+    "question": "If ₹15000 becomes ₹18000 in 2 years at compound interest, what is the rate of interest?",
+    "options": ["10%", "12%", "8%", "15%"],
+    "answer": "10%"
+  },
+
+  {
+    "question": "Find the compound interest on ₹6400 at 5% p.a. for 3 years compounded annually.",
+    "options": ["₹1000", "₹1010", "₹1005.60", "₹1024"],
+    "answer": "₹1005.60"
+  },
+  {
+    "question": "A sum of ₹10000 becomes ₹14641 in 3 years at compound interest compounded annually. Find the rate.",
+    "options": ["10%", "12%", "8%", "15%"],
+    "answer": "12%"
+  },
+  {
+    "question": "If the simple interest on a sum for 5 years is ₹6000 and the rate is 10% p.a., find the sum.",
+    "options": ["₹12000", "₹10000", "₹11000", "₹9000"],
+    "answer": "₹12000"
+  },
+  {
+    "question": "What will be the compound interest on ₹30000 at 10% p.a. compounded annually for 2 years?",
+    "options": ["₹6300", "₹6200", "₹6600", "₹6250"],
+    "answer": "₹6300"
+  },
+  {
+    "question": "The compound interest on a certain sum for 2 years is ₹2640. If the rate is 10%, find the sum.",
+    "options": ["₹12000", "₹11500", "₹11000", "₹11300"],
+    "answer": "₹12000"
+  },
+  {
+    "question": "A sum of money becomes ₹5292 in 2 years and ₹5830.80 in 3 years. Find the rate of interest.",
+    "options": ["10%", "12%", "8%", "9%"],
+    "answer": "10%"
+  },
+  {
+    "question": "What is the simple interest on ₹8500 at 7% p.a. for 4 years?",
+    "options": ["₹2380", "₹2390", "₹2380", "₹2380"],
+    "answer": "₹2380"
+  },
+  {
+    "question": "What will ₹7200 amount to in 2 years at 12% compound interest compounded annually?",
+    "options": ["₹9030.72", "₹9010", "₹9100", "₹9050"],
+    "answer": "₹9030.72"
+  },
+  {
+    "question": "Find the principal if compound interest after 2 years is ₹882 and the rate is 10% compounded annually.",
+    "options": ["₹4000", "₹4500", "₹5000", "₹4200"],
+    "answer": "₹4000"
+  },
+  {
+    "question": "What is the difference between CI and SI on ₹10000 at 8% for 2 years?",
+    "options": ["₹64", "₹66", "₹60", "₹70"],
+    "answer": "₹64"
+  },
+  {
+    "question": "₹10000 is invested at 5% p.a. compound interest, compounded half-yearly. Find the amount after 2 years.",
+    "options": ["₹11025", "₹11038.14", "₹11050", "₹11200"],
+    "answer": "₹11038.14"
+  },
+  {
+    "question": "If SI on a sum for 3 years at 5% p.a. is ₹1800, find the sum.",
+    "options": ["₹12000", "₹11000", "₹10000", "₹9000"],
+    "answer": "₹12000"
+  },
+  {
+    "question": "₹15000 becomes ₹18732 in 2 years at CI. Find the rate p.a.",
+    "options": ["10%", "12%", "8%", "9%"],
+    "answer": "12%"
+  },
+  {
+    "question": "Find CI on ₹16000 at 10% p.a. for 2 years if interest is compounded annually.",
+    "options": ["₹3360", "₹3500", "₹3200", "₹3000"],
+    "answer": "₹3360"
+  },
+  {
+    "question": "The SI on a sum of ₹8400 at 8% p.a. for 3 years is?",
+    "options": ["₹2016", "₹2020", "₹1995", "₹2100"],
+    "answer": "₹2016"
+  },
+  {
+    "question": "A sum invested at 20% p.a. compound interest compounded annually becomes ₹8640 in 2 years. Find the principal.",
+    "options": ["₹6000", "₹7200", "₹8000", "₹7500"],
+    "answer": "₹6000"
+  },
+  {
+    "question": "What will ₹18000 become in 2 years at 10% p.a. CI compounded annually?",
+    "options": ["₹21780", "₹21800", "₹22000", "₹21000"],
+    "answer": "₹21780"
+  },
+  {
+    "question": "The CI on ₹10000 at 5% p.a. compounded annually for 3 years is?",
+    "options": ["₹1576.25", "₹1550", "₹1600", "₹1650"],
+    "answer": "₹1576.25"
+  },
+  {
+    "question": "The SI on a certain sum for 4 years at 9% is ₹3600. Find the sum.",
+    "options": ["₹10000", "₹9000", "₹9500", "₹10500"],
+    "answer": "₹10000"
+  },
+  {
+    "question": "If ₹12000 becomes ₹14520 in 2 years, compounded annually, what is the rate?",
+    "options": ["10%", "12%", "8%", "9%"],
+    "answer": "10%"
+  },
+  {
+    "question": "Find the amount on ₹16000 at 12% p.a. for 2 years compounded annually.",
+    "options": ["₹20077.44", "₹19980", "₹20100", "₹20200"],
+    "answer": "₹20077.44"
+  },
+  {
+    "question": "What is the CI on ₹24000 at 6% p.a. for 3 years compounded annually?",
+    "options": ["₹4572.70", "₹4500", "₹4600", "₹4800"],
+    "answer": "₹4572.70"
+  },
+  {
+    "question": "₹15000 at 4% p.a. compound interest becomes how much in 2 years?",
+    "options": ["₹16224", "₹16200", "₹16000", "₹16500"],
+    "answer": "₹16224"
+  },
+  {
+    "question": "Find the difference between SI and CI on ₹12000 at 8% p.a. for 2 years.",
+    "options": ["₹76.80", "₹75", "₹80", "₹85"],
+    "answer": "₹76.80"
+  },
+  {
+    "question": "In how many years will ₹4000 double at 10% CI annually?",
+    "options": ["8", "7.27", "6", "7"],
+    "answer": "7.27"
+  },
+  {
+    "question": "If a sum of money triples in 5 years at CI, what is the rate?",
+    "options": ["25.99%", "24.57%", "22.47%", "20.63%"],
+    "answer": "24.57%"
+  },
+  {
+    "question": "What sum will become ₹9680 in 2 years at 10% CI annually?",
+    "options": ["₹8000", "₹8500", "₹8700", "₹9000"],
+    "answer": "₹8000"
+  },
+  {
+    "question": "What is the SI on ₹7000 at 10% p.a. for 4 years?",
+    "options": ["₹2800", "₹2900", "₹2700", "₹3000"],
+    "answer": "₹2800"
+  },
+  {
+    "question": "₹2500 becomes ₹3125 in 3 years at compound interest. Find the rate.",
+    "options": ["8%", "10%", "12%", "15%"],
+    "answer": "8%"
+  },
+  {
+    "question": "What is the amount of ₹5000 in 2 years at 6% p.a. CI compounded annually?",
+    "options": ["₹5618", "₹5618.40", "₹5600", "₹5580"],
+    "answer": "₹5618.40"
+  },
+  {
+    "question": "₹8000 becomes ₹9261 in 2 years at CI. What is the rate?",
+    "options": ["7.5%", "8%", "9%", "10%"],
+    "answer": "7.5%"
+  },
+  {
+    "question": "Find CI on ₹10000 for 1.5 years at 10% p.a. compounded annually.",
+    "options": ["₹1575", "₹1600", "₹1550", "₹1500"],
+    "answer": "₹1575"
+  },
+  {
+    "question": "What is the SI on ₹5000 at 12% p.a. for 3 years?",
+    "options": ["₹1800", "₹1600", "₹1500", "₹2000"],
+    "answer": "₹1800"
+  },
+  {
+    "question": "What will be the CI on ₹30000 at 8% p.a. compounded half-yearly for 1 year?",
+    "options": ["₹2448", "₹2450", "₹2480", "₹2500"],
+    "answer": "₹2448"
+  },
+  {
+    "question": "The CI on ₹25000 at 5% p.a. compounded annually for 2 years is?",
+    "options": ["₹2562.50", "₹2600", "₹2500", "₹2580"],
+    "answer": "₹2562.50"
+  },
+  {
+    "question": "Find the CI on ₹18000 at 6% p.a. for 2 years compounded annually.",
+    "options": ["₹2210.80", "₹2218.80", "₹2200", "₹2250"],
+    "answer": "₹2218.80"
+  },
+  {
+    "question": "₹10000 becomes ₹12100 in 2 years at CI. What is the rate?",
+    "options": ["10%", "8%", "12%", "9%"],
+    "answer": "10%"
+  },
+  {
+    "question": "If the difference between CI and SI for 2 years on ₹10000 is ₹41, find the rate.",
+    "options": ["4%", "5%", "6%", "7%"],
+    "answer": "4%"
+  }
+
+
+]

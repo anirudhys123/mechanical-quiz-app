@@ -225,5 +225,159 @@
     "question": "If x + y = 5 and xy = 6, find x² + y².",
     "options": ["19", "23", "25", "29"],
     "answer": "19"
+  },
+
+  
+  {
+    "question": "Solve the inequality: 2x - 2 > 5x + 2",
+    "options": ["x = -1.33", "x < -1.33", "x > -0.0", "x > -1.33"],
+    "answer": "x > -1.33"
+  },
+  {
+    "question": "Solve the inequality: 4x - 8 > 2x + 1",
+    "options": ["x = 4.5", "x > 4.5", "x < 4.5", "x > 3.5"],
+    "answer": "x > 4.5"
+  },
+  {
+    "question": "Solve the inequality: 10x - 5 > 5x + 4",
+    "options": ["x = 1.8", "x < 1.8", "x > 0.2", "x > 1.8"],
+    "answer": "x > 1.8"
+  },
+  {
+    "question": "Solve the inequality: 5x - 2 > 6x + 2",
+    "options": ["x > -0.0", "x > -4.0", "x = -4.0", "x < -4.0"],
+    "answer": "x > -4.0"
+  },
+  {
+    "question": "Solve the inequality: 4x - 3 > 2x + 2",
+    "options": ["x > 2.5", "x > 0.5", "x < 2.5", "x = 2.5"],
+    "answer": "x > 2.5"
+  },
+  {
+    "question": "Solve the inequality: 3x - 6 > 2x + 1",
+    "options": ["x > 7.0", "x = 7.0", "x < 7.0", "x > 5.0"],
+    "answer": "x > 7.0"
+  },
+  {
+    "question": "Solve the inequality: 9x - 8 > 5x + 2",
+    "options": ["x = 2.5", "x < 2.5", "x > 1.0", "x > 2.5"],
+    "answer": "x > 2.5"
+  },
+  {
+    "question": "Solve the inequality: 6x - 7 > 2x + 1",
+    "options": ["x > 2.0", "x < 2.0", "x = 2.0", "x > 1.5"],
+    "answer": "x > 2.0"
+  },
+  {
+    "question": "Solve the inequality: 5x - 5 > 4x + 1",
+    "options": ["x < 6.0", "x = 6.0", "x > 6.0", "x > 4.0"],
+    "answer": "x > 6.0"
+  },
+  {
+    "question": "Solve the inequality: 6x - 4 > 3x + 2",
+    "options": ["x = 2.0", "x < 2.0", "x > 2.0", "x > 1.5"],
+    "answer": "x > 2.0"
+  },
+  {
+    "question": "Solve the inequality: 7x - 9 > 3x + 3",
+    "options": ["x = 3.0", "x > 3.0", "x < 3.0", "x > 2.0"],
+    "answer": "x > 3.0"
+  },
+  {
+    "question": "Solve the inequality: 4x - 1 > 3x + 5",
+    "options": ["x > 6.0", "x = 6.0", "x < 6.0", "x > 5.0"],
+    "answer": "x > 6.0"
+  },
+  {
+    "question": "Solve the inequality: 6x - 2 > 3x + 3",
+    "options": ["x > 1.67", "x = 1.67", "x < 1.67", "x > 2.5"],
+    "answer": "x > 1.67"
+  },
+  {
+    "question": "Solve the inequality: 8x - 3 > 5x + 6",
+    "options": ["x = 3.0", "x < 3.0", "x > 2.5", "x > 3.0"],
+    "answer": "x > 3.0"
+  },
+  {
+    "question": "Solve the inequality: 9x - 4 > 6x + 5",
+    "options": ["x > 3.0", "x > 2.5", "x < 3.0", "x = 3.0"],
+    "answer": "x > 3.0"
+  },
+  {
+    "question": "Solve the inequality: 7x - 2 > 3x + 7",
+    "options": ["x = 2.25", "x > 2.25", "x < 2.25", "x > 2.0"],
+    "answer": "x > 2.25"
+  },
+  {
+    "question": "Solve the inequality: 5x - 9 > 2x + 1",
+    "options": ["x > 3.33", "x = 3.33", "x < 3.33", "x > 3.0"],
+    "answer": "x > 3.33"
+  },
+  {
+    "question": "Solve the inequality: 6x - 5 > 2x + 3",
+    "options": ["x > 2.0", "x = 2.0", "x < 2.0", "x > 1.0"],
+    "answer": "x > 2.0"
+  },
+  {
+    "question": "Solve the inequality: 4x - 7 > 3x + 2",
+    "options": ["x > 9.0", "x > 5.0", "x < 9.0", "x = 9.0"],
+    "answer": "x > 9.0"
+  },
+  {
+    "question": "Solve the inequality: 3x - 4 > 2x + 1",
+    "options": ["x > 5.0", "x = 5.0", "x < 5.0", "x > 4.0"],
+    "answer": "x > 5.0"
+  },
+  {
+    "question": "Solve the inequality: 9x - 6 > 4x + 5",
+    "options": ["x > 2.2", "x = 2.2", "x < 2.2", "x > 2.5"],
+    "answer": "x > 2.2"
+  },
+  {
+    "question": "Solve the inequality: 5x - 8 > 3x + 1",
+    "options": ["x = 4.5", "x > 4.5", "x < 4.5", "x > 5.0"],
+    "answer": "x > 4.5"
+  },
+  {
+    "question": "Solve the inequality: 7x - 3 > 2x + 6",
+    "options": ["x > 1.8", "x > 2.5", "x < 1.8", "x = 1.8"],
+    "answer": "x > 1.8"
+  },
+  {
+    "question": "Solve the inequality: 6x - 2 > 4x + 3",
+    "options": ["x < 2.5", "x = 2.5", "x > 2.5", "x > 1.5"],
+    "answer": "x > 2.5"
+  },
+  {
+    "question": "Solve the inequality: 4x - 6 > 3x + 1",
+    "options": ["x > 7.0", "x = 7.0", "x < 7.0", "x > 6.0"],
+    "answer": "x > 7.0"
+  },
+  {
+    "question": "Solve the inequality: 8x - 9 > 6x + 2",
+    "options": ["x > 5.5", "x = 5.5", "x < 5.5", "x > 4.5"],
+    "answer": "x > 5.5"
+  },
+  {
+    "question": "Solve the inequality: 7x - 5 > 2x + 4",
+    "options": ["x > 1.8", "x = 1.8", "x < 1.8", "x > 1.5"],
+    "answer": "x > 1.8"
+  },
+  {
+    "question": "Solve the inequality: 5x - 7 > 3x + 2",
+    "options": ["x > 4.5", "x < 4.5", "x = 4.5", "x > 3.0"],
+    "answer": "x > 4.5"
+  },
+  {
+    "question": "Solve the inequality: 9x - 4 > 4x + 6",
+    "options": ["x = 2.0", "x > 2.0", "x < 2.0", "x > 3.0"],
+    "answer": "x > 2.0"
+  },
+  {
+    "question": "Solve the inequality: 10x - 3 > 7x + 2",
+    "options": ["x > 1.67", "x = 1.67", "x < 1.67", "x > 2.5"],
+    "answer": "x > 1.67"
   }
+
+
 ]

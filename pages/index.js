@@ -3,13 +3,13 @@ import { useRouter } from 'next/router';
 
 const examSubjects = {
   GATE: ["Thermodynamics", "Heat Transfer", "Fluid Mechanics", "Production", "Mechanics of Solids"],
-  GMAT: ["Quantitative Reasoning", "Verbal Reasoning", "Integrated Reasoning"],
+  GMAT: ["Quantitative Reasoning", "Verbal Reasoning"],
   PGNEET: [ "Pathology"],
   SOFTWARE: ["Python", "Data Science"]
 };
 
 const subjectChapters = {
-  "Quantitative Reasoning": ["Algebra", "Arithmetic", "Geometry"],
+  "Quantitative Reasoning": ["Algebra", "Percentages", "Ratios and Proportions" , "SI and CI"],
   "Verbal Reasoning": ["Reading Comprehension", "Sentence Correction"],
   Pathology: ["Cell Injury", "Neoplasia", "Inflammation"]
 };

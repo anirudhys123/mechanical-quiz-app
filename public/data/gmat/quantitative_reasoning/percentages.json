@@ -1,0 +1,334 @@
+[
+  {
+    "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
+    "options": ["0%", "4% increase", "4% decrease", "2% increase"],
+    "answer": "4% decrease"
+  },
+  {
+    "question": "A's salary is 25% more than B’s. By what percent is B’s salary less than A’s?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "answer": "20%"
+  },
+  {
+    "question": "If the price of a shirt is increased by 10% and then decreased by 10%, what is the final price as a percentage of the original?",
+    "options": ["100%", "99%", "101%", "90%"],
+    "answer": "99%"
+  },
+  {
+    "question": "If 60% of students passed in Physics, 70% in Math, and 50% passed in both, what percentage failed in both?",
+    "options": ["20%", "30%", "10%", "40%"],
+    "answer": "20%"
+  },
+  {
+    "question": "If a number is 20% more than another, what percent is the smaller number less than the larger?",
+    "options": ["16.66%", "20%", "25%", "18%"],
+    "answer": "16.66%"
+  },
+  {
+    "question": "A man spends 80% of his income. If his income increases by 25% and his expenditure increases by 20%, what is the percentage increase in his savings?",
+    "options": ["50%", "100%", "80%", "75%"],
+    "answer": "100%"
+  },
+  {
+    "question": "The population of a city increased by 20% in one year and decreased by 20% the next year. What is the net change?",
+    "options": ["4% increase", "4% decrease", "No change", "1% increase"],
+    "answer": "4% decrease"
+  },
+  {
+    "question": "An item's price increases by 30% and then is discounted by 30%. What is the net percentage change?",
+    "options": ["No change", "9% increase", "9% decrease", "1% increase"],
+    "answer": "9% decrease"
+  },
+  {
+    "question": "If a number is increased by x% and then decreased by x%, what is the net percentage change?",
+    "options": ["x^2%", "0%", "x^2/100 % decrease", "x% increase"],
+    "answer": "x^2/100 % decrease"
+  },
+  {
+    "question": "The price of an article was increased by 15% and then reduced by 10%. What is the overall percentage change?",
+    "options": ["3.5% increase", "4.5% increase", "4.5% decrease", "5% increase"],
+    "answer": "4.5% increase"
+  },
+  {
+    "question": "If a person spends 75% of his salary and saves ₹6,000, what is his salary?",
+    "options": ["₹18,000", "₹24,000", "₹30,000", "₹36,000"],
+    "answer": "₹24,000"
+  },
+  {
+    "question": "If A’s salary is 40% of B’s and B’s is 60% of C’s, then A’s salary is what percent of C’s?",
+    "options": ["24%", "25%", "20%", "36%"],
+    "answer": "24%"
+  },
+  {
+    "question": "If 30% of A = 40% of B, then A:B is?",
+    "options": ["2:3", "4:3", "3:4", "3:2"],
+    "answer": "4:3"
+  },
+  {
+    "question": "If 50% of (x – y) = 30% of (x + y), what is x : y?",
+    "options": ["4:1", "7:3", "5:3", "8:3"],
+    "answer": "8:3"
+  },
+  {
+    "question": "If the population of a town increases 10% annually, how much will it increase in 2 years?",
+    "options": ["21%", "20%", "22%", "19%"],
+    "answer": "21%"
+  },
+  {
+    "question": "If 25% of a number is 45, what is 80% of that number?",
+    "options": ["144", "135", "160", "120"],
+    "answer": "144"
+  },
+  {
+    "question": "In a class, 60% are boys. If 40% of boys and 30% of girls passed, what percent of students passed?",
+    "options": ["36%", "38%", "34%", "35%"],
+    "answer": "36%"
+  },
+  {
+    "question": "If 10% of A is equal to 20% of B, what is A:B?",
+    "options": ["2:1", "1:2", "1:1", "3:2"],
+    "answer": "2:1"
+  },
+  {
+    "question": "If a man’s income increases by 10% and expenditure by 5%, what is the percentage increase in savings if he originally saved 20% of income?",
+    "options": ["25%", "30%", "50%", "40%"],
+    "answer": "50%"
+  },
+  {
+    "question": "A student scored 40% in one subject and 60% in another. What is the minimum average he must score in a third subject to get at least 50% overall?",
+    "options": ["50%", "60%", "70%", "40%"],
+    "answer": "50%"
+  },
+  {
+    "question": "A product was marked up by 25% and then discounted by 20%. What is the final price as a percentage of the original cost price?",
+    "options": ["100%", "95%", "90%", "85%"],
+    "answer": "100%"
+  },
+  {
+    "question": "A number is 25% less than another. What percent is the second number more than the first?",
+    "options": ["33.33%", "25%", "20%", "30%"],
+    "answer": "33.33%"
+  },
+  {
+    "question": "The value of a machine depreciates 10% annually. What will be its value after 2 years if it's currently worth $10,000?",
+    "options": ["$8,100", "$8,500", "$9,000", "$8,200"],
+    "answer": "$8,100"
+  },
+  {
+    "question": "If an article is sold at a 20% loss and the selling price is $800, what was the cost price?",
+    "options": ["$1000", "$960", "$920", "$840"],
+    "answer": "$1000"
+  },
+  {
+    "question": "If 20% of a number is 36, what is 120% of the same number?",
+    "options": ["216", "200", "210", "220"],
+    "answer": "216"
+  },
+  {
+    "question": "An item’s value increases from $400 to $460. What is the percentage increase?",
+    "options": ["15%", "10%", "12%", "14%"],
+    "answer": "15%"
+  },
+  {
+    "question": "If x is 20% more than y, then y is what percent less than x?",
+    "options": ["16.66%", "20%", "25%", "10%"],
+    "answer": "16.66%"
+  },
+  {
+    "question": "A number is decreased by 25% and then increased by 25%. What is the net change?",
+    "options": ["No change", "Decrease of 6.25%", "Increase of 6.25%", "Decrease of 10%"],
+    "answer": "Decrease of 6.25%"
+  },
+  {
+    "question": "If 60% of a number is equal to 3/4 of another number, what is the ratio of the first to the second?",
+    "options": ["5:4", "3:2", "4:5", "2:3"],
+    "answer": "5:4"
+  },
+  {
+    "question": "If 5% of x is equal to 4% of y, what is x : y?",
+    "options": ["4:5", "5:4", "1:1", "3:2"],
+    "answer": "4:5"
+  },
+    {
+        "question": "A's salary is 30% more than B's. If B's salary is $700, what is A's salary?",
+        "options": ["$910", "$840", "$750", "$800"],
+        "answer": "$910"
+    },
+    {
+        "question": "If a product’s price is reduced by 15% and then increased by 20%, what is the net percentage change?",
+        "options": ["2.5% increase", "1% decrease", "3% increase", "No change"],
+        "answer": "2.5% increase"
+    },
+    {
+        "question": "If a number is decreased by 10% and then increased by 10%, what is the net percentage change?",
+        "options": ["1% decrease", "1% increase", "No change", "2% decrease"],
+        "answer": "1% decrease"
+    },
+    {
+        "question": "If a person saves 30% of his income and spends the rest, how much does he spend if his income is $2000?",
+        "options": ["$1400", "$600", "$1000", "$1200"],
+        "answer": "$1400"
+    },
+    {
+        "question": "If a car’s value depreciates by 20% each year, what will be its value after one year if it was initially worth $25,000?",
+        "options": ["$20,000", "$22,000", "$18,000", "$19,500"],
+        "answer": "$20,000"
+    },
+    {
+        "question": "If a shirt costs $50 after a 20% discount, what was its original price?",
+        "options": ["$60", "$65", "$70", "$55"],
+        "answer": "$62.50"
+    },
+  {
+    "question": "If the price of an item is increased by 15% and then decreased by 15%, what is the net percentage change?",
+    "options": ["0%", "2.25% decrease", "2.25% increase", "4% decrease"],
+    "answer": "2.25% decrease"
+  },
+  {
+    "question": "If A’s salary is 20% more than B’s, and B’s salary is 25% less than C’s, then A’s salary is what percent of C’s?",
+    "options": ["90%", "100%", "120%", "105%"],
+    "answer": "90%"
+  },
+  {
+    "question": "A number is first increased by 30% and then decreased by 30%. What is the overall percentage change?",
+    "options": ["9% increase", "9% decrease", "0%", "1% increase"],
+    "answer": "9% decrease"
+  },
+  {
+    "question": "If 80% of a number is equal to 60% of another, what is the ratio of the first to the second?",
+    "options": ["3:4", "4:3", "2:3", "3:2"],
+    "answer": "3:2"
+  },
+  {
+    "question": "If a number is reduced by 40% and the result is 120, what is the original number?",
+    "options": ["180", "200", "150", "210"],
+    "answer": "200"
+  },
+  {
+    "question": "A value increases by 25% in one year and 44% in the next. What is the total percentage increase over two years?",
+    "options": ["81%", "80%", "69%", "75%"],
+    "answer": "81%"
+  },
+  {
+    "question": "If a number is increased by 10% and the result is 220, what is the original number?",
+    "options": ["200", "210", "190", "180"],
+    "answer": "200"
+  },
+  {
+    "question": "If a quantity is increased by 200%, what is the final quantity in terms of the original?",
+    "options": ["Double", "Triple", "Four times", "Two and a half times"],
+    "answer": "Triple"
+  },
+  {
+    "question": "A man sells a product at 20% profit. If he had bought it for 20% less, his profit would have been?",
+    "options": ["50%", "60%", "40%", "25%"],
+    "answer": "50%"
+  },
+  {
+    "question": "An amount is increased from $120 to $150. What is the percentage increase?",
+    "options": ["25%", "20%", "30%", "15%"],
+    "answer": "25%"
+  },
+  {
+    "question": "If 70% of x = 80% of y, what is x:y?",
+    "options": ["8:7", "7:8", "4:5", "5:4"],
+    "answer": "8:7"
+  },
+  {
+    "question": "If 10% of A equals 15% of B, then A:B is?",
+    "options": ["3:2", "2:3", "4:3", "3:4"],
+    "answer": "3:2"
+  },
+  {
+    "question": "If a price increases by 10% annually, how much will it increase in 3 years (compounded)?",
+    "options": ["33.1%", "30%", "32%", "34%"],
+    "answer": "33.1%"
+  },
+  {
+    "question": "A value decreases from 1000 to 729 in two years. What is the annual percentage decrease (compound)?",
+    "options": ["15%", "14%", "13%", "12%"],
+    "answer": "15%"
+  },
+  {
+    "question": "A man spends 75% of his income. If his income increases by 20%, and his expenditure increases by 10%, what is the % increase in savings?",
+    "options": ["60%", "100%", "80%", "75%"],
+    "answer": "100%"
+  },
+  {
+    "question": "A price is first increased by 25% and then by 20%. What is the total percentage increase?",
+    "options": ["50%", "55%", "52%", "40%"],
+    "answer": "50%"
+  },
+  {
+    "question": "If a number is 10% more than another, and the second number is 10% more than a third, what percent is the first more than the third?",
+    "options": ["21%", "20%", "19%", "22%"],
+    "answer": "21%"
+  },
+  {
+    "question": "The price of a laptop decreased by 20% and is now $800. What was its original price?",
+    "options": ["$1000", "$960", "$850", "$900"],
+    "answer": "$1000"
+  },
+  {
+    "question": "If 30% of x is 20% of y, what is x:y?",
+    "options": ["2:3", "3:2", "3:4", "4:3"],
+    "answer": "2:3"
+  },
+  {
+    "question": "The value of a machine depreciates by 20% every year. What will be its value after 2 years if the current value is $5000?",
+    "options": ["$3200", "$3600", "$4000", "$3500"],
+    "answer": "$3200"
+  },
+  {
+    "question": "A man spends 60% of his income and saves $800. What is his income?",
+    "options": ["$2000", "$2400", "$2200", "$2600"],
+    "answer": "$2000"
+  },
+  {
+    "question": "A mixture contains 40% alcohol. If 20 liters of water is added to 80 liters of mixture, what is the new percentage of alcohol?",
+    "options": ["32%", "30%", "25%", "28%"],
+    "answer": "25%"
+  },
+  {
+    "question": "If a number is decreased by 10% and then increased by 10%, what is the net change?",
+    "options": ["1% increase", "No change", "1% decrease", "2% increase"],
+    "answer": "1% decrease"
+  },
+  {
+    "question": "If x is 20% more than y, then y is what percent less than x?",
+    "options": ["16.66%", "20%", "18%", "25%"],
+    "answer": "16.66%"
+  },
+  {
+    "question": "A store increased the price of a product by 20% and then gave a discount of 25%. What is the net change?",
+    "options": ["No change", "10% decrease", "5% decrease", "5% increase"],
+    "answer": "10% decrease"
+  },
+  {
+    "question": "An employee's salary is increased by 10% each year. What is the percentage increase over 2 years?",
+    "options": ["20%", "21%", "22%", "19%"],
+    "answer": "21%"
+  },
+  {
+    "question": "If 5% of A = 2% of B, then A:B is?",
+    "options": ["2:5", "5:2", "5:3", "3:5"],
+    "answer": "2:5"
+  },
+  {
+    "question": "A car’s value depreciates by 30% annually. What is its value after 2 years if the original value is $10,000?",
+    "options": ["$4,900", "$4,800", "$4,700", "$5,000"],
+    "answer": "$4,900"
+  },
+  {
+    "question": "A man’s income is increased by 15% and his expenses increase by 10%. His original savings were $2,000. What are his new savings?",
+    "options": ["$2,500", "$2,300", "$2,200", "$2,400"],
+    "answer": "$2,300"
+  },
+  {
+    "question": "The value of a quantity is increased by 50% and then decreased by 40%. What is the net change?",
+    "options": ["10% decrease", "5% decrease", "20% decrease", "20% increase"],
+    "answer": "10% increase"
+  }
+
+
+]

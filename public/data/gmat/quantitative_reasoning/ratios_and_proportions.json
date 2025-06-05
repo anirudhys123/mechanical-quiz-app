@@ -1,0 +1,510 @@
+[
+  {
+    "question": "If the ratio of x to y is 5:3 and the ratio of y to z is 2:1, what is the ratio of x to z?",
+    "options": ["10:3", "5:2", "5:1", "10:1"],
+    "answer": "10:3"
+  },
+  {
+    "question": "A recipe requires flour and sugar in the ratio 4:3. If 24 cups of the mixture are made, how many cups are sugar?",
+    "options": ["9", "12", "10", "13.5"],
+    "answer": "10.29"
+  },
+  {
+    "question": "The ratio of men to women in a company is 3:4. If there are 56 women, how many men are there?",
+    "options": ["42", "48", "36", "40"],
+    "answer": "42"
+  },
+  {
+    "question": "If a:b = 2:3 and b:c = 4:5, what is a:c?",
+    "options": ["8:15", "2:5", "6:5", "8:9"],
+    "answer": "8:15"
+  },
+  {
+    "question": "The ratio of boys to girls in a class is 7:5. If 6 girls join the class and the ratio becomes 7:6, how many boys are there?",
+    "options": ["42", "49", "56", "63"],
+    "answer": "49"
+  },
+  {
+    "question": "In a solution, the ratio of water to alcohol is 3:2. If there are 30 liters of water, how much alcohol is there?",
+    "options": ["10", "15", "20", "25"],
+    "answer": "20"
+  },
+  {
+    "question": "x and y are in the ratio 5:6. If x is increased by 20% and y by 10%, what is the new ratio of x to y?",
+    "options": ["6:7", "1:1", "11:12", "10:11"],
+    "answer": "1:1"
+  },
+  {
+    "question": "If a:b = 3:4 and b:c = 6:7, what is a:c?",
+    "options": ["9:14", "3:7", "18:28", "9:10"],
+    "answer": "9:14"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 3:5. If 4 liters of water is added, the new ratio becomes 3:7. What was the original amount of alcohol?",
+    "options": ["6", "9", "10", "12"],
+    "answer": "6"
+  },
+  {
+    "question": "If 3x:2y = 9:8, what is x:y?",
+    "options": ["3:4", "4:3", "3:2", "2:3"],
+    "answer": "4:3"
+  },
+  {
+    "question": "In a bag, the ratio of red to blue balls is 4:7. If there are 44 red balls, how many blue balls are there?",
+    "options": ["77", "70", "66", "60"],
+    "answer": "77"
+  },
+  {
+    "question": "If a:b = 7:5 and b:c = 10:9, what is a:b:c?",
+    "options": ["14:10:9", "7:5:9", "7:10:9", "21:15:18"],
+    "answer": "14:10:9"
+  },
+  {
+    "question": "The income of A, B, and C are in the ratio 3:4:5. If the sum of their incomes is $144,000, what is A's income?",
+    "options": ["$36,000", "$48,000", "$30,000", "$40,000"],
+    "answer": "$36,000"
+  },
+  {
+    "question": "The ratio of the sides of a triangle is 5:12:13. If the perimeter is 150 units, what is the length of the longest side?",
+    "options": ["65", "60", "75", "52"],
+    "answer": "65"
+  },
+  {
+    "question": "The ratio of A to B is 4:5 and the ratio of B to C is 6:7. What is the ratio of A:B:C?",
+    "options": ["24:30:35", "4:6:7", "12:15:21", "8:10:11"],
+    "answer": "24:30:35"
+  },
+  {
+    "question": "In a survey, the ratio of people who like tea to coffee is 5:2. If 210 people like tea, how many like coffee?",
+    "options": ["84", "70", "56", "90"],
+    "answer": "84"
+  },
+  {
+    "question": "Two alloys contain copper and tin in the ratio 4:1 and 5:2 respectively. In what ratio should they be mixed to get a new alloy with copper and tin in the ratio 29:9?",
+    "options": ["2:3", "3:2", "4:5", "5:4"],
+    "answer": "2:3"
+  },
+  {
+    "question": "If 4x = 5y and 2y = 3z, then what is the ratio x:y:z?",
+    "options": ["15:12:8", "10:8:6", "12:15:10", "10:8:9"],
+    "answer": "15:12:8"
+  },
+  {
+    "question": "A and B earn in the ratio 7:9 and spend in the ratio 4:5. If their savings are equal, what is the ratio of their incomes?",
+    "options": ["35:36", "28:30", "40:45", "30:32"],
+    "answer": "35:36"
+  },
+  {
+    "question": "The ages of A and B are in the ratio 3:4. After 5 years, the ratio becomes 4:5. What is A's current age?",
+    "options": ["15", "18", "20", "24"],
+    "answer": "15"
+  },
+  
+
+  {
+    "question": "The ratio of the present ages of A and B is 4:5. Five years from now, the ratio will be 5:6. What is B's current age?",
+    "options": ["25", "30", "35", "40"],
+    "answer": "30"
+  },
+  {
+    "question": "If a:b = 3:4 and b + c = 35 with b:c = 7:4, find the value of c.",
+    "options": ["15", "20", "16", "18"],
+    "answer": "16"
+  },
+  {
+    "question": "If 3x = 4y and 2y = z, what is the ratio x:y:z?",
+    "options": ["3:4:8", "3:4:2", "6:8:8", "3:4:4"],
+    "answer": "3:4:8"
+  },
+  {
+    "question": "If a:b = 2:3 and b:c = 5:6 and c:d = 4:5, what is the ratio a:d?",
+    "options": ["4:15", "2:3", "20:45", "2:5"],
+    "answer": "4:15"
+  },
+  {
+    "question": "If the price of gold and silver are in the ratio 5:3 and gold and platinum in the ratio 10:9, what is the ratio of silver to platinum?",
+    "options": ["2:3", "3:5", "3:6", "3:4"],
+    "answer": "3:6"
+  },
+  {
+    "question": "A and B share profits in the ratio 3:5. If they earned a total profit of $640, how much did A receive?",
+    "options": ["$240", "$320", "$280", "$360"],
+    "answer": "$240"
+  },
+  {
+    "question": "The ratio of two numbers is 7:9. If their difference is 16, what is the sum?",
+    "options": ["112", "128", "144", "96"],
+    "answer": "128"
+  },
+  {
+    "question": "If x:y = 7:3 and y:z = 6:5, then what is x:y:z?",
+    "options": ["42:18:15", "14:6:5", "7:3:2", "21:9:5"],
+    "answer": "42:18:15"
+  },
+  {
+    "question": "If the ratio of A to B is 2:3 and the sum is 100, what is the value of A?",
+    "options": ["40", "45", "50", "60"],
+    "answer": "40"
+  },
+  {
+    "question": "A, B, and C invested in a business in the ratio 2:3:5. If the profit was $10,000, what was B’s share?",
+    "options": ["$3000", "$2500", "$2000", "$4000"],
+    "answer": "$3000"
+  },
+  {
+    "question": "If x:y = 4:7 and y:z = 2:5, what is the ratio x:y:z?",
+    "options": ["8:14:35", "4:7:10", "2:3:4", "8:7:10"],
+    "answer": "8:14:35"
+  },
+  {
+    "question": "If x:y = 5:6 and y:z = 3:4 and z:w = 2:5, find x:w.",
+    "options": ["5:8", "15:40", "15:20", "5:12"],
+    "answer": "15:40"
+  },
+  {
+    "question": "A and B are in the ratio 3:4. If both are increased by 20%, what is the new ratio?",
+    "options": ["9:10", "3:4", "6:7", "36:48"],
+    "answer": "9:10"
+  },
+  {
+    "question": "If the sides of a rectangle are in ratio 5:2 and the perimeter is 84 cm, what is the area?",
+    "options": ["280", "240", "210", "180"],
+    "answer": "280"
+  },
+  {
+    "question": "A can do a job in 10 days, B in 15 days. If they work together and divide earnings in ratio of work done, what is A's share of $500?",
+    "options": ["$300", "$200", "$250", "$350"],
+    "answer": "$300"
+  },
+  {
+    "question": "The length and breadth of a rectangle are in the ratio 3:2. If the area is 300 sq units, what is the perimeter?",
+    "options": ["60", "70", "80", "90"],
+    "answer": "80"
+  },
+  {
+    "question": "If a:b = 4:5 and b = 20, find a + b.",
+    "options": ["36", "28", "32", "25"],
+    "answer": "36"
+  },
+  {
+    "question": "If x:y = 3:4 and y = 24, find x + y.",
+    "options": ["42", "45", "48", "50"],
+    "answer": "42"
+  },
+  {
+    "question": "If a:b = 5:8 and b:c = 6:7, then what is a:c?",
+    "options": ["15:28", "5:7", "30:56", "40:48"],
+    "answer": "15:28"
+  },
+  {
+    "question": "Two numbers are in the ratio 11:13. If their sum is 96, find the smaller number.",
+    "options": ["44", "42", "48", "52"],
+    "answer": "44"
+  },
+  {
+    "question": "A, B, and C are partners and invest in the ratio 4:6:9. What is B’s share of a $3800 profit?",
+    "options": ["$1140", "$1200", "$900", "$1260"],
+    "answer": "$1140"
+  },
+  {
+    "question": "If A:B = 3:2 and B:C = 4:5, what is A:B:C?",
+    "options": ["12:8:10", "6:4:5", "9:6:5", "3:4:5"],
+    "answer": "12:8:10"
+  },
+  {
+    "question": "If the sum of two numbers is 60 and their ratio is 7:3, find the larger number.",
+    "options": ["42", "36", "48", "40"],
+    "answer": "42"
+  },
+  {
+    "question": "The weights of A, B, and C are in ratio 6:5:4. If C weighs 40 kg, find the weight of A.",
+    "options": ["60", "66", "72", "90"],
+    "answer": "60"
+  },
+  {
+    "question": "A mixture has milk and water in the ratio 5:1. How much water must be added to 30 liters of mixture to make the ratio 5:2?",
+    "options": ["5", "4", "6", "3"],
+    "answer": "6"
+  },
+  {
+    "question": "If x + y = 60 and x:y = 3:2, find the value of x.",
+    "options": ["30", "36", "24", "40"],
+    "answer": "36"
+  },
+  {
+    "question": "A bag contains red and blue marbles in the ratio 7:5. If there are 60 marbles, how many are blue?",
+    "options": ["25", "20", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "question": "The number of boys and girls in a school are in ratio 3:2. If the total number is 250, find the number of girls.",
+    "options": ["100", "120", "110", "90"],
+    "answer": "100"
+  },
+  {
+    "question": "If x:y = 2:3 and y:z = 3:4 and z:w = 4:5, what is x:w?",
+    "options": ["2:5", "2:4", "6:10", "2:5"],
+    "answer": "2:5"
+  },
+  {
+    "question": "The incomes of A and B are in the ratio 5:4 and their expenses are in the ratio 3:2. If both save $500, what is A’s income?",
+    "options": ["$2500", "$3000", "$2000", "$2800"],
+    "answer": "$2500"
+  },
+  {
+    "question": "If a:b = 3:4 and (a + b):(a - b) = 7:1, what is the value of a?",
+    "options": ["6", "9", "12", "15"],
+    "answer": "12"
+  },
+  {
+    "question": "A number is divided into two parts such that the ratio of the square of the first to the square of the second is 36:49. What is the ratio of the first to the second?",
+    "options": ["6:7", "36:49", "7:6", "5:6"],
+    "answer": "6:7"
+  },
+  {
+    "question": "If the ratio of A:B is 5:6 and B:C is 7:8 and C:D is 9:10, what is the ratio A:D?",
+    "options": ["35:80", "5:10", "105:160", "63:80"],
+    "answer": "105:160"
+  },
+  {
+    "question": "A and B are two alloys made of copper and zinc in the ratio 5:3 and 7:9 respectively. If equal quantities of both are melted, what is the ratio of copper to zinc in the new alloy?",
+    "options": ["12:12", "13:12", "6:5", "11:11"],
+    "answer": "13:12"
+  },
+  {
+    "question": "If x:y = 2:3 and y^2 - x^2 = 45, what is the value of y?",
+    "options": ["9", "6", "12", "15"],
+    "answer": "9"
+  },
+  {
+    "question": "A mixture of 90 liters contains milk and water in the ratio 7:2. How much water must be added to make the ratio 7:3?",
+    "options": ["10", "9", "8", "7"],
+    "answer": "10"
+  },
+  {
+    "question": "The ratio of income to expenditure of a person is 5:3. If he saves $1200, what is his income?",
+    "options": ["$3000", "$2400", "$2000", "$1800"],
+    "answer": "$3000"
+  },
+  {
+    "question": "If a:b = 2:3 and b:c = 4:5 and c:d = 3:2, find a:b:c:d.",
+    "options": ["8:12:15:10", "4:6:5:2", "2:3:4:5", "2:3:5:2"],
+    "answer": "8:12:15:10"
+  },
+  {
+    "question": "In a college, the ratio of male to female students is 5:4. If 20 more females join, the ratio becomes 5:5. What is the original number of females?",
+    "options": ["100", "80", "120", "90"],
+    "answer": "100"
+  },
+  {
+    "question": "A man divides $1080 among A, B, and C in the ratio 3:5:4. What is the difference between B’s and C’s share?",
+    "options": ["$90", "$60", "$120", "$100"],
+    "answer": "$90"
+  },
+  {
+    "question": "The sum of three numbers is 264. If they are in the ratio 7:8:9, find the smallest number.",
+    "options": ["56", "66", "72", "84"],
+    "answer": "56"
+  },
+  {
+    "question": "Two numbers are in the ratio 4:5. If their LCM is 180, what is the smaller number?",
+    "options": ["36", "40", "45", "48"],
+    "answer": "36"
+  },
+  {
+    "question": "A bag contains red, green, and blue balls in the ratio 5:7:3. If there are 45 red balls, how many blue balls are there?",
+    "options": ["27", "21", "18", "30"],
+    "answer": "27"
+  },
+  {
+    "question": "If 5a = 6b and 4b = 7c, then what is a:b:c?",
+    "options": ["6:5:10", "24:20:15", "30:25:14", "30:25:17.5"],
+    "answer": "30:25:14.285"
+  },
+  {
+    "question": "Two vessels contain mixtures of milk and water in the ratio 3:1 and 5:3. In what ratio should they be mixed to get a mixture with ratio 4:2?",
+    "options": ["2:3", "1:1", "3:2", "4:3"],
+    "answer": "1:1"
+  },
+  {
+    "question": "If 7x = 5y and 2y = 3z, then what is the ratio x:y:z?",
+    "options": ["7:5:10", "7:5:15", "21:15:10", "14:10:15"],
+    "answer": "21:15:10"
+  },
+  {
+    "question": "A sum of money is divided among A, B, and C in the ratio 1/2 : 1/3 : 1/4. What is B’s share if the total is $1170?",
+    "options": ["$390", "$360", "$300", "$330"],
+    "answer": "$360"
+  },
+  {
+    "question": "If 2x = 3y and 4y = 5z, then x:z = ?",
+    "options": ["3:10", "6:10", "3:5", "5:6"],
+    "answer": "3:10"
+  },
+  {
+    "question": "Three numbers are in the ratio 2:3:4. The sum of their squares is 1856. Find the numbers.",
+    "options": ["16, 24, 32", "14, 21, 28", "18, 27, 36", "12, 18, 24"],
+    "answer": "16, 24, 32"
+  },
+  {
+    "question": "If a:b = b:c = c:d = 2:3, find a:d.",
+    "options": ["8:27", "2:3", "4:9", "2:6"],
+    "answer": "8:27"
+  },
+  {
+    "question": "If x:y = 4:5 and y:z = 6:7, what is x:z?",
+    "options": ["24:35", "4:7", "6:9", "5:7"],
+    "answer": "24:35"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 5:3. If 16 liters of water is added, the ratio becomes 5:7. Find the original quantity of alcohol.",
+    "options": ["20", "25", "30", "35"],
+    "answer": "20"
+  },
+  {
+    "question": "The salaries of A, B, and C are in the ratio 4:5:6. If the total salary is $75,000, how much more does C earn than A?",
+    "options": ["$5,000", "$10,000", "$15,000", "$20,000"],
+    "answer": "$5,000"
+  },
+  {
+    "question": "If the ratio of ages of A and B is 4:3 and the sum of their ages is 56, find A’s age 4 years hence.",
+    "options": ["36", "32", "40", "34"],
+    "answer": "36"
+  },
+  {
+    "question": "A sum of $1200 is divided between A and B in the ratio 2:3. If B gives $100 to A, what is the new ratio of their amounts?",
+    "options": ["7:8", "3:4", "4:5", "6:7"],
+    "answer": "7:8"
+  },
+  {
+    "question": "If a:b = 4:9 and a + b = 260, find a.",
+    "options": ["80", "90", "100", "110"],
+    "answer": "80"
+  },
+  {
+    "question": "If x:y = 2:3 and y:z = 4:5, what is x:y:z?",
+    "options": ["8:12:15", "2:3:4", "4:6:5", "6:9:10"],
+    "answer": "8:12:15"
+  },
+  {
+    "question": "A:B = 3:2, B:C = 2:5. Find A:B:C.",
+    "options": ["6:4:10", "3:2:5", "9:6:15", "12:8:20"],
+    "answer": "6:4:10"
+  },
+  {
+    "question": "The angles of a triangle are in the ratio 2:3:4. Find the measure of the smallest angle.",
+    "options": ["40°", "50°", "60°", "30°"],
+    "answer": "40°"
+  },
+  {
+    "question": "The ratio of two numbers is 9:5. If 6 is added to both numbers, the new ratio is 5:3. Find the numbers.",
+    "options": ["18, 10", "27, 15", "36, 20", "45, 25"],
+    "answer": "27, 15"
+  },
+  {
+    "question": "The income of a person is divided into savings and expenses in the ratio 2:5. If the savings are $800, what is the income?",
+    "options": ["$2800", "$2400", "$2000", "$1800"],
+    "answer": "$2800"
+  },
+  {
+    "question": "A can do a work in 20 days, B in 30 days. If they work together, in what ratio should they share the earnings?",
+    "options": ["3:2", "2:3", "5:3", "3:5"],
+    "answer": "3:2"
+  },
+  {
+    "question": "If a:b = 7:9, b:c = 6:5, what is a:c?",
+    "options": ["14:15", "42:45", "7:5", "2:3"],
+    "answer": "42:45"
+  },
+  {
+    "question": "In a class, the ratio of boys to girls is 4:5. If 8 more boys join, the ratio becomes 6:5. Find the number of girls.",
+    "options": ["40", "50", "60", "70"],
+    "answer": "50"
+  },
+  {
+    "question": "Two numbers are in the ratio 5:8. If their difference is 39, find the numbers.",
+    "options": ["65, 104", "45, 72", "60, 96", "50, 89"],
+    "answer": "65, 104"
+  },
+  {
+    "question": "If x:y = 5:6 and x + y = 66, find x - y.",
+    "options": ["6", "8", "10", "12"],
+    "answer": "6"
+  },
+  {
+    "question": "If the ages of A and B are in the ratio 3:4 and after 5 years the ratio becomes 4:5, what is A’s current age?",
+    "options": ["15", "18", "20", "24"],
+    "answer": "15"
+  },
+  {
+    "question": "The ratio of men to women in a company is 7:5. If 20 women join, the ratio becomes 7:6. Find the original number of women.",
+    "options": ["100", "120", "140", "160"],
+    "answer": "100"
+  },
+  {
+    "question": "In a certain office, the ratio of typewriters to computers is 4:5. If 20 more typewriters are added, the ratio becomes 6:5. Find the original number of typewriters.",
+    "options": ["80", "100", "120", "150"],
+    "answer": "100"
+  },
+  {
+    "question": "If a:b = 1:2, b:c = 3:4, and c:d = 2:5, find a:d.",
+    "options": ["3:20", "1:20", "2:5", "3:10"],
+    "answer": "3:20"
+  },
+  {
+    "question": "A mixture contains liquids A and B in the ratio 7:5. If 9 liters of B is added, the ratio becomes 7:8. Find the original quantity of A.",
+    "options": ["42", "49", "56", "63"],
+    "answer": "42"
+  },
+  {
+    "question": "If the ratio of circumference to diameter is π, and the diameter of a circle is in the ratio 2:3 with another, what is the ratio of their circumferences?",
+    "options": ["2:3", "3:2", "4:5", "5:4"],
+    "answer": "2:3"
+  },
+  {
+    "question": "Two numbers are in the ratio 5:7. If both are multiplied by 4, what will be the new ratio?",
+    "options": ["5:7", "20:28", "1:1", "7:5"],
+    "answer": "5:7"
+  },
+  {
+    "question": "If a:b = 3:4 and a^2 + b^2 = 100, find the value of a.",
+    "options": ["6", "7", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "The ratio of A and B’s salaries is 5:4. If each receives a $1000 raise, the new ratio becomes 6:5. What is A’s new salary?",
+    "options": ["$6000", "$7000", "$5000", "$8000"],
+    "answer": "$6000"
+  },
+  {
+    "question": "If a:b = 2:3 and b:c = 4:5 and c:d = 6:7, find a:d.",
+    "options": ["16:35", "8:35", "16:42", "4:5"],
+    "answer": "16:35"
+  },
+  {
+    "question": "In a college election, the votes of three candidates A, B, and C are in the ratio 4:5:6. If the total votes are 7500, how many did C receive?",
+    "options": ["2500", "3000", "2000", "2700"],
+    "answer": "3000"
+  },
+  {
+    "question": "If the ratio of two numbers is 2:3 and the product is 216, what is the sum?",
+    "options": ["36", "54", "60", "72"],
+    "answer": "54"
+  },
+  {
+    "question": "If a:b = 3:2 and b:c = 7:5 and c:d = 6:5, find the ratio a:d.",
+    "options": ["63:50", "9:5", "6:5", "21:10"],
+    "answer": "63:50"
+  },
+  {
+    "question": "If 8 men can do a job in 12 days and 6 women can do it in 16 days, what is the ratio of efficiency of a man to a woman?",
+    "options": ["2:1", "4:3", "3:2", "1:2"],
+    "answer": "2:1"
+  }
+
+
+
+
+
+
+]
