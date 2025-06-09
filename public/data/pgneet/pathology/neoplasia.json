@@ -1,0 +1,494 @@
+[
+  {
+    "question": "Which oncogene is most commonly associated with Burkitt lymphoma?",
+    "options": ["MYC", "BCL-2", "RAS", "ABL"],
+    "answer": "MYC"
+  },
+  {
+    "question": "Which of the following is a hallmark of malignant tumors?",
+    "options": ["Well circumscribed borders", "Slow growth", "Invasion of surrounding tissues", "No recurrence after excision"],
+    "answer": "Invasion of surrounding tissues"
+  },
+  {
+    "question": "Which tumor marker is most specific for hepatocellular carcinoma?",
+    "options": ["CA-19.9", "CEA", "AFP", "CA-125"],
+    "answer": "AFP"
+  },
+  {
+    "question": "Retinoblastoma involves mutation in which cell cycle regulatory protein?",
+    "options": ["p53", "Cyclin D", "Rb", "CDK4"],
+    "answer": "Rb"
+  },
+  {
+    "question": "Which of the following features is typical of anaplastic cells?",
+    "options": ["High degree of differentiation", "Uniform size", "High N:C ratio", "Low mitotic activity"],
+    "answer": "High N:C ratio"
+  },
+  {
+    "question": "Which virus is associated with Kaposi sarcoma?",
+    "options": ["HBV", "HCV", "HHV-8", "EBV"],
+    "answer": "HHV-8"
+  },
+  {
+    "question": "Which of the following genes is a tumor suppressor gene?",
+    "options": ["HER2", "p53", "MYC", "RAS"],
+    "answer": "p53"
+  },
+  {
+    "question": "Which of the following is a chemical carcinogen?",
+    "options": ["UVB radiation", "Aflatoxin B1", "HTLV-1", "Helicobacter pylori"],
+    "answer": "Aflatoxin B1"
+  },
+  {
+    "question": "Which process involves formation of new blood vessels in tumor growth?",
+    "options": ["Invasion", "Angiogenesis", "Metaplasia", "Transdifferentiation"],
+    "answer": "Angiogenesis"
+  },
+  {
+    "question": "Which of the following is a proto-oncogene?",
+    "options": ["BRCA1", "p21", "APC", "RAS"],
+    "answer": "RAS"
+  },
+  {
+    "question": "Chronic inflammation is linked to which step of carcinogenesis?",
+    "options": ["Initiation", "Promotion", "Progression", "Metastasis"],
+    "answer": "Promotion"
+  },
+  {
+    "question": "The most common site for metastasis of prostate cancer is:",
+    "options": ["Liver", "Brain", "Lung", "Bone"],
+    "answer": "Bone"
+  },
+  {
+    "question": "Li-Fraumeni syndrome is associated with a mutation in:",
+    "options": ["RB gene", "BRCA2", "p53", "NF1"],
+    "answer": "p53"
+  },
+  {
+    "question": "A benign tumor of glandular origin is called:",
+    "options": ["Adenocarcinoma", "Papilloma", "Adenoma", "Fibroma"],
+    "answer": "Adenoma"
+  },
+  {
+    "question": "Microsatellite instability is associated with:",
+    "options": ["Breast cancer", "Lung cancer", "Lynch syndrome", "Melanoma"],
+    "answer": "Lynch syndrome"
+  },
+  {
+    "question": "The Philadelphia chromosome is t(9;22) translocation seen in:",
+    "options": ["AML", "CML", "CLL", "ALL"],
+    "answer": "CML"
+  },
+  {
+    "question": "p53 prevents cancer by inducing:",
+    "options": ["Apoptosis", "Angiogenesis", "Mitosis", "Metastasis"],
+    "answer": "Apoptosis"
+  },
+  {
+    "question": "The 'two-hit' hypothesis is best associated with which gene?",
+    "options": ["p53", "BRCA1", "RB", "MYC"],
+    "answer": "RB"
+  },
+  {
+    "question": "Gleevec (Imatinib) is most effective against tumors with:",
+    "options": ["EGFR mutation", "ALK mutation", "BCR-ABL fusion", "KRAS mutation"],
+    "answer": "BCR-ABL fusion"
+  },
+  {
+    "question": "Which virus is most commonly associated with cervical cancer?",
+    "options": ["HIV", "HSV", "HPV", "EBV"],
+    "answer": "HPV"
+  },
+  {
+    "question": "Which tumor suppressor gene is located on chromosome 17p?",
+    "options": ["APC", "RB", "p53", "NF2"],
+    "answer": "p53"
+  },
+  {
+    "question": "Most carcinomas spread via which route?",
+    "options": ["Hematogenous", "Lymphatic", "Transcoelomic", "Direct extension"],
+    "answer": "Lymphatic"
+  },
+  {
+    "question": "Adenocarcinoma of colon is commonly associated with mutation in:",
+    "options": ["EGFR", "HER2", "APC", "MYC"],
+    "answer": "APC"
+  },
+  {
+    "question": "Which cancer shows psammoma bodies?",
+    "options": ["Renal cell carcinoma", "Medullary thyroid carcinoma", "Papillary thyroid carcinoma", "Hepatocellular carcinoma"],
+    "answer": "Papillary thyroid carcinoma"
+  },
+  {
+    "question": "Which phase of cell cycle is targeted by most chemotherapy drugs?",
+    "options": ["G0", "G1", "S", "G2"],
+    "answer": "S"
+  },
+  {
+    "question": "The Warburg effect in cancer refers to:",
+    "options": ["Oxidative phosphorylation", "Anaerobic glycolysis", "Lipid metabolism", "Krebs cycle blockade"],
+    "answer": "Anaerobic glycolysis"
+  },
+  {
+    "question": "Which tumor shows Schiller-Duval bodies?",
+    "options": ["Choriocarcinoma", "Yolk sac tumor", "Dysgerminoma", "Seminoma"],
+    "answer": "Yolk sac tumor"
+  },
+  {
+    "question": "CA-125 is a tumor marker for:",
+    "options": ["Breast cancer", "Colon cancer", "Ovarian cancer", "Lung cancer"],
+    "answer": "Ovarian cancer"
+  },
+  {
+    "question": "Germline mutations in BRCA1 increase risk for:",
+    "options": ["Lung cancer", "Colon cancer", "Breast and ovarian cancer", "Pancreatic cancer"],
+    "answer": "Breast and ovarian cancer"
+  },
+  {
+    "question": "The most common cancer in men worldwide is:",
+    "options": ["Lung", "Liver", "Prostate", "Colorectal"],
+    "answer": "Lung"
+  },
+  {
+    "question": "Desmoplasia refers to:",
+    "options": ["Inflammation around tumor", "Necrosis within tumor", "Fibrous tissue growth around tumor", "Angiogenesis"],
+    "answer": "Fibrous tissue growth around tumor"
+  },
+  {
+    "question": "Loss of E-cadherin function contributes to:",
+    "options": ["Increased differentiation", "Cell adhesion", "Tumor invasion and metastasis", "Cell cycle arrest"],
+    "answer": "Tumor invasion and metastasis"
+  },
+  {
+    "question": "Tumor grading assesses:",
+    "options": ["Extent of spread", "Cellular differentiation", "Stage of cancer", "Molecular subtype"],
+    "answer": "Cellular differentiation"
+  },
+  {
+    "question": "Which gene regulates the G1-S checkpoint?",
+    "options": ["p53", "CDK2", "pRb", "Cyclin B"],
+    "answer": "pRb"
+  },
+  {
+    "question": "The most important prognostic factor in most malignancies is:",
+    "options": ["Histologic grade", "Tumor size", "Tumor stage", "Mitotic rate"],
+    "answer": "Tumor stage"
+  },
+  {
+    "question": "Which cancer type is least likely to metastasize?",
+    "options": ["Basal cell carcinoma", "Melanoma", "Squamous cell carcinoma", "Renal cell carcinoma"],
+    "answer": "Basal cell carcinoma"
+  },
+  {
+    "question": "Which of the following cancers is linked to asbestos exposure?",
+    "options": ["Lung carcinoma", "Mesothelioma", "Colon carcinoma", "Pancreatic carcinoma"],
+    "answer": "Mesothelioma"
+  },
+  {
+    "question": "Which neoplasm is associated with Reed-Sternberg cells?",
+    "options": ["NHL", "Hodgkin lymphoma", "Myeloma", "Leukemia"],
+    "answer": "Hodgkin lymphoma"
+  },
+  {
+    "question": "Bence Jones proteins are seen in which condition?",
+    "options": ["CLL", "AML", "Multiple myeloma", "NHL"],
+    "answer": "Multiple myeloma"
+  },
+  {
+    "question": "Which feature indicates a high-grade tumor?",
+    "options": ["Well-differentiated cells", "Low mitotic index", "High pleomorphism", "Minimal necrosis"],
+    "answer": "High pleomorphism"
+  },
+  {
+    "question": "An oncogene typically encodes for:",
+    "options": ["Tumor suppressor proteins", "Cell cycle inhibitors", "Growth factors or receptors", "DNA repair enzymes"],
+    "answer": "Growth factors or receptors"
+  },
+  {
+    "question": "Which immunohistochemical marker is used to identify epithelial tumors?",
+    "options": ["CD45", "S100", "Cytokeratin", "Desmin"],
+    "answer": "Cytokeratin"
+  },
+  {
+    "question": "Which tumor is derived from neural crest cells?",
+    "options": ["Melanoma", "Fibroma", "Osteosarcoma", "Lipoma"],
+    "answer": "Melanoma"
+  },
+  {
+    "question": "What is the primary cause of paraneoplastic hypercalcemia?",
+    "options": ["Bone metastasis", "Increased PTH", "Secretion of PTHrP", "Vitamin D toxicity"],
+    "answer": "Secretion of PTHrP"
+  },
+  {
+    "question": "Which is an example of tumor heterogeneity?",
+    "options": ["All tumor cells have same genotype", "All cells divide at same rate", "Genetic variation within same tumor", "Single mutation causes cancer"],
+    "answer": "Genetic variation within same tumor"
+  },
+  {
+    "question": "The Ames test is used for detecting:",
+    "options": ["Infectivity", "Carcinogenicity", "Tumor staging", "Tumor grade"],
+    "answer": "Carcinogenicity"
+  },
+  {
+    "question": "What is the mechanism of action of Bevacizumab?",
+    "options": ["EGFR inhibition", "VEGF inhibition", "PDL-1 blockade", "BCR-ABL inhibition"],
+    "answer": "VEGF inhibition"
+  },
+  {
+    "question": "Which enzyme is increased in cancer cells for telomere maintenance?",
+    "options": ["Telomerase", "Topoisomerase", "Reverse transcriptase", "Ligase"],
+    "answer": "Telomerase"
+  },
+    {
+        "question": "Which of the following is a common paraneoplastic syndrome associated with small cell lung cancer?",
+        "options": ["Cushing's syndrome", "Hypercalcemia", "Polycythemia", "Hypoglycemia"],
+        "answer": "Cushing's syndrome"
+    },
+    {
+        "question": "Which type of cancer is most commonly associated with the BRCA2 gene mutation?",
+        "options": ["Breast cancer", "Ovarian cancer", "Prostate cancer", "Pancreatic cancer"],
+        "answer": "Prostate cancer"
+    },
+    {
+        "question": "The most common type of skin cancer is:",
+        "options": ["Melanoma", "Basal cell carcinoma", "Squamous cell carcinoma", "Merkel cell carcinoma"],
+        "answer": "Basal cell carcinoma"
+    },
+    {
+        "question": "Which of the following is a characteristic of benign tumors?",
+        "options": ["Invasive growth", "Metastasis", "Capsulated", "High mitotic activity"],
+        "answer": "Capsulated"
+    },
+  {
+    "question": "Which of the following is most closely associated with familial adenomatous polyposis (FAP)?",
+    "options": ["KRAS mutation", "APC gene mutation", "MLH1 mutation", "TP53 mutation"],
+    "answer": "APC gene mutation"
+  },
+  {
+    "question": "Which of the following carcinomas most commonly spreads via the bloodstream?",
+    "options": ["Renal cell carcinoma", "Basal cell carcinoma", "Squamous cell carcinoma", "Adenocarcinoma of colon"],
+    "answer": "Renal cell carcinoma"
+  },
+  {
+    "question": "Which cell cycle phase is regulated by p53 through p21?",
+    "options": ["G0", "G1/S", "S", "G2/M"],
+    "answer": "G1/S"
+  },
+  {
+    "question": "Which of the following tumors is of mesenchymal origin?",
+    "options": ["Melanoma", "Sarcoma", "Carcinoma", "Lymphoma"],
+    "answer": "Sarcoma"
+  },
+  {
+    "question": "Which tumor is most likely to exhibit hormone production?",
+    "options": ["Liposarcoma", "Small cell carcinoma of lung", "Renal cell carcinoma", "Chondrosarcoma"],
+    "answer": "Small cell carcinoma of lung"
+  },
+  {
+    "question": "Which is the most important factor determining cancer metastasis?",
+    "options": ["Size of tumor", "Grade", "Angiogenesis", "Invasion of basement membrane"],
+    "answer": "Invasion of basement membrane"
+  },
+  {
+    "question": "Which mutation leads to constitutive activation of tyrosine kinase in CML?",
+    "options": ["EGFR", "BCR-ABL", "RET", "HER2"],
+    "answer": "BCR-ABL"
+  },
+  {
+    "question": "The most common site of hematogenous metastasis from colorectal carcinoma is:",
+    "options": ["Lung", "Bone", "Liver", "Brain"],
+    "answer": "Liver"
+  },
+  {
+    "question": "Which cancer is most commonly associated with vinyl chloride exposure?",
+    "options": ["Lung carcinoma", "Angiosarcoma of liver", "Renal cell carcinoma", "Skin cancer"],
+    "answer": "Angiosarcoma of liver"
+  },
+  {
+    "question": "In paraneoplastic syndromes, Lambert-Eaton syndrome is seen in:",
+    "options": ["Ovarian cancer", "Breast cancer", "Small cell lung cancer", "Colon cancer"],
+    "answer": "Small cell lung cancer"
+  },
+  {
+    "question": "Sporadic retinoblastoma is caused by:",
+    "options": ["One germline and one somatic mutation", "Two somatic mutations", "One somatic mutation", "No mutation"],
+    "answer": "Two somatic mutations"
+  },
+  {
+    "question": "Which of the following carcinomas is known for its perineural invasion?",
+    "options": ["Adenocarcinoma of colon", "Basal cell carcinoma", "Prostate carcinoma", "Adenoid cystic carcinoma"],
+    "answer": "Adenoid cystic carcinoma"
+  },
+  {
+    "question": "Elevated serum calcitonin is a marker for:",
+    "options": ["Papillary thyroid carcinoma", "Medullary thyroid carcinoma", "Follicular thyroid carcinoma", "Anaplastic carcinoma"],
+    "answer": "Medullary thyroid carcinoma"
+  },
+  {
+    "question": "Which is the most radiosensitive phase of the cell cycle?",
+    "options": ["G1", "S", "G2", "M"],
+    "answer": "M"
+  },
+  {
+    "question": "Which gene is involved in mismatch repair and associated with HNPCC?",
+    "options": ["MLH1", "BRCA1", "APC", "TP53"],
+    "answer": "MLH1"
+  },
+  {
+    "question": "The most reliable indicator of malignancy in a tumor is:",
+    "options": ["Pleomorphism", "Anaplasia", "Invasion", "Hyperchromasia"],
+    "answer": "Invasion"
+  },
+  {
+    "question": "Which tumor suppressor gene is defective in von Hippel-Lindau disease?",
+    "options": ["TP53", "VHL", "NF2", "APC"],
+    "answer": "VHL"
+  },
+  {
+    "question": "Which tumor shows a biphasic pattern histologically?",
+    "options": ["Fibrosarcoma", "Wilms tumor", "Choriocarcinoma", "Neuroblastoma"],
+    "answer": "Wilms tumor"
+  },
+  {
+    "question": "Which of the following is most likely to cause paraneoplastic Cushing syndrome?",
+    "options": ["Pancreatic adenocarcinoma", "Squamous cell lung carcinoma", "Small cell lung carcinoma", "Renal cell carcinoma"],
+    "answer": "Small cell lung carcinoma"
+  },
+  {
+    "question": "Which cancer most commonly metastasizes to the brain?",
+    "options": ["Colon cancer", "Melanoma", "Breast cancer", "Prostate cancer"],
+    "answer": "Lung cancer"
+  },
+  {
+    "question": "Which of the following is a tumor marker for pancreatic carcinoma?",
+    "options": ["CA-125", "CA 19-9", "AFP", "CEA"],
+    "answer": "CA 19-9"
+  },
+  {
+    "question": "Which tumor is most likely to show Homer Wright rosettes?",
+    "options": ["Ependymoma", "Neuroblastoma", "Medulloblastoma", "Retinoblastoma"],
+    "answer": "Neuroblastoma"
+  },
+  {
+    "question": "Which is the key regulator of angiogenesis in tumors?",
+    "options": ["VEGF", "EGFR", "PDGF", "TGF-beta"],
+    "answer": "VEGF"
+  },
+  {
+    "question": "A benign tumor of striated muscle is called:",
+    "options": ["Leiomyoma", "Rhabdomyoma", "Fibroma", "Lipoma"],
+    "answer": "Rhabdomyoma"
+  },
+  {
+    "question": "The sentinel lymph node biopsy is primarily used in the management of:",
+    "options": ["Lung carcinoma", "Melanoma", "Pancreatic cancer", "Colon cancer"],
+    "answer": "Melanoma"
+  },
+  {
+    "question": "A carcinoma in situ differs from invasive carcinoma by:",
+    "options": ["Presence of mitoses", "Nuclear atypia", "Breach of basement membrane", "Cellular pleomorphism"],
+    "answer": "Breach of basement membrane"
+  },
+  {
+    "question": "Microsatellite instability is most closely associated with which of the following colorectal cancers?",
+    "options": ["Sporadic adenocarcinoma", "HNPCC", "FAP", "Ulcerative colitis-associated carcinoma"],
+    "answer": "HNPCC"
+  },
+  {
+    "question": "The role of metalloproteinases in neoplasia is:",
+    "options": ["Induce apoptosis", "Stimulate angiogenesis", "Break down extracellular matrix", "Promote mitosis"],
+    "answer": "Break down extracellular matrix"
+  },
+  {
+    "question": "Which immunohistochemical marker is used for identifying lymphoid tumors?",
+    "options": ["Cytokeratin", "Desmin", "CD45", "S-100"],
+    "answer": "CD45"
+  },
+  {
+    "question": "Tumor doubling time is a function of:",
+    "options": ["Mitotic index", "Necrosis", "Differentiation", "Apoptotic rate"],
+    "answer": "Mitotic index"
+  },
+  {
+    "question": "Which viral genome is integrated in cervical cancer cells?",
+    "options": ["HSV", "HPV", "EBV", "HTLV-1"],
+    "answer": "HPV"
+  },
+  {
+    "question": "Which neoplasm typically shows glycogen-rich clear cells?",
+    "options": ["Wilms tumor", "Renal cell carcinoma", "Neuroblastoma", "Ewing sarcoma"],
+    "answer": "Renal cell carcinoma"
+  },
+  {
+    "question": "The Gleason score is used for grading which malignancy?",
+    "options": ["Prostate carcinoma", "Breast carcinoma", "Colon carcinoma", "Pancreatic carcinoma"],
+    "answer": "Prostate carcinoma"
+  },
+  {
+    "question": "Which of the following is an early event in colon cancer pathogenesis?",
+    "options": ["p53 mutation", "KRAS mutation", "APC mutation", "DCC mutation"],
+    "answer": "APC mutation"
+  },
+  {
+    "question": "Which gene regulates contact inhibition?",
+    "options": ["MYC", "RAS", "NF2", "ABL"],
+    "answer": "NF2"
+  },
+  {
+    "question": "A malignant tumor arising from endothelial cells is called:",
+    "options": ["Hemangioma", "Angiosarcoma", "Lymphangioma", "Chondrosarcoma"],
+    "answer": "Angiosarcoma"
+  },
+  {
+    "question": "Which of the following is most radioresistant?",
+    "options": ["Lymphoma", "Seminoma", "Melanoma", "Ewing sarcoma"],
+    "answer": "Melanoma"
+  },
+  {
+    "question": "Which tumor is associated with hyaline globules (PAS positive)?",
+    "options": ["Yolk sac tumor", "Choriocarcinoma", "Seminoma", "Teratoma"],
+    "answer": "Yolk sac tumor"
+  },
+  {
+    "question": "The function of PTEN gene in cancer suppression involves:",
+    "options": ["DNA repair", "Cell cycle arrest", "Inhibition of PI3K pathway", "Apoptosis via p53"],
+    "answer": "Inhibition of PI3K pathway"
+  },
+  {
+    "question": "Which tumor is associated with the t(11;22) translocation?",
+    "options": ["Ewing sarcoma", "Synovial sarcoma", "Rhabdomyosarcoma", "Osteosarcoma"],
+    "answer": "Ewing sarcoma"
+  },
+  {
+    "question": "Reed-Sternberg cells express which markers?",
+    "options": ["CD3 and CD20", "CD15 and CD30", "CD10 and CD19", "CD45 and CD56"],
+    "answer": "CD15 and CD30"
+  },
+  {
+    "question": "Which molecule is primarily responsible for anchoring epithelial cells to basement membrane?",
+    "options": ["E-cadherin", "Laminin", "Collagen IV", "Integrin"],
+    "answer": "Integrin"
+  },
+  {
+    "question": "Which of the following tumors arises from chromaffin cells?",
+    "options": ["Neuroblastoma", "Pheochromocytoma", "Medulloblastoma", "Ganglioneuroma"],
+    "answer": "Pheochromocytoma"
+  },
+  {
+    "question": "The 'Indian file' pattern is characteristic of which carcinoma?",
+    "options": ["Invasive ductal carcinoma", "Lobular carcinoma", "Medullary carcinoma", "Tubular carcinoma"],
+    "answer": "Lobular carcinoma"
+  },
+  {
+    "question": "Which of the following cancers is most commonly associated with Paget disease of the breast?",
+    "options": ["Lobular carcinoma", "Ductal carcinoma in situ", "Invasive ductal carcinoma", "Mucinous carcinoma"],
+    "answer": "Ductal carcinoma in situ"
+  },
+  {
+    "question": "Which tumor is most likely to arise in AIDS patients?",
+    "options": ["Basal cell carcinoma", "Kaposi sarcoma", "Squamous cell carcinoma", "Adenocarcinoma"],
+    "answer": "Kaposi sarcoma"
+  }
+
+
+]

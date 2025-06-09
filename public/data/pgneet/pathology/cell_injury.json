@@ -1,0 +1,489 @@
+[
+  {
+    "question": "Which of the following is a hallmark of reversible cell injury?",
+    "options": ["Nuclear pyknosis", "Karyorrhexis", "Cell swelling", "Karyolysis"],
+    "answer": "Cell swelling"
+  },
+  {
+    "question": "Which organelle is primarily involved in hydropic change during reversible injury?",
+    "options": ["Lysosome", "Nucleus", "Mitochondria", "Endoplasmic reticulum"],
+    "answer": "Endoplasmic reticulum"
+  },
+  {
+    "question": "Which of the following is characteristic of irreversible cell injury?",
+    "options": ["Cell swelling", "Fatty change", "Ribosomal detachment", "Lysosomal rupture"],
+    "answer": "Lysosomal rupture"
+  },
+  {
+    "question": "Which of the following best indicates mitochondrial damage in cell injury?",
+    "options": ["Ribosomal disaggregation", "Formation of myelin figures", "Mitochondrial amorphous densities", "Cell swelling"],
+    "answer": "Mitochondrial amorphous densities"
+  },
+  {
+    "question": "What is the most sensitive indicator of cell membrane damage?",
+    "options": ["LDH release", "K+ influx", "Na+ retention", "Ca++ influx"],
+    "answer": "LDH release"
+  },
+  {
+    "question": "Which ion plays a critical role in irreversible cell injury?",
+    "options": ["Sodium", "Potassium", "Calcium", "Magnesium"],
+    "answer": "Calcium"
+  },
+  {
+    "question": "Which of the following is an early change in hypoxic injury?",
+    "options": ["Karyolysis", "Pyknosis", "Cellular swelling", "Apoptosis"],
+    "answer": "Cellular swelling"
+  },
+  {
+    "question": "Reactive oxygen species cause cell injury primarily by:",
+    "options": ["Inhibiting protein synthesis", "Damaging DNA and membranes", "Blocking glycolysis", "Inhibiting mitosis"],
+    "answer": "Damaging DNA and membranes"
+  },
+  {
+    "question": "Which enzyme detoxifies superoxide anion?",
+    "options": ["Catalase", "Superoxide dismutase", "Peroxidase", "Glutathione reductase"],
+    "answer": "Superoxide dismutase"
+  },
+  {
+    "question": "Lipid peroxidation in membranes is caused by:",
+    "options": ["Free radicals", "Lysosomal enzymes", "Hydropic change", "Lactic acidosis"],
+    "answer": "Free radicals"
+  },
+  {
+    "question": "All are features of necrosis EXCEPT:",
+    "options": ["Inflammation", "Karyolysis", "Membrane rupture", "Apoptotic bodies"],
+    "answer": "Apoptotic bodies"
+  },
+  {
+    "question": "Which of the following is an example of coagulative necrosis?",
+    "options": ["Brain infarct", "Liver abscess", "Tuberculosis", "Myocardial infarction"],
+    "answer": "Myocardial infarction"
+  },
+  {
+    "question": "Liquefactive necrosis is typically seen in:",
+    "options": ["Heart", "Lung", "Brain", "Kidney"],
+    "answer": "Brain"
+  },
+  {
+    "question": "Caseous necrosis is most commonly associated with:",
+    "options": ["Ischemia", "Tuberculosis", "Toxins", "Viral infections"],
+    "answer": "Tuberculosis"
+  },
+  {
+    "question": "Fat necrosis is typically seen in:",
+    "options": ["Heart", "Pancreas", "Lung", "Kidney"],
+    "answer": "Pancreas"
+  },
+  {
+    "question": "Fibrinoid necrosis is seen in:",
+    "options": ["Myocardial infarction", "Cerebral infarct", "Immune vasculitis", "Tuberculosis"],
+    "answer": "Immune vasculitis"
+  },
+  {
+    "question": "Which caspase initiates apoptosis via the intrinsic pathway?",
+    "options": ["Caspase-3", "Caspase-6", "Caspase-8", "Caspase-9"],
+    "answer": "Caspase-9"
+  },
+  {
+    "question": "Bcl-2 protein is:",
+    "options": ["Pro-apoptotic", "Anti-apoptotic", "Neutral", "Pro-necrotic"],
+    "answer": "Anti-apoptotic"
+  },
+  {
+    "question": "Which of the following is a feature of apoptosis?",
+    "options": ["Inflammation", "Cell swelling", "DNA fragmentation", "Membrane rupture"],
+    "answer": "DNA fragmentation"
+  },
+  {
+    "question": "Apoptosis is mediated by:",
+    "options": ["ATP depletion", "Caspases", "Lactic acidosis", "Lysosomal rupture"],
+    "answer": "Caspases"
+  },
+  {
+    "question": "Which of the following occurs in both apoptosis and necrosis?",
+    "options": ["Inflammation", "DNA fragmentation", "Cell swelling", "Mitochondrial permeability changes"],
+    "answer": "Mitochondrial permeability changes"
+  },
+  {
+    "question": "Which gene is a tumor suppressor and promotes apoptosis?",
+    "options": ["Bcl-2", "c-myc", "p53", "ras"],
+    "answer": "p53"
+  },
+  {
+    "question": "The first organelle affected in hypoxic injury is:",
+    "options": ["Lysosome", "Mitochondria", "Endoplasmic reticulum", "Nucleus"],
+    "answer": "Mitochondria"
+  },
+  {
+    "question": "Apoptotic bodies are removed by:",
+    "options": ["Autolysis", "Neutrophils", "Macrophages", "Natural killer cells"],
+    "answer": "Macrophages"
+  },
+  {
+    "question": "Which feature is unique to apoptosis but not necrosis?",
+    "options": ["Membrane blebbing", "Cell death", "DNA damage", "Mitochondrial damage"],
+    "answer": "Membrane blebbing"
+  },
+  {
+    "question": "Which of the following free radicals is most reactive?",
+    "options": ["Superoxide", "Hydroxyl", "Hydrogen peroxide", "Singlet oxygen"],
+    "answer": "Hydroxyl"
+  },
+  {
+    "question": "Carbon tetrachloride causes injury by generating:",
+    "options": ["Oxygen radicals", "Peroxynitrite", "Free radicals", "Nitric oxide"],
+    "answer": "Free radicals"
+  },
+  {
+    "question": "Which molecule is involved in apoptosis but not necrosis?",
+    "options": ["Caspase-3", "ATP", "Na+/K+ pump", "Lactate"],
+    "answer": "Caspase-3"
+  },
+  {
+    "question": "In apoptosis, cell size:",
+    "options": ["Increases", "Swells", "Decreases", "Remains same"],
+    "answer": "Decreases"
+  },
+  {
+    "question": "ATP depletion leads to failure of which pump first?",
+    "options": ["Na+/K+ ATPase", "Ca++ ATPase", "H+/K+ ATPase", "Cl- channels"],
+    "answer": "Na+/K+ ATPase"
+  },
+  {
+    "question": "Which of the following is an anti-oxidant enzyme?",
+    "options": ["Caspase-9", "Catalase", "Cytochrome C", "Lactate dehydrogenase"],
+    "answer": "Catalase"
+  },
+  {
+    "question": "Karyorrhexis refers to:",
+    "options": ["Cell shrinkage", "Nuclear fragmentation", "Cytoplasmic eosinophilia", "DNA cross-linking"],
+    "answer": "Nuclear fragmentation"
+  },
+  {
+    "question": "Which is not a feature of irreversible injury?",
+    "options": ["Nuclear pyknosis", "Membrane damage", "Reversible mitochondrial swelling", "Increased eosinophilia"],
+    "answer": "Reversible mitochondrial swelling"
+  },
+  {
+    "question": "Which necrosis has cheese-like appearance?",
+    "options": ["Fat", "Fibrinoid", "Caseous", "Gangrenous"],
+    "answer": "Caseous"
+  },
+  {
+    "question": "What type of necrosis is seen in pancreatitis?",
+    "options": ["Coagulative", "Liquefactive", "Caseous", "Fat"],
+    "answer": "Fat"
+  },
+  {
+    "question": "Which caspase is involved in execution phase of apoptosis?",
+    "options": ["Caspase-3", "Caspase-8", "Caspase-9", "Caspase-10"],
+    "answer": "Caspase-3"
+  },
+  {
+    "question": "Which ion influx is associated with mitochondrial damage?",
+    "options": ["K+", "Cl-", "Na+", "Ca++"],
+    "answer": "Ca++"
+  },
+  {
+    "question": "Which morphological change is last in reversible injury?",
+    "options": ["Blebbing", "Ribosomal detachment", "Mitochondrial swelling", "Nuclear pyknosis"],
+    "answer": "Nuclear pyknosis"
+  },
+  {
+    "question": "Which phase of apoptosis involves endonuclease activation?",
+    "options": ["Initiation", "Execution", "Recognition", "Degradation"],
+    "answer": "Execution"
+  },
+  {
+    "question": "What is the major phospholipid affected during membrane damage?",
+    "options": ["Lecithin", "Phosphatidylserine", "Sphingomyelin", "Phosphatidylcholine"],
+    "answer": "Phosphatidylcholine"
+  },
+  {
+    "question": "Caspase cascade is activated by:",
+    "options": ["Protein kinases", "Endonucleases", "Pro-apoptotic signals", "Phospholipase A2"],
+    "answer": "Pro-apoptotic signals"
+  },
+  {
+    "question": "Which of the following is NOT seen in apoptosis?",
+    "options": ["Cell shrinkage", "Loss of membrane integrity", "Chromatin condensation", "Formation of apoptotic bodies"],
+    "answer": "Loss of membrane integrity"
+  },
+  {
+    "question": "In which type of necrosis is architecture preserved?",
+    "options": ["Coagulative", "Liquefactive", "Caseous", "Fat"],
+    "answer": "Coagulative"
+  },
+  {
+    "question": "Gangrenous necrosis is a variant of:",
+    "options": ["Caseous necrosis", "Fat necrosis", "Fibrinoid necrosis", "Coagulative necrosis"],
+    "answer": "Coagulative necrosis"
+  },
+  {
+    "question": "Which of the following leads to activation of phospholipases?",
+    "options": ["Decreased Ca++", "Increased ATP", "Increased intracellular Ca++", "Decreased ROS"],
+    "answer": "Increased intracellular Ca++"
+  },
+  {
+    "question": "Which is NOT a feature of apoptosis?",
+    "options": ["Inflammation", "DNA fragmentation", "Blebbing", "Cell shrinkage"],
+    "answer": "Inflammation"
+  },
+  {
+    "question": "Cell swelling is due to:",
+    "options": ["Increased protein synthesis", "ATP depletion", "Apoptosis", "Nuclear condensation"],
+    "answer": "ATP depletion"
+  },
+  {
+    "question": "Which of the following is a common feature of necrosis?",
+    "options": ["Cell shrinkage", "Inflammation", "Apoptotic bodies", "Chromatin condensation"],
+    "answer": "Inflammation"
+  },
+  {
+    "question": "Which of the following is a marker of apoptosis?",
+    "options": ["Increased LDH", "DNA laddering", "Cell swelling", "Mitochondrial swelling"],
+    "answer": "DNA laddering"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of necrosis?",
+    "options": ["Cellular swelling", "Inflammation", "Apoptotic bodies", "Loss of membrane integrity"],
+    "answer": "Apoptotic bodies"
+  },
+  {
+    "question": "Which type of necrosis is associated with tuberculosis?",
+    "options": ["Coagulative", "Liquefactive", "Caseous", "Fat"],
+    "answer": "Caseous"
+  },
+  {
+    "question": "Which enzyme is involved in the intrinsic pathway of apoptosis?",
+    "options": ["Caspase-3", "Caspase-8", "Caspase-9", "Caspase-10"],
+    "answer": "Caspase-9"
+  },
+  {
+    "question": "Which of the following is a marker of oxidative stress?",
+    "options": ["Malondialdehyde", "Glutathione reductase", "Cytochrome oxidase", "LDH"],
+    "answer": "Malondialdehyde"
+  },
+  {
+    "question": "During hypoxia, which enzyme activity decreases first?",
+    "options": ["Na+/K+ ATPase", "Hexokinase", "Cytochrome oxidase", "Lactate dehydrogenase"],
+    "answer": "Cytochrome oxidase"
+  },
+  {
+    "question": "Ischemia causes more severe injury than hypoxia because:",
+    "options": ["CO2 builds up faster", "It leads to lactic acidosis", "It also blocks nutrient supply and waste removal", "More ATP is produced"],
+    "answer": "It also blocks nutrient supply and waste removal"
+  },
+  {
+    "question": "Which of the following acts as a free radical scavenger?",
+    "options": ["Vitamin K", "Vitamin B12", "Vitamin C", "Iron"],
+    "answer": "Vitamin C"
+  },
+  {
+    "question": "Which phase of apoptosis is responsible for endonuclease activation?",
+    "options": ["Initiation phase", "Execution phase", "Effector phase", "Recognition phase"],
+    "answer": "Execution phase"
+  },
+  {
+    "question": "Which ion directly activates endonucleases and proteases in cell injury?",
+    "options": ["Sodium", "Calcium", "Potassium", "Magnesium"],
+    "answer": "Calcium"
+  },
+  {
+    "question": "All of the following are causes of ATP depletion EXCEPT:",
+    "options": ["Ischemia", "Hypoxia", "Toxin exposure", "Increased oxygen supply"],
+    "answer": "Increased oxygen supply"
+  },
+  {
+    "question": "Which of the following changes is NOT a morphological indicator of reversible injury?",
+    "options": ["Cell swelling", "Nuclear condensation", "Blebbing", "Fatty change"],
+    "answer": "Nuclear condensation"
+  },
+  {
+    "question": "Which of the following indicates irreversible injury?",
+    "options": ["Membrane blebbing", "Mitochondrial amorphous densities", "Fatty change", "Ribosomal detachment"],
+    "answer": "Mitochondrial amorphous densities"
+  },
+  {
+    "question": "Which cell type is most susceptible to hypoxia?",
+    "options": ["Fibroblasts", "Skeletal muscle", "Neurons", "Keratinocytes"],
+    "answer": "Neurons"
+  },
+  {
+    "question": "Which of the following is not a free radical?",
+    "options": ["Hydroxyl radical", "Superoxide anion", "Hydrogen peroxide", "Nitric oxide"],
+    "answer": "Hydrogen peroxide"
+  },
+  {
+    "question": "Which of the following is involved in DNA repair?",
+    "options": ["p53", "Bcl-2", "Caspase-9", "Fas receptor"],
+    "answer": "p53"
+  },
+  {
+    "question": "In cell injury, mitochondrial permeability transition leads to:",
+    "options": ["Increased ATP synthesis", "Decreased ROS production", "Loss of membrane potential", "Reduced calcium influx"],
+    "answer": "Loss of membrane potential"
+  },
+  {
+    "question": "Which of the following enzymes catalyzes breakdown of H2O2?",
+    "options": ["Superoxide dismutase", "Peroxidase", "Catalase", "Cytochrome oxidase"],
+    "answer": "Catalase"
+  },
+  {
+    "question": "Which cell component is responsible for cytoplasmic eosinophilia in necrosis?",
+    "options": ["DNA breakdown", "Denatured proteins", "Ribosomal proliferation", "Fat accumulation"],
+    "answer": "Denatured proteins"
+  },
+  {
+    "question": "Which gene is anti-apoptotic?",
+    "options": ["Bax", "Bak", "p53", "Bcl-2"],
+    "answer": "Bcl-2"
+  },
+  {
+    "question": "Which of the following substances enhances free radical production?",
+    "options": ["Ethanol", "Vitamin E", "Selenium", "Glutathione"],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "Which of the following organelles plays a critical role in both necrosis and apoptosis?",
+    "options": ["Ribosome", "Mitochondria", "Lysosome", "Endoplasmic reticulum"],
+    "answer": "Mitochondria"
+  },
+  {
+    "question": "Which of the following is a cellular adaptation, not injury?",
+    "options": ["Apoptosis", "Necrosis", "Atrophy", "Autolysis"],
+    "answer": "Atrophy"
+  },
+  {
+    "question": "Which morphological feature distinguishes apoptosis from necrosis?",
+    "options": ["Nuclear damage", "Membrane rupture", "Cell swelling", "Formation of apoptotic bodies"],
+    "answer": "Formation of apoptotic bodies"
+  },
+  {
+    "question": "Which pathway of apoptosis is mediated by Fas ligand?",
+    "options": ["Intrinsic pathway", "Extrinsic pathway", "Mitochondrial pathway", "ER stress pathway"],
+    "answer": "Extrinsic pathway"
+  },
+  {
+    "question": "Pyknosis indicates:",
+    "options": ["Swelling of the nucleus", "Rupture of plasma membrane", "Condensation of chromatin", "Fragmentation of nucleus"],
+    "answer": "Condensation of chromatin"
+  },
+  {
+    "question": "Which of the following is a biochemical hallmark of cell death?",
+    "options": ["Reduced protein synthesis", "ATP depletion", "DNA laddering", "Reactive hyperemia"],
+    "answer": "DNA laddering"
+  },
+  {
+    "question": "A cell with increased eosinophilia and loss of nuclei indicates:",
+    "options": ["Reversible injury", "Apoptosis", "Irreversible injury", "Hyperplasia"],
+    "answer": "Irreversible injury"
+  },
+  {
+    "question": "Cellular swelling in early injury is due to:",
+    "options": ["Fatty change", "Nuclear damage", "Na+ and water influx", "DNA fragmentation"],
+    "answer": "Na+ and water influx"
+  },
+  {
+    "question": "Which of the following apoptotic signals is released from mitochondria?",
+    "options": ["Cytochrome c", "Caspase-8", "Caspase-3", "Fas ligand"],
+    "answer": "Cytochrome c"
+  },
+  {
+    "question": "Which of the following is a physiologic example of apoptosis?",
+    "options": ["Myocardial infarction", "Liver necrosis", "Menstrual endometrial shedding", "Brain ischemia"],
+    "answer": "Menstrual endometrial shedding"
+  },
+  {
+    "question": "Which of the following does NOT lead to necrosis?",
+    "options": ["Ischemia", "Trauma", "Radiation", "Growth factor withdrawal"],
+    "answer": "Growth factor withdrawal"
+  },
+  {
+    "question": "Which of the following necrosis is always pathological?",
+    "options": ["Apoptosis", "Coagulative necrosis", "Physiologic atrophy", "Involution"],
+    "answer": "Coagulative necrosis"
+  },
+  {
+    "question": "Which enzyme is used to detect DNA fragmentation in apoptosis?",
+    "options": ["TUNEL", "SOD", "CAT", "LDH"],
+    "answer": "TUNEL"
+  },
+  {
+    "question": "Ischemia-reperfusion injury is mainly mediated by:",
+    "options": ["ATP depletion", "Lactic acidosis", "ROS", "Fatty change"],
+    "answer": "ROS"
+  },
+  {
+    "question": "Which caspase is involved in the extrinsic pathway?",
+    "options": ["Caspase-9", "Caspase-3", "Caspase-8", "Caspase-6"],
+    "answer": "Caspase-8"
+  },
+  {
+    "question": "Which of the following is the last to occur in cell injury?",
+    "options": ["Loss of function", "ATP depletion", "Morphologic changes", "Cell death"],
+    "answer": "Morphologic changes"
+  },
+  {
+    "question": "Which one is NOT a marker of apoptosis?",
+    "options": ["DNA laddering", "Caspase activation", "Inflammation", "Apoptotic bodies"],
+    "answer": "Inflammation"
+  },
+  {
+    "question": "Which free radical is formed during ionizing radiation?",
+    "options": ["Hydroxyl radical", "Nitric oxide", "Superoxide", "Peroxynitrite"],
+    "answer": "Hydroxyl radical"
+  },
+  {
+    "question": "All are features of fatty change EXCEPT:",
+    "options": ["Intracytoplasmic vacuoles", "Common in liver", "Due to alcohol", "Seen in brain"],
+    "answer": "Seen in brain"
+  },
+  {
+    "question": "What is the appearance of necrotic myocardium on H&E staining?",
+    "options": ["Basophilic", "Hyperchromatic", "Eosinophilic", "Clear cytoplasm"],
+    "answer": "Eosinophilic"
+  },
+  {
+    "question": "Which cell type shows most rapid apoptotic changes?",
+    "options": ["Neutrophils", "Cardiac myocytes", "Hepatocytes", "Neurons"],
+    "answer": "Neutrophils"
+  },
+  {
+    "question": "Which protein releases cytochrome c from mitochondria?",
+    "options": ["Bcl-2", "Bax", "Bak", "Fas"],
+    "answer": "Bax"
+  },
+  {
+    "question": "Which is not a mechanism of free radical injury?",
+    "options": ["Lipid peroxidation", "Protein cross-linking", "DNA damage", "Glycolysis inhibition"],
+    "answer": "Glycolysis inhibition"
+  },
+  {
+    "question": "DNA damage activates which protein?",
+    "options": ["p53", "Bcl-2", "Fas", "Caspase-8"],
+    "answer": "p53"
+  },
+  {
+    "question": "Which of the following is NOT involved in intrinsic apoptosis?",
+    "options": ["Mitochondria", "Bcl-2 family", "Fas receptor", "Caspase-9"],
+    "answer": "Fas receptor"
+  },
+  {
+    "question": "Apoptosis is best detected by which microscopic feature?",
+    "options": ["Inflammatory cells", "Cell swelling", "Chromatin condensation", "Nuclear enlargement"],
+    "answer": "Chromatin condensation"
+  },
+  {
+    "question": "Which of the following cells undergo apoptosis during embryogenesis?",
+    "options": ["Myocytes", "Nephrons", "Web cells", "Kupffer cells"],
+    "answer": "Web cells"
+  },
+  {
+    "question": "Which enzyme directly activates executioner caspases?",
+    "options": ["Caspase-8", "Caspase-9", "Caspase-3", "Cytochrome c"],
+    "answer": "Caspase-9"
+  }
+
+
+]
