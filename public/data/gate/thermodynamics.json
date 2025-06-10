@@ -1,182 +1,400 @@
 [
   {
-    "question": "Which law of thermodynamics introduces the concept of entropy?",
-    "options": ["First Law", "Second Law", "Third Law", "Zeroth Law"],
-    "answer": "Second Law",
-    "difficulty": "Medium"
+    "question": "An ideal gas undergoes a reversible adiabatic expansion. If initial pressure and temperature are P1, T1 and final pressure is P2, the final temperature T2 is given by which relation?",
+    "options": ["T2 = T1 (P2/P1)^((γ−1)/γ)", "T2 = T1 (P2/P1)^(γ/(γ−1))", "T2 = T1 (P1/P2)^((γ−1)/γ)", "T2 = T1 (P1/P2)^(γ/(γ−1))"],
+    "answer": "T2 = T1 (P2/P1)^((γ−1)/γ)"
   },
   {
-    "question": "The internal energy of an ideal gas depends on:",
-    "options": ["Pressure", "Volume", "Temperature", "All of the above"],
-    "answer": "Temperature",
-    "difficulty": "Medium"
+    "question": "In a Carnot cycle, the ratio of work output to heat input is 0.4. What is the ratio of reservoir temperatures (T_L/T_H)?",
+    "options": ["0.6", "0.4", "0.5", "0.556"],
+    "answer": "0.6"
   },
   {
-    "question": "In a reversible adiabatic process, which of the following remains constant?",
-    "options": ["Entropy", "Enthalpy", "Internal Energy", "Pressure"],
-    "answer": "Entropy",
-    "difficulty": "Medium"
+    "question": "For a throttling (Joule–Thomson) process with a real gas, which of the following remains constant?",
+    "options": ["Enthalpy", "Entropy", "Internal energy", "Temperature"],
+    "answer": "Enthalpy"
   },
   {
-    "question": "Which of the following is an intensive property?",
-    "options": ["Volume", "Mass", "Temperature", "Enthalpy"],
-    "answer": "Temperature",
-    "difficulty": "Medium"
+    "question": "Clausius inequality for a cyclic process can be written as ∮δQ_rev/T ≤ 0. The equality holds for?",
+    "options": ["Irreversible cycle", "Reversible cycle", "Any real cycle", "Any adiabatic cycle"],
+    "answer": "Reversible cycle"
   },
   {
-    "question": "The COP of a Carnot refrigerator is given by:",
-    "options": ["T_H/T_C", "T_C/(T_H-T_C)", "T_H/(T_H-T_C)", "1 - T_C/T_H"],
-    "answer": "T_C/(T_H-T_C)",
-    "difficulty": "Medium"
+    "question": "A compressor compresses 1 kg/s of air from 1 bar, 300 K to 5 bar. Assuming ideal gas and isentropic process, what is the power required? (R=0.287 kJ/kg·K, cp=1.005 kJ/kg·K, γ=1.4)",
+    "options": ["≈ 210 kW", "≈ 205 kW", "≈ 220 kW", "≈ 200 kW"],
+    "answer": "≈ 205 kW"
   },
   {
-    "question": "For a pure substance, the phase rule is given by:",
-    "options": ["F=C-P+1", "F=C-P+2", "F=C+P-2", "F=C-P"],
-    "answer": "F=C-P+2",
-    "difficulty": "Medium"
+    "question": "Maxwell relations are derived from which thermodynamic potentials?",
+    "options": ["Internal energy only", "Enthalpy only", "Helmholtz and Gibbs free energies", "All four potentials"],
+    "answer": "Helmholtz and Gibbs free energies"
   },
   {
-    "question": "The entropy change for an irreversible process is:",
-    "options": ["Zero", "Negative", "Positive", "Cannot be determined"],
-    "answer": "Positive",
-    "difficulty": "Medium"
+    "question": "The Joule–Thomson inversion temperature for nitrogen is around 621 K at 1 bar. Above that, throttling warms the gas. True or false?",
+    "options": ["True", "False", "Depends on pressure", "Can’t be determined"],
+    "answer": "True"
   },
   {
-    "question": "Which cycle is used in steam power plants?",
-    "options": ["Otto", "Diesel", "Rankine", "Brayton"],
-    "answer": "Rankine",
-    "difficulty": "Medium"
+    "question": "Which expression represents Gibbs–Duhem equation?",
+    "options": ["SdT − VdP + Σni dμi = 0", "dU = TdS − PdV + Σμi dni", "dG = VdP − SdT + Σμi dni", "dF = −SdT − PdV + Σμi dni"],
+    "answer": "SdT − VdP + Σni dμi = 0"
   },
   {
-    "question": "The enthalpy is defined as:",
-    "options": ["U + PV", "U - PV", "Q - W", "P + V"],
-    "answer": "U + PV",
-    "difficulty": "Medium"
+    "question": "The efficiency of an Otto cycle depends on which parameter?",
+    "options": ["Compression ratio", "Fuel type", "Maximum temperature only", "Working fluid type"],
+    "answer": "Compression ratio"
   },
   {
-    "question": "The specific heat at constant volume for an ideal gas is related to:",
-    "options": ["Change in pressure", "Change in temperature", "Change in volume", "Change in entropy"],
-    "answer": "Change in temperature",
-    "difficulty": "Medium"
+    "question": "What is the chemical exergy of a pure substance at environmental state?",
+    "options": ["Zero", "Maximum", "Depends on phase", "Undefined"],
+    "answer": "Zero"
   },
   {
-    "question": "Which one is a path function?",
-    "options": ["Work", "Internal Energy", "Enthalpy", "Entropy"],
-    "answer": "Work",
-    "difficulty": "Medium"
+    "question": "For a steady flow control volume, the energy equation includes which kinetic term?",
+    "options": ["½ ṁ (V_out^2 − V_in^2)", "ṁ c_p ΔT", "Exergy term", "No kinetic term"],
+    "answer": "½ ṁ (V_out^2 − V_in^2)"
   },
   {
-    "question": "Which law is the basis for temperature measurement?",
+    "question": "Which law of thermodynamics implies that absolute zero temperature is unattainable?",
     "options": ["First Law", "Second Law", "Zeroth Law", "Third Law"],
-    "answer": "Zeroth Law",
-    "difficulty": "Medium"
+    "answer": "Third Law"
   },
   {
-    "question": "In a Carnot cycle, which two processes are adiabatic?",
-    "options": ["1–2 and 3–4", "2–3 and 4–1", "1–2 and 2–3", "3–4 and 4–1"],
-    "answer": "1–2 and 3–4",
-    "difficulty": "Medium"
+    "question": "In a closed system undergoing a cyclic process, the net change in internal energy is:",
+    "options": ["Zero", "Equal to net work done", "Equal to heat transferred", "Negative always"],
+    "answer": "Zero"
   },
   {
-    "question": "Which of the following has the highest specific heat?",
-    "options": ["Copper", "Aluminum", "Water", "Iron"],
-    "answer": "Water",
-    "difficulty": "Medium"
+    "question": "Which relation defines entropy change in a reversible process?",
+    "options": ["dS = δQ_rev/T", "dS = δQ/T", "dS = TdQ", "dS = Qrev×T"],
+    "answer": "dS = δQ_rev/T"
   },
   {
-    "question": "Polytropic process with n = 1 is:",
-    "options": ["Isobaric", "Isothermal", "Isochoric", "Adiabatic"],
-    "answer": "Isothermal",
-    "difficulty": "Medium"
+    "question": "In a Brayton cycle, what happens to the net work output as the pressure ratio increases?",
+    "options": ["Increases then decreases", "Always increases", "Always decreases", "Remains constant"],
+    "answer": "Increases then decreases"
   },
   {
-    "question": "Kelvin-Planck statement is related to which of the following?",
-    "options": ["First Law", "Zeroth Law", "Second Law", "Third Law"],
-    "answer": "Second Law",
-    "difficulty": "Hard"
+    "question": "Which of the following processes is not isentropic?",
+    "options": ["Adiabatic and reversible", "Throttling", "Frictionless and adiabatic", "Isothermal reversible"],
+    "answer": "Throttling"
   },
   {
-    "question": "The work done in a free expansion process is:",
-    "options": ["Maximum", "Zero", "Minimum", "Negative"],
-    "answer": "Zero",
-    "difficulty": "Hard"
+    "question": "What is the relation for work done in a polytropic process (PV^n = constant)?",
+    "options": ["W = (P2V2 - P1V1)/(1 - n)", "W = (P1V1 - P2V2)/(1 - n)", "W = n(PV)", "W = mRT ln(V2/V1)"],
+    "answer": "W = (P2V2 - P1V1)/(1 - n)"
   },
   {
-    "question": "In an isentropic process, the change in entropy is:",
-    "options": ["Positive", "Zero", "Negative", "Infinite"],
-    "answer": "Zero",
-    "difficulty": "Hard"
+    "question": "For a gas turbine cycle, regeneration is used to:",
+    "options": ["Increase efficiency", "Reduce work input", "Increase output temperature", "Improve combustion"],
+    "answer": "Increase efficiency"
   },
   {
-    "question": "For a perfect gas undergoing isothermal process, the internal energy change is:",
-    "options": ["Positive", "Negative", "Zero", "Depends on pressure"],
-    "answer": "Zero",
-    "difficulty": "Hard"
+    "question": "The enthalpy of vaporization at the critical point is:",
+    "options": ["Zero", "Maximum", "Infinite", "Undefined"],
+    "answer": "Zero"
   },
   {
-    "question": "Which equation relates pressure, volume, and temperature in thermodynamics?",
-    "options": ["Bernoulli's equation", "Clausius-Clapeyron", "Ideal gas law", "Carnot's theorem"],
-    "answer": "Ideal gas law",
-    "difficulty": "Hard"
+    "question": "In which type of thermodynamic system there is no mass or energy exchange?",
+    "options": ["Isolated", "Closed", "Open", "Adiabatic"],
+    "answer": "Isolated"
   },
   {
-    "question": "The slope of T–S diagram during a reversible adiabatic process is:",
-    "options": ["Zero", "Infinity", "Positive", "Negative"],
-    "answer": "Infinity",
-    "difficulty": "Hard"
+    "question": "Entropy is a measure of:",
+    "options": ["Disorder", "Energy", "Pressure", "Temperature"],
+    "answer": "Disorder"
   },
   {
-    "question": "Which process has maximum work output between same initial and final states?",
-    "options": ["Adiabatic", "Isothermal", "Reversible", "Irreversible"],
-    "answer": "Reversible",
-    "difficulty": "Hard"
+    "question": "In an ideal gas, internal energy is a function of:",
+    "options": ["Temperature only", "Pressure only", "Volume only", "Entropy only"],
+    "answer": "Temperature only"
   },
   {
-    "question": "In a Brayton cycle, which components are involved?",
-    "options": ["Compressor, turbine, heat exchanger", "Pump, turbine, boiler", "Compressor, turbine, combustor", "Evaporator, compressor, condenser"],
-    "answer": "Compressor, turbine, combustor",
-    "difficulty": "Hard"
+    "question": "Which of the following is NOT a point function?",
+    "options": ["Work", "Internal energy", "Temperature", "Entropy"],
+    "answer": "Work"
   },
   {
-    "question": "Which law defines the absolute zero temperature?",
-    "options": ["Zeroth", "First", "Second", "Third"],
-    "answer": "Third",
-    "difficulty": "Hard"
+    "question": "A gas expands isothermally and reversibly. What is the work done?",
+    "options": ["W = nRT ln(V2/V1)", "W = PΔV", "W = 0", "W = −nRT"],
+    "answer": "W = nRT ln(V2/V1)"
   },
   {
-    "question": "What is the unit of entropy in SI?",
-    "options": ["J/kg", "J/K", "J/kg·K", "kJ/kg"],
-    "answer": "J/kg·K",
-    "difficulty": "Hard"
+    "question": "At equilibrium, the Gibbs free energy is:",
+    "options": ["Minimum", "Maximum", "Zero", "Infinity"],
+    "answer": "Minimum"
   },
   {
-    "question": "What does Clapeyron equation relate to?",
-    "options": ["Saturation temperature", "Latent heat", "Heat capacity", "Phase change"],
-    "answer": "Phase change",
-    "difficulty": "Hard"
+    "question": "In a Rankine cycle, reheating is done to:",
+    "options": ["Increase efficiency", "Reduce condenser pressure", "Avoid turbine blade erosion", "All of the above"],
+    "answer": "All of the above"
   },
   {
-    "question": "Which of the following is not a thermodynamic property?",
-    "options": ["Pressure", "Work", "Temperature", "Volume"],
-    "answer": "Work",
-    "difficulty": "Hard"
+    "question": "Specific heat at constant pressure (cp) is always greater than cv for ideal gases because:",
+    "options": ["cp includes work done", "cv includes work done", "cp is defined at higher temp", "cv is for liquids"],
+    "answer": "cp includes work done"
   },
   {
-    "question": "The change in enthalpy for a reaction at constant pressure equals:",
-    "options": ["Q", "W", "ΔU", "ΔG"],
-    "answer": "Q",
-    "difficulty": "Hard"
+    "question": "Availability (exergy) is zero when:",
+    "options": ["System is in dead state", "System is fully insulated", "Entropy is maximum", "Work output is maximum"],
+    "answer": "System is in dead state"
   },
   {
-    "question": "The area under a P-V curve represents:",
-    "options": ["Heat", "Internal Energy", "Work", "Entropy"],
-    "answer": "Work",
-    "difficulty": "Hard"
+    "question": "A heat engine operates between 1000 K and 300 K. What is the maximum possible efficiency?",
+    "options": ["70%", "60%", "66%", "30%"],
+    "answer": "70%"
   },
   {
-    "question": "The Carnot engine is a theoretical concept because:",
-    "options": ["It uses real gases", "It assumes reversible processes", "It is inefficient", "It runs at low temperatures"],
-    "answer": "It assumes reversible processes",
-    "difficulty": "Hard"
+    "question": "For a gas obeying PV^γ = constant, γ is:",
+    "options": ["cp/cv", "cv/cp", "R/cv", "cp/R"],
+    "answer": "cp/cv"
+  },
+
+    {
+        "question": "In a Carnot cycle, the work done is equal to the difference between heat absorbed and heat rejected. If Q_H = 500 J and Q_C = 300 J, what is the work done?",
+        "options": ["200 J", "300 J", "500 J", "800 J"],
+        "answer": "200 J"
+    },
+    {
+        "question": "The efficiency of a Carnot engine operating between temperatures T_H and T_C is given by:",
+        "options": ["η = 1 - T_C/T_H", "η = T_H/T_C", "η = T_C/T_H", "η = T_H + T_C"],
+        "answer": "η = 1 - T_C/T_H"
+    },
+    {
+        "question": "In an adiabatic process for an ideal gas, the change in internal energy is equal to:",
+        "options": ["Work done on/by the system", "Heat added to the system", "Change in enthalpy", "Change in temperature"],
+        "answer": "Work done on/by the system"
+    },
+  {
+    "question": "For a polytropic process on an ideal gas, work done W = (P2V2 - P1V1)/(1 - n). What is W when n = γ?",
+    "options": ["W = Cp(T2 - T1)", "W = Cv(T2 - T1)", "W = R(T2 - T1)/(1-γ)", "W = 0"],
+    "answer": "W = R(T2 - T1)/(1-γ)"
+  },
+  {
+    "question": "If entropy change ΔS = Cp ln(T2/T1) - R ln(P2/P1), find ΔS for an ideal reversible process.",
+    "options": ["Depends on path", "Exact this", "Only temperature term", "Only pressure term"],
+    "answer": "Cp ln(T2/T1) - R ln(P2/P1)"
+  },
+  {
+    "question": "A gas mixture has exergy destruction proportional to entropy generation. Under what condition is exergy destruction zero?",
+    "options": ["Reversible", "Isothermal", "Adiabatic", "Throttling"],
+    "answer": "Reversible"
+  },
+  {
+    "question": "In an irreversible adiabatic process, the entropy change of the system is:",
+    "options": ["Positive", "Negative", "Zero", "Depends on process"],
+    "answer": "Positive"
+  },
+  {
+    "question": "During liquefaction via Linde's process, the Joule–Thomson effect is applied after which step?",
+    "options": ["Pre-cooling", "Compression", "Reheating", "Expansion"],
+    "answer": "Pre-cooling"
+  },
+  {
+    "question": "A Carnot refrigerator consumes 10 kW to remove 20 kW of heat. COP is:",
+    "options": ["2.0", "3.0", "1.5", "4.0"],
+    "answer": "2.0"
+  },
+  {
+    "question": "For van der Waals gas, the critical temperature Tc = 8a/(27Rb). So a = Tc*27Rb/8. True or false?",
+    "options": ["True", "False", "Only approximate", "Depends on b"],
+    "answer": "True"
+  },
+  {
+    "question": "Specific heat ratio γ of diatomic gas ≈ 1.4 at room temperature. If vibrational modes activate, γ:",
+    "options": ["Decreases", "Increases", "Remains same", "Becomes 1"],
+    "answer": "Decreases"
+  },
+  {
+    "question": "Which thermodynamic potential is minimized at constant T and S?",
+    "options": ["Helmholtz free energy", "Gibbs free energy", "Internal energy", "Enthalpy"],
+    "answer": "Helmholtz free energy"
+  },
+  {
+    "question": "For flow across a diffuser, total enthalpy remains constant for adiabatic flow without work. True or false?",
+    "options": ["True", "False", "Only for incompressible", "Only for compressible"],
+    "answer": "True"
+  },
+  {
+    "question": "Gibbs–Helmholtz equation relates:",
+    "options": ["ΔG, ΔH, and temperature", "Entropy and enthalpy", "Volume and pressure", "Internal energy and enthalpy"],
+    "answer": "ΔG, ΔH, and temperature"
+  },
+  {
+    "question": "Which cycle uses isobaric heat addition and isochoric heat rejection?",
+    "options": ["Diesel", "Otto", "Brayton", "Stirling"],
+    "answer": "Diesel"
+  },
+  {
+    "question": "Quality of steam x = (h - hf)/(hg - hf). For saturated mixture at x = 0.5, h =",
+    "options": ["(hf + hg)/2", "hf + 0.5 R T", "hg", "hf"],
+    "answer": "(hf + hg)/2"
+  },
+  {
+    "question": "In throttling of real gas, Joule–Thomson coefficient μJT = (∂T/∂P)_H. At inversion point μJT =",
+    "options": ["0", "∞", "1", "-1"],
+    "answer": "0"
+  },
+  {
+    "question": "Exergy of a flow stream includes kinetic, potential, and:",
+    "options": ["Chemical", "Thermal", "Available work", "Dead state"],
+    "answer": "Chemical"
+  },
+  {
+    "question": "Polytropic efficiency of compressor = (ideal work)/(actual work). Ideal work assumes:",
+    "options": ["Isentropic", "Isothermal", "Polytropic", "Throttling"],
+    "answer": "Isentropic"
+  },
+  {
+    "question": "For Otto cycle, efficiency η = 1 - 1/r^(γ-1). Thus, η increases with:",
+    "options": ["Compression ratio r", "γ decreases", "Heat addition", "Volume"],
+    "answer": "Compression ratio r"
+  },
+  {
+    "question": "In gas turbine, regenerator effectiveness ηr = (T_out_preheated - T_inlet)/(T_out_turbine - T_inlet). Maximum when:",
+    "options": ["Ideal regenerator", "No regenerator", "Infinite pressure", "Zero regenerator"],
+    "answer": "Ideal regenerator"
+  },
+  {
+    "question": "The Clapeyron equation allows prediction of slope of coexistence curve: dP/dT = L/(TΔv). L is latent heat per:",
+    "options": ["Mass", "Mole", "Volume", "Degree"],
+    "answer": "Mole"
+  },
+  {
+    "question": "Chemical potential μ = (∂G/∂n)_T,P. For pure substance, variation with pressure at constant T is:",
+    "options": ["μ increases", "decreases", "constant", "oscillates"],
+    "answer": "μ increases"
+  },
+  {
+    "question": "For irreversible mixing of ideal gases, entropy increases. ΔS > 0 because:",
+    "options": ["Spontaneous", "Heat flow", "Pressure drop", "No heat flow"],
+    "answer": "Spontaneous"
+  },
+  {
+    "question": "In Rankine cycle, back work ratio = turbine work/compressor work. It should be:",
+    "options": ["Much greater than 1", "Less than 1", "Zero", "Equal to 1"],
+    "answer": "Less than 1"
+  },
+  {
+    "question": "Carnot heat pump COP = Th/(Th - Tc). For Th=400K, Tc=300K, COP ≈",
+    "options": ["4", "1.33", "2", "8"],
+    "answer": "4"
+  },
+  {
+    "question": "For ideal gas undergoing constant-volume heat addition, pressure increases proportional to:",
+    "options": ["Temperature", "Volume", "Mass", "Entropy"],
+    "answer": "Temperature"
+  },
+  {
+    "question": "For open system, second law: ΔS_sys + ΔS_surr ≥ 0. Equality when process is:",
+    "options": ["Reversible", "Adiabatic", "Isobaric", "Isothermal"],
+    "answer": "Reversible"
+  },
+  {
+    "question": "In critical point, properties of liquid and vapor phases become equal. Compressibility factor Zc ≈",
+    "options": ["0.27", "1", "0.5", "0.8"],
+    "answer": "0.27"
+  },
+  {
+    "question": "For constant Cp ideal gas, enthalpy change Δh = ",
+    "options": ["CpΔT", "CvΔT", "RΔT", "0"],
+    "answer": "CpΔT"
+  },
+  {
+    "question": "In reversible Brayton with regeneration, optimum pressure ratio occurs when regenerator max effectiveness reached. True or false?",
+    "options": ["True", "False", "Depends on gas", "Not applicable"],
+    "answer": "True"
+  },
+  {
+    "question": "In a Helmholtz energy function A = U - TS, at constant T and V, equilibrium corresponds to:",
+    "options": ["Minimum A", "Maximum A", "dA = dS", "A = 0"],
+    "answer": "Minimum A"
+  },
+  {
+    "question": "Van der Waals equation contains correction terms a and b. 'a' corrects:",
+    "options": ["intermolecular attraction", "finite size", "temperature", "pressure"],
+    "answer": "intermolecular attraction"
+  },
+  {
+    "question": "Which statement about Clapeyron chart is true?",
+    "options": ["Entropy change ≠ Enthalpy change", "Water has 4 regimes", "Critical point slope finite", "Only gas-liquid line plotted"],
+    "answer": "Water has 4 regimes"
+  },
+  {
+    "question": "In Joule cycle (air-standard), heat exchanges are isometric and isobaric. This means:",
+    "options": ["Similarity to Otto + Diesel", "Same COP as Carnot", "Minimum work", "No rainfall"],
+    "answer": "Similarity to Otto + Diesel"
+  },
+  {
+    "question": "For isentropic nozzle flow, maximum velocity occurs when exit pressure equals ambient. True or false?",
+    "options": ["True", "False", "Only subsonic", "Only supersonic"],
+    "answer": "True"
+  },
+  {
+    "question": "In thermodynamic equilibrium, intensive properties are uniform. Which is NOT intensive?",
+    "options": ["Mass", "Temperature", "Pressure", "Chemical potential"],
+    "answer": "Mass"
+  },
+  {
+    "question": "In irreversible adiabatic compression, work input is greater than reversible case due to:",
+    "options": ["Entropy generation", "Heat transfer", "Mass change", "Pressure drop"],
+    "answer": "Entropy generation"
+  },
+  {
+    "question": "In a mixture of ideal gases, Dalton’s law holds at constant T and P. Partial pressure equals mole fraction times total. True or false?",
+    "options": ["True", "False", "Only low pressure", "Only same gas"],
+    "answer": "True"
+  },
+  {
+    "question": "For constant-pressure process in closed system, enthalpy change equals heat transfer: Δh = Q. True or false?",
+    "options": ["True", "False", "Only ideal gas", "Only incompressible"],
+    "answer": "True"
+  },
+  {
+    "question": "Find maximum theoretical efficiency of Otto cycle with γ=1.4 and r=8: η ≈",
+    "options": ["1 - 1/8^0.4 ≈ 0.56", "1 - 1/8^1.4 ≈ 0.85", "1 - 1/8^0.4 ≈ 0.42", "1 - 1/8^0.4 ≈ 0.72"],
+    "answer": "1 - 1/8^0.4 ≈ 0.56"
+  },
+  {
+    "question": "Which thermodynamic relation involves dG = V dP - S dT?",
+    "options": ["Fundamental equation for Gibbs", "Enthalpy definition", "Helmholtz definition", "Internal energy definition"],
+    "answer": "Fundamental equation for Gibbs"
+  },
+  {
+    "question": "For refrigerant cycle with superheating, is COP higher or lower than saturated vapour entry?",
+    "options": ["Higher", "Lower", "Same", "Depends on pressure"],
+    "answer": "Lower"
+  },
+  {
+    "question": "Quality of steam x + dryness fraction differ? True or false?",
+    "options": ["False", "True", "Only at critical", "No difference"],
+    "answer": "False"
+  },
+  {
+    "question": "Entropy generation term in Gouy–Stodola theorem equals:",
+    "options": ["Gear", "T0 * ΔS_gen", "Cp * ΔT", "Pressure drop"],
+    "answer": "T0 * ΔS_gen"
+  },
+  {
+    "question": "A superheated steam turbine exhausts steam at constant dryness fraction. What happens to entropy when pressure decreases?",
+    "options": ["Increases", "Decreases", "Remains same", "Undefined"],
+    "answer": "Increases"
+  },
+  {
+    "question": "For incompressible liquid, dH ≈ Cp dT. Pressure effect negligible. True or false?",
+    "options": ["True", "False", "Depends on pressure", "Only water"],
+    "answer": "True"
+  },
+  {
+    "question": "In throttling valve, external work is zero, but enthalpy remains constant. This leads to:",
+    "options": ["Temperature change", "Pressure change only", "Entropy decrease", "Volume constant"],
+    "answer": "Temperature change"
+  },
+  {
+    "question": "In GRAND CYCLE combining Brayton and Rankine cycles, the net efficiency:",
+    "options": ["Higher than individual", "Lower", "Sum of both", "Undefined"],
+    "answer": "Higher than individual"
   }
+
+
 ]

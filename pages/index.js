@@ -2,16 +2,19 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 
 const examSubjects = {
-  GATE: ["Thermodynamics", "Heat Transfer", "Fluid Mechanics", "Production", "Mechanics of Solids"],
+  GATE: ["Thermodynamics"],
   GMAT: ["Quantitative Reasoning", "Verbal Reasoning"],
-  PGNEET: [ "Pathology"],
+  PGNEET: ["Pathology"],
   SOFTWARE: ["Python", "Data Science"]
 };
 
 const subjectChapters = {
-  "Quantitative Reasoning": ["Algebra", "Percentages", "Ratios and Proportions" , "SI and CI"],
+  // GMAT Subjects
+  "Quantitative Reasoning": ["Algebra", "Percentages", "Ratios and Proportions", "SI and CI"],
   "Verbal Reasoning": ["Reading Comprehension", "Sentence Correction"],
-  Pathology: ["Cell Injury", "Neoplasia", "Inflammation"]
+
+  // PGNEET Subjects
+  "Pathology": ["Cell Injury", "Neoplasia", "Inflammation"]
 };
 
 export default function Home() {
@@ -21,22 +24,22 @@ export default function Home() {
   const [chapter, setChapter] = useState('');
 
   const startQuiz = () => {
-    if (!exam || !subject || ((exam !== 'GATE' && exam !== 'SOFTWARE') && !chapter)) {
+    if (!exam || !subject || ((exam === 'GMAT' || exam === 'PGNEET') && !chapter)) {
       alert('Please complete all fields.');
       return;
     }
 
-    const category = (exam === 'GATE' || exam === 'SOFTWARE')
-      ? `${exam}_${subject}`
-      : `${exam}_${subject}_${chapter}`;
-      
+    const category = (exam === 'GMAT' || exam === 'PGNEET')
+      ? `${exam}_${subject}_${chapter}`
+      : `${exam}_${subject}`;
+
     router.push(`/quiz?category=${category}`);
   };
 
   return (
     <div className="container mt-5 text-white">
       <h1 className="text-center mb-4 fw-bold" style={{ color: 'yellow' }}>
-         Quiz App
+        Quiz App
       </h1>
 
       <div className="mb-3">
@@ -69,7 +72,7 @@ export default function Home() {
         </div>
       )}
 
-      {exam !== 'GATE' && exam !== 'SOFTWARE' && subject && (
+      {(exam === 'GMAT' || exam === 'PGNEET') && subject && (
         <div className="mb-4">
           <label className="form-label fw-semibold">Select Chapter</label>
           <select className="form-select" value={chapter} onChange={(e) => setChapter(e.target.value)}>
