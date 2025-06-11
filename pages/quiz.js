@@ -27,16 +27,19 @@ export default function Quiz() {
 
     let filePath = '';
 
-    if (exam === 'GATE') {
-      filePath = `/data/gate/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-    } else if (exam === 'SOFTWARE') {
-      filePath = `/data/software/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-    } else if (exam && subject && chapter) {
-      filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
-    } else {
-      console.error('Invalid category format:', parts);
-      return;
-    }
+  if (exam === 'GATE') {
+  filePath = `/data/gate/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
+} else if (exam === 'SOFTWARE') {
+  filePath = `/data/software/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
+} else if (exam === 'FORMULAE') {
+  filePath = `/data/formulae/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
+} else if (exam && subject && chapter) {
+  filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
+} else {
+  console.error('Invalid category format:', parts);
+  return;
+}
+
 
     fetch(filePath)
       .then((res) => {

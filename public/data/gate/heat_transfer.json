@@ -1,0 +1,483 @@
+[
+  {
+    "question": "In a Carnot cycle, the ratio of work output to heat input is 0.4. What is the ratio of reservoir temperatures (T_L/T_H)?",
+    "options": ["0.6", "0.4", "0.5", "0.556"],
+    "answer": "0.6"
+  },
+  {
+    "question": "A flat plate of thickness 5 cm has thermal conductivity 0.5 W/m·K. The temperature difference across the plate is 50°C. What is the heat flux through the plate?",
+    "options": ["250 W/m²", "500 W/m²", "100 W/m²", "50 W/m²"],
+    "answer": "500 W/m²"
+  },
+  {
+    "question": "In a parallel flow heat exchanger, the maximum possible effectiveness is:",
+    "options": ["1.0", "0.5", "0.75", "0.65"],
+    "answer": "0.5"
+  },
+  {
+    "question": "Lumped capacitance method is applicable when the Biot number is:",
+    "options": ["< 0.1", "> 0.1", "= 1", "> 1"],
+    "answer": "< 0.1"
+  },
+  {
+    "question": "A black body at 800 K emits radiation energy. What is the total emissive power according to Stefan-Boltzmann law? (σ = 5.67×10⁻⁸ W/m²·K⁴)",
+    "options": ["2322.2 W/m²", "4096.3 W/m²", "14573.1 W/m²", "23276.8 W/m²"],
+    "answer": "23276.8 W/m²"
+  },
+  {
+    "question": "The critical radius of insulation for a cylinder increases with:",
+    "options": ["Increase in thermal conductivity", "Increase in convective heat transfer coefficient", "Decrease in thermal conductivity", "Increase in outer radius"],
+    "answer": "Increase in thermal conductivity"
+  },
+  {
+    "question": "In a counterflow heat exchanger, the effectiveness is maximum when:",
+    "options": ["NTU is high and C_min ≠ C_max", "NTU is low", "C_min = C_max", "Hot fluid is condensing"],
+    "answer": "NTU is high and C_min ≠ C_max"
+  },
+  {
+    "question": "The thermal conductivity of a solid metal generally:",
+    "options": ["Increases with temperature", "Decreases with temperature", "Remains constant", "Increases and then decreases"],
+    "answer": "Decreases with temperature"
+  },
+  {
+    "question": "Which of the following dimensionless numbers is associated with natural convection?",
+    "options": ["Biot number", "Reynolds number", "Grashof number", "Peclet number"],
+    "answer": "Grashof number"
+  },
+  {
+    "question": "For fully developed laminar flow in a circular pipe with constant wall heat flux, Nusselt number is:",
+    "options": ["3.66", "4.36", "1.86", "6.28"],
+    "answer": "4.36"
+  },
+  {
+    "question": "Which of the following has the lowest thermal conductivity?",
+    "options": ["Water", "Aluminum", "Air", "Copper"],
+    "answer": "Air"
+  },
+  {
+    "question": "Which mode of heat transfer is dominant in a furnace?",
+    "options": ["Conduction", "Convection", "Radiation", "All equally"],
+    "answer": "Radiation"
+  },
+  {
+    "question": "The ratio of radiative to convective heat transfer increases with:",
+    "options": ["Decrease in temperature", "Increase in temperature", "Increase in density", "None"],
+    "answer": "Increase in temperature"
+  },
+  {
+    "question": "The Fourier number represents the ratio of:",
+    "options": ["Conductive to convective resistance", "Conduction to energy storage", "Convective to radiative flux", "Energy storage to time"],
+    "answer": "Conduction to energy storage"
+  },
+  {
+    "question": "In transient conduction, the temperature distribution depends on:",
+    "options": ["Time only", "Space only", "Time and space", "Neither"],
+    "answer": "Time and space"
+  },
+  {
+    "question": "Which of the following has the highest emissivity?",
+    "options": ["Polished silver", "Black paint", "Aluminum foil", "Mirror"],
+    "answer": "Black paint"
+  },
+  {
+    "question": "Heat exchangers are classified on the basis of:",
+    "options": ["Construction", "Flow arrangement", "Transfer mechanism", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "The Prandtl number is a function of:",
+    "options": ["Velocity", "Temperature gradient", "Fluid properties", "Pressure"],
+    "answer": "Fluid properties"
+  },
+  {
+    "question": "In radiation heat transfer, the view factor from a surface to itself is:",
+    "options": ["1", "0", "Depends on geometry", "0.5"],
+    "answer": "0"
+  },
+  {
+    "question": "The Kirchhoff's law of radiation states that:",
+    "options": ["Good absorbers are poor emitters", "Good absorbers are good emitters", "Good reflectors are good absorbers", "None"],
+    "answer": "Good absorbers are good emitters"
+  },
+  {
+    "question": "The thermal diffusivity of a material is given by:",
+    "options": ["k/ρcp", "ρcp/k", "kcp/ρ", "cp/ρk"],
+    "answer": "k/ρcp"
+  },
+  {
+    "question": "The convective heat transfer coefficient increases with:",
+    "options": ["Lower velocity", "Higher surface roughness", "Higher temperature difference", "Both B and C"],
+    "answer": "Both B and C"
+  },
+  {
+    "question": "In pool boiling, the boiling curve has a maximum heat flux known as:",
+    "options": ["Critical Heat Flux", "Film Boiling Point", "Leidenfrost Point", "Burnout Point"],
+    "answer": "Critical Heat Flux"
+  },
+  {
+    "question": "Thermal boundary layer develops when:",
+    "options": ["Temperature gradient exists near surface", "Flow is inviscid", "Pressure is constant", "Heat is added to a fluid"],
+    "answer": "Temperature gradient exists near surface"
+  },
+  {
+    "question": "The effectiveness of a heat exchanger increases with:",
+    "options": ["Higher NTU", "Lower NTU", "Equal heat capacities", "Decreasing surface area"],
+    "answer": "Higher NTU"
+  },
+  {
+    "question": "Radiation heat transfer occurs in:",
+    "options": ["Solids only", "Liquids only", "Gases only", "Vacuum and all media"],
+    "answer": "Vacuum and all media"
+  },
+  {
+    "question": "In conduction, the thermal resistance increases with:",
+    "options": ["Lower thickness", "Higher thermal conductivity", "Lower conductivity", "None"],
+    "answer": "Lower conductivity"
+  },
+  {
+    "question": "A semi-infinite solid initially at uniform temperature is suddenly exposed to a lower temperature. The surface heat flux is governed by:",
+    "options": ["Fourier’s law", "Newton's law", "Heisler chart", "Error function solution"],
+    "answer": "Error function solution"
+  },
+  {
+    "question": "The Planck’s law is used to determine:",
+    "options": ["Total radiation", "Monochromatic emissive power", "Heat flux", "Emissivity"],
+    "answer": "Monochromatic emissive power"
+  },
+  {
+    "question": "A heat exchanger is operating under counter-flow conditions with equal heat capacity rates. The effectiveness of the exchanger is 0.8. The NTU is:",
+    "options": ["2.77", "1.61", "4.35", "3.45"],
+    "answer": "2.77"
+  },
+  
+  {
+    "question": "In a concentric tube heat exchanger, the log mean temperature difference (LMTD) is used because:",
+    "options": ["Temperature varies linearly", "Temperature varies logarithmically", "Temperature difference is constant", "To account for varying temperature difference"],
+    "answer": "To account for varying temperature difference"
+  },
+  {
+    "question": "Which of the following has the highest thermal diffusivity?",
+    "options": ["Copper", "Air", "Water", "Wood"],
+    "answer": "Copper"
+  },
+  {
+    "question": "The critical radius of insulation for a sphere is given by:",
+    "options": ["k/h", "2k/h", "h/k", "k/2h"],
+    "answer": "2k/h"
+  },
+  {
+    "question": "Which equation is used to describe steady-state 2D heat conduction without heat generation?",
+    "options": ["Laplace equation", "Poisson equation", "Fourier equation", "Navier-Stokes equation"],
+    "answer": "Laplace equation"
+  },
+  {
+    "question": "Which dimensionless number characterizes the ratio of momentum diffusivity to thermal diffusivity?",
+    "options": ["Prandtl number", "Reynolds number", "Biot number", "Grashof number"],
+    "answer": "Prandtl number"
+  },
+  {
+    "question": "For radiation between two infinite parallel black surfaces, the shape factor (view factor) is:",
+    "options": ["0", "0.5", "1", "Depends on emissivity"],
+    "answer": "1"
+  },
+  {
+    "question": "The maximum possible heat transfer rate due to black body radiation occurs when the surface is:",
+    "options": ["Highly polished", "Highly rough", "A perfect absorber", "At room temperature"],
+    "answer": "A perfect absorber"
+  },
+  {
+    "question": "Which method is suitable for solving transient heat conduction problems numerically?",
+    "options": ["Runge-Kutta method", "Finite difference method", "Laplace transform", "Newton-Raphson method"],
+    "answer": "Finite difference method"
+  },
+  {
+    "question": "The convective heat transfer coefficient for laminar flow over a flat plate is directly proportional to:",
+    "options": ["Re^(1/2)", "Re^(1/3)", "Re", "Re^2"],
+    "answer": "Re^(1/2)"
+  },
+  {
+    "question": "In radiation, which surface property defines the fraction of incident radiation absorbed?",
+    "options": ["Reflectivity", "Transmissivity", "Absorptivity", "Emissivity"],
+    "answer": "Absorptivity"
+  },
+  {
+    "question": "The Stefan-Boltzmann law applies to:",
+    "options": ["All surfaces", "Only black bodies", "Only gray bodies", "Only polished surfaces"],
+    "answer": "Only black bodies"
+  },
+  {
+    "question": "In forced convection, the heat transfer coefficient is influenced by:",
+    "options": ["Fluid velocity", "Surface roughness", "Temperature difference", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "The Biot number is defined as the ratio of:",
+    "options": ["Internal resistance to external resistance", "External resistance to internal resistance", "Thermal conductivity to convective heat transfer coefficient", "Heat capacity to thermal conductivity"],
+    "answer": "Internal resistance to external resistance"
+  },
+  {
+    "question": "In steady one-dimensional heat conduction through a plane wall, the temperature distribution is:",
+    "options": ["Linear", "Parabolic", "Exponential", "Logarithmic"],
+    "answer": "Linear"
+  },
+  {
+    "question": "Which equation governs transient heat conduction in solids?",
+    "options": ["Laplace equation", "Fourier's law", "Navier-Stokes equation", "Heat diffusion equation"],
+    "answer": "Heat diffusion equation"
+  },
+  {
+    "question": "For a black body, the total emissive power is governed by:",
+    "options": ["Kirchhoff’s law", "Planck’s law", "Stefan-Boltzmann law", "Wien’s law"],
+    "answer": "Stefan-Boltzmann law"
+  },
+  {
+    "question": "The critical radius of insulation for a cylinder is given by:",
+    "options": ["k/h", "2k/h", "h/k", "k/2h"],
+    "answer": "k/h"
+  },
+  {
+    "question": "Which mode of heat transfer requires a medium?",
+    "options": ["Conduction", "Radiation", "Both conduction and convection", "Only radiation"],
+    "answer": "Both conduction and convection"
+  },
+  {
+    "question": "Thermal diffusivity is defined as:",
+    "options": ["kρCp", "k/ρCp", "Cp/kρ", "ρCp/k"],
+    "answer": "k/ρCp"
+  },
+  {
+    "question": "In boiling, the transition from nucleate to film boiling is characterized by:",
+    "options": ["An increase in heat transfer coefficient", "A sudden drop in heat transfer coefficient", "No change", "Gradual increase in temperature"],
+    "answer": "A sudden drop in heat transfer coefficient"
+  },
+  {
+    "question": "The Nusselt number represents the ratio of:",
+    "options": ["Inertial to viscous forces", "Convective to conductive heat transfer", "Buoyancy to viscous forces", "Thermal to momentum diffusivity"],
+    "answer": "Convective to conductive heat transfer"
+  },
+  {
+    "question": "Lumped system analysis assumes:",
+    "options": ["Biot number << 1", "Biot number >> 1", "Fourier number = 0", "Nusselt number = 1"],
+    "answer": "Biot number << 1"
+  },
+  {
+    "question": "In a parallel flow heat exchanger, the maximum possible effectiveness is:",
+    "options": ["1.0", "0.5", "0.75", "Depends on NTU"],
+    "answer": "Depends on NTU"
+  },
+  {
+    "question": "In radiation, which surface property defines the fraction of incident radiation absorbed?",
+    "options": ["Reflectivity", "Transmissivity", "Absorptivity", "Emissivity"],
+    "answer": "Absorptivity"
+  },
+  {
+    "question": "The Fourier number is given by:",
+    "options": ["αt/L²", "kL/ρ", "hL/k", "k/hL"],
+    "answer": "αt/L²"
+  },
+  {
+    "question": "Emissivity of a black body is:",
+    "options": ["0", "1", "<1", ">1"],
+    "answer": "1"
+  },
+  {
+    "question": "Which law defines the spectral distribution of black body radiation?",
+    "options": ["Kirchhoff's Law", "Stefan-Boltzmann Law", "Planck’s Law", "Wien's Law"],
+    "answer": "Planck’s Law"
+  },
+  {
+    "question": "Log mean temperature difference is used in:",
+    "options": ["Unsteady state conduction", "Free convection", "Radiation", "Heat exchangers"],
+    "answer": "Heat exchangers"
+  },
+  {
+    "question": "A heat exchanger with very high NTU behaves like:",
+    "options": ["Parallel flow", "Counterflow", "Infinite area exchanger", "Insulated wall"],
+    "answer": "Infinite area exchanger"
+  },
+  {
+    "question": "The dominant mode of heat transfer in metals is:",
+    "options": ["Convection", "Radiation", "Lattice vibration", "Electron conduction"],
+    "answer": "Electron conduction"
+  },
+  {
+    "question": "Gray body emits:",
+    "options": ["More than a black body", "Less than a black body", "Exactly like a black body", "Does not emit radiation"],
+    "answer": "Less than a black body"
+  },
+  {
+    "question": "Fouling in heat exchangers leads to:",
+    "options": ["Increased heat transfer", "Decreased heat transfer", "Improved efficiency", "None of the above"],
+    "answer": "Decreased heat transfer"
+  },
+  {
+    "question": "Which dimensionless number signifies natural convection?",
+    "options": ["Reynolds", "Nusselt", "Prandtl", "Grashof"],
+    "answer": "Grashof"
+  },
+  {
+    "question": "View factor is dependent on:",
+    "options": ["Temperature", "Geometry only", "Material property", "Conductivity"],
+    "answer": "Geometry only"
+  },
+  {
+    "question": "Which method is used for analysis of multidimensional transient heat conduction?",
+    "options": ["Laplace transform", "Numerical methods", "Analytical methods", "Wien's law"],
+    "answer": "Numerical methods"
+  },
+  {
+    "question": "In a blackbody radiation spectrum, as temperature increases, peak wavelength:",
+    "options": ["Increases", "Decreases", "Remains same", "Becomes infinite"],
+    "answer": "Decreases"
+  },
+  {
+    "question": "The efficiency of a fin is maximum when:",
+    "options": ["k is low", "h is high", "Length is infinite", "No heat is conducted"],
+    "answer": "h is high"
+  },
+  {
+    "question": "For forced convection, which correlation is commonly used for turbulent flow in pipe?",
+    "options": ["Dittus-Boelter", "Grashof", "Stefan-Boltzmann", "Wien"],
+    "answer": "Dittus-Boelter"
+  },
+  {
+    "question": "In a heat exchanger, if the hot fluid enters at 150°C and leaves at 100°C, and the cold fluid enters at 30°C, what is the minimum possible exit temperature of the cold fluid?",
+    "options": ["30°C", "50°C", "70°C", "100°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "The thermal resistance for conduction through a plane wall is given by R = L/(kA). If L = 0.1 m, k = 200 W/m·K, A = 2 m², what is R?",
+    "options": ["0.0005 K/W", "0.002 K/W", "0.01 K/W", "0.05 K/W"],
+    "answer": "0.002 K/W"
+  },
+  {
+    "question": "A plane wall of thickness 0.05 m and thermal conductivity 200 W/m·K has temperatures of 500°C and 100°C on either side. What is the heat flux through the wall (in W/m²)?",
+    "options": ["1.6×10⁶", "8.0×10⁵", "4.0×10⁵", "2.0×10⁶"],
+    "answer": "1.6×10⁶"
+  },
+  {
+    "question": "A black body at 1000 K emits radiation. What is the total emissive power in W/m²? (Use σ = 5.67×10⁻⁸ W/m²·K⁴)",
+    "options": ["56700", "113400", "28350", "85050"],
+    "answer": "56700"
+  },
+  {
+    "question": "A composite wall has thermal resistances 0.1, 0.2, and 0.4 K/W. What is the overall thermal resistance (in K/W)?",
+    "options": ["0.7", "0.3", "0.6", "1.0"],
+    "answer": "0.7"
+  },
+  {
+    "question": "A 0.1 m diameter sphere (ε = 0.8) is at 800 K. Calculate the radiation emitted (W). Use σ = 5.67×10⁻⁸.",
+    "options": ["45.6", "57.3", "36.5", "52.0"],
+    "answer": "45.6"
+  },
+  {
+    "question": "Water flows through a 2 cm diameter pipe at 0.1 kg/s. Specific heat = 4180 J/kg·K. ΔT = 10°C. What is the heat transfer rate (W)?",
+    "options": ["4180", "2090", "8350", "10450"],
+    "answer": "4180"
+  },
+  {
+    "question": "A rod of diameter 2 cm, length 0.5 m, k = 50 W/m·K, and ΔT = 100 K. What is the conduction heat transfer rate (W)?",
+    "options": ["31.4", "78.5", "12.6", "62.8"],
+    "answer": "31.4"
+  },
+  {
+    "question": "A fin has length = 10 cm, area = 1e-4 m², perimeter = 0.02 m, k = 100 W/m·K, h = 25 W/m²·K. What is the fin parameter (m) in 1/m?",
+    "options": ["22.36", "14.14", "31.62", "11.18"],
+    "answer": "22.36"
+  },
+  {
+    "question": "A heat exchanger has NTU = 2 and capacity ratio Cr = 0.5. What is the effectiveness (counterflow)?",
+    "options": ["0.76", "0.55", "0.62", "0.90"],
+    "answer": "0.76"
+  },
+  {
+    "question": "Thermal conductivity of a material varies linearly from 10 to 20 W/m·K across 5 cm. What is the average value?",
+    "options": ["15", "12.5", "17.5", "20"],
+    "answer": "15"
+  },
+  {
+    "question": "A heat exchanger has area = 10 m², U = 500 W/m²·K, ΔTlm = 30°C. What is the heat transfer rate (W)?",
+    "options": ["150000", "300000", "100000", "75000"],
+    "answer": "150000"
+  },
+  {
+    "question": "A black surface with emissivity 1 at 300 K emits how much radiation? (σ = 5.67×10⁻⁸)",
+    "options": ["459", "610", "354", "135"],
+    "answer": "459"
+  },
+  {
+    "question": "If a slab conducts 500 W of heat across 2 m² with a ΔT of 50 K, what is its thermal conductivity if thickness is 0.01 m?",
+    "options": ["0.05", "0.20", "0.50", "2.00"],
+    "answer": "0.05"
+  },
+  {
+    "question": "A fin has Q = 5 W, base area = 0.002 m², and ΔT = 25 K. What is the fin efficiency?",
+    "options": ["1.0", "0.5", "0.8", "0.2"],
+    "answer": "1.0"
+  },
+  {
+    "question": "In a tube, Reynolds number is 6000. What is the flow type?",
+    "options": ["Turbulent", "Laminar", "Transitional", "Stagnant"],
+    "answer": "Turbulent"
+  },
+  {
+    "question": "If Prandtl number is 1 and kinematic viscosity is 1e-6 m²/s, what is thermal diffusivity?",
+    "options": ["1e-6", "2e-6", "1e-3", "1e-9"],
+    "answer": "1e-6"
+  },
+  {
+    "question": "A pin fin has T_base = 100°C and ambient = 30°C. If fin tip is insulated and h = 50 W/m²·K, find max heat loss from fin (W) for area 0.01 m².",
+    "options": ["35", "50", "70", "25"],
+    "answer": "35"
+  },
+  {
+    "question": "In conduction, if q = 500 W, A = 0.1 m², L = 0.02 m, ΔT = 20°C. What is k?",
+    "options": ["2.5", "5.0", "10.0", "50.0"],
+    "answer": "5.0"
+  },
+  {
+    "question": "A radiation shield has ε = 0.05. What is its effectiveness in reducing radiation heat transfer?",
+    "options": ["High", "Low", "None", "Moderate"],
+    "answer": "High"
+  },
+  {
+    "question": "If a heat exchanger has Cr = 0, what type of flow arrangement yields highest effectiveness?",
+    "options": ["Counterflow", "Parallel flow", "Shell and tube", "Crossflow"],
+    "answer": "Counterflow"
+  },
+  {
+    "question": "A long rod is suddenly exposed to air at 25°C. If initial temperature = 100°C, Bi < 0.1, what assumption is valid?",
+    "options": ["Lumped system", "1D conduction", "Radiative loss", "Adiabatic tip"],
+    "answer": "Lumped system"
+  },
+  {
+    "question": "Thermal diffusivity of a material is 1.4×10⁻⁷ m²/s. If time = 60s and L = 0.01m, calculate Fourier number.",
+    "options": ["0.84", "0.12", "0.42", "1.2"],
+    "answer": "0.84"
+  },
+  {
+    "question": "In a cross-flow heat exchanger, NTU = 1 and Cr = 1. What is effectiveness?",
+    "options": ["0.632", "0.5", "0.9", "1.0"],
+    "answer": "0.632"
+  },
+  {
+    "question": "In a heat exchanger, hot fluid loses 2000 W and cold fluid gains 1800 W. What is the heat loss (%)?",
+    "options": ["10", "5", "20", "15"],
+    "answer": "10"
+  },
+  {
+    "question": "For a flat plate of length 0.5 m, velocity = 2 m/s, ν = 1e-6 m²/s. What is Re at the trailing edge?",
+    "options": ["1e6", "1e5", "5e5", "2e5"],
+    "answer": "1e6"
+  },
+  {
+    "question": "A steel wall (k = 45 W/m·K) with 5 cm thickness has 20°C on one side and 80°C on the other. What is q (W/m²)?",
+    "options": ["54000", "60000", "90000", "45000"],
+    "answer": "54000"
+  }
+
+
+ 
+
+]
+

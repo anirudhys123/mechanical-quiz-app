@@ -1,0 +1,254 @@
+
+[
+  {
+    "question": "General heat conduction equation (Cartesian coordinates):",
+    "options": ["∂²T/∂x² + ∂²T/∂y² + ∂²T/∂z² + q̇/k = (1/α) ∂T/∂t", "∂T/∂x + ∂T/∂y = 0", "q = -kAΔT", "q = hA(T_s - T_∞)"],
+    "answer": "∂²T/∂x² + ∂²T/∂y² + ∂²T/∂z² + q̇/k = (1/α) ∂T/∂t"
+  },
+  {
+    "question": "Fourier’s Law of Heat Conduction:",
+    "options": ["q = -kA dT/dx", "q = hA(T_s - T_∞)", "q = σT⁴", "q = mcΔT"],
+    "answer": "q = -kA dT/dx"
+  },
+  {
+    "question": "Thermal conductivity (units):",
+    "options": ["W/m·K", "W/m²·K", "J/kg·K", "W/K"],
+    "answer": "W/m·K"
+  },
+  {
+    "question": "One-dimensional steady-state conduction through a plane wall:",
+    "options": ["q = kA(T1 - T2)/L", "q = mcΔT", "q = hAΔT", "q = -kA dT/dx"],
+    "answer": "q = kA(T1 - T2)/L"
+  },
+  {
+    "question": "Thermal resistance for conduction (plane wall):",
+    "options": ["R = L/kA", "R = 1/hA", "R = 1/kA", "R = L/A"],
+    "answer": "R = L/kA"
+  },
+  {
+    "question": "Thermal resistance for convection:",
+    "options": ["R = 1/hA", "R = L/kA", "R = 1/k", "R = hA"],
+    "answer": "R = 1/hA"
+  },
+  {
+    "question": "Critical radius of insulation (cylinder):",
+    "options": ["r_critical = k/h", "r_critical = h/k", "r_critical = √(k/h)", "r_critical = kL/h"],
+    "answer": "r_critical = k/h"
+  },
+  {
+    "question": "Heat transfer through a hollow cylinder:",
+    "options": ["q = 2πkL(T1 - T2) / ln(r2/r1)", "q = kA(T1 - T2)/L", "q = hAΔT", "q = mcΔT"],
+    "answer": "q = 2πkL(T1 - T2) / ln(r2/r1)"
+  },
+  {
+    "question": "Newton’s Law of Cooling:",
+    "options": ["q = hA(T_s - T_∞)", "q = -kA dT/dx", "q = mcΔT", "q = σT⁴"],
+    "answer": "q = hA(T_s - T_∞)"
+  },
+  {
+    "question": "Biot number (Bi):",
+    "options": ["Bi = hL_c/k", "Bi = k/hL_c", "Bi = h/k", "Bi = L/k"],
+    "answer": "Bi = hL_c/k"
+  },
+
+
+  {
+    "question": "Planck’s law of blackbody radiation:",
+    "options": ["E_λ = (2πhc²)/λ⁵[1/(e^(hc/λkT)-1)]", "E = σT⁴", "q = mcΔT", "q = hAΔT"],
+    "answer": "E_λ = (2πhc²)/λ⁵[1/(e^(hc/λkT)-1)]"
+  },
+  {
+    "question": "Stefan–Boltzmann law:",
+    "options": ["E = σT⁴", "q = mcΔT", "q = hAΔT", "E = hν"],
+    "answer": "E = σT⁴"
+  },
+  {
+    "question": "Emissive power of a blackbody:",
+    "options": ["E_b = σT⁴", "E_b = εσT⁴", "q = mcΔT", "q = hAΔT"],
+    "answer": "E_b = σT⁴"
+  },
+  {
+    "question": "Heat flux by radiation between two surfaces:",
+    "options": ["q = σ(T₁⁴ - T₂⁴)/(1/ε₁ + 1/ε₂ - 1)", "q = hAΔT", "q = mcΔT", "q = σT⁴"],
+    "answer": "q = σ(T₁⁴ - T₂⁴)/(1/ε₁ + 1/ε₂ - 1)"
+  },
+  {
+    "question": "Shape factor reciprocity rule:",
+    "options": ["A₁F₁₂ = A₂F₂₁", "F₁₂ + F₂₁ = 1", "A₁F₁₂ + A₂F₂₁ = 0", "F₁₂ = F₂₁"],
+    "answer": "A₁F₁₂ = A₂F₂₁"
+  },
+  {
+    "question": "Thermal boundary layer thickness (approx.):",
+    "options": ["δ_t ≈ x/√RePr", "δ_t = √αt", "δ_t = x/Re", "δ_t = ν/u"],
+    "answer": "δ_t ≈ x/√RePr"
+  },
+  {
+    "question": "Energy equation for heat transfer:",
+    "options": ["q = mcΔT", "q = σT⁴", "q = hAΔT", "q = kA(T1 - T2)/L"],
+    "answer": "q = mcΔT"
+  },
+  {
+    "question": "View factor summation rule:",
+    "options": ["Σ F_ij = 1", "F_ij = 0", "Σ A_i = 1", "F_ij = 1"],
+    "answer": "Σ F_ij = 1"
+  },
+  {
+    "question": "Kirchhoff’s law of thermal radiation:",
+    "options": ["ε = α", "ε = 1 - α", "ε = α²", "ε = 1"],
+    "answer": "ε = α"
+  },
+
+  {
+    "question": "Heat exchanger effectiveness:",
+    "options": ["ε = q/q_max", "ε = q_max/q", "ε = T_in/T_out", "ε = hA/q"],
+    "answer": "ε = q/q_max"
+  },
+  {
+    "question": "Overall heat transfer coefficient U:",
+    "options": ["1/U = ΣR", "U = ΣR", "U = R/A", "U = A/R"],
+    "answer": "1/U = ΣR"
+  },
+  {
+    "question": "Stefan-Boltzmann constant (σ):",
+    "options": ["5.67 × 10⁻⁸ W/m²K⁴", "1.38 × 10⁻²³ J/K", "6.63 × 10⁻³⁴ J·s", "3.00 × 10⁸ m/s"],
+    "answer": "5.67 × 10⁻⁸ W/m²K⁴"
+  },
+  {
+    "question": "Heat transfer in extended surface (fin):",
+    "options": ["q = √(hPkA)(T_b - T_∞) tanh(ml)", "q = hA(T_b - T_∞)", "q = kA(T_b - T_∞)/L", "q = hPk(T_b - T_∞)"],
+    "answer": "q = √(hPkA)(T_b - T_∞) tanh(ml)"
+  },
+  {
+    "question": "Fin efficiency:",
+    "options": ["η_fin = q_actual/q_max", "η_fin = q_max/q_actual", "η_fin = q/q_loss", "η_fin = 1 - q_actual/q_max"],
+    "answer": "η_fin = q_actual/q_max"
+  },
+  {
+    "question": "Thermal contact resistance:",
+    "options": ["R_tc = ΔT/q", "R_tc = q/ΔT", "R_tc = ΔT×q", "R_tc = 1/ΔTq"],
+    "answer": "R_tc = ΔT/q"
+  },
+
+  {
+    "question": "General heat conduction equation (1D transient):",
+    "options": ["∂T/∂t = α∂²T/∂x²", "∂T/∂t = ∂²T/∂x²", "∂T/∂t = k∂T/∂x", "∂T/∂t = α∂T/∂x"],
+    "answer": "∂T/∂t = α∂²T/∂x²"
+  },
+  {
+    "question": "Newton's law of cooling:",
+    "options": ["q = hA(T_s - T_∞)", "q = kA(T_s - T_∞)", "q = h(T_s - T_∞)", "q = k(T_∞ - T_s)/A"],
+    "answer": "q = hA(T_s - T_∞)"
+  },
+  {
+    "question": "Thermal resistance for convection:",
+    "options": ["R = 1/hA", "R = hA", "R = A/h", "R = h/A"],
+    "answer": "R = 1/hA"
+  },
+  {
+    "question": "Total thermal resistance in series:",
+    "options": ["R_total = R1 + R2 + R3", "R_total = 1/(1/R1 + 1/R2)", "R_total = R1 × R2", "R_total = R1 - R2"],
+    "answer": "R_total = R1 + R2 + R3"
+  },
+  {
+    "question": "LMTD formula for counterflow heat exchanger:",
+    "options": ["ΔT_lm = (ΔT1 - ΔT2)/ln(ΔT1/ΔT2)", "ΔT_lm = ΔT1 + ΔT2", "ΔT_lm = (ΔT1 + ΔT2)/2", "ΔT_lm = ln(ΔT1 × ΔT2)"],
+    "answer": "ΔT_lm = (ΔT1 - ΔT2)/ln(ΔT1/ΔT2)"
+  },
+  {
+    "question": "Effectiveness (ε) of a heat exchanger:",
+    "options": ["ε = q/q_max", "ε = q_max/q", "ε = T_out/T_in", "ε = hA/q"],
+    "answer": "ε = q/q_max"
+  },
+  {
+    "question": "Heat transferred in a heat exchanger:",
+    "options": ["q = ṁc_p(T_out - T_in)", "q = mc_p(T_in - T_out)", "q = mc_pT", "q = ṁT"],
+    "answer": "q = ṁc_p(T_out - T_in)"
+  },
+  {
+    "question": "Overall heat transfer equation for heat exchanger:",
+    "options": ["q = UAΔT_lm", "q = hAΔT", "q = kAΔT/L", "q = ṁc_pT"],
+    "answer": "q = UAΔT_lm"
+  },
+  {
+    "question": "Capacity rate (C) of a fluid:",
+    "options": ["C = ṁc_p", "C = mc_p", "C = m/c_p", "C = c_p/ṁ"],
+    "answer": "C = ṁc_p"
+  },
+  {
+    "question": "NTU (Number of Transfer Units):",
+    "options": ["NTU = UA/C_min", "NTU = C_min/UA", "NTU = UA × C_max", "NTU = C_max/UA"],
+    "answer": "NTU = UA/C_min"
+  },
+  {
+    "question": "For parallel flow heat exchanger, ΔT_lm:",
+    "options": ["ΔT_lm = (T_h,in - T_c,in - T_h,out + T_c,out)/ln((T_h,in - T_c,in)/(T_h,out - T_c,out))", "ΔT_lm = (T_h,in + T_c,in)/2", "ΔT_lm = T_h,in - T_c,in", "ΔT_lm = (T_h,out + T_c,out)/2"],
+    "answer": "ΔT_lm = (T_h,in - T_c,in - T_h,out + T_c,out)/ln((T_h,in - T_c,in)/(T_h,out - T_c,out))"
+  },
+  {
+    "question": "C_min in heat exchanger is:",
+    "options": ["Minimum of ṁc_p (hot, cold)", "Maximum of ṁc_p (hot, cold)", "Average of ṁc_p", "Difference of ṁc_p"],
+    "answer": "Minimum of ṁc_p (hot, cold)"
+  },
+  {
+    "question": "C_max in heat exchanger is:",
+    "options": ["Maximum of ṁc_p (hot, cold)", "Minimum of ṁc_p (hot, cold)", "Average of ṁc_p", "Difference of ṁc_p"],
+    "answer": "Maximum of ṁc_p (hot, cold)"
+  },
+  {
+    "question": "Effectiveness of counterflow heat exchanger (for C_r ≠ 1):",
+    "options": ["ε = [1 - exp(-NTU(1 - C_r))] / [1 - C_r exp(-NTU(1 - C_r))]", "ε = NTU / (1 + NTU)", "ε = 1 - exp(-NTU)", "ε = NTU × C_r"],
+    "answer": "ε = [1 - exp(-NTU(1 - C_r))] / [1 - C_r exp(-NTU(1 - C_r))]"
+  },
+  {
+    "question": "C_r in heat exchanger is defined as:",
+    "options": ["C_min/C_max", "C_max/C_min", "C_min × C_max", "C_max - C_min"],
+    "answer": "C_min/C_max"
+  },
+  {
+    "question": "Unit of U (overall heat transfer coefficient):",
+    "options": ["W/m²K", "W/mK", "W/m³K", "W/K"],
+    "answer": "W/m²K"
+  },
+  {
+    "question": "When ε → 1, heat exchanger is:",
+    "options": ["Highly effective", "Ineffective", "Counterflow type", "Parallel flow type"],
+    "answer": "Highly effective"
+  },
+  {
+    "question": "In a counterflow heat exchanger, the outlet temperature of cold fluid:",
+    "options": ["Can exceed outlet temperature of hot fluid", "Cannot exceed inlet temperature of hot fluid", "Always equals hot fluid outlet", "Always equals cold fluid inlet"],
+    "answer": "Can exceed outlet temperature of hot fluid"
+  },
+  {
+    "question": "NTU method is useful when:",
+    "options": ["Outlet temperatures are unknown", "Inlet temperatures are unknown", "Both inlet and outlet are known", "LMTD is known"],
+    "answer": "Outlet temperatures are unknown"
+  },
+  {
+    "question": "LMTD method is used when:",
+    "options": ["Inlet and outlet temperatures are known", "Only outlet is known", "Only inlet is known", "NTU is unknown"],
+    "answer": "Inlet and outlet temperatures are known"
+  },
+  {
+    "question": "Double pipe heat exchanger is best suited for:",
+    "options": ["Small heat duty", "High pressure", "Large heat duty", "Gas-to-gas transfer"],
+    "answer": "Small heat duty"
+  },
+  {
+    "question": "Shell and tube heat exchanger is best for:",
+    "options": ["High-pressure fluid handling", "Low temperature difference", "Small duty", "Batch processing"],
+    "answer": "High-pressure fluid handling"
+  },
+  {
+    "question": "Increasing NTU in a heat exchanger:",
+    "options": ["Increases effectiveness", "Decreases effectiveness", "No effect", "Increases U"],
+    "answer": "Increases effectiveness"
+  },
+  {
+    "question": "In crossflow heat exchangers, LMTD is:",
+    "options": ["Lower than counterflow", "Equal to counterflow", "Greater than counterflow", "Zero"],
+    "answer": "Lower than counterflow"
+  }
+
+
+]

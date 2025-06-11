@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 
 const examSubjects = {
-  GATE: ["Thermodynamics"],
+  GATE: ["Thermodynamics" , "Heat Transfer", "Fluid Mechanics", "Theory of Machines", "Engineering Mathematics"],
+  FORMULAE: ["Thermodynamics", "Heat Transfer", "Fluid Mechanics", "Theory of Machines", "Engineering Mathematics"],
   GMAT: ["Quantitative Reasoning", "Verbal Reasoning"],
   PGNEET: ["Pathology"],
   SOFTWARE: ["Python", "Data Science"]
@@ -50,7 +51,8 @@ export default function Home() {
           setChapter('');
         }}>
           <option value="">-- Choose --</option>
-          <option value="GATE">GATE</option>
+          <option value="GATE">GATE Mechanical</option>
+          <option value="FORMULAE">GATE Formulae Test</option>
           <option value="GMAT">GMAT</option>
           <option value="PGNEET">PG NEET</option>
           <option value="SOFTWARE">Software Engineering</option>

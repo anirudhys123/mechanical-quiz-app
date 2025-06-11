@@ -1,0 +1,458 @@
+[
+  {
+    "question": "First Law of Thermodynamics (Closed System):",
+    "options": ["ΔQ = ΔU + ΔW", "ΔQ = ΔU - ΔW", "ΔQ = mCpΔT", "ΔQ = ΔH + ΔW"],
+    "answer": "ΔQ = ΔU + ΔW"
+  },
+  {
+    "question": "First Law for Steady Flow Process:",
+    "options": ["Q - W = ΔH", "Q - W = ΔU", "Q - W = ΔKE + ΔPE + ΔH", "Q + W = ΔH"],
+    "answer": "Q - W = ΔKE + ΔPE + ΔH"
+  },
+  {
+    "question": "Enthalpy (H):",
+    "options": ["H = U + PV", "H = PV - U", "H = Cp * T", "H = Q - W"],
+    "answer": "H = U + PV"
+  },
+  {
+    "question": "Entropy (Change) for Reversible Process:",
+    "options": ["ΔS = ∫δQrev/T", "ΔS = Q/T", "ΔS = mCv ln(T2/T1)", "ΔS = mCp ln(P2/P1)"],
+    "answer": "ΔS = ∫δQrev/T"
+  },
+  {
+    "question": "Ideal Gas Law:",
+    "options": ["PV = nRT", "PV = RT", "PV = mRT", "P = nRT/V"],
+    "answer": "PV = mRT"
+  },
+  {
+    "question": "Work done in isothermal process (ideal gas):",
+    "options": ["W = nRT ln(V2/V1)", "W = PΔV", "W = nRΔT", "W = mCvΔT"],
+    "answer": "W = nRT ln(V2/V1)"
+  },
+  {
+    "question": "Work done in adiabatic process (ideal gas):",
+    "options": ["W = (P2V2 - P1V1)/(γ - 1)", "W = nRT ln(V2/V1)", "W = mCpΔT", "W = 0"],
+    "answer": "W = (P2V2 - P1V1)/(γ - 1)"
+  },
+  {
+    "question": "Relation between Cp and Cv:",
+    "options": ["Cp - Cv = R", "Cp/Cv = R", "Cp = Cv * R", "Cp + Cv = R"],
+    "answer": "Cp - Cv = R"
+  },
+  {
+    "question": "Isentropic relation for ideal gas (P-V):",
+    "options": ["PV^γ = constant", "PV = constant", "P/T = constant", "V/T = constant"],
+    "answer": "PV^γ = constant"
+  },
+  {
+    "question": "Isentropic relation (T-V):",
+    "options": ["TV^(γ-1) = constant", "TV^γ = constant", "T/P = constant", "T/V = constant"],
+    "answer": "TV^(γ-1) = constant"
+  },
+  {
+    "question": "Isentropic relation (T-P):",
+    "options": ["T/P^((γ-1)/γ) = constant", "TP = constant", "T^γ/P = constant", "T/P = constant"],
+    "answer": "T/P^((γ-1)/γ) = constant"
+  },
+  {
+    "question": "Thermal efficiency of Carnot cycle:",
+    "options": ["1 - TL/TH", "1 - TH/TL", "TL/TH", "TH/TL"],
+    "answer": "1 - TL/TH"
+  },
+  {
+    "question": "Carnot COP (Refrigerator):",
+    "options": ["TL/(TH - TL)", "TH/(TH - TL)", "TH/TL", "1 - TL/TH"],
+    "answer": "TL/(TH - TL)"
+  },
+  {
+    "question": "Carnot COP (Heat Pump):",
+    "options": ["TH/(TH - TL)", "TL/(TH - TL)", "1 - TL/TH", "TH/TL"],
+    "answer": "TH/(TH - TL)"
+  },
+  {
+    "question": "Mean Effective Pressure (MEP):",
+    "options": ["MEP = Wnet/Vs", "MEP = PV", "MEP = Wnet/V", "MEP = F/A"],
+    "answer": "MEP = Wnet/Vs"
+  },
+  {
+    "question": "Efficiency of Otto Cycle:",
+    "options": ["1 - 1/r^(γ-1)", "1 - TL/TH", "1 - r^(γ-1)", "1/r^(γ+1)"],
+    "answer": "1 - 1/r^(γ-1)"
+  },
+  {
+    "question": "Efficiency of Diesel Cycle:",
+    "options": ["1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))", "1 - 1/r^(γ-1)", "1 - TL/TH", "rc - 1"],
+    "answer": "1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))"
+  },
+  {
+    "question": "Efficiency of Brayton Cycle:",
+    "options": ["1 - (1/rp^((γ-1)/γ))", "1 - TL/TH", "rp^(γ-1)", "1/rp^(γ+1)"],
+    "answer": "1 - (1/rp^((γ-1)/γ))"
+  },
+  {
+    "question": "Efficiency of Rankine Cycle:",
+    "options": ["(Wt - Wp)/Qin", "(Qout - Qin)/Qin", "Wt/Qin", "Qin/Wt"],
+    "answer": "(Wt - Wp)/Qin"
+  },
+  {
+    "question": "Gas constant (R) for ideal gas:",
+    "options": ["R = Cp - Cv", "R = Cp + Cv", "R = Cp/Cv", "R = Cv/Cp"],
+    "answer": "R = Cp - Cv"
+  },
+  {
+    "question": "Specific Heat Ratio (γ):",
+    "options": ["γ = Cp/Cv", "γ = Cv/Cp", "γ = Cp - Cv", "γ = Cp * Cv"],
+    "answer": "γ = Cp/Cv"
+  },
+  {
+    "question": "Availability (Exergy) for closed system:",
+    "options": ["(U - U0) + P0(V - V0) - T0(S - S0)", "U + PV - TS", "H - TS", "Q - W"],
+    "answer": "(U - U0) + P0(V - V0) - T0(S - S0)"
+  },
+  {
+    "question": "Mass Flow Rate:",
+    "options": ["ṁ = ρAV", "ṁ = A/V", "ṁ = V/ρA", "ṁ = Aρ/V"],
+    "answer": "ṁ = ρAV"
+  },
+  {
+    "question": "Volumetric Flow Rate:",
+    "options": ["Q = AV", "Q = A/V", "Q = V/A", "Q = ρAV"],
+    "answer": "Q = AV"
+  },
+  {
+    "question": "Change in internal energy (ideal gas):",
+    "options": ["ΔU = mCvΔT", "ΔU = mCpΔT", "ΔU = Q - W", "ΔU = mRT"],
+    "answer": "ΔU = mCvΔT"
+  },
+  {
+    "question": "Change in enthalpy (ideal gas):",
+    "options": ["ΔH = mCpΔT", "ΔH = mCvΔT", "ΔH = Q - W", "ΔH = PΔV"],
+    "answer": "ΔH = mCpΔT"
+  },
+  {
+    "question": "Entropy change (ideal gas constant volume):",
+    "options": ["ΔS = mCv ln(T2/T1)", "ΔS = mCp ln(T2/T1)", "ΔS = Qrev/T", "ΔS = mR ln(V2/V1)"],
+    "answer": "ΔS = mCv ln(T2/T1)"
+  },
+  {
+    "question": "Entropy change (ideal gas constant pressure):",
+    "options": ["ΔS = mCp ln(T2/T1)", "ΔS = mCv ln(T2/T1)", "ΔS = mR ln(V2/V1)", "ΔS = mQ/T"],
+    "answer": "ΔS = mCp ln(T2/T1)"
+  },
+  {
+    "question": "Pump work (liquid):",
+    "options": ["Wp = v(P2 - P1)", "Wp = PΔV", "Wp = mgh", "Wp = ρgh"],
+    "answer": "Wp = v(P2 - P1)"
+  },
+  {
+    "question": "T-s slope for reversible process:",
+    "options": ["T = dQrev/dS", "dT/dS = P", "T = dW/dQ", "T = Q/S"],
+    "answer": "T = dQrev/dS"
+  },
+  {
+    "question": "Clapeyron equation:",
+    "options": ["(dP/dT) = L/TΔV", "P/T = constant", "L = TΔS", "dP/dT = ΔH/ΔS"],
+    "answer": "(dP/dT) = L/TΔV"
+  },
+  {
+    "question": "Entropy generation (irreversible process):",
+    "options": ["ΔSuniv > 0", "ΔSuniv = 0", "ΔSuniv < 0", "ΔSsys = -ΔSsurr"],
+    "answer": "ΔSuniv > 0"
+  },
+  {
+    "question": "Work in polytropic process:",
+    "options": ["W = (P2V2 - P1V1)/(1 - n)", "W = nRT ln(V2/V1)", "W = mRΔT", "W = PV"],
+    "answer": "W = (P2V2 - P1V1)/(1 - n)"
+  },
+  {
+    "question": "Efficiency of dual cycle:",
+    "options": ["Complex expression involving r, rc, rp", "1 - 1/r^(γ-1)", "TL/TH", "Wt/Qin"],
+    "answer": "Complex expression involving r, rc, rp"
+  },
+  {
+    "question": "Heat Transfer (Conduction):",
+    "options": ["Q = kA(ΔT/L)", "Q = hAΔT", "Q = mCpΔT", "Q = σAT⁴"],
+    "answer": "Q = kA(ΔT/L)"
+  },
+  {
+    "question": "Heat Transfer (Convection):",
+    "options": ["Q = hAΔT", "Q = kA(ΔT/L)", "Q = σAT⁴", "Q = mCpΔT"],
+    "answer": "Q = hAΔT"
+  },
+  {
+    "question": "Heat Transfer (Radiation):",
+    "options": ["Q = σAT⁴", "Q = hAΔT", "Q = mCpΔT", "Q = kA(ΔT/L)"],
+    "answer": "Q = σAT⁴"
+  },
+  {
+    "question": "Specific heat at constant volume:",
+    "options": ["Cv = (∂U/∂T)_v", "Cv = R", "Cv = (∂H/∂T)_p", "Cv = Cp - R"],
+    "answer": "Cv = (∂U/∂T)_v"
+  },
+  {
+    "question": "Specific heat at constant pressure:",
+    "options": ["Cp = (∂H/∂T)_p", "Cp = Cv + R", "Cp = (∂U/∂T)_v", "Cp = R"],
+    "answer": "Cp = (∂H/∂T)_p"
+  },
+  {
+    "question": "Steady Flow Energy Equation:",
+    "options": ["Q - W = Δh + ΔKE + ΔPE", "Q + W = ΔU", "Q = W", "Q = ΔS"],
+    "answer": "Q - W = Δh + ΔKE + ΔPE"
+  },
+  {
+    "question": "Throttling process condition:",
+    "options": ["h1 = h2", "P1 = P2", "T1 = T2", "s1 = s2"],
+    "answer": "h1 = h2"
+  },
+  {
+    "question": "Degree of Superheat:",
+    "options": ["Tsuperheat - Tsaturation", "Tsubcooling - Tboiling", "Psuperheat - Psaturation", "h - hf"],
+    "answer": "Tsuperheat - Tsaturation"
+  },
+  {
+    "question": "Dryness fraction (x):",
+    "options": ["x = (h - hf)/(hfg)", "x = h/hfg", "x = T/Tsat", "x = P/Psat"],
+    "answer": "x = (h - hf)/(hfg)"
+  },
+  {
+    "question": "Gibbs equation (simple form):",
+    "options": ["Tds = du + Pdv", "du = Tds - Pdv", "h = u + Pv", "Tds = dh - vdP"],
+    "answer": "Tds = du + Pdv"
+  },
+  {
+    "question": "Heat transfer in phase change:",
+    "options": ["Q = mL", "Q = mCpΔT", "Q = mRΔT", "Q = mgh"],
+    "answer": "Q = mL"
+  },
+  {
+    "question": "Work done in a cycle:",
+    "options": ["W = Qin - Qout", "W = Qout - Qin", "W = ΔU", "W = ΔH"],
+    "answer": "W = Qin - Qout"
+  },
+  {
+    "question": "Thermal efficiency of Carnot engine:",
+    "options": ["η = 1 - TL/TH", "η = TH/TL", "η = TL/TH", "η = 1 - TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Work Ratio (Gas Power Cycles):",
+    "options": ["Work Ratio = Wnet / Wturbine", "Work Ratio = Qin / Qout", "Work Ratio = Wpump / Wnet", "Work Ratio = Wnet / Qin"],
+    "answer": "Work Ratio = Wnet / Wturbine"
+  },
+  {
+    "question": "Back Work Ratio:",
+    "options": ["Wcompressor / Wturbine", "Wturbine / Wcompressor", "Wnet / Qin", "Qin / Wnet"],
+    "answer": "Wcompressor / Wturbine"
+  },
+  {
+    "question": "Mean Effective Pressure (MEP):",
+    "options": ["MEP = Wnet / Vs", "MEP = PV", "MEP = mRT", "MEP = Wt / Vt"],
+    "answer": "MEP = Wnet / Vs"
+  },
+  {
+    "question": "Net work in Rankine cycle:",
+    "options": ["Wturbine - Wpump", "Qin - Qout", "Wnet = m(h1 - h2)", "Wturbine + Wpump"],
+    "answer": "Wturbine - Wpump"
+  },
+  {
+    "question": "Heat added in Rankine cycle:",
+    "options": ["Qin = h1 - h4", "Qin = h2 - h1", "Qin = h3 - h2", "Qin = mCpΔT"],
+    "answer": "Qin = h1 - h4"
+  },
+  {
+    "question": "Entropy change in isentropic process:",
+    "options": ["ΔS = 0", "ΔS = mR ln(V2/V1)", "ΔS = mCp ln(T2/T1)", "ΔS = Qrev / T"],
+    "answer": "ΔS = 0"
+  },
+  {
+    "question": "Entropy generation (irreversibility):",
+    "options": ["ΔSgen ≥ 0", "ΔSgen = 0", "ΔSgen < 0", "ΔSgen = Qrev / T"],
+    "answer": "ΔSgen ≥ 0"
+  },
+  {
+    "question": "Entropy balance for control volume (steady state):",
+    "options": ["Σms*s + Q/T = constant", "Σminsin - Σmoutsout + Q/T + Sgen = 0", "ΔS = 0", "Qin = Qout"],
+    "answer": "Σminsin - Σmoutsout + Q/T + Sgen = 0"
+  },
+  {
+    "question": "Availability for steady flow process:",
+    "options": ["ψ = h + KE + PE - T0s", "ψ = u + Pv", "ψ = h - T0s", "ψ = u - T0s"],
+    "answer": "ψ = h + KE + PE - T0s"
+  },
+  {
+    "question": "Maximum work output from closed system:",
+    "options": ["Wmax = ΔAvailability", "Wmax = Q - T0ΔS", "Wmax = T0ΔS", "Wmax = ΔU"],
+    "answer": "Wmax = ΔAvailability"
+  },
+  {
+    "question": "T-s diagram: area under curve represents:",
+    "options": ["Heat transfer", "Work done", "Entropy", "Internal energy"],
+    "answer": "Heat transfer"
+  },
+  {
+    "question": "P-v diagram: area under curve represents:",
+    "options": ["Work done", "Heat transfer", "Enthalpy", "Entropy"],
+    "answer": "Work done"
+  },
+  {
+    "question": "Stagnation enthalpy:",
+    "options": ["h0 = h + V²/2", "h0 = h - V²/2", "h0 = u + Pv", "h0 = CpT0"],
+    "answer": "h0 = h + V²/2"
+  },
+  {
+    "question": "Polytropic efficiency (compressor):",
+    "options": ["η = (n - 1)/n", "η = (γ - 1)/γ", "η = ln(P2/P1) / ln(T2/T1)", "η = Isentropic work / Actual work"],
+    "answer": "η = Isentropic work / Actual work"
+  },
+  {
+    "question": "Heat capacity ratio (γ):",
+    "options": ["Cp/Cv", "Cv/Cp", "Cp - Cv", "R/Cp"],
+    "answer": "Cp/Cv"
+  },
+  {
+    "question": "Entropy generation in a heat exchanger (ideal):",
+    "options": ["ΔSgen = 0", "ΔSgen > 0", "ΔSgen < 0", "ΔSgen = ΔQ / T"],
+    "answer": "ΔSgen = 0"
+  },
+  {
+    "question": "Entropy change for mixing two ideal gases (irreversible):",
+    "options": ["ΔS > 0", "ΔS = 0", "ΔS < 0", "ΔS = ln(P1/P2)"],
+    "answer": "ΔS > 0"
+  },
+  {
+    "question": "Thermal efficiency of combined cycle:",
+    "options": ["ηcombined = Wnet / Qin", "ηcombined = η1 + η2", "ηcombined = η1 * η2", "ηcombined = 1 - TL/TH"],
+    "answer": "ηcombined = Wnet / Qin"
+  },
+  {
+    "question": "T-ds relation for reversible processes:",
+    "options": ["Tds = du + Pdv", "Tds = dh - vdP", "Tds = Qrev", "Tds = Cv dT + PdV"],
+    "answer": "Tds = du + Pdv"
+  },
+  {
+    "question": "Effectiveness of regenerative cycle:",
+    "options": ["ε = (T5 - T2)/(T4 - T2)", "ε = (T3 - T2)/(T5 - T2)", "ε = Qreg/Qin", "ε = Wnet/Qin"],
+    "answer": "ε = (T5 - T2)/(T4 - T2)"
+  },
+  {
+    "question": "Entropy change for phase change (latent heat):",
+    "options": ["ΔS = L/T", "ΔS = mL", "ΔS = Q/T", "ΔS = mCpΔT"],
+    "answer": "ΔS = L/T"
+  },
+  {
+    "question": "Exergy destruction in irreversible process:",
+    "options": ["Ėdestroyed = T0 * Sgen", "Ėdestroyed = Q/T", "Ėdestroyed = ΔU", "Ėdestroyed = Wrev"],
+    "answer": "Ėdestroyed = T0 * Sgen"
+  },
+  {
+    "question": "Entropy change for ideal gas in isothermal process:",
+    "options": ["ΔS = nR ln(V2/V1)", "ΔS = nR ln(T2/T1)", "ΔS = nR ln(P2/P1)", "ΔS = Qrev/T"],
+    "answer": "ΔS = nR ln(V2/V1)"
+  },
+  {
+    "question": "Entropy change for ideal gas in adiabatic process:",
+    "options": ["ΔS = 0", "ΔS = nR ln(T2/T1)", "ΔS = nR ln(P2/P1)", "ΔS = Qrev/T"],
+    "answer": "ΔS = 0"
+  },
+  {
+    "question": "Entropy generation for irreversible process:",
+    "options": ["ΔSgen > 0", "ΔSgen = 0", "ΔSgen < 0", "ΔSgen = -Q/T"],
+    "answer": "ΔSgen > 0"
+  },
+  {
+    "question": "Irreversibility (exergy destruction):",
+    "options": ["I = T0 * ΔSgen", "I = Q/T", "I = ΔU", "I = h - Ts"],
+    "answer": "I = T0 * ΔSgen"
+  },
+  {
+    "question": "Reversible process entropy generation:",
+    "options": ["ΔSgen = 0", "ΔSgen > 0", "ΔSgen < 0", "ΔSgen = mCp ln(T2/T1)"],
+    "answer": "ΔSgen = 0"
+  },
+  {
+    "question": "Irreversibility in closed system:",
+    "options": ["I = ΔAvailability", "I = Qrev - Qact", "I = Wrev - Wact", "I = m(h - T0s)"],
+    "answer": "I = Wrev - Wact"
+  },
+  {
+    "question": "Irreversibility in open system:",
+    "options": ["I = m(h1 - h2 - T0(s1 - s2))", "I = m(T0ΔS)", "I = Qrev - T0ΔS", "I = mCp(T1 - T2)"],
+    "answer": "I = m(h1 - h2 - T0(s1 - s2))"
+  },
+  {
+    "question": "Second law efficiency (η_II):",
+    "options": ["η_II = Actual output / Maximum possible output", "η_II = Wnet / Qout", "η_II = Qin / Qout", "η_II = T0/T"],
+    "answer": "η_II = Actual output / Maximum possible output"
+  },
+  {
+    "question": "Exergy destruction rate:",
+    "options": ["Ėdestroyed = T0 * Sgen", "Ėdestroyed = Q / T", "Ėdestroyed = Δh", "Ėdestroyed = Wrev"],
+    "answer": "Ėdestroyed = T0 * Sgen"
+  },
+  {
+    "question": "Clausius inequality for irreversible process:",
+    "options": ["∮δQ/T < 0", "∮δQ/T > 0", "∮δQ/T = 0", "∮δQ/T > Wnet"],
+    "answer": "∮δQ/T < 0"
+  },
+  {
+    "question": "Lost work (due to irreversibility):",
+    "options": ["Wlost = I = T0ΔSgen", "Wlost = ΔU", "Wlost = ΔH", "Wlost = mRT ln(P2/P1)"],
+    "answer": "Wlost = I = T0ΔSgen"
+  },
+  {
+    "question": "Irreversibility in heat transfer:",
+    "options": ["I = Q(1 - T0/TH)", "I = T0ΔSgen", "I = Q - W", "I = W - Q"],
+    "answer": "I = Q(1 - T0/TH)"
+  },
+  {
+    "question": "Exergy (availability) of closed system:",
+    "options": ["ψ = (U - U0) + P0(V - V0) - T0(S - S0)", "ψ = h - T0s", "ψ = mRT", "ψ = W + Q"],
+    "answer": "ψ = (U - U0) + P0(V - V0) - T0(S - S0)"
+  },
+  {
+    "question": "Exergy balance for closed system:",
+    "options": ["Exergy in - Exergy out = Exergy destroyed", "ΔEx = Q + W", "Exergy in = Work out", "Q = mCpΔT"],
+    "answer": "Exergy in - Exergy out = Exergy destroyed"
+  },
+  {
+    "question": "Reversibility condition in second law:",
+    "options": ["No entropy generation", "No heat transfer", "No temperature difference", "Adiabatic system"],
+    "answer": "No entropy generation"
+  },
+  {
+    "question": "Irreversibility due to friction:",
+    "options": ["Increases entropy", "Reduces entropy", "No effect", "Increases temperature only"],
+    "answer": "Increases entropy"
+  },
+  {
+    "question": "Exergy is maximum when process is:",
+    "options": ["Reversible", "Isothermal", "Adiabatic", "Irreversible"],
+    "answer": "Reversible"
+  },
+  {
+    "question": "Irreversibility in throttling process:",
+    "options": ["I > 0", "I = 0", "I < 0", "I = mRT ln(P1/P2)"],
+    "answer": "I > 0"
+  },
+  {
+    "question": "Exergy of a flowing fluid:",
+    "options": ["ψ = h + KE + PE - T0s", "ψ = u - T0s", "ψ = h - Pv", "ψ = CpT ln(T2/T1)"],
+    "answer": "ψ = h + KE + PE - T0s"
+  },
+  {
+    "question": "Entropy production due to heat conduction:",
+    "options": ["ΔSgen = Q(1/T2 - 1/T1)", "ΔSgen = Q/T", "ΔSgen = mCp ln(T2/T1)", "ΔSgen = Q/ΔT"],
+    "answer": "ΔSgen = Q(1/T2 - 1/T1)"
+  },
+  {
+    "question": "When irreversibility is zero:",
+    "options": ["Process is ideal", "System is at steady state", "Process is isobaric", "Work output is zero"],
+    "answer": "Process is ideal"
+  },
+  {
+    "question": "Main sources of irreversibility:",
+    "options": ["Heat transfer through finite temperature difference, friction, unrestrained expansion", "Perfect insulation", "Ideal gas mixing", "No heat transfer"],
+    "answer": "Heat transfer through finite temperature difference, friction, unrestrained expansion"
+  }
+
+]
