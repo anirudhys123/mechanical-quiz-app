@@ -8,13 +8,12 @@ const shuffleArray = (arr) =>
 export default function Quiz() {
   const router = useRouter();
   const { category } = router.query;
-
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState('');
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
-  const [timer, setTimer] = useState(60);
+  const [timer, setTimer] = useState(120);
   const [answerData, setAnswerData] = useState([]);
 
   useEffect(() => {
@@ -78,7 +77,7 @@ export default function Quiz() {
   }, [timer, questions]);
 
   useEffect(() => {
-    setTimer(60);
+    setTimer(120);
   }, [current]);
 
   const handleNext = () => {

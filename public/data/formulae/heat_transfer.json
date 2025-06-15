@@ -50,8 +50,6 @@
     "options": ["Bi = hL_c/k", "Bi = k/hL_c", "Bi = h/k", "Bi = L/k"],
     "answer": "Bi = hL_c/k"
   },
-
-
   {
     "question": "Planck’s law of blackbody radiation:",
     "options": ["E_λ = (2πhc²)/λ⁵[1/(e^(hc/λkT)-1)]", "E = σT⁴", "q = mcΔT", "q = hAΔT"],
