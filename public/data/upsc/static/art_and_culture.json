@@ -1,0 +1,503 @@
+[
+  {
+    "question": "Which of the following is a classical dance form of India?",
+    "options": ["Kathakali", "Garba", "Bhangra", "Lavani"],
+    "answer": "Kathakali"
+  },
+  {
+    "question": "The 'Natyashastra' was written by which ancient scholar?",
+    "options": ["Panini", "Bharata", "Kalidasa", "Kautilya"],
+    "answer": "Bharata"
+  },
+  {
+    "question": "Which UNESCO World Heritage Site is associated with Buddhist caves?",
+    "options": ["Ajanta Caves", "Khajuraho Temples", "Konark Temple", "Sun Temple Modhera"],
+    "answer": "Ajanta Caves"
+  },
+  {
+    "question": "Sattriya is a classical dance form from which Indian state?",
+    "options": ["Odisha", "Assam", "Manipur", "Kerala"],
+    "answer": "Assam"
+  },
+  {
+    "question": "Which of the following is a traditional Indian painting style?",
+    "options": ["Madhubani", "Cubism", "Impressionism", "Pointillism"],
+    "answer": "Madhubani"
+  },
+  {
+    "question": "The Brihadeshwara Temple was built during the reign of which dynasty?",
+    "options": ["Pallava", "Chola", "Maurya", "Gupta"],
+    "answer": "Chola"
+  },
+  {
+    "question": "Which dance form is associated with the story of Lord Krishna?",
+    "options": ["Odissi", "Bharatanatyam", "Kuchipudi", "Mohiniyattam"],
+    "answer": "Kuchipudi"
+  },
+  {
+    "question": "Yakshagana is a traditional theatre form of which state?",
+    "options": ["Tamil Nadu", "Karnataka", "Rajasthan", "Maharashtra"],
+    "answer": "Karnataka"
+  },
+  {
+    "question": "Which instrument is commonly used in Hindustani classical music?",
+    "options": ["Mridangam", "Sitar", "Veena", "Chenda"],
+    "answer": "Sitar"
+  },
+  {
+    "question": "The Sun Temple at Konark is in which Indian state?",
+    "options": ["West Bengal", "Odisha", "Gujarat", "Andhra Pradesh"],
+    "answer": "Odisha"
+  },
+  {
+    "question": "Bharatanatyam originated in which Indian state?",
+    "options": ["Karnataka", "Tamil Nadu", "Andhra Pradesh", "Kerala"],
+    "answer": "Tamil Nadu"
+  },
+  {
+    "question": "The famous rock-cut temples at Mahabalipuram were built by which dynasty?",
+    "options": ["Maurya", "Pallava", "Chola", "Satavahana"],
+    "answer": "Pallava"
+  },
+  {
+    "question": "In which language was the 'Manimekalai', a Tamil epic, written?",
+    "options": ["Tamil", "Sanskrit", "Pali", "Prakrit"],
+    "answer": "Tamil"
+  },
+  {
+    "question": "Which site is known for terracotta temples of Bengal?",
+    "options": ["Bishnupur", "Hampi", "Badami", "Lothal"],
+    "answer": "Bishnupur"
+  },
+  {
+    "question": "The Jataka tales are associated with which religion?",
+    "options": ["Hinduism", "Jainism", "Buddhism", "Zoroastrianism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "What is the traditional form of theatre in Assam?",
+    "options": ["Bhaona", "Jatra", "Tamasha", "Yakshagana"],
+    "answer": "Bhaona"
+  },
+  {
+    "question": "The Khajuraho temples were built under the rule of which dynasty?",
+    "options": ["Chandela", "Maurya", "Solanki", "Gupta"],
+    "answer": "Chandela"
+  },
+  {
+    "question": "Which of the following is a martial dance form of India?",
+    "options": ["Chhau", "Bharatanatyam", "Mohiniyattam", "Lavani"],
+    "answer": "Chhau"
+  },
+  {
+    "question": "The Meenakshi Temple is located in which Indian city?",
+    "options": ["Madurai", "Rameshwaram", "Kanchipuram", "Chidambaram"],
+    "answer": "Madurai"
+  },
+  {
+    "question": "Mohiniyattam is a classical dance form of which state?",
+    "options": ["Tamil Nadu", "Kerala", "Karnataka", "Odisha"],
+    "answer": "Kerala"
+  },
+  {
+    "question": "Which of the following sites is famous for bronze Chola sculptures?",
+    "options": ["Thanjavur", "Hampi", "Kanchipuram", "Madurai"],
+    "answer": "Thanjavur"
+  },
+  {
+    "question": "The Jain Dilwara Temples are located in which state?",
+    "options": ["Rajasthan", "Gujarat", "Maharashtra", "Karnataka"],
+    "answer": "Rajasthan"
+  },
+  {
+    "question": "Which temple is known as the 'Black Pagoda'?",
+    "options": ["Konark Sun Temple", "Meenakshi Temple", "Rameshwaram Temple", "Jagannath Temple"],
+    "answer": "Konark Sun Temple"
+  },
+  {
+    "question": "Ragamala paintings are associated with which art tradition?",
+    "options": ["Miniature Paintings", "Madhubani", "Warli", "Pattachitra"],
+    "answer": "Miniature Paintings"
+  },
+  {
+    "question": "Who composed the 'Abhinaya Darpana'?",
+    "options": ["Nandikeshwara", "Kalidasa", "Bharata", "Tulsidas"],
+    "answer": "Nandikeshwara"
+  },
+  {
+    "question": "Which Mughal emperor patronized miniature painting the most?",
+    "options": ["Akbar", "Babur", "Aurangzeb", "Shah Jahan"],
+    "answer": "Akbar"
+  },
+  {
+    "question": "Kalaripayattu is a martial art form from which state?",
+    "options": ["Kerala", "Tamil Nadu", "Maharashtra", "Punjab"],
+    "answer": "Kerala"
+  },
+  {
+    "question": "Where is the UNESCO World Heritage Site of Hampi located?",
+    "options": ["Karnataka", "Tamil Nadu", "Andhra Pradesh", "Telangana"],
+    "answer": "Karnataka"
+  },
+  {
+    "question": "Which dance is performed only by male Brahmins as temple ritual in Kerala?",
+    "options": ["Krishnattam", "Mohiniyattam", "Kathak", "Sattriya"],
+    "answer": "Krishnattam"
+  },
+  {
+    "question": "Patola sarees are native to which Indian state?",
+    "options": ["Gujarat", "Odisha", "Tamil Nadu", "Assam"],
+    "answer": "Gujarat"
+  },
+  {
+    "question": "Which ancient university was located near Patna in Bihar?",
+    "options": ["Nalanda", "Takshashila", "Vikramashila", "Valabhi"],
+    "answer": "Nalanda"
+  },
+  {
+    "question": "Which festival in Tamil Nadu is associated with classical Tamil poetry?",
+    "options": ["Chithirai", "Pongal", "Jallikattu", "Margazhi"],
+    "answer": "Margazhi"
+  },
+  {
+    "question": "Kumbh Mela is held every how many years at a given location?",
+    "options": ["12 years", "6 years", "4 years", "9 years"],
+    "answer": "12 years"
+  },
+  {
+    "question": "Veena is mostly associated with which form of music?",
+    "options": ["Carnatic", "Hindustani", "Folk", "Fusion"],
+    "answer": "Carnatic"
+  },
+  {
+    "question": "Which classical dance form involves heavy facial expressions and eye movements?",
+    "options": ["Kathakali", "Odissi", "Sattriya", "Bharatanatyam"],
+    "answer": "Kathakali"
+  },
+  {
+    "question": "The Warli painting is native to which state?",
+    "options": ["Maharashtra", "Gujarat", "Rajasthan", "Madhya Pradesh"],
+    "answer": "Maharashtra"
+  },
+  {
+    "question": "Which monument is known for its 'hanging pillar'?",
+    "options": ["Lepakshi Temple", "Sun Temple", "Brihadeshwara Temple", "Kailasa Temple"],
+    "answer": "Lepakshi Temple"
+  },
+  {
+    "question": "Which dance form includes 'Lasya' and 'Tandava' styles?",
+    "options": ["Bharatanatyam", "Odissi", "Kuchipudi", "Mohiniyattam"],
+    "answer": "Bharatanatyam"
+  },
+  {
+    "question": "Ajanta paintings are mostly from which period?",
+    "options": ["Gupta", "Maurya", "Sunga", "Mughal"],
+    "answer": "Gupta"
+  },
+
+  {
+    "question": "Which Indian state is famous for the Pattachitra style of painting?",
+    "options": ["Odisha", "Rajasthan", "Madhya Pradesh", "Bihar"],
+    "answer": "Odisha"
+  },
+  {
+    "question": "Which classical dance is known for its sculpturesque poses and tribhangi posture?",
+    "options": ["Odissi", "Kathak", "Kuchipudi", "Bharatanatyam"],
+    "answer": "Odissi"
+  },
+  {
+    "question": "Kumbh Mela is recognized by UNESCO under which list?",
+    "options": ["Intangible Cultural Heritage", "World Heritage Site", "Creative Cities", "Man and Biosphere Reserve"],
+    "answer": "Intangible Cultural Heritage"
+  },
+  {
+    "question": "Garba is a traditional dance form of which state?",
+    "options": ["Gujarat", "Punjab", "Maharashtra", "Karnataka"],
+    "answer": "Gujarat"
+  },
+  {
+    "question": "Who wrote the famous Sanskrit play 'Shakuntala'?",
+    "options": ["Kalidasa", "Bhasa", "Bharavi", "Panini"],
+    "answer": "Kalidasa"
+  },
+  {
+    "question": "Which ancient Indian text deals with music and drama?",
+    "options": ["Natyashastra", "Arthashastra", "Manusmriti", "Rigveda"],
+    "answer": "Natyashastra"
+  },
+  {
+    "question": "The 'Gotipua' dance form is the precursor to which classical dance?",
+    "options": ["Odissi", "Kathakali", "Sattriya", "Bharatanatyam"],
+    "answer": "Odissi"
+  },
+  {
+    "question": "Which of the following is a folk theatre of Maharashtra?",
+    "options": ["Tamasha", "Bhaona", "Therukoothu", "Jatra"],
+    "answer": "Tamasha"
+  },
+  {
+    "question": "Which famous Indian monument was built by Qutb-ud-din Aibak?",
+    "options": ["Qutub Minar", "Red Fort", "Humayun’s Tomb", "Fatehpur Sikri"],
+    "answer": "Qutub Minar"
+  },
+  {
+    "question": "Which of the following is a temple built in Dravidian style?",
+    "options": ["Meenakshi Temple", "Sun Temple Modhera", "Jagannath Temple", "Mahabodhi Temple"],
+    "answer": "Meenakshi Temple"
+  },
+  {
+    "question": "The 'Surya Siddhanta' is a text related to which subject?",
+    "options": ["Astronomy", "Medicine", "Music", "Architecture"],
+    "answer": "Astronomy"
+  },
+  {
+    "question": "Which emperor is known for constructing the Kailasa Temple at Ellora?",
+    "options": ["Krishna I", "Ashoka", "Raja Raja Chola", "Harsha"],
+    "answer": "Krishna I"
+  },
+  {
+    "question": "Who among the following was a famous female saint of the Bhakti Movement?",
+    "options": ["Mirabai", "Gargi", "Vidyapati", "Akka Mahadevi"],
+    "answer": "Mirabai"
+  },
+  {
+    "question": "Which Mughal painting school is known for depicting court scenes and hunting?",
+    "options": ["Akbari School", "Pahari School", "Rajput School", "Mysore School"],
+    "answer": "Akbari School"
+  },
+  {
+    "question": "Which of the following dances is performed in Tamil Nadu?",
+    "options": ["Karagattam", "Garba", "Bihu", "Yakshagana"],
+    "answer": "Karagattam"
+  },
+  {
+    "question": "Which musical instrument is not of Indian origin?",
+    "options": ["Piano", "Veena", "Mridangam", "Sitar"],
+    "answer": "Piano"
+  },
+  {
+    "question": "Which inscription describes the achievements of Samudragupta?",
+    "options": ["Allahabad Pillar Inscription", "Hathigumpha Inscription", "Junagarh Rock Inscription", "Aihole Inscription"],
+    "answer": "Allahabad Pillar Inscription"
+  },
+  {
+    "question": "The Bhimbetka rock shelters are associated with which age?",
+    "options": ["Mesolithic", "Iron Age", "Gupta Period", "Vedic Age"],
+    "answer": "Mesolithic"
+  },
+  {
+    "question": "Which architectural style is seen in Gol Gumbaz?",
+    "options": ["Indo-Islamic", "Dravidian", "Nagara", "Maru-Gurjara"],
+    "answer": "Indo-Islamic"
+  },
+  {
+    "question": "The Kalbelia dance is performed by the tribal community of which state?",
+    "options": ["Rajasthan", "Chhattisgarh", "Odisha", "Jharkhand"],
+    "answer": "Rajasthan"
+  },
+  {
+    "question": "Who is the author of the Tamil epic 'Silappatikaram'?",
+    "options": ["Ilango Adigal", "Thiruvalluvar", "Kambar", "Sambandar"],
+    "answer": "Ilango Adigal"
+  },
+  {
+    "question": "Which city is famous for Chikankari embroidery?",
+    "options": ["Lucknow", "Jaipur", "Hyderabad", "Kolkata"],
+    "answer": "Lucknow"
+  },
+  {
+    "question": "The Nagarjuna Konda site is associated with which religion?",
+    "options": ["Buddhism", "Hinduism", "Jainism", "Zoroastrianism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which of the following was a famous school of miniature painting?",
+    "options": ["Mewar", "Bengal", "Tanjore", "Sangam"],
+    "answer": "Mewar"
+  },
+  {
+    "question": "Which Indian festival celebrates the classical dance of Lord Shiva?",
+    "options": ["Mahashivratri", "Diwali", "Onam", "Vasant Panchami"],
+    "answer": "Mahashivratri"
+  },
+  {
+    "question": "Which dynasty is known for the construction of temples at Pattadakal?",
+    "options": ["Chalukya", "Rashtrakuta", "Maurya", "Satavahana"],
+    "answer": "Chalukya"
+  },
+  {
+    "question": "Which literary work is considered the earliest known grammar of Sanskrit?",
+    "options": ["Ashtadhyayi", "Mahabhashya", "Shiksha", "Rigveda"],
+    "answer": "Ashtadhyayi"
+  },
+  {
+    "question": "The ‘Garuda Stambha’ is typically found in front of which temples?",
+    "options": ["Vishnu temples", "Shiva temples", "Jain temples", "Buddhist monasteries"],
+    "answer": "Vishnu temples"
+  },
+  {
+    "question": "Which of the following schools is associated with Jain miniature painting?",
+    "options": ["Western Indian School", "Pahari School", "Deccan School", "Mughal School"],
+    "answer": "Western Indian School"
+  },
+  {
+    "question": "Which Indian state is known for the 'Bastar Dussehra' festival?",
+    "options": ["Chhattisgarh", "Odisha", "Jharkhand", "West Bengal"],
+    "answer": "Chhattisgarh"
+  },
+
+  {
+    "question": "Which temple is considered the finest example of Vesara style?",
+    "options": ["Hoysaleswara Temple", "Kailasa Temple", "Konark Sun Temple", "Lingaraja Temple"],
+    "answer": "Hoysaleswara Temple"
+  },
+  {
+    "question": "Which classical dance is performed with ankle bells and swift footwork?",
+    "options": ["Kathak", "Odissi", "Mohiniyattam", "Bharatanatyam"],
+    "answer": "Kathak"
+  },
+  {
+    "question": "Which city is renowned for its blue pottery?",
+    "options": ["Jaipur", "Varanasi", "Mysore", "Hyderabad"],
+    "answer": "Jaipur"
+  },
+  {
+    "question": "In Indian architecture, a 'Shikhara' refers to what?",
+    "options": ["Temple tower", "Temple base", "Gateway", "Prayer hall"],
+    "answer": "Temple tower"
+  },
+  {
+    "question": "The Sangam literature was written in which language?",
+    "options": ["Tamil", "Sanskrit", "Pali", "Telugu"],
+    "answer": "Tamil"
+  },
+  {
+    "question": "The Vithoba temple is located in which Indian state?",
+    "options": ["Maharashtra", "Tamil Nadu", "Odisha", "Karnataka"],
+    "answer": "Maharashtra"
+  },
+  {
+    "question": "Which folk dance is performed during Bihu festival?",
+    "options": ["Bihu", "Garba", "Bhangra", "Lavani"],
+    "answer": "Bihu"
+  },
+  {
+    "question": "Which temple has erotic sculptures and is a UNESCO World Heritage Site?",
+    "options": ["Khajuraho", "Konark", "Rameshwaram", "Bodh Gaya"],
+    "answer": "Khajuraho"
+  },
+  {
+    "question": "Which of the following is a Rabindra Sangeet exponent?",
+    "options": ["Subinoy Roy", "Tansen", "Amir Khusro", "Tyagaraja"],
+    "answer": "Subinoy Roy"
+  },
+  {
+    "question": "The Alvars and Nayanars were associated with which movement?",
+    "options": ["Bhakti Movement", "Sufi Movement", "Social Reform", "Arya Samaj"],
+    "answer": "Bhakti Movement"
+  },
+  {
+    "question": "‘Lungi’ dance originated from which region?",
+    "options": ["Tamil Nadu", "Punjab", "Andhra Pradesh", "It is not a traditional dance"],
+    "answer": "It is not a traditional dance"
+  },
+  {
+    "question": "Koodiyattam is a temple theatre from which state?",
+    "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+    "answer": "Kerala"
+  },
+  {
+    "question": "Which inscription records the achievements of Pulakesin II?",
+    "options": ["Aihole Inscription", "Prayag Prashasti", "Nasik Inscription", "Udayagiri Inscription"],
+    "answer": "Aihole Inscription"
+  },
+  {
+    "question": "Which musical instrument is a percussion instrument?",
+    "options": ["Mridangam", "Flute", "Sitar", "Sarangi"],
+    "answer": "Mridangam"
+  },
+  {
+    "question": "Which Indian river is closely associated with the Mahabharata legend?",
+    "options": ["Saraswati", "Ganga", "Yamuna", "Krishna"],
+    "answer": "Saraswati"
+  },
+  {
+    "question": "Which Mughal emperor banned music in the court?",
+    "options": ["Aurangzeb", "Akbar", "Jahangir", "Humayun"],
+    "answer": "Aurangzeb"
+  },
+  {
+    "question": "The term 'Gandhara art' is associated with which region?",
+    "options": ["Afghanistan and Pakistan", "Tamil Nadu", "Madhya Pradesh", "Gujarat"],
+    "answer": "Afghanistan and Pakistan"
+  },
+  {
+    "question": "Which of the following is a Carnatic vocalist?",
+    "options": ["M. S. Subbulakshmi", "Pandit Ravi Shankar", "Hariprasad Chaurasia", "Ustad Zakir Hussain"],
+    "answer": "M. S. Subbulakshmi"
+  },
+  {
+    "question": "Which dance form uses elaborate hand gestures called 'mudras'?",
+    "options": ["Bharatanatyam", "Kalbelia", "Ghoomar", "Bihu"],
+    "answer": "Bharatanatyam"
+  },
+  {
+    "question": "Who is considered the father of Indian archaeology?",
+    "options": ["Alexander Cunningham", "Mortimer Wheeler", "John Marshall", "James Princep"],
+    "answer": "Alexander Cunningham"
+  },
+  {
+    "question": "Which style of temple has curved towers and is common in North India?",
+    "options": ["Nagara", "Dravida", "Vesara", "Hoysala"],
+    "answer": "Nagara"
+  },
+  {
+    "question": "The Bhakti poet-saint Namdev hailed from which state?",
+    "options": ["Maharashtra", "Punjab", "Tamil Nadu", "Karnataka"],
+    "answer": "Maharashtra"
+  },
+  {
+    "question": "Which Jain festival is celebrated with penance and fasting?",
+    "options": ["Paryushan", "Mahavir Jayanti", "Diwali", "Chaturmas"],
+    "answer": "Paryushan"
+  },
+  {
+    "question": "The Ajivikas were a religious sect contemporary to whom?",
+    "options": ["Buddha and Mahavira", "Chanakya", "Kalidasa", "Asanga"],
+    "answer": "Buddha and Mahavira"
+  },
+  {
+    "question": "Which monument is called 'White Marble Dream'?",
+    "options": ["Taj Mahal", "Itimad-ud-Daulah", "Bibi Ka Maqbara", "Victoria Memorial"],
+    "answer": "Taj Mahal"
+  },
+  {
+    "question": "Which Indian form of theatre uses masks and is performed at night?",
+    "options": ["Chhau", "Kathakali", "Yakshagana", "Therukoothu"],
+    "answer": "Yakshagana"
+  },
+  {
+    "question": "Who built the Lotus Temple in New Delhi?",
+    "options": ["Fariborz Sahba", "Charles Correa", "B. V. Doshi", "Le Corbusier"],
+    "answer": "Fariborz Sahba"
+  },
+  {
+    "question": "The 'Arjuna’s Penance' bas-relief is located at?",
+    "options": ["Mahabalipuram", "Hampi", "Ellora", "Elephanta"],
+    "answer": "Mahabalipuram"
+  },
+  {
+    "question": "Which of the following is a Manipuri folk dance?",
+    "options": ["Thang Ta", "Dollu Kunitha", "Karakattam", "Dalkhai"],
+    "answer": "Thang Ta"
+  },
+  {
+    "question": "Which Indian saint is associated with 'Abhangs'?",
+    "options": ["Tukaram", "Kabir", "Surdas", "Mirabai"],
+    "answer": "Tukaram"
+  }
+
+
+
+
+]

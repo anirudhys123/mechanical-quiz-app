@@ -8,6 +8,7 @@ const shuffleArray = (arr) =>
 export default function Quiz() {
   const router = useRouter();
   const { category } = router.query;
+
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState('');
@@ -20,46 +21,45 @@ export default function Quiz() {
     if (!category) return;
 
     const parts = category.split('_');
-    const exam = parts[0];
-    const subject = parts[1];
-    const chapter = parts[2]; // optional
-
     let filePath = '';
 
-  if (exam === 'GATE') {
-  filePath = `/data/gate/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-} else if (exam === 'SOFTWARE') {
-  filePath = `/data/software/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-} else if (exam === 'FORMULAE') {
-  filePath = `/data/formulae/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-} else if (exam && subject && chapter) {
-  filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
-} else {
-  console.error('Invalid category format:', parts);
-  return;
-}
+    try {
+      if (parts.length === 2) {
+        const [exam, subject] = parts;
+        filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
+      } else if (parts.length === 3) {
+        const [exam, subject, chapter] = parts;
+        filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
+      } else {
+        console.error('❌ Unsupported category format:', category);
+        alert('❌ Invalid quiz category format.');
+        return;
+      }
 
-
-    fetch(filePath)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        if (!Array.isArray(data)) throw new Error('Expected JSON array of questions');
-        const randomTen = shuffleArray(data)
-          .slice(0, 10)
-          .map((q) => ({
-            ...q,
-            options: shuffleArray(q.options),
-          }));
-        setQuestions(randomTen);
-        setStartTime(Date.now());
-      })
-      .catch((err) => {
-        console.error('Failed to load quiz data:', err.message);
-        alert('❌ Failed to load quiz. Please check file path or format.');
-      });
+      fetch(filePath)
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+          return res.json();
+        })
+        .then((data) => {
+          if (!Array.isArray(data)) throw new Error('Expected JSON array of questions');
+          const randomTen = shuffleArray(data)
+            .slice(0, 10)
+            .map((q) => ({
+              ...q,
+              options: shuffleArray(q.options),
+            }));
+          setQuestions(randomTen);
+          setStartTime(Date.now());
+        })
+        .catch((err) => {
+          console.error('Failed to load quiz data:', err.message);
+          alert('❌ Failed to load quiz. Check file path or format.');
+        });
+    } catch (e) {
+      console.error('❌ Exception:', e.message);
+      alert('❌ Failed to build file path.');
+    }
   }, [category]);
 
   useEffect(() => {
