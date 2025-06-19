@@ -1,0 +1,255 @@
+[
+  {
+    "question": "Which is the longest river in Peninsular India?",
+    "options": ["Godavari", "Krishna", "Mahanadi", "Cauvery"],
+    "answer": "Godavari"
+  },
+  {
+    "question": "Which mountain range separates the Kashmir Valley from Ladakh?",
+    "options": ["Zanskar Range", "Pir Panjal", "Dhauladhar", "Siwalik"],
+    "answer": "Zanskar Range"
+  },
+  {
+    "question": "Which soil is ideal for cotton cultivation?",
+    "options": ["Black Soil", "Alluvial Soil", "Red Soil", "Laterite Soil"],
+    "answer": "Black Soil"
+  },
+  {
+    "question": "The Gir Forest is a natural habitat of which species?",
+    "options": ["Asiatic Lion", "Bengal Tiger", "Snow Leopard", "Indian Elephant"],
+    "answer": "Asiatic Lion"
+  },
+  {
+    "question": "The Southwest monsoon usually reaches Kerala by which month?",
+    "options": ["June", "May", "July", "August"],
+    "answer": "June"
+  },
+  {
+    "question": "Which Indian state is the largest producer of wheat?",
+    "options": ["Uttar Pradesh", "Punjab", "Madhya Pradesh", "Haryana"],
+    "answer": "Uttar Pradesh"
+  },
+  {
+    "question": "Which river flows through the Grand Canyon in the USA?",
+    "options": ["Colorado River", "Mississippi River", "Columbia River", "Yukon River"],
+    "answer": "Colorado River"
+  },
+  {
+    "question": "Which is the highest peak in the Western Ghats?",
+    "options": ["Anamudi", "Doddabetta", "Agasthyamalai", "Nilgiri"],
+    "answer": "Anamudi"
+  },
+  {
+    "question": "Which type of forest is found in areas of high rainfall and temperature?",
+    "options": ["Tropical Evergreen", "Tropical Deciduous", "Montane", "Thorn Forest"],
+    "answer": "Tropical Evergreen"
+  },
+  {
+    "question": "Which river does not originate in the Western Ghats?",
+    "options": ["Yamuna", "Krishna", "Godavari", "Cauvery"],
+    "answer": "Yamuna"
+  },
+  {
+    "question": "What is the predominant soil type in the Indo-Gangetic Plain?",
+    "options": ["Alluvial Soil", "Black Soil", "Laterite Soil", "Red Soil"],
+    "answer": "Alluvial Soil"
+  },
+  {
+    "question": "Which river forms the Dhuandhar Falls?",
+    "options": ["Narmada", "Tapi", "Betwa", "Son"],
+    "answer": "Narmada"
+  },
+  {
+    "question": "The Eastern and Western Ghats meet at which hills?",
+    "options": ["Nilgiri Hills", "Cardamom Hills", "Palani Hills", "Shevaroy Hills"],
+    "answer": "Nilgiri Hills"
+  },
+  {
+    "question": "Which Indian state is the largest producer of tea?",
+    "options": ["Assam", "West Bengal", "Kerala", "Tamil Nadu"],
+    "answer": "Assam"
+  },
+  {
+    "question": "Which is the southernmost point of India?",
+    "options": ["Indira Point", "Kanyakumari", "Rameshwaram", "Minicoy"],
+    "answer": "Indira Point"
+  },
+  {
+    "question": "Which crop is known as a Zaid crop in India?",
+    "options": ["Watermelon", "Wheat", "Paddy", "Cotton"],
+    "answer": "Watermelon"
+  },
+  {
+    "question": "Which is the largest saltwater lake in India?",
+    "options": ["Chilika Lake", "Sambhar Lake", "Pulicat Lake", "Kolleru Lake"],
+    "answer": "Chilika Lake"
+  },
+  {
+    "question": "The Tropic of Cancer passes through how many Indian states?",
+    "options": ["8", "7", "9", "10"],
+    "answer": "8"
+  },
+  {
+    "question": "Which state has the maximum coastline in India?",
+    "options": ["Gujarat", "Andhra Pradesh", "Tamil Nadu", "Maharashtra"],
+    "answer": "Gujarat"
+  },
+  {
+    "question": "The highest dam in India is?",
+    "options": ["Tehri Dam", "Bhakra Nangal", "Sardar Sarovar", "Hirakud"],
+    "answer": "Tehri Dam"
+  },
+  
+  {
+    "question": "Which of the following rivers flows from India to Pakistan?",
+    "options": ["Jhelum", "Krishna", "Mahanadi", "Kaveri"],
+    "answer": "Jhelum"
+  },
+  {
+    "question": "Which is the southernmost point of the Indian mainland?",
+    "options": ["Cape Comorin", "Indira Point", "Kanyakumari", "Rameshwaram"],
+    "answer": "Kanyakumari"
+  },
+  {
+    "question": "Which river is also known as the 'Dakshin Ganga'?",
+    "options": ["Godavari", "Krishna", "Mahanadi", "Narmada"],
+    "answer": "Godavari"
+  },
+  {
+    "question": "Which is the largest desert in India?",
+    "options": ["Thar", "Rann of Kutch", "Cholistan", "Ladakh"],
+    "answer": "Thar"
+  },
+  {
+    "question": "The Tropic of Cancer passes through how many Indian states?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "8"
+  },
+  {
+    "question": "Chilika lake is located in which Indian state?",
+    "options": ["Odisha", "West Bengal", "Andhra Pradesh", "Tamil Nadu"],
+    "answer": "Odisha"
+  },
+  {
+    "question": "Which is the highest peak in India?",
+    "options": ["Kanchenjunga", "Nanda Devi", "Mount Everest", "K2"],
+    "answer": "Kanchenjunga"
+  },
+  {
+    "question": "Which is the longest river in India?",
+    "options": ["Ganga", "Godavari", "Brahmaputra", "Yamuna"],
+    "answer": "Ganga"
+  },
+  {
+    "question": "The Western Ghats are also known as?",
+    "options": ["Sahyadri Hills", "Nilgiri Hills", "Cardamom Hills", "Aravalli Hills"],
+    "answer": "Sahyadri Hills"
+  },
+  {
+    "question": "Which soil is ideal for cotton cultivation?",
+    "options": ["Black soil", "Red soil", "Laterite soil", "Alluvial soil"],
+    "answer": "Black soil"
+  },
+  {
+    "question": "Where is the Silent Valley National Park located?",
+    "options": ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
+    "answer": "Kerala"
+  },
+  {
+    "question": "Which Indian state receives the highest rainfall?",
+    "options": ["Meghalaya", "Kerala", "Arunachal Pradesh", "Assam"],
+    "answer": "Meghalaya"
+  },
+  {
+    "question": "Which river originates from Amarkantak?",
+    "options": ["Narmada", "Tapi", "Godavari", "Krishna"],
+    "answer": "Narmada"
+  },
+  {
+    "question": "Which region is famous for black soil?",
+    "options": ["Deccan Plateau", "Indo-Gangetic Plain", "Himalayan Region", "Western Ghats"],
+    "answer": "Deccan Plateau"
+  },
+  {
+    "question": "Which state is known as the 'Rice Bowl of India'?",
+    "options": ["Andhra Pradesh", "Punjab", "West Bengal", "Uttar Pradesh"],
+    "answer": "Andhra Pradesh"
+  },
+  {
+    "question": "Which is the longest tributary of the Ganga?",
+    "options": ["Yamuna", "Son", "Gandak", "Kosi"],
+    "answer": "Yamuna"
+  },
+  {
+    "question": "Which is the highest plateau in India?",
+    "options": ["Ladakh Plateau", "Deccan Plateau", "Chotanagpur Plateau", "Malwa Plateau"],
+    "answer": "Ladakh Plateau"
+  },
+  {
+    "question": "Which dam is built on the Sutlej river?",
+    "options": ["Bhakra Nangal", "Hirakud", "Tehri", "Sardar Sarovar"],
+    "answer": "Bhakra Nangal"
+  },
+  {
+    "question": "What type of forest is the Sundarbans?",
+    "options": ["Mangrove", "Tropical Rainforest", "Temperate", "Deciduous"],
+    "answer": "Mangrove"
+  },
+  {
+    "question": "Where is India’s only active volcano located?",
+    "options": ["Barren Island", "Lakshadweep", "Nicobar", "Andaman"],
+    "answer": "Barren Island"
+  },
+  {
+    "question": "Which river forms the Dhuandhar Falls?",
+    "options": ["Narmada", "Tapi", "Chambal", "Betwa"],
+    "answer": "Narmada"
+  },
+  {
+    "question": "Where is the Tropic of Cancer closest to the Arabian Sea?",
+    "options": ["Gujarat", "Rajasthan", "Madhya Pradesh", "Maharashtra"],
+    "answer": "Gujarat"
+  },
+  {
+    "question": "Which Indian state has the longest coastline?",
+    "options": ["Gujarat", "Andhra Pradesh", "Tamil Nadu", "Maharashtra"],
+    "answer": "Gujarat"
+  },
+  {
+    "question": "Which of these rivers is a tributary of the Brahmaputra?",
+    "options": ["Dibang", "Son", "Tapi", "Ghaghara"],
+    "answer": "Dibang"
+  },
+  {
+    "question": "Which mountain range separates Kashmir from Ladakh?",
+    "options": ["Zanskar", "Pir Panjal", "Karakoram", "Shivalik"],
+    "answer": "Zanskar"
+  },
+  {
+    "question": "Which state is home to the Nagarhole National Park?",
+    "options": ["Karnataka", "Tamil Nadu", "Kerala", "Madhya Pradesh"],
+    "answer": "Karnataka"
+  },
+  {
+    "question": "The highest peak of Western Ghats is?",
+    "options": ["Anamudi", "Doddabetta", "Agasthyamalai", "Nilgiri"],
+    "answer": "Anamudi"
+  },
+  {
+    "question": "Which pass connects Leh to Manali?",
+    "options": ["Rohtang Pass", "Shipki La", "Jelep La", "Nathu La"],
+    "answer": "Rohtang Pass"
+  },
+  {
+    "question": "Which city is called the 'Gateway of India’s North-East'?",
+    "options": ["Guwahati", "Shillong", "Itanagar", "Imphal"],
+    "answer": "Guwahati"
+  },
+  {
+    "question": "Which Indian state has the most number of national parks?",
+    "options": ["Madhya Pradesh", "Assam", "Maharashtra", "Uttarakhand"],
+    "answer": "Madhya Pradesh"
+  }
+
+
+]

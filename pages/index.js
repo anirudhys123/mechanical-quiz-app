@@ -19,7 +19,7 @@ const subjectChapters = {
   "Pathology": ["Cell Injury", "Neoplasia", "Inflammation"],
 
   // UPSC Subjects
-  "Static": ["Art and Culture"]
+  "Static": ["Art and Culture" , "Geography"]
 };
 
 export default function Home() {
