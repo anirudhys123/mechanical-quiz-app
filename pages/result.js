@@ -1,5 +1,3 @@
-// pages/result.js
-
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
@@ -55,6 +53,7 @@ export default function Result() {
               <th>Question</th>
               <th>Your Answer</th>
               <th>Correct Answer</th>
+              <th>Time Spent</th>
             </tr>
           </thead>
           <tbody>
@@ -64,16 +63,11 @@ export default function Result() {
                 <tr key={index}>
                   <td>{index + 1}</td>
                   <td className="text-start">{item.question}</td>
-                  <td
-                    className={`${
-                      item.selected === item.correct
-                        ? 'bg-success text-white'
-                        : 'bg-danger text-white'
-                    }`}
-                  >
+                  <td className={isCorrect ? 'bg-success text-white' : 'bg-danger text-white'}>
                     {item.selected}
                   </td>
                   <td className="bg-success text-white">{item.correct}</td>
+                  <td>{item.timeSpent}</td>
                 </tr>
               );
             })}

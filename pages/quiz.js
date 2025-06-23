@@ -14,10 +14,10 @@ export default function Quiz() {
   const [selected, setSelected] = useState('');
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
+  const [questionStartTime, setQuestionStartTime] = useState(null);
   const [timer, setTimer] = useState(120);
   const [answerData, setAnswerData] = useState([]);
 
-  // Fetch quiz data on category change
   useEffect(() => {
     if (!category) return;
 
@@ -51,6 +51,7 @@ export default function Quiz() {
             }));
           setQuestions(randomTen);
           setStartTime(Date.now());
+          setQuestionStartTime(Date.now());
         })
         .catch((err) => {
           console.error('❌ Failed to load quiz:', err.message);
@@ -62,11 +63,10 @@ export default function Quiz() {
     }
   }, [category]);
 
-  // Timer logic
   useEffect(() => {
     if (!questions.length) return;
     if (timer === 0) {
-      handleNext(); // auto-next on timeout
+      handleNext();
       return;
     }
 
@@ -78,19 +78,20 @@ export default function Quiz() {
   }, [timer, questions]);
 
   useEffect(() => {
-    setTimer(120); // reset timer on question change
+    setTimer(120);
   }, [current]);
 
-  // Handle next question
   const handleNext = () => {
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
     const updatedScore = isCorrect ? score + 1 : score;
+    const timeSpent = Math.floor((Date.now() - questionStartTime) / 1000);
 
     const currentAnswerData = {
       question: currentQuestion.question,
       selected: selected || 'Not Answered',
       correct: currentQuestion.answer,
+      timeSpent: `${timeSpent} sec`,
     };
     setAnswerData((prev) => [...prev, currentAnswerData]);
 
@@ -98,6 +99,7 @@ export default function Quiz() {
       setScore(updatedScore);
       setCurrent(current + 1);
       setSelected('');
+      setQuestionStartTime(Date.now());
     } else {
       const timeTaken = Math.floor((Date.now() - startTime) / 1000);
       const accuracy = Math.round((updatedScore / questions.length) * 100);
@@ -107,18 +109,19 @@ export default function Quiz() {
     }
   };
 
-  // Manual submission
   const submitImmediately = () => {
     if (!confirm('Are you sure you want to submit the quiz early?')) return;
 
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
     const finalScore = score + (isCorrect ? 1 : 0);
+    const timeSpent = Math.floor((Date.now() - questionStartTime) / 1000);
 
     const currentAnswerData = {
       question: currentQuestion.question,
       selected: selected || 'Not Answered',
       correct: currentQuestion.answer,
+      timeSpent: `${timeSpent} sec`,
     };
     const finalData = [...answerData, currentAnswerData];
     const timeTaken = Math.floor((Date.now() - startTime) / 1000);
