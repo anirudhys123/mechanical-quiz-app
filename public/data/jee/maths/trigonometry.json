@@ -1,0 +1,457 @@
+[
+  {
+    "question": "What is the value of sin²θ + cos²θ?",
+    "options": ["0", "1", "sinθ", "cosθ"],
+    "answer": "1"
+  },
+  {
+    "question": "What is the value of 1 + tan²θ?",
+    "options": ["sec²θ", "cot²θ", "cosec²θ", "1"],
+    "answer": "sec²θ"
+  },
+  {
+    "question": "What is the value of 1 + cot²θ?",
+    "options": ["tan²θ", "sec²θ", "cosec²θ", "1"],
+    "answer": "cosec²θ"
+  },
+  {
+    "question": "What is sin(2θ) equal to?",
+    "options": ["2cos²θ", "2sinθcosθ", "sin²θ + cos²θ", "cos²θ - sin²θ"],
+    "answer": "2sinθcosθ"
+  },
+  {
+    "question": "What is cos(2θ) equal to?",
+    "options": ["cos²θ - sin²θ", "2cosθsinθ", "1 - 2sin²θ", "Both A and C"],
+    "answer": "Both A and C"
+  },
+  {
+    "question": "What is tan(2θ)?",
+    "options": ["2tanθ / (1 - tan²θ)", "tan²θ - 1", "1 - tan²θ", "tanθ / 2"],
+    "answer": "2tanθ / (1 - tan²θ)"
+  },
+  {
+    "question": "What is sin(A ± B)?",
+    "options": ["sinA sinB ± cosA cosB", "sinA cosB ± cosA sinB", "cosA cosB", "None"],
+    "answer": "sinA cosB ± cosA sinB"
+  },
+  {
+    "question": "What is cos(A ± B)?",
+    "options": ["cosA cosB ∓ sinA sinB", "cosA sinB ± sinA cosB", "cos²A + sin²B", "None"],
+    "answer": "cosA cosB ∓ sinA sinB"
+  },
+  {
+    "question": "What is tan(A ± B)?",
+    "options": ["(tanA ± tanB)/(1 ∓ tanA tanB)", "tanA tanB ± 1", "(1 ± tanA tanB)/(tanA ± tanB)", "None"],
+    "answer": "(tanA ± tanB)/(1 ∓ tanA tanB)"
+  },
+  {
+    "question": "What is sin²θ in terms of cos(2θ)?",
+    "options": ["(1 + cos(2θ))/2", "(1 - cos(2θ))/2", "cos(2θ)", "None"],
+    "answer": "(1 - cos(2θ))/2"
+  },
+  {
+    "question": "What is cos²θ in terms of cos(2θ)?",
+    "options": ["(1 + cos(2θ))/2", "(1 - cos(2θ))/2", "cos(2θ)", "None"],
+    "answer": "(1 + cos(2θ))/2"
+  },
+  {
+    "question": "What is sin(3θ)?",
+    "options": ["3sinθ - 4sin³θ", "4sinθ - 3sin³θ", "sinθ + sin²θ", "None"],
+    "answer": "3sinθ - 4sin³θ"
+  },
+  {
+    "question": "What is cos(3θ)?",
+    "options": ["4cos³θ - 3cosθ", "3cosθ - 4cos³θ", "cosθ + cos²θ", "None"],
+    "answer": "4cos³θ - 3cosθ"
+  },
+  {
+    "question": "What is tan(3θ)?",
+    "options": ["(3tanθ - tan³θ)/(1 - 3tan²θ)", "3tanθ - tan³θ", "tan³θ + 3tanθ", "None"],
+    "answer": "(3tanθ - tan³θ)/(1 - 3tan²θ)"
+  },
+  {
+    "question": "What is sin(A)sin(B)?",
+    "options": ["½[cos(A − B) − cos(A + B)]", "½[cos(A + B) − cos(A − B)]", "sin(A − B)", "None"],
+    "answer": "½[cos(A − B) − cos(A + B)]"
+  },
+  {
+    "question": "What is cos(A)cos(B)?",
+    "options": ["½[cos(A − B) + cos(A + B)]", "cos²(A + B)", "cosA + cosB", "None"],
+    "answer": "½[cos(A − B) + cos(A + B)]"
+  },
+  {
+    "question": "What is sin(A)cos(B)?",
+    "options": ["½[sin(A + B) + sin(A − B)]", "sin(A + B)", "cos(A + B)", "None"],
+    "answer": "½[sin(A + B) + sin(A − B)]"
+  },
+  {
+    "question": "What is cos(A)sin(B)?",
+    "options": ["½[sin(A + B) − sin(A − B)]", "sin(A − B)", "cos(A + B)", "None"],
+    "answer": "½[sin(A + B) − sin(A − B)]"
+  },
+  {
+    "question": "What is the value of sin(90° − θ)?",
+    "options": ["cosθ", "sinθ", "tanθ", "cotθ"],
+    "answer": "cosθ"
+  },
+  {
+    "question": "What is the value of cos(90° − θ)?",
+    "options": ["sinθ", "cosθ", "cotθ", "tanθ"],
+    "answer": "sinθ"
+  },
+
+  {
+    "question": "What is tanθ in terms of sinθ and cosθ?",
+    "options": ["sinθ / cosθ", "cosθ / sinθ", "1 / sinθ", "1 / cosθ"],
+    "answer": "sinθ / cosθ"
+  },
+  {
+    "question": "What is cotθ in terms of sinθ and cosθ?",
+    "options": ["cosθ / sinθ", "sinθ / cosθ", "1 / sinθ", "1 / cosθ"],
+    "answer": "cosθ / sinθ"
+  },
+  {
+    "question": "What is secθ in terms of cosθ?",
+    "options": ["1 / cosθ", "1 / sinθ", "cosθ", "cos²θ"],
+    "answer": "1 / cosθ"
+  },
+  {
+    "question": "What is cosecθ in terms of sinθ?",
+    "options": ["1 / sinθ", "1 / cosθ", "sinθ", "sin²θ"],
+    "answer": "1 / sinθ"
+  },
+  {
+    "question": "What is the value of sin²A − cos²A?",
+    "options": ["−cos(2A)", "sin(2A)", "cos(2A)", "None"],
+    "answer": "−cos(2A)"
+  },
+  {
+    "question": "What is the formula for sin(A + B)sin(A − B)?",
+    "options": ["sin²A − sin²B", "cos²B − sin²A", "cos(2B) − cos(2A)", "½[cos(2B) − cos(2A)]"],
+    "answer": "½[cos(2B) − cos(2A)]"
+  },
+  {
+    "question": "What is tan(A)tan(B) in terms of cot?",
+    "options": ["cot(A + B) − cot(A − B)", "cot²A − cot²B", "cotA cotB", "None"],
+    "answer": "cotA cotB"
+  },
+  {
+    "question": "What is sin²x − cos²x?",
+    "options": ["−cos(2x)", "cos(2x)", "sin(2x)", "1"],
+    "answer": "−cos(2x)"
+  },
+  {
+    "question": "What is cos²x − sin²x?",
+    "options": ["cos(2x)", "−cos(2x)", "sin(2x)", "None"],
+    "answer": "cos(2x)"
+  },
+  {
+    "question": "What is sin(x) + sin(y)?",
+    "options": ["2sin((x+y)/2)cos((x−y)/2)", "2sin((x−y)/2)cos((x+y)/2)", "sinx + siny", "None"],
+    "answer": "2sin((x+y)/2)cos((x−y)/2)"
+  },
+  {
+    "question": "What is sin(x) − sin(y)?",
+    "options": ["2cos((x+y)/2)sin((x−y)/2)", "2sin((x+y)/2)cos((x−y)/2)", "2cos((x−y)/2)sin((x+y)/2)", "None"],
+    "answer": "2cos((x+y)/2)sin((x−y)/2)"
+  },
+  {
+    "question": "What is cos(x) + cos(y)?",
+    "options": ["2cos((x+y)/2)cos((x−y)/2)", "2sin((x+y)/2)sin((x−y)/2)", "cos²x + sin²y", "None"],
+    "answer": "2cos((x+y)/2)cos((x−y)/2)"
+  },
+  {
+    "question": "What is cos(x) − cos(y)?",
+    "options": ["−2sin((x+y)/2)sin((x−y)/2)", "2sin((x−y)/2)sin((x+y)/2)", "2cos((x+y)/2)cos((x−y)/2)", "None"],
+    "answer": "−2sin((x+y)/2)sin((x−y)/2)"
+  },
+  {
+    "question": "What is the range of sinθ?",
+    "options": ["[−1, 1]", "[0, 1]", "[−π/2, π/2]", "[0, π]"],
+    "answer": "[−1, 1]"
+  },
+  {
+    "question": "What is the range of cosθ?",
+    "options": ["[−1, 1]", "[0, 1]", "[0, π]", "[−π/2, π/2]"],
+    "answer": "[−1, 1]"
+  },
+  {
+    "question": "What is the range of tanθ?",
+    "options": ["(−∞, ∞)", "[−1, 1]", "[0, 1]", "[−π/2, π/2]"],
+    "answer": "(−∞, ∞)"
+  },
+  {
+    "question": "What is the period of sinθ?",
+    "options": ["2π", "π", "1", "180°"],
+    "answer": "2π"
+  },
+  {
+    "question": "What is the period of tanθ?",
+    "options": ["π", "2π", "1", "180°"],
+    "answer": "π"
+  },
+  {
+    "question": "What is the identity of sec²θ − tan²θ?",
+    "options": ["1", "0", "−1", "cosec²θ"],
+    "answer": "1"
+  },
+  {
+    "question": "What is cosec²θ − cot²θ?",
+    "options": ["1", "0", "−1", "sec²θ"],
+    "answer": "1"
+  },
+
+  {
+    "question": "What is the value of sin⁻¹(sin x) when x ∈ [−π/2, π/2]?",
+    "options": ["x", "π − x", "−x", "sin x"],
+    "answer": "x"
+  },
+  {
+    "question": "What is the value of cos⁻¹(cos x) when x ∈ [0, π]?",
+    "options": ["x", "π − x", "−x", "cos x"],
+    "answer": "x"
+  },
+  {
+    "question": "What is the value of tan⁻¹(tan x) when x ∈ (−π/2, π/2)?",
+    "options": ["x", "π − x", "−x", "tan x"],
+    "answer": "x"
+  },
+  {
+    "question": "What is sin⁻¹(−x) equal to?",
+    "options": ["−sin⁻¹(x)", "sin⁻¹(x)", "π − sin⁻¹(x)", "Undefined"],
+    "answer": "−sin⁻¹(x)"
+  },
+  {
+    "question": "What is cos⁻¹(−x) equal to?",
+    "options": ["π − cos⁻¹(x)", "−cos⁻¹(x)", "cos⁻¹(x)", "Undefined"],
+    "answer": "π − cos⁻¹(x)"
+  },
+  {
+    "question": "What is tan⁻¹(−x) equal to?",
+    "options": ["−tan⁻¹(x)", "tan⁻¹(x)", "π − tan⁻¹(x)", "Undefined"],
+    "answer": "−tan⁻¹(x)"
+  },
+  {
+    "question": "What is sin⁻¹(x) + cos⁻¹(x)?",
+    "options": ["π/2", "π", "x", "1"],
+    "answer": "π/2"
+  },
+  {
+    "question": "What is tan⁻¹(x) + cot⁻¹(x)?",
+    "options": ["π/2", "π", "x", "1"],
+    "answer": "π/2"
+  },
+  {
+    "question": "What is sec⁻¹(x) in terms of cos⁻¹?",
+    "options": ["cos⁻¹(1/x)", "cos⁻¹(x)", "1/cos⁻¹(x)", "Undefined"],
+    "answer": "cos⁻¹(1/x)"
+  },
+  {
+    "question": "What is cosec⁻¹(x) in terms of sin⁻¹?",
+    "options": ["sin⁻¹(1/x)", "sin⁻¹(x)", "1/sin⁻¹(x)", "Undefined"],
+    "answer": "sin⁻¹(1/x)"
+  },
+  {
+    "question": "What is tan⁻¹x + tan⁻¹y when xy < 1?",
+    "options": ["tan⁻¹((x+y)/(1−xy))", "tan⁻¹((x−y)/(1+xy))", "tan⁻¹(xy)", "Undefined"],
+    "answer": "tan⁻¹((x+y)/(1−xy))"
+  },
+  {
+    "question": "What is tan⁻¹x − tan⁻¹y when xy > −1?",
+    "options": ["tan⁻¹((x−y)/(1+xy))", "tan⁻¹((x+y)/(1−xy))", "tan⁻¹(x/y)", "Undefined"],
+    "answer": "tan⁻¹((x−y)/(1+xy))"
+  },
+  {
+    "question": "What is the principal value branch of sin⁻¹(x)?",
+    "options": ["[−π/2, π/2]", "[0, π]", "(−π, π)", "[0, 2π]"],
+    "answer": "[−π/2, π/2]"
+  },
+  {
+    "question": "What is the principal value branch of cos⁻¹(x)?",
+    "options": ["[0, π]", "[−π/2, π/2]", "[0, 2π]", "(−π, π)"],
+    "answer": "[0, π]"
+  },
+  {
+    "question": "What is the principal value branch of tan⁻¹(x)?",
+    "options": ["(−π/2, π/2)", "[0, π]", "[−π, π]", "[0, 2π]"],
+    "answer": "(−π/2, π/2)"
+  },
+  {
+    "question": "What is the solution of sin x = a (a ∈ [−1,1])?",
+    "options": ["x = sin⁻¹(a) + 2nπ or x = π − sin⁻¹(a) + 2nπ", "x = sin(a)", "x = π − a", "None"],
+    "answer": "x = sin⁻¹(a) + 2nπ or x = π − sin⁻¹(a) + 2nπ"
+  },
+  {
+    "question": "What is the solution of cos x = a (a ∈ [−1,1])?",
+    "options": ["x = ±cos⁻¹(a) + 2nπ", "x = cos⁻¹(a)", "x = π − a", "None"],
+    "answer": "x = ±cos⁻¹(a) + 2nπ"
+  },
+  {
+    "question": "What is the solution of tan x = a?",
+    "options": ["x = tan⁻¹(a) + nπ", "x = tan(a)", "x = a + 2nπ", "x = nπ"],
+    "answer": "x = tan⁻¹(a) + nπ"
+  },
+  {
+    "question": "What is sin⁻¹(1/2)?",
+    "options": ["π/6", "π/4", "π/3", "π/2"],
+    "answer": "π/6"
+  },
+  {
+    "question": "What is cos⁻¹(1/2)?",
+    "options": ["π/3", "π/6", "π/4", "π/2"],
+    "answer": "π/3"
+  },
+
+  {
+    "question": "What is the formula for sinA + sinB?",
+    "options": ["2sin((A+B)/2)cos((A−B)/2)", "2cos((A+B)/2)sin((A−B)/2)", "2sin((A−B)/2)cos((A+B)/2)", "None"],
+    "answer": "2sin((A+B)/2)cos((A−B)/2)"
+  },
+  {
+    "question": "What is the formula for sinA − sinB?",
+    "options": ["2cos((A+B)/2)sin((A−B)/2)", "2sin((A+B)/2)cos((A−B)/2)", "2sin((A−B)/2)cos((A+B)/2)", "None"],
+    "answer": "2cos((A+B)/2)sin((A−B)/2)"
+  },
+  {
+    "question": "What is the formula for cosA + cosB?",
+    "options": ["2cos((A+B)/2)cos((A−B)/2)", "2sin((A+B)/2)sin((A−B)/2)", "cosA cosB − sinA sinB", "None"],
+    "answer": "2cos((A+B)/2)cos((A−B)/2)"
+  },
+  {
+    "question": "What is the formula for cosA − cosB?",
+    "options": ["−2sin((A+B)/2)sin((A−B)/2)", "2cos((A+B)/2)cos((A−B)/2)", "2sin((A+B)/2)sin((A−B)/2)", "None"],
+    "answer": "−2sin((A+B)/2)sin((A−B)/2)"
+  },
+  {
+    "question": "What is the period of secθ?",
+    "options": ["2π", "π", "∞", "1"],
+    "answer": "2π"
+  },
+  {
+    "question": "What is the period of cotθ?",
+    "options": ["π", "2π", "∞", "1"],
+    "answer": "π"
+  },
+  {
+    "question": "What is the range of secθ?",
+    "options": ["(−∞, −1] ∪ [1, ∞)", "[−1, 1]", "All real numbers", "(−1, 1)"],
+    "answer": "(−∞, −1] ∪ [1, ∞)"
+  },
+  {
+    "question": "What is the range of cosecθ?",
+    "options": ["(−∞, −1] ∪ [1, ∞)", "[−1, 1]", "All real numbers", "(−1, 1)"],
+    "answer": "(−∞, −1] ∪ [1, ∞)"
+  },
+  {
+    "question": "Which of the following is an odd function?",
+    "options": ["sinθ", "cosθ", "secθ", "cos²θ"],
+    "answer": "sinθ"
+  },
+  {
+    "question": "Which of the following is an even function?",
+    "options": ["cosθ", "tanθ", "sinθ", "cotθ"],
+    "answer": "cosθ"
+  },
+  {
+    "question": "What is the identity of sin⁴θ + cos⁴θ?",
+    "options": ["1 − ½sin²(2θ)", "1 − sin²θ", "cos²θ", "None"],
+    "answer": "1 − ½sin²(2θ)"
+  },
+  {
+    "question": "What is sin(π − θ)?",
+    "options": ["sinθ", "−sinθ", "cosθ", "−cosθ"],
+    "answer": "sinθ"
+  },
+  {
+    "question": "What is cos(π − θ)?",
+    "options": ["−cosθ", "cosθ", "−sinθ", "sinθ"],
+    "answer": "−cosθ"
+  },
+  {
+    "question": "What is tan(π − θ)?",
+    "options": ["−tanθ", "tanθ", "cotθ", "−cotθ"],
+    "answer": "−tanθ"
+  },
+  {
+    "question": "What is sin(π + θ)?",
+    "options": ["−sinθ", "sinθ", "cosθ", "−cosθ"],
+    "answer": "−sinθ"
+  },
+  {
+    "question": "What is cos(π + θ)?",
+    "options": ["−cosθ", "cosθ", "sinθ", "−sinθ"],
+    "answer": "−cosθ"
+  },
+  {
+    "question": "What is tan(π + θ)?",
+    "options": ["tanθ", "−tanθ", "cotθ", "−cotθ"],
+    "answer": "tanθ"
+  },
+  {
+    "question": "If sinA = 3/5 and A lies in the 2nd quadrant, what is cosA?",
+    "options": ["−4/5", "4/5", "−3/5", "3/5"],
+    "answer": "−4/5"
+  },
+  {
+    "question": "If cosA = 5/13 and A is in the 4th quadrant, what is sinA?",
+    "options": ["−12/13", "12/13", "5/13", "−5/13"],
+    "answer": "−12/13"
+  },
+  {
+    "question": "If tanθ = 1, what is the general solution of θ?",
+    "options": ["θ = nπ + π/4", "θ = nπ − π/4", "θ = nπ", "θ = 2nπ"],
+    "answer": "θ = nπ + π/4"
+  },
+  {
+    "question": "If sinθ = 0, what is the general solution?",
+    "options": ["θ = nπ", "θ = 2nπ", "θ = π/2 + nπ", "θ = n"],
+    "answer": "θ = nπ"
+  },
+  {
+    "question": "If cosθ = 0, what is the general solution?",
+    "options": ["θ = π/2 + nπ", "θ = nπ", "θ = nπ/2", "θ = 2nπ"],
+    "answer": "θ = π/2 + nπ"
+  },
+  {
+    "question": "If tanθ = 0, then θ equals?",
+    "options": ["nπ", "π/2 + nπ", "π + n", "None"],
+    "answer": "nπ"
+  },
+  {
+    "question": "What is the formula for cot(2A)?",
+    "options": ["(cot²A − 1)/(2cotA)", "(2cotA)/(cot²A − 1)", "(1 − cot²A)/(2cotA)", "None"],
+    "answer": "(cot²A − 1)/(2cotA)"
+  },
+  {
+    "question": "What is the value of sin²A + cos²A + tan²A + cot²A − sec²A − cosec²A?",
+    "options": ["0", "1", "−1", "2"],
+    "answer": "0"
+  },
+  {
+    "question": "If secA + tanA = x, what is secA in terms of x?",
+    "options": ["(x² + 1)/(2x)", "(x² − 1)/(2x)", "(x² + 1)/(2)", "x² − 1"],
+    "answer": "(x² + 1)/(2x)"
+  },
+  {
+    "question": "What is the identity for 1 − cosA in terms of sin(A/2)?",
+    "options": ["2sin²(A/2)", "2cos²(A/2)", "sinA", "None"],
+    "answer": "2sin²(A/2)"
+  },
+  {
+    "question": "What is the identity for 1 + cosA in terms of cos(A/2)?",
+    "options": ["2cos²(A/2)", "2sin²(A/2)", "cosA", "None"],
+    "answer": "2cos²(A/2)"
+  },
+  {
+    "question": "What is the identity for tanA + cotA in terms of sinA and cosA?",
+    "options": ["(sin²A + cos²A)/(sinA cosA)", "1/sinA cosA", "sec²A − cosec²A", "None"],
+    "answer": "(sin²A + cos²A)/(sinA cosA)"
+  },
+  {
+    "question": "What is the minimum value of sin²x + cos²x?",
+    "options": ["1", "0", "2", "−1"],
+    "answer": "1"
+  }
+
+
+]

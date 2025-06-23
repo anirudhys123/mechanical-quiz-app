@@ -7,19 +7,25 @@ const examSubjects = {
   GMAT: ["Quantitative Reasoning", "Verbal Reasoning"],
   PGNEET: ["Pathology"],
   SOFTWARE: ["Python", "Data Science"],
-  UPSC: ["Static"]
+  UPSC: ["Static"],
+  JEE: ["Maths", "Physics", "Chemistry"]
 };
 
 const subjectChapters = {
-  // GMAT Subjects
+  // GMAT
   "Quantitative Reasoning": ["Algebra", "Percentages", "Ratios and Proportions", "SI and CI"],
   "Verbal Reasoning": ["Reading Comprehension", "Sentence Correction"],
 
-  // PGNEET Subjects
+  // PGNEET
   "Pathology": ["Cell Injury", "Neoplasia", "Inflammation"],
 
-  // UPSC Subjects
-  "Static": ["Art and Culture" , "Geography"]
+  // UPSC
+  "Static": ["Art and Culture", "Geography"],
+
+  // JEE
+  "Maths": ["Trigonometry", "Calculus", "Algebra", "Coordinate Geometry"],
+  "Physics": ["Laws of Motion"],
+  "Chemistry": ["Periodic Table"]
 };
 
 export default function Home() {
@@ -29,7 +35,7 @@ export default function Home() {
   const [chapter, setChapter] = useState('');
 
   const startQuiz = () => {
-    const needsChapter = ['GMAT', 'PGNEET', 'UPSC'].includes(exam);
+    const needsChapter = ['GMAT', 'PGNEET', 'UPSC', 'JEE'].includes(exam);
     if (!exam || !subject || (needsChapter && !chapter)) {
       alert('Please complete all fields.');
       return;
@@ -66,6 +72,7 @@ export default function Home() {
           <option value="PGNEET">PG NEET</option>
           <option value="SOFTWARE">Software Engineering</option>
           <option value="UPSC">UPSC</option>
+          <option value="JEE">JEE Formulae Test</option>
         </select>
       </div>
 
@@ -81,14 +88,14 @@ export default function Home() {
             }}
           >
             <option value="">-- Choose --</option>
-            {examSubjects[exam].map((sub, idx) => (
+            {examSubjects[exam]?.map((sub, idx) => (
               <option key={idx} value={sub}>{sub}</option>
             ))}
           </select>
         </div>
       )}
 
-      {(exam === 'GMAT' || exam === 'PGNEET' || exam === 'UPSC') && subject && (
+      {(exam === 'GMAT' || exam === 'PGNEET' || exam === 'UPSC' || exam === 'JEE') && subject && (
         <div className="mb-4">
           <label className="form-label fw-semibold">Select Chapter</label>
           <select

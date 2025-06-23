@@ -1,0 +1,508 @@
+[
+  {
+    "question": "What is the atomic number of Chromium (Cr)?",
+    "options": ["24", "25", "26", "23"],
+    "answer": "24"
+  },
+  {
+    "question": "Which of the following elements has the electronic configuration [Ar] 4s¹ 3d⁵?",
+    "options": ["Chromium", "Manganese", "Iron", "Cobalt"],
+    "answer": "Chromium"
+  },
+  {
+    "question": "Which of the following elements shows an exception in electron configuration?",
+    "options": ["Copper", "Calcium", "Potassium", "Zinc"],
+    "answer": "Copper"
+  },
+  {
+    "question": "Which element has the highest electronegativity?",
+    "options": ["Fluorine", "Oxygen", "Chlorine", "Nitrogen"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "What is the period number of the element with atomic number 19?",
+    "options": ["4", "2", "3", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which group number does Oxygen belong to?",
+    "options": ["16", "15", "17", "14"],
+    "answer": "16"
+  },
+  {
+    "question": "Which block does Zinc belong to?",
+    "options": ["d-block", "p-block", "s-block", "f-block"],
+    "answer": "d-block"
+  },
+  {
+    "question": "Which element is diagonally related to Beryllium?",
+    "options": ["Aluminium", "Magnesium", "Silicon", "Lithium"],
+    "answer": "Aluminium"
+  },
+  {
+    "question": "Which element among the following is a metalloid?",
+    "options": ["Silicon", "Aluminum", "Sodium", "Sulfur"],
+    "answer": "Silicon"
+  },
+  {
+    "question": "The element with electronic configuration [Xe] 6s² belongs to which group?",
+    "options": ["Group 2", "Group 1", "Group 14", "Group 12"],
+    "answer": "Group 2"
+  },
+  {
+    "question": "What is the atomic number of Lanthanum (La)?",
+    "options": ["57", "58", "56", "60"],
+    "answer": "57"
+  },
+  {
+    "question": "Which of the following is the most metallic element?",
+    "options": ["Fr", "Cs", "Na", "Li"],
+    "answer": "Fr"
+  },
+  {
+    "question": "What is the trend of ionization energy across a period?",
+    "options": ["Increases", "Decreases", "Remains same", "First increases then decreases"],
+    "answer": "Increases"
+  },
+  {
+    "question": "Which period contains the highest number of elements?",
+    "options": ["6th", "2nd", "4th", "3rd"],
+    "answer": "6th"
+  },
+  {
+    "question": "Which of the following elements is a noble gas?",
+    "options": ["Neon", "Fluorine", "Nitrogen", "Hydrogen"],
+    "answer": "Neon"
+  },
+  {
+    "question": "Which is the lightest halogen?",
+    "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "Which period does the element with atomic number 53 belong to?",
+    "options": ["5", "4", "6", "3"],
+    "answer": "5"
+  },
+  {
+    "question": "Which element has the highest atomic radius?",
+    "options": ["Francium", "Cesium", "Lithium", "Potassium"],
+    "answer": "Francium"
+  },
+  {
+    "question": "Which of the following is not a transition element?",
+    "options": ["Scandium", "Zinc", "Iron", "Copper"],
+    "answer": "Zinc"
+  },
+  {
+    "question": "Which group elements are also called alkali metals?",
+    "options": ["Group 1", "Group 2", "Group 17", "Group 18"],
+    "answer": "Group 1"
+  },
+  {
+    "question": "Which group is known as the chalcogens?",
+    "options": ["Group 16", "Group 17", "Group 18", "Group 15"],
+    "answer": "Group 16"
+  },
+  {
+    "question": "What is the common oxidation state of alkali metals?",
+    "options": ["+1", "+2", "0", "−1"],
+    "answer": "+1"
+  },
+  {
+    "question": "Which of these elements shows variable oxidation states?",
+    "options": ["Iron", "Sodium", "Calcium", "Helium"],
+    "answer": "Iron"
+  },
+  {
+    "question": "Which of the following has an outer configuration of ns² np⁵?",
+    "options": ["Halogens", "Alkali metals", "Noble gases", "Transition elements"],
+    "answer": "Halogens"
+  },
+  {
+    "question": "What is the atomic number of the first f-block element?",
+    "options": ["58", "57", "59", "60"],
+    "answer": "58"
+  },
+  {
+    "question": "Which element has the configuration [Ne] 3s² 3p³?",
+    "options": ["Phosphorus", "Sulfur", "Chlorine", "Silicon"],
+    "answer": "Phosphorus"
+  },
+  {
+    "question": "Which block contains actinides?",
+    "options": ["f-block", "d-block", "p-block", "s-block"],
+    "answer": "f-block"
+  },
+  {
+    "question": "Which of the following shows highest electron affinity?",
+    "options": ["Chlorine", "Fluorine", "Oxygen", "Bromine"],
+    "answer": "Chlorine"
+  },
+  {
+    "question": "Which group element has highest first ionization energy?",
+    "options": ["Group 18", "Group 1", "Group 16", "Group 2"],
+    "answer": "Group 18"
+  },
+  {
+    "question": "Which of the following elements is liquid at room temperature?",
+    "options": ["Bromine", "Chlorine", "Iodine", "Fluorine"],
+    "answer": "Bromine"
+  },
+
+  {
+    "question": "Which of the following elements is the most reactive non-metal?",
+    "options": ["Fluorine", "Chlorine", "Oxygen", "Bromine"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "Which of the following has the lowest ionization enthalpy?",
+    "options": ["Cesium", "Sodium", "Lithium", "Potassium"],
+    "answer": "Cesium"
+  },
+  {
+    "question": "Which element has the highest electron affinity?",
+    "options": ["Chlorine", "Fluorine", "Sulfur", "Oxygen"],
+    "answer": "Chlorine"
+  },
+  {
+    "question": "Which of the following has the smallest atomic radius?",
+    "options": ["Oxygen", "Fluorine", "Nitrogen", "Neon"],
+    "answer": "Neon"
+  },
+  {
+    "question": "Which is a d-block but not a transition element?",
+    "options": ["Zinc", "Iron", "Copper", "Chromium"],
+    "answer": "Zinc"
+  },
+  {
+    "question": "Which group contains all noble gases?",
+    "options": ["Group 18", "Group 17", "Group 1", "Group 2"],
+    "answer": "Group 18"
+  },
+  {
+    "question": "Which element has the configuration [Ar] 4s² 3d¹⁰ 4p⁶ 5s²?",
+    "options": ["Strontium", "Rubidium", "Yttrium", "Zirconium"],
+    "answer": "Strontium"
+  },
+  {
+    "question": "Which group elements form amphoteric oxides?",
+    "options": ["Group 13", "Group 1", "Group 17", "Group 2"],
+    "answer": "Group 13"
+  },
+  {
+    "question": "What is the general configuration of p-block elements?",
+    "options": ["ns² np¹⁻⁶", "ns¹ np¹", "ns² np⁶", "ns² (n−1)d¹⁻¹⁰"],
+    "answer": "ns² np¹⁻⁶"
+  },
+  {
+    "question": "Which of these is an actinide?",
+    "options": ["Uranium", "Lanthanum", "Cerium", "Ytterbium"],
+    "answer": "Uranium"
+  },
+  {
+    "question": "Which period contains lanthanides?",
+    "options": ["6th", "5th", "7th", "4th"],
+    "answer": "6th"
+  },
+  {
+    "question": "Which element has electronic configuration ending in 4f⁷?",
+    "options": ["Gadolinium", "Europium", "Neodymium", "Cerium"],
+    "answer": "Gadolinium"
+  },
+  {
+    "question": "Which of the following elements has +1 and +2 oxidation states only?",
+    "options": ["Copper", "Zinc", "Iron", "Lead"],
+    "answer": "Copper"
+  },
+  {
+    "question": "Which of these elements has the highest density?",
+    "options": ["Osmium", "Lead", "Gold", "Mercury"],
+    "answer": "Osmium"
+  },
+  {
+    "question": "Which element has the highest melting point?",
+    "options": ["Tungsten", "Iron", "Carbon", "Titanium"],
+    "answer": "Tungsten"
+  },
+  {
+    "question": "Which of these elements forms a protective oxide layer?",
+    "options": ["Aluminium", "Sodium", "Iron", "Copper"],
+    "answer": "Aluminium"
+  },
+  {
+    "question": "Which element exhibits both metallic and non-metallic character?",
+    "options": ["Arsenic", "Zinc", "Sodium", "Neon"],
+    "answer": "Arsenic"
+  },
+  {
+    "question": "Which element is known for showing variable valency?",
+    "options": ["Iron", "Barium", "Calcium", "Neon"],
+    "answer": "Iron"
+  },
+  {
+    "question": "Which of these is not a characteristic of transition metals?",
+    "options": ["High ionization energy", "Colored compounds", "Catalytic properties", "Variable oxidation states"],
+    "answer": "High ionization energy"
+  },
+  {
+    "question": "Which element belongs to group 15 and is a metalloid?",
+    "options": ["Arsenic", "Nitrogen", "Phosphorus", "Antimony"],
+    "answer": "Arsenic"
+  },
+  {
+    "question": "Which element has the configuration 1s² 2s² 2p⁶ 3s² 3p⁶?",
+    "options": ["Argon", "Calcium", "Chlorine", "Potassium"],
+    "answer": "Argon"
+  },
+  {
+    "question": "Which element forms basic oxide?",
+    "options": ["Na₂O", "CO₂", "SiO₂", "P₂O₅"],
+    "answer": "Na₂O"
+  },
+  {
+    "question": "Which element has maximum number of unpaired electrons in its ground state?",
+    "options": ["Manganese", "Iron", "Chromium", "Copper"],
+    "answer": "Manganese"
+  },
+  {
+    "question": "Which pair shows diagonal relationship?",
+    "options": ["Li & Mg", "Na & Ca", "K & Rb", "B & Al"],
+    "answer": "Li & Mg"
+  },
+  {
+    "question": "Which block element is Uranium classified under?",
+    "options": ["f-block", "d-block", "s-block", "p-block"],
+    "answer": "f-block"
+  },
+  {
+    "question": "Which is the most electropositive element?",
+    "options": ["Francium", "Cesium", "Sodium", "Potassium"],
+    "answer": "Francium"
+  },
+  {
+    "question": "What is the oxidation state of nitrogen in NH₄⁺?",
+    "options": ["−3", "+3", "+1", "+4"],
+    "answer": "−3"
+  },
+  {
+    "question": "Which has the highest second ionization energy?",
+    "options": ["Li", "Be", "Na", "K"],
+    "answer": "Li"
+  },
+  {
+    "question": "Which group contains elements that form coloured ions?",
+    "options": ["Transition metals", "Noble gases", "Alkali metals", "Halogens"],
+    "answer": "Transition metals"
+  },
+  {
+    "question": "Which of these elements is present in the second period?",
+    "options": ["Beryllium", "Aluminum", "Sodium", "Phosphorus"],
+    "answer": "Beryllium"
+  },
+
+  {
+    "question": "Which element has the electronic configuration [He] 2s²?",
+    "options": ["Beryllium", "Lithium", "Helium", "Boron"],
+    "answer": "Beryllium"
+  },
+  {
+    "question": "Which element is placed in group 14 and period 3?",
+    "options": ["Silicon", "Carbon", "Germanium", "Aluminum"],
+    "answer": "Silicon"
+  },
+  {
+    "question": "Which of the following is an alkaline earth metal?",
+    "options": ["Magnesium", "Sodium", "Potassium", "Aluminum"],
+    "answer": "Magnesium"
+  },
+  {
+    "question": "Which of the following is the heaviest halogen?",
+    "options": ["Iodine", "Bromine", "Fluorine", "Chlorine"],
+    "answer": "Iodine"
+  },
+  {
+    "question": "What is the atomic number of Argon?",
+    "options": ["18", "16", "20", "14"],
+    "answer": "18"
+  },
+  {
+    "question": "Which element has 2 electrons in the outermost shell and is in period 4?",
+    "options": ["Calcium", "Magnesium", "Strontium", "Zinc"],
+    "answer": "Calcium"
+  },
+  {
+    "question": "Which element is placed in group 1 and period 2?",
+    "options": ["Lithium", "Sodium", "Hydrogen", "Potassium"],
+    "answer": "Lithium"
+  },
+  {
+    "question": "Which of these is a p-block element?",
+    "options": ["Chlorine", "Sodium", "Zinc", "Calcium"],
+    "answer": "Chlorine"
+  },
+  {
+    "question": "Which of the following is a member of group 17?",
+    "options": ["Chlorine", "Oxygen", "Nitrogen", "Neon"],
+    "answer": "Chlorine"
+  },
+  {
+    "question": "Which of the following belongs to the 5th period?",
+    "options": ["Rubidium", "Magnesium", "Aluminum", "Lithium"],
+    "answer": "Rubidium"
+  },
+  {
+    "question": "Which element is placed in the 6th period and is a lanthanide?",
+    "options": ["Gadolinium", "Uranium", "Neptunium", "Radium"],
+    "answer": "Gadolinium"
+  },
+  {
+    "question": "Which element is most non-metallic?",
+    "options": ["Fluorine", "Oxygen", "Chlorine", "Nitrogen"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "Which of the following has the highest shielding effect?",
+    "options": ["Francium", "Lithium", "Sodium", "Calcium"],
+    "answer": "Francium"
+  },
+  {
+    "question": "Which element has the maximum number of oxidation states?",
+    "options": ["Manganese", "Iron", "Copper", "Nickel"],
+    "answer": "Manganese"
+  },
+  {
+    "question": "Which of the following belongs to the f-block?",
+    "options": ["Neodymium", "Zinc", "Iron", "Tin"],
+    "answer": "Neodymium"
+  },
+  {
+    "question": "Which is a noble gas with atomic number 36?",
+    "options": ["Krypton", "Argon", "Xenon", "Neon"],
+    "answer": "Krypton"
+  },
+  {
+    "question": "Which of the following forms amphoteric oxides?",
+    "options": ["Aluminum", "Calcium", "Sulfur", "Zinc"],
+    "answer": "Aluminum"
+  },
+  {
+    "question": "Which element shows both +2 and +4 oxidation states?",
+    "options": ["Lead", "Magnesium", "Sodium", "Boron"],
+    "answer": "Lead"
+  },
+  {
+    "question": "What is the common oxidation state of group 2 elements?",
+    "options": ["+2", "+1", "0", "−2"],
+    "answer": "+2"
+  },
+  {
+    "question": "Which pair represents diagonal relationship?",
+    "options": ["Li & Mg", "Na & Mg", "Be & Ca", "B & Al"],
+    "answer": "Li & Mg"
+  },
+  {
+    "question": "Which element shows inert pair effect?",
+    "options": ["Lead", "Calcium", "Aluminum", "Sulfur"],
+    "answer": "Lead"
+  },
+  {
+    "question": "Which of these elements has lowest electronegativity?",
+    "options": ["Francium", "Cesium", "Potassium", "Sodium"],
+    "answer": "Francium"
+  },
+  {
+    "question": "Which element has highest ionization energy in Period 2?",
+    "options": ["Neon", "Fluorine", "Oxygen", "Nitrogen"],
+    "answer": "Neon"
+  },
+  {
+    "question": "Which element among the following is a radioactive actinide?",
+    "options": ["Uranium", "Lanthanum", "Radium", "Lead"],
+    "answer": "Uranium"
+  },
+  {
+    "question": "Which is the first element of d-block?",
+    "options": ["Scandium", "Titanium", "Zinc", "Vanadium"],
+    "answer": "Scandium"
+  },
+  {
+    "question": "What is the total number of groups in the periodic table?",
+    "options": ["18", "7", "8", "10"],
+    "answer": "18"
+  },
+  {
+    "question": "Which element has the symbol 'Sn'?",
+    "options": ["Tin", "Antimony", "Sulfur", "Sodium"],
+    "answer": "Tin"
+  },
+  {
+    "question": "Which group number does Nitrogen belong to?",
+    "options": ["15", "16", "14", "17"],
+    "answer": "15"
+  },
+  {
+    "question": "Which of the following is the most reactive metal?",
+    "options": ["Francium", "Lithium", "Sodium", "Potassium"],
+    "answer": "Francium"
+  },
+  {
+    "question": "Which of the following elements is a liquid metal at room temperature?",
+    "options": ["Mercury", "Zinc", "Sodium", "Magnesium"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "Which of these has pseudo-noble gas configuration?",
+    "options": ["Cu⁺", "Na⁺", "K⁺", "Mg²⁺"],
+    "answer": "Cu⁺"
+  },
+  {
+    "question": "Which element among the following is a metalloid?",
+    "options": ["Germanium", "Calcium", "Bromine", "Iodine"],
+    "answer": "Germanium"
+  },
+  {
+    "question": "Which element is known as 'eka-silicon'?",
+    "options": ["Germanium", "Gallium", "Arsenic", "Polonium"],
+    "answer": "Germanium"
+  },
+  {
+    "question": "Which of the following is present in Group 13?",
+    "options": ["Boron", "Oxygen", "Nitrogen", "Fluorine"],
+    "answer": "Boron"
+  },
+  {
+    "question": "Which is the lightest element in the periodic table?",
+    "options": ["Hydrogen", "Helium", "Lithium", "Beryllium"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Which of these is not a noble gas?",
+    "options": ["Oganesson", "Radon", "Helium", "Fluorine"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "Which of these elements does not form coloured ions?",
+    "options": ["Zinc", "Copper", "Iron", "Chromium"],
+    "answer": "Zinc"
+  },
+  {
+    "question": "Which of the following is an actinide?",
+    "options": ["Thorium", "Lanthanum", "Zirconium", "Ytterbium"],
+    "answer": "Thorium"
+  },
+  {
+    "question": "Which group element is used in making semiconductors?",
+    "options": ["Group 14", "Group 13", "Group 17", "Group 2"],
+    "answer": "Group 14"
+  },
+  {
+    "question": "Which of these elements has the largest atomic size?",
+    "options": ["Cesium", "Barium", "Francium", "Rubidium"],
+    "answer": "Francium"
+  }
+
+
+
+
+]

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-// Safely shuffle array
+// Shuffle utility
 const shuffleArray = (arr) =>
   Array.isArray(arr) ? [...arr].sort(() => Math.random() - 0.5) : [];
 
@@ -17,6 +17,7 @@ export default function Quiz() {
   const [timer, setTimer] = useState(120);
   const [answerData, setAnswerData] = useState([]);
 
+  // Fetch quiz data on category change
   useEffect(() => {
     if (!category) return;
 
@@ -31,7 +32,6 @@ export default function Quiz() {
         const [exam, subject, chapter] = parts;
         filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
       } else {
-        console.error('❌ Unsupported category format:', category);
         alert('❌ Invalid quiz category format.');
         return;
       }
@@ -42,7 +42,7 @@ export default function Quiz() {
           return res.json();
         })
         .then((data) => {
-          if (!Array.isArray(data)) throw new Error('Expected JSON array of questions');
+          if (!Array.isArray(data)) throw new Error('Invalid question format');
           const randomTen = shuffleArray(data)
             .slice(0, 10)
             .map((q) => ({
@@ -53,19 +53,20 @@ export default function Quiz() {
           setStartTime(Date.now());
         })
         .catch((err) => {
-          console.error('Failed to load quiz data:', err.message);
-          alert('❌ Failed to load quiz. Check file path or format.');
+          console.error('❌ Failed to load quiz:', err.message);
+          alert('❌ Could not load quiz. Check file path or format.');
         });
     } catch (e) {
-      console.error('❌ Exception:', e.message);
-      alert('❌ Failed to build file path.');
+      console.error('❌ Error:', e.message);
+      alert('❌ Could not build quiz path.');
     }
   }, [category]);
 
+  // Timer logic
   useEffect(() => {
     if (!questions.length) return;
     if (timer === 0) {
-      handleNext(true);
+      handleNext(); // auto-next on timeout
       return;
     }
 
@@ -77,9 +78,10 @@ export default function Quiz() {
   }, [timer, questions]);
 
   useEffect(() => {
-    setTimer(120);
+    setTimer(120); // reset timer on question change
   }, [current]);
 
+  // Handle next question
   const handleNext = () => {
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
@@ -105,6 +107,7 @@ export default function Quiz() {
     }
   };
 
+  // Manual submission
   const submitImmediately = () => {
     if (!confirm('Are you sure you want to submit the quiz early?')) return;
 
@@ -130,9 +133,7 @@ export default function Quiz() {
 
   return (
     <div className="container mt-5">
-      <h4>
-        Question {current + 1} of {questions.length}
-      </h4>
+      <h4>Question {current + 1} of {questions.length}</h4>
       <p className="lead">{questions[current].question}</p>
       <div className="mb-2 text-danger fw-bold">Time left: {timer}s</div>
 
@@ -140,9 +141,7 @@ export default function Quiz() {
         {questions[current].options.map((opt, idx) => (
           <button
             key={idx}
-            className={`list-group-item list-group-item-action ${
-              selected === opt ? 'active' : ''
-            }`}
+            className={`list-group-item list-group-item-action ${selected === opt ? 'active' : ''}`}
             onClick={() => setSelected(opt)}
           >
             {opt}
