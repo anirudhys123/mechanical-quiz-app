@@ -23,7 +23,7 @@ const subjectChapters = {
   "Static": ["Art and Culture", "Geography"],
 
   // JEE
-  "Maths": ["Trigonometry", "Calculus", "Algebra", "Coordinate Geometry"],
+  "Maths": ["Trigonometry", "Vectors"],
   "Physics": ["Laws of Motion"],
   "Chemistry": ["Periodic Table"]
 };

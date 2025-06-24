@@ -1,0 +1,305 @@
+[
+  {
+    "question": "What is the magnitude of vector a = ai + bj + ck?",
+    "options": ["√(a² + b² + c²)", "a + b + c", "a² + b² + c²", "abc"],
+    "answer": "√(a² + b² + c²)"
+  },
+  {
+    "question": "What is the dot product of a = ai + bj + ck and b = xi + yj + zk?",
+    "options": ["ax + by + cz", "a + x + b + y + c + z", "ax² + by² + cz²", "axb"],
+    "answer": "ax + by + cz"
+  },
+  {
+    "question": "What is the angle θ between vectors a and b using dot product?",
+    "options": ["cosθ = (a·b)/(|a||b|)", "cosθ = a·b", "sinθ = (a×b)/(|a||b|)", "θ = a + b"],
+    "answer": "cosθ = (a·b)/(|a||b|)"
+  },
+  {
+    "question": "What is the value of a·a?",
+    "options": ["|a|²", "2a", "a", "0"],
+    "answer": "|a|²"
+  },
+  {
+    "question": "What is the cross product a × a?",
+    "options": ["0", "a", "2a", "|a|²"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the vector projection of a on b?",
+    "options": ["[(a·b)/|b|²]b", "[(a×b)/|b|²]b", "a·b", "|a||b|cosθ"],
+    "answer": "[(a·b)/|b|²]b"
+  },
+  {
+    "question": "What is the scalar projection of a on b?",
+    "options": ["(a·b)/|b|", "|a||b|sinθ", "a + b", "a·b"],
+    "answer": "(a·b)/|b|"
+  },
+  {
+    "question": "If a and b are perpendicular, what is a·b?",
+    "options": ["0", "1", "|a||b|", "∞"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the magnitude of a × b?",
+    "options": ["|a||b|sinθ", "|a||b|cosθ", "a + b", "a·b"],
+    "answer": "|a||b|sinθ"
+  },
+  {
+    "question": "What is the direction of a × b?",
+    "options": ["Perpendicular to both a and b", "Same as a", "Same as b", "Opposite to a"],
+    "answer": "Perpendicular to both a and b"
+  },
+  {
+    "question": "What is i × j?",
+    "options": ["k", "-k", "0", "i"],
+    "answer": "k"
+  },
+  {
+    "question": "What is j × k?",
+    "options": ["i", "-i", "0", "j"],
+    "answer": "i"
+  },
+  {
+    "question": "What is k × i?",
+    "options": ["j", "-j", "0", "k"],
+    "answer": "j"
+  },
+  {
+    "question": "What is the scalar triple product [a b c]?",
+    "options": ["a·(b×c)", "a×(b×c)", "(a·b)×c", "a×b·c"],
+    "answer": "a·(b×c)"
+  },
+  {
+    "question": "If a, b, c are coplanar, then [a b c] is?",
+    "options": ["0", "1", "a·b", "a×b"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the vector triple product a × (b × c)?",
+    "options": ["(a·c)b - (a·b)c", "(a·b)c + (a·c)b", "a·(b×c)", "a + b + c"],
+    "answer": "(a·c)b - (a·b)c"
+  },
+  {
+    "question": "Which vector is parallel to a?",
+    "options": ["ka (k ≠ 0)", "a + b", "a × b", "b - a"],
+    "answer": "ka (k ≠ 0)"
+  },
+  {
+    "question": "Which vector is unit vector in direction of a?",
+    "options": ["a/|a|", "|a|/a", "a²", "1/a"],
+    "answer": "a/|a|"
+  },
+  {
+    "question": "If a and b are parallel, what is a × b?",
+    "options": ["0", "a", "b", "a + b"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the dot product of orthogonal unit vectors?",
+    "options": ["0", "1", "-1", "∞"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the magnitude of unit vector?",
+    "options": ["1", "0", "∞", "|a|"],
+    "answer": "1"
+  },
+  {
+    "question": "What is the area of parallelogram formed by a and b?",
+    "options": ["|a × b|", "a·b", "|a||b|", "|a + b|"],
+    "answer": "|a × b|"
+  },
+  {
+    "question": "What is the area of triangle formed by a and b?",
+    "options": ["½|a × b|", "|a × b|", "a·b", "|a + b|"],
+    "answer": "½|a × b|"
+  },
+  {
+    "question": "What is the volume of parallelepiped formed by a, b, c?",
+    "options": ["|a·(b×c)|", "|a × b × c|", "|a + b + c|", "a + b + c"],
+    "answer": "|a·(b×c)|"
+  },
+  {
+    "question": "Which of the following is NOT a vector identity?",
+    "options": ["a·(b×c) = b·(c×a)", "a × (b × c) = (a·c)b - (a·b)c", "a·(b·c) = (a·b)·c", "(a × b)·c = a·(b × c)"],
+    "answer": "a·(b·c) = (a·b)·c"
+  },
+  {
+    "question": "What is the result of (a + b)² in vector algebra?",
+    "options": ["a² + 2a·b + b²", "a² + b² + ab", "a + b", "a·b"],
+    "answer": "a² + 2a·b + b²"
+  },
+  {
+    "question": "Which operation gives a scalar?",
+    "options": ["a·b", "a×b", "a + b", "a - b"],
+    "answer": "a·b"
+  },
+  {
+    "question": "Which operation gives a vector?",
+    "options": ["a×b", "a·b", "|a|", "a·(b×c)"],
+    "answer": "a×b"
+  },
+  {
+    "question": "What is the dot product of parallel unit vectors?",
+    "options": ["1", "0", "-1", "|a|"],
+    "answer": "1"
+  },
+  {
+    "question": "What is the angle between opposite vectors?",
+    "options": ["180°", "0°", "90°", "45°"],
+    "answer": "180°"
+  },
+  
+  {
+    "question": "If |a + b| = |a - b|, what is the angle between a and b?",
+    "options": ["90°", "0°", "180°", "45°"],
+    "answer": "90°"
+  },
+  {
+    "question": "If a × b = 0, what can be said about a and b?",
+    "options": ["Parallel or collinear", "Perpendicular", "Equal", "Zero vectors"],
+    "answer": "Parallel or collinear"
+  },
+  {
+    "question": "Which is always true for any two vectors a and b?",
+    "options": ["a·b ≤ |a||b|", "a·b = |a||b|", "a = b", "a × b = 0"],
+    "answer": "a·b ≤ |a||b|"
+  },
+  {
+    "question": "What does a·(b×c) represent geometrically?",
+    "options": ["Volume of parallelepiped", "Area of triangle", "Dot product", "Zero"],
+    "answer": "Volume of parallelepiped"
+  },
+  {
+    "question": "Which of the following is a unit vector?",
+    "options": ["i/1", "i + j", "i + j + k", "(i + j)/√2"],
+    "answer": "(i + j)/√2"
+  },
+  {
+    "question": "Which formula gives angle θ between two vectors a and b?",
+    "options": ["cosθ = (a·b)/(|a||b|)", "θ = a × b", "tanθ = (a + b)/|a|", "sinθ = a·b"],
+    "answer": "cosθ = (a·b)/(|a||b|)"
+  },
+  {
+    "question": "The vector triple product is distributive over which operation?",
+    "options": ["Addition", "Dot product", "Scalar multiplication", "Cross product"],
+    "answer": "Addition"
+  },
+  {
+    "question": "What is the angle between i and j?",
+    "options": ["90°", "0°", "180°", "45°"],
+    "answer": "90°"
+  },
+  {
+    "question": "What is the direction cosine of vector i?",
+    "options": ["1, 0, 0", "0, 1, 0", "1, 1, 1", "0, 0, 1"],
+    "answer": "1, 0, 0"
+  },
+  {
+    "question": "Two vectors a and b are perpendicular. Then which is true?",
+    "options": ["a·b = 0", "a × b = 0", "a = b", "|a + b| = 0"],
+    "answer": "a·b = 0"
+  },
+  {
+    "question": "Which is correct for scalar triple product [a b c]?",
+    "options": ["Cyclic in nature", "Commutative", "Associative", "Always positive"],
+    "answer": "Cyclic in nature"
+  },
+  {
+    "question": "What is |a + b|² equal to?",
+    "options": ["|a|² + |b|² + 2a·b", "|a| + |b|", "a² + b²", "a·b"],
+    "answer": "|a|² + |b|² + 2a·b"
+  },
+  {
+    "question": "What is the angle between vector and itself?",
+    "options": ["0°", "90°", "180°", "Undefined"],
+    "answer": "0°"
+  },
+  {
+    "question": "What is the condition for two vectors to be anti-parallel?",
+    "options": ["θ = 180°", "θ = 90°", "θ = 0°", "a × b ≠ 0"],
+    "answer": "θ = 180°"
+  },
+  {
+    "question": "Which identity is used to compute |a + b|²?",
+    "options": ["Parallelogram law", "Dot product", "Triple product", "Vector law"],
+    "answer": "Parallelogram law"
+  },
+  {
+    "question": "Which of the following vectors lies in xy-plane?",
+    "options": ["ai + bj", "i + k", "bj + ck", "ck"],
+    "answer": "ai + bj"
+  },
+  {
+    "question": "If vector a is perpendicular to vector b, which is true?",
+    "options": ["a·b = 0", "a·b = 1", "|a| = |b|", "a + b = 0"],
+    "answer": "a·b = 0"
+  },
+  {
+    "question": "Which one is a non-zero vector but has zero magnitude?",
+    "options": ["Impossible", "Unit vector", "Parallel vector", "Scalar vector"],
+    "answer": "Impossible"
+  },
+  {
+    "question": "What is the maximum value of dot product a·b?",
+    "options": ["|a||b|", "1", "a + b", "0"],
+    "answer": "|a||b|"
+  },
+  {
+    "question": "If a = i + 2j, b = 2i - j, what is a·b?",
+    "options": ["0", "2", "1", "3"],
+    "answer": "0"
+  },
+  {
+    "question": "Which of the following equals the square of a vector’s magnitude?",
+    "options": ["a·a", "a × a", "|a|", "a²"],
+    "answer": "a·a"
+  },
+  {
+    "question": "The scalar triple product is zero if vectors are?",
+    "options": ["Coplanar", "Collinear", "Orthogonal", "Parallel"],
+    "answer": "Coplanar"
+  },
+  {
+    "question": "What is the result of cross product of two parallel vectors?",
+    "options": ["Zero vector", "Unit vector", "Scalar", "Null matrix"],
+    "answer": "Zero vector"
+  },
+  {
+    "question": "A unit vector has magnitude equal to?",
+    "options": ["1", "0", "∞", "Undefined"],
+    "answer": "1"
+  },
+  {
+    "question": "The position vector of a point in space is given by?",
+    "options": ["r = xi + yj + zk", "r = x + y + z", "r = xij + yjk + zik", "None"],
+    "answer": "r = xi + yj + zk"
+  },
+  {
+    "question": "Which represents direction cosines of vector a?",
+    "options": ["cosα, cosβ, cosγ", "sinα, sinβ, sinγ", "a, b, c", "i, j, k"],
+    "answer": "cosα, cosβ, cosγ"
+  },
+  {
+    "question": "Which of the following is NOT a property of vector addition?",
+    "options": ["Distributive over scalar multiplication", "Associative", "Commutative", "Divisible"],
+    "answer": "Divisible"
+  },
+  {
+    "question": "What is the component of vector along a direction?",
+    "options": ["Projection", "Dot product", "Cross product", "Addition"],
+    "answer": "Projection"
+  },
+  {
+    "question": "If |a + b| = |a - b|, then a·b equals?",
+    "options": ["0", "1", "-1", "|a||b|"],
+    "answer": "0"
+  },
+  {
+    "question": "The dot product of two unit vectors is 0. What is the angle?",
+    "options": ["90°", "0°", "180°", "45°"],
+    "answer": "90°"
+  }
+
+
+]
