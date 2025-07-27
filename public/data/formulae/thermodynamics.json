@@ -453,6 +453,596 @@
     "question": "Main sources of irreversibility:",
     "options": ["Heat transfer through finite temperature difference, friction, unrestrained expansion", "Perfect insulation", "Ideal gas mixing", "No heat transfer"],
     "answer": "Heat transfer through finite temperature difference, friction, unrestrained expansion"
-  }
+  },
 
+  {
+    "question": "Specific volume (v) of a substance:",
+    "options": ["v = V/m", "v = m/V", "v = PV", "v = RT/P"],
+    "answer": "v = V/m"
+  },
+  {
+    "question": "Density (ρ) of a substance:",
+    "options": ["ρ = m/V", "ρ = V/m", "ρ = PV/RT", "ρ = RT/P"],
+    "answer": "ρ = m/V"
+  },
+  {
+    "question": "Universal gas constant (Ru):",
+    "options": ["Ru = 8.314 kJ/kmol·K", "Ru = 0.287 kJ/kg·K", "Ru = 1.0 kJ/kg·K", "Ru = 4.18 kJ/kg·K"],
+    "answer": "Ru = 8.314 kJ/kmol·K"
+  },
+  {
+    "question": "Specific gas constant (R) for a gas:",
+    "options": ["R = Ru/M", "R = M/Ru", "R = Ru*M", "R = Ru+M"],
+    "answer": "R = Ru/M"
+  },
+  {
+    "question": "Change in kinetic energy:",
+    "options": ["ΔKE = 0.5m(V2^2 - V1^2)", "ΔKE = mgh", "ΔKE = m(V2 - V1)", "ΔKE = m(V2^2 + V1^2)"],
+    "answer": "ΔKE = 0.5m(V2^2 - V1^2)"
+  },
+  {
+    "question": "Change in potential energy:",
+    "options": ["ΔPE = mg(z2 - z1)", "ΔPE = mgh", "ΔPE = m(z2 + z1)", "ΔPE = 0.5m(V2^2 - V1^2)"],
+    "answer": "ΔPE = mg(z2 - z1)"
+  },
+  {
+    "question": "Enthalpy of vaporization (hfg):",
+    "options": ["hfg = hg - hf", "hfg = hf - hg", "hfg = hg + hf", "hfg = hf/hg"],
+    "answer": "hfg = hg - hf"
+  },
+  {
+    "question": "Quality (x) in two-phase mixture:",
+    "options": ["x = (v - vf)/(vg - vf)", "x = (h - hf)/(hg - hf)", "x = (s - sf)/(sg - sf)", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "question": "Enthalpy of a two-phase mixture:",
+    "options": ["h = hf + xhfg", "h = hf - xhfg", "h = xhf + hfg", "h = hfg + xhf"],
+    "answer": "h = hf + xhfg"
+  },
+  {
+    "question": "Entropy of a two-phase mixture:",
+    "options": ["s = sf + xsfg", "s = sf - xsfg", "s = xsf + sfg", "s = sfg + xsf"],
+    "answer": "s = sf + xsfg"
+  },
+  {
+    "question": "Specific volume of a two-phase mixture:",
+    "options": ["v = vf + xvfg", "v = vf - xvfg", "v = xvf + vfg", "v = vfg + xvf"],
+    "answer": "v = vf + xvfg"
+  },
+  {
+    "question": "Work done in constant pressure process:",
+    "options": ["W = P(V2 - V1)", "W = nRT ln(V2/V1)", "W = mCpΔT", "W = 0"],
+    "answer": "W = P(V2 - V1)"
+  },
+  {
+    "question": "Work done in constant volume process:",
+    "options": ["W = 0", "W = P(V2 - V1)", "W = nRT ln(V2/V1)", "W = mCvΔT"],
+    "answer": "W = 0"
+  },
+  {
+    "question": "Heat transfer in constant pressure process (ideal gas):",
+    "options": ["Q = mCpΔT", "Q = mCvΔT", "Q = PΔV", "Q = nRT ln(V2/V1)"],
+    "answer": "Q = mCpΔT"
+  },
+  {
+    "question": "Heat transfer in constant volume process (ideal gas):",
+    "options": ["Q = mCvΔT", "Q = mCpΔT", "Q = PΔV", "Q = nRT ln(V2/V1)"],
+    "answer": "Q = mCvΔT"
+  },
+  {
+    "question": "Polytropic process equation:",
+    "options": ["PV^n = constant", "PV = constant", "P^nV = constant", "P/V^n = constant"],
+    "answer": "PV^n = constant"
+  },
+  {
+    "question": "Isothermal process for ideal gas:",
+    "options": ["T = constant", "P = constant", "V = constant", "S = constant"],
+    "answer": "T = constant"
+  },
+  {
+    "question": "Adiabatic process for ideal gas:",
+    "options": ["Q = 0", "W = 0", "P = constant", "T = constant"],
+    "answer": "Q = 0"
+  },
+  {
+    "question": "Isobaric process for ideal gas:",
+    "options": ["P = constant", "T = constant", "V = constant", "Q = 0"],
+    "answer": "P = constant"
+  },
+  {
+    "question": "Isochoric process for ideal gas:",
+    "options": ["V = constant", "P = constant", "T = constant", "Q = 0"],
+    "answer": "V = constant"
+  },
+  {
+    "question": "Isentropic process for ideal gas:",
+    "options": ["S = constant", "T = constant", "P = constant", "V = constant"],
+    "answer": "S = constant"
+  },
+  {
+    "question": "Specific heat at constant pressure for ideal gas:",
+    "options": ["Cp = (∂h/∂T)_P", "Cp = (∂u/∂T)_V", "Cp = R", "Cp = Cv + R"],
+    "answer": "Cp = (∂h/∂T)_P"
+  },
+  {
+    "question": "Specific heat at constant volume for ideal gas:",
+    "options": ["Cv = (∂u/∂T)_V", "Cv = (∂h/∂T)_P", "Cv = R", "Cv = Cp - R"],
+    "answer": "Cv = (∂u/∂T)_V"
+  },
+  {
+    "question": "Mayer's relation for ideal gas:",
+    "options": ["Cp - Cv = R", "Cp + Cv = R", "Cp/Cv = R", "Cp = Cv * R"],
+    "answer": "Cp - Cv = R"
+  },
+  {
+    "question": "Enthalpy change for incompressible substance:",
+    "options": ["Δh = vΔP", "Δh = mCpΔT", "Δh = PΔv", "Δh = Q - W"],
+    "answer": "Δh = vΔP"
+  },
+  {
+    "question": "Internal energy change for incompressible substance:",
+    "options": ["Δu = mCvΔT", "Δu = mCpΔT", "Δu = vΔP", "Δu = Q - W"],
+    "answer": "Δu = mCvΔT"
+  },
+  {
+    "question": "Enthalpy of formation:",
+    "options": ["Standard enthalpy at 25°C, 1 atm", "Enthalpy at 0°C", "Enthalpy at 100°C", "Enthalpy at 1 K"],
+    "answer": "Standard enthalpy at 25°C, 1 atm"
+  },
+  {
+    "question": "Gibbs free energy (G):",
+    "options": ["G = H - TS", "G = U + PV", "G = H + TS", "G = U - TS"],
+    "answer": "G = H - TS"
+  },
+  {
+    "question": "Helmholtz free energy (A):",
+    "options": ["A = U - TS", "A = H - TS", "A = U + TS", "A = H + TS"],
+    "answer": "A = U - TS"
+  },
+  {
+    "question": "Maxwell relation (1):",
+    "options": ["(∂T/∂V)_S = -(∂P/∂S)_V", "(∂T/∂P)_S = (∂V/∂S)_P", "(∂S/∂V)_T = (∂P/∂T)_V", "(∂S/∂P)_T = (∂V/∂T)_P"],
+    "answer": "(∂T/∂V)_S = -(∂P/∂S)_V"
+  },
+  {
+    "question": "Maxwell relation (2):",
+    "options": ["(∂T/∂P)_S = (∂V/∂S)_P", "(∂T/∂V)_S = (∂P/∂S)_V", "(∂S/∂V)_T = (∂P/∂T)_V", "(∂S/∂P)_T = (∂V/∂T)_P"],
+    "answer": "(∂T/∂P)_S = (∂V/∂S)_P"
+  },
+  {
+    "question": "Maxwell relation (3):",
+    "options": ["(∂S/∂V)_T = (∂P/∂T)_V", "(∂T/∂V)_S = (∂P/∂S)_V", "(∂T/∂P)_S = (∂V/∂S)_P", "(∂S/∂P)_T = (∂V/∂T)_P"],
+    "answer": "(∂S/∂V)_T = (∂P/∂T)_V"
+  },
+  {
+    "question": "Maxwell relation (4):",
+    "options": ["(∂S/∂P)_T = -(∂V/∂T)_P", "(∂T/∂V)_S = (∂P/∂S)_V", "(∂T/∂P)_S = (∂V/∂S)_P", "(∂S/∂V)_T = (∂P/∂T)_V"],
+    "answer": "(∂S/∂P)_T = -(∂V/∂T)_P"
+  },
+  {
+    "question": "Joule-Thomson coefficient (μJT):",
+    "options": ["μJT = (∂T/∂P)_h", "μJT = (∂P/∂T)_h", "μJT = (∂T/∂h)_P", "μJT = (∂h/∂T)_P"],
+    "answer": "μJT = (∂T/∂P)_h"
+  },
+  {
+    "question": "Thermal expansion coefficient (β):",
+    "options": ["β = (1/V)(∂V/∂T)_P", "β = (1/P)(∂P/∂T)_V", "β = (1/T)(∂T/∂V)_P", "β = (1/V)(∂V/∂P)_T"],
+    "answer": "β = (1/V)(∂V/∂T)_P"
+  },
+  {
+    "question": "Isothermal compressibility (κ):",
+    "options": ["κ = -(1/V)(∂V/∂P)_T", "κ = (1/V)(∂V/∂T)_P", "κ = (1/P)(∂P/∂T)_V", "κ = (1/T)(∂T/∂V)_P"],
+    "answer": "κ = -(1/V)(∂V/∂P)_T"
+  },
+  {
+    "question": "Clausius-Clapeyron equation:",
+    "options": ["dP/dT = hfg/(TΔv)", "dP/dT = hfg/(Δv)", "dP/dT = Δv/hfg", "dP/dT = T/hfg"],
+    "answer": "dP/dT = hfg/(TΔv)"
+  },
+  {
+    "question": "Entropy change for mixing two substances:",
+    "options": ["ΔS = -nR(x1 ln x1 + x2 ln x2)", "ΔS = nR(x1 ln x1 + x2 ln x2)", "ΔS = nR ln(x1/x2)", "ΔS = nR ln(x2/x1)"],
+    "answer": "ΔS = -nR(x1 ln x1 + x2 ln x2)"
+  },
+  {
+    "question": "Gibbs phase rule:",
+    "options": ["F = C - P + 2", "F = C + P - 2", "F = C - P - 2", "F = C + P + 2"],
+    "answer": "F = C - P + 2"
+  },
+  {
+    "question": "Compressibility factor (Z):",
+    "options": ["Z = PV/RT", "Z = RT/PV", "Z = P/RTV", "Z = V/RT"],
+    "answer": "Z = PV/RT"
+  },
+  {
+    "question": "Reduced pressure (Pr):",
+    "options": ["Pr = P/Pc", "Pr = Pc/P", "Pr = P + Pc", "Pr = P - Pc"],
+    "answer": "Pr = P/Pc"
+  },
+  {
+    "question": "Reduced temperature (Tr):",
+    "options": ["Tr = T/Tc", "Tr = Tc/T", "Tr = T + Tc", "Tr = T - Tc"],
+    "answer": "Tr = T/Tc"
+  },
+  {
+    "question": "Reduced volume (vr):",
+    "options": ["vr = v/vc", "vr = vc/v", "vr = v + vc", "vr = v - vc"],
+    "answer": "vr = v/vc"
+  },
+  {
+    "question": "Van der Waals equation of state:",
+    "options": ["(P + a/v^2)(v - b) = RT", "(P - a/v^2)(v + b) = RT", "(P + b/v^2)(v - a) = RT", "(P - b/v^2)(v + a) = RT"],
+    "answer": "(P + a/v^2)(v - b) = RT"
+  },
+  {
+    "question": "Critical point condition for van der Waals gas:",
+    "options": ["(∂P/∂v)_T = 0 and (∂^2P/∂v^2)_T = 0", "(∂P/∂T)_v = 0", "(∂v/∂P)_T = 0", "(∂T/∂P)_v = 0"],
+    "answer": "(∂P/∂v)_T = 0 and (∂^2P/∂v^2)_T = 0"
+  },
+  {
+    "question": "Law of corresponding states:",
+    "options": ["Gases at same Pr and Tr have same Z", "Gases at same P and T have same Z", "Gases at same v and T have same Z", "Gases at same P and v have same Z"],
+    "answer": "Gases at same Pr and Tr have same Z"
+  },
+  {
+    "question": "Joule's law for ideal gas:",
+    "options": ["U = f(T)", "U = f(P)", "U = f(V)", "U = f(P,V)"],
+    "answer": "U = f(T)"
+  },
+  {
+    "question": "Enthalpy of ideal gas:",
+    "options": ["H = f(T)", "H = f(P)", "H = f(V)", "H = f(P,V)"],
+    "answer": "H = f(T)"
+  },
+  {
+    "question": "Entropy change for reversible adiabatic process:",
+    "options": ["ΔS = 0", "ΔS > 0", "ΔS < 0", "ΔS = Q/T"],
+    "answer": "ΔS = 0"
+  },
+  {
+    "question": "Entropy change for reversible isothermal process (ideal gas):",
+    "options": ["ΔS = nR ln(V2/V1)", "ΔS = nR ln(T2/T1)", "ΔS = nR ln(P2/P1)", "ΔS = Q/T"],
+    "answer": "ΔS = nR ln(V2/V1)"
+  },
+  {
+    "question": "Entropy change for reversible isobaric process (ideal gas):",
+    "options": ["ΔS = nCp ln(T2/T1)", "ΔS = nCv ln(T2/T1)", "ΔS = nR ln(V2/V1)", "ΔS = Q/T"],
+    "answer": "ΔS = nCp ln(T2/T1)"
+  },
+  {
+    "question": "Entropy change for reversible isochoric process (ideal gas):",
+    "options": ["ΔS = nCv ln(T2/T1)", "ΔS = nCp ln(T2/T1)", "ΔS = nR ln(V2/V1)", "ΔS = Q/T"],
+    "answer": "ΔS = nCv ln(T2/T1)"
+  },
+  {
+    "question": "Thermodynamic temperature scale (Kelvin):",
+    "options": ["T(K) = t(°C) + 273.15", "T(K) = t(°C) + 100", "T(K) = t(°C) - 273.15", "T(K) = t(°C) + 0"],
+    "answer": "T(K) = t(°C) + 273.15"
+  },
+  {
+    "question": "Thermodynamic temperature scale (Rankine):",
+    "options": ["T(R) = t(°F) + 459.67", "T(R) = t(°F) + 273.15", "T(R) = t(°F) - 459.67", "T(R) = t(°F) + 100"],
+    "answer": "T(R) = t(°F) + 459.67"
+  },
+  {
+    "question": "First law efficiency for a heat engine:",
+    "options": ["η = Wout/Qin", "η = Qin/Wout", "η = Qout/Qin", "η = Wout/Qout"],
+    "answer": "η = Wout/Qin"
+  },
+  {
+    "question": "First law efficiency for a heat pump:",
+    "options": ["COP = Qout/Win", "COP = Win/Qout", "COP = Qin/Wout", "COP = Wout/Qin"],
+    "answer": "COP = Qout/Win"
+  },
+  {
+    "question": "First law efficiency for a refrigerator:",
+    "options": ["COP = Qin/Win", "COP = Win/Qin", "COP = Qout/Wout", "COP = Wout/Qout"],
+    "answer": "COP = Qin/Win"
+  },
+  {
+    "question": "Thermal efficiency of a power cycle:",
+    "options": ["η = 1 - Qout/Qin", "η = Qout/Qin", "η = Qin/Qout", "η = 1 - Qin/Qout"],
+    "answer": "η = 1 - Qout/Qin"
+  },
+  {
+    "question": "Thermal efficiency of a heat engine (general):",
+    "options": ["η = Wnet/Qin", "η = Qin/Wnet", "η = Qout/Wnet", "η = Wnet/Qout"],
+    "answer": "η = Wnet/Qin"
+  },
+  {
+    "question": "Thermal efficiency of a Carnot refrigerator:",
+    "options": ["COP = TL/(TH - TL)", "COP = TH/(TH - TL)", "COP = (TH - TL)/TL", "COP = (TH - TL)/TH"],
+    "answer": "COP = TL/(TH - TL)"
+  },
+  {
+    "question": "Thermal efficiency of a Carnot heat pump:",
+    "options": ["COP = TH/(TH - TL)", "COP = TL/(TH - TL)", "COP = (TH - TL)/TH", "COP = (TH - TL)/TL"],
+    "answer": "COP = TH/(TH - TL)"
+  },
+  {
+    "question": "Thermal efficiency of a Carnot engine:",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Mean effective pressure (MEP) for reciprocating engine:",
+    "options": ["MEP = Wnet/Vd", "MEP = Wnet/Vs", "MEP = PV", "MEP = mRT"],
+    "answer": "MEP = Wnet/Vd"
+  },
+  {
+    "question": "Thermal efficiency of Otto cycle (in terms of r):",
+    "options": ["η = 1 - 1/r^(γ-1)", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - 1/r^(γ-1)"
+  },
+  {
+    "question": "Thermal efficiency of Diesel cycle (in terms of r and rc):",
+    "options": ["η = 1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))", "η = 1 - 1/r^(γ-1)", "η = 1 - rc^(γ-1)", "η = 1 - 1/rc^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))"
+  },
+  {
+    "question": "Thermal efficiency of Brayton cycle (in terms of rp):",
+    "options": ["η = 1 - 1/rp^((γ-1)/γ)", "η = 1 - rp^((γ-1)/γ)", "η = 1/rp^((γ-1)/γ)", "η = rp^((γ-1)/γ)"],
+    "answer": "η = 1 - 1/rp^((γ-1)/γ)"
+  },
+  {
+    "question": "Thermal efficiency of Rankine cycle:",
+    "options": ["η = (Wt - Wp)/Qin", "η = Wt/Qin", "η = Qin/Wt", "η = (Qout - Qin)/Qin"],
+    "answer": "η = (Wt - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of dual cycle:",
+    "options": ["Complex expression involving r, rc, rp", "η = 1 - 1/r^(γ-1)", "η = TL/TH", "η = Wt/Qin"],
+    "answer": "Complex expression involving r, rc, rp"
+  },
+  {
+    "question": "Thermal efficiency of combined cycle:",
+    "options": ["η = Wnet/Qin", "η = Qin/Wnet", "η = Qout/Wnet", "η = Wnet/Qout"],
+    "answer": "η = Wnet/Qin"
+  },
+  {
+    "question": "Thermal efficiency of regenerative cycle:",
+    "options": ["η = (T5 - T2)/(T4 - T2)", "η = (T3 - T2)/(T5 - T2)", "η = Qreg/Qin", "η = Wnet/Qin"],
+    "answer": "η = (T5 - T2)/(T4 - T2)"
+  },
+  {
+    "question": "Thermal efficiency of reheat cycle:",
+    "options": ["η = (Wt1 + Wt2 - Wp)/Qin", "η = (Wt1 - Wp)/Qin", "η = (Wt2 - Wp)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of regenerative Rankine cycle:",
+    "options": ["η = (Wt - Wp)/Qin", "η = (Wt - Wp)/Qreg", "η = (Wt - Wp)/Qout", "η = (Wt - Wp)/Qpump"],
+    "answer": "η = (Wt - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of gas turbine with intercooling:",
+    "options": ["η = (Wt - Wc)/Qin", "η = (Wt + Wc)/Qin", "η = (Wt - Wc)/Qout", "η = (Wt + Wc)/Qout"],
+    "answer": "η = (Wt - Wc)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of gas turbine with regeneration:",
+    "options": ["η = (Wt - Wc)/Qin, with Qreg", "η = (Wt - Wc)/Qin", "η = (Wt + Wc)/Qin", "η = (Wt - Wc)/Qout"],
+    "answer": "η = (Wt - Wc)/Qin, with Qreg"
+  },
+  {
+    "question": "Thermal efficiency of gas turbine with reheat:",
+    "options": ["η = (Wt1 + Wt2 - Wc)/Qin", "η = (Wt1 - Wc)/Qin", "η = (Wt2 - Wc)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wc)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of combined gas-steam cycle:",
+    "options": ["η = (Wgas + Wsteam)/Qin", "η = (Wgas - Wsteam)/Qin", "η = (Wgas + Wsteam)/Qout", "η = (Wgas - Wsteam)/Qout"],
+    "answer": "η = (Wgas + Wsteam)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of binary vapor cycle:",
+    "options": ["η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin", "η = (Wt1 - Wp1)/Qin", "η = (Wt2 - Wp2)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of Stirling cycle:",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Thermal efficiency of Ericsson cycle:",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Thermal efficiency of Lenoir cycle:",
+    "options": ["η = 1 - (1/r^(γ-1))", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1))"
+  },
+  {
+    "question": "Thermal efficiency of Atkinson cycle:",
+    "options": ["η = 1 - (1/r^(γ-1))", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1))"
+  },
+  {
+    "question": "Thermal efficiency of Brayton cycle with intercooling, regeneration, and reheat:",
+    "options": ["η = (Wt1 + Wt2 - Wc1 - Wc2)/Qin", "η = (Wt1 - Wc1)/Qin", "η = (Wt2 - Wc2)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wc1 - Wc2)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of vapor-compression refrigeration cycle:",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of absorption refrigeration cycle:",
+    "options": ["COP = QL/(QH + Wp)", "COP = (QH + Wp)/QL", "COP = QL/QH", "COP = QH/QL"],
+    "answer": "COP = QL/(QH + Wp)"
+  },
+  {
+    "question": "Thermal efficiency of gas refrigeration cycle:",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of reversed Brayton cycle:",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of Bell-Coleman cycle:",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of vapor absorption cycle:",
+    "options": ["COP = QL/(QH + Wp)", "COP = (QH + Wp)/QL", "COP = QL/QH", "COP = QH/QL"],
+    "answer": "COP = QL/(QH + Wp)"
+  },
+  {
+    "question": "Thermal efficiency of gas liquefaction process:",
+    "options": ["η = QL/Qin", "η = Qin/QL", "η = QH/Qin", "η = Qin/QH"],
+    "answer": "η = QL/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Carnot):",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Rankine):",
+    "options": ["η = (Wt - Wp)/Qin", "η = Wt/Qin", "η = Qin/Wt", "η = (Qout - Qin)/Qin"],
+    "answer": "η = (Wt - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Brayton):",
+    "options": ["η = 1 - 1/rp^((γ-1)/γ)", "η = 1 - rp^((γ-1)/γ)", "η = 1/rp^((γ-1)/γ)", "η = rp^((γ-1)/γ)"],
+    "answer": "η = 1 - 1/rp^((γ-1)/γ)"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Otto):",
+    "options": ["η = 1 - 1/r^(γ-1)", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - 1/r^(γ-1)"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Diesel):",
+    "options": ["η = 1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))", "η = 1 - 1/r^(γ-1)", "η = 1 - rc^(γ-1)", "η = 1 - 1/rc^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1)) * ((rc^γ - 1)/(γ(rc - 1)))"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Dual):",
+    "options": ["Complex expression involving r, rc, rp", "η = 1 - 1/r^(γ-1)", "η = TL/TH", "η = Wt/Qin"],
+    "answer": "Complex expression involving r, rc, rp"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Stirling):",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Ericsson):",
+    "options": ["η = 1 - TL/TH", "η = TL/TH", "η = 1 - TH/TL", "η = TH/TL"],
+    "answer": "η = 1 - TL/TH"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Lenoir):",
+    "options": ["η = 1 - (1/r^(γ-1))", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1))"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Atkinson):",
+    "options": ["η = 1 - (1/r^(γ-1))", "η = 1 - r^(γ-1)", "η = 1/r^(γ-1)", "η = r^(γ-1)"],
+    "answer": "η = 1 - (1/r^(γ-1))"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Brayton with intercooling, regeneration, and reheat):",
+    "options": ["η = (Wt1 + Wt2 - Wc1 - Wc2)/Qin", "η = (Wt1 - Wc1)/Qin", "η = (Wt2 - Wc2)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wc1 - Wc2)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Binary vapor):",
+    "options": ["η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin", "η = (Wt1 - Wp1)/Qin", "η = (Wt2 - Wp2)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Combined gas-steam):",
+    "options": ["η = (Wgas + Wsteam)/Qin", "η = (Wgas - Wsteam)/Qin", "η = (Wgas + Wsteam)/Qout", "η = (Wgas - Wsteam)/Qout"],
+    "answer": "η = (Wgas + Wsteam)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas turbine with intercooling):",
+    "options": ["η = (Wt - Wc)/Qin", "η = (Wt + Wc)/Qin", "η = (Wt - Wc)/Qout", "η = (Wt + Wc)/Qout"],
+    "answer": "η = (Wt - Wc)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas turbine with regeneration):",
+    "options": ["η = (Wt - Wc)/Qin, with Qreg", "η = (Wt - Wc)/Qin", "η = (Wt + Wc)/Qin", "η = (Wt - Wc)/Qout"],
+    "answer": "η = (Wt - Wc)/Qin, with Qreg"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas turbine with reheat):",
+    "options": ["η = (Wt1 + Wt2 - Wc)/Qin", "η = (Wt1 - Wc)/Qin", "η = (Wt2 - Wc)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wc)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Regenerative Rankine):",
+    "options": ["η = (Wt - Wp)/Qin", "η = (Wt - Wp)/Qreg", "η = (Wt - Wp)/Qout", "η = (Wt - Wp)/Qpump"],
+    "answer": "η = (Wt - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Reheat cycle):",
+    "options": ["η = (Wt1 + Wt2 - Wp)/Qin", "η = (Wt1 - Wp)/Qin", "η = (Wt2 - Wp)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wp)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Combined cycle):",
+    "options": ["η = Wnet/Qin", "η = Qin/Wnet", "η = Qout/Wnet", "η = Wnet/Qout"],
+    "answer": "η = Wnet/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Regenerative cycle):",
+    "options": ["η = (T5 - T2)/(T4 - T2)", "η = (T3 - T2)/(T5 - T2)", "η = Qreg/Qin", "η = Wnet/Qin"],
+    "answer": "η = (T5 - T2)/(T4 - T2)"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Binary vapor cycle):",
+    "options": ["η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin", "η = (Wt1 - Wp1)/Qin", "η = (Wt2 - Wp2)/Qin", "η = (Wt1 + Wt2)/Qin"],
+    "answer": "η = (Wt1 + Wt2 - Wp1 - Wp2)/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas liquefaction process):",
+    "options": ["η = QL/Qin", "η = Qin/QL", "η = QH/Qin", "η = Qin/QH"],
+    "answer": "η = QL/Qin"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Vapor absorption cycle):",
+    "options": ["COP = QL/(QH + Wp)", "COP = (QH + Wp)/QL", "COP = QL/QH", "COP = QH/QL"],
+    "answer": "COP = QL/(QH + Wp)"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas refrigeration cycle):",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Reversed Brayton cycle):",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Bell-Coleman cycle):",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Vapor-compression refrigeration cycle):",
+    "options": ["COP = QL/Wnet,in", "COP = Wnet,in/QL", "COP = QH/Wnet,in", "COP = Wnet,in/QH"],
+    "answer": "COP = QL/Wnet,in"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Absorption refrigeration cycle):",
+    "options": ["COP = QL/(QH + Wp)", "COP = (QH + Wp)/QL", "COP = QL/QH", "COP = QH/QL"],
+    "answer": "COP = QL/(QH + Wp)"
+  },
+  {
+    "question": "Thermal efficiency of heat engine (Gas liquefaction process):",
+    "options": ["η = QL/Qin", "η = Qin/QL", "η = QH/Qin", "η = Qin/QH"],
+    "answer": "η = QL/Qin"
+  }
 ]

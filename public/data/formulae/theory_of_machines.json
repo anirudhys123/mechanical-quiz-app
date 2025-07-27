@@ -5,69 +5,229 @@
     "answer": "DOF = 3(n - 1) - 2l - h"
   },
   {
-    "question": "Velocity ratio for 4-bar mechanism:",
-    "options": ["VR = ω4 / ω2", "VR = ω2 / ω4", "VR = R / r", "VR = l / s"],
-    "answer": "VR = ω4 / ω2"
+    "question": "Kutzbach criterion for planar mechanisms:",
+    "options": ["DOF = 3(n-1) - 2j - h", "DOF = 2(n-1) - 2j - h", "DOF = 3n - 2j - h", "DOF = 2n - 2j - h"],
+    "answer": "DOF = 3(n-1) - 2j - h"
   },
   {
-    "question": "Condition for Inversion in Slider-Crank Mechanism:",
-    "options": ["Fixed link changes", "Crank length > connecting rod", "One link fixed", "All links rotate"],
-    "answer": "One link fixed"
+    "question": "Number of links in a simple mechanism:",
+    "options": ["n = j + 1", "n = 2j + 1", "n = j - 1", "n = 2j - 1"],
+    "answer": "n = j + 1"
   },
   {
-    "question": "Relative velocity formula:",
-    "options": ["V_B = V_A + V_B/A", "V_B = V_A - V_B/A", "V_B = ω × r", "V_B = V_A × t"],
-    "answer": "V_B = V_A + V_B/A"
+    "question": "Number of instantaneous centers in a mechanism with n links:",
+    "options": ["n(n-1)/2", "n(n+1)/2", "n/2", "n(n-2)/2"],
+    "answer": "n(n-1)/2"
   },
   {
-    "question": "Acceleration with Coriolis component:",
-    "options": ["a_C = 2ωv_r", "a_C = ωv_r", "a_C = ω²r", "a_C = v²/r"],
-    "answer": "a_C = 2ωv_r"
+    "question": "Mechanical advantage (MA):",
+    "options": ["MA = Output force / Input force", "MA = Input force / Output force", "MA = Output work / Input work", "MA = Input work / Output work"],
+    "answer": "MA = Output force / Input force"
   },
   {
-    "question": "Instantaneous Center Method involves:",
-    "options": ["Identifying all IC points", "Calculating displacement only", "Fixing all links", "Direct velocity calculation"],
-    "answer": "Identifying all IC points"
+    "question": "Velocity ratio (VR):",
+    "options": ["VR = Input velocity / Output velocity", "VR = Output velocity / Input velocity", "VR = Input force / Output force", "VR = Output force / Input force"],
+    "answer": "VR = Input velocity / Output velocity"
   },
   {
-    "question": "Module of gear:",
-    "options": ["m = Pitch / π", "m = π / Pitch", "m = D / T", "m = T / D"],
-    "answer": "m = Pitch / π"
+    "question": "Efficiency of a machine:",
+    "options": ["η = MA / VR", "η = VR / MA", "η = Output / Input", "η = Input / Output"],
+    "answer": "η = MA / VR"
   },
   {
-    "question": "Velocity ratio in simple gear train:",
-    "options": ["VR = N_driver / N_follower", "VR = N_follower / N_driver", "VR = T_driver / T_follower", "VR = T_follower / T_driver"],
-    "answer": "VR = N_driver / N_follower"
+    "question": "Law of gearing:",
+    "options": ["Common normal at point of contact passes through pitch point", "Common tangent at point of contact passes through pitch point", "Common normal is perpendicular to pitch point", "Common tangent is perpendicular to pitch point"],
+    "answer": "Common normal at point of contact passes through pitch point"
   },
   {
-    "question": "Contact ratio in gears:",
-    "options": ["CR = Length of arc of contact / Pitch circle distance", "CR = T / D", "CR = m × π", "CR = D / T"],
-    "answer": "CR = Length of arc of contact / Pitch circle distance"
+    "question": "Pitch circle diameter (PCD) of gear:",
+    "options": ["PCD = m × T", "PCD = T / m", "PCD = m / T", "PCD = π × m"],
+    "answer": "PCD = m × T"
   },
   {
-    "question": "Pressure angle (φ) in involute gears:",
-    "options": ["φ = tan⁻¹(Pitch / base)", "φ = tan⁻¹(base / Pitch)", "φ = sin⁻¹(base / Pitch)", "φ = cos⁻¹(base / Pitch)"],
-    "answer": "φ = tan⁻¹(Pitch / base)"
+    "question": "Circular pitch (p):",
+    "options": ["p = π × m", "p = m / π", "p = π / m", "p = m × T"],
+    "answer": "p = π × m"
   },
   {
-    "question": "Displacement diagram for radial cam with SHM:",
-    "options": ["s = (h/2)(1 - cos(πt/T))", "s = h(1 - cos(πt/T))", "s = (h/2)(1 + cos(πt/T))", "s = ht/T"],
-    "answer": "s = (h/2)(1 - cos(πt/T))"
+    "question": "Diametral pitch (Pd):",
+    "options": ["Pd = T / D", "Pd = D / T", "Pd = π / m", "Pd = m / π"],
+    "answer": "Pd = T / D"
   },
   {
-    "question": "Controlling force in governor:",
-    "options": ["F = mrω²", "F = mgh", "F = T / r", "F = mv² / r"],
+    "question": "Addendum of gear:",
+    "options": ["Addendum = m", "Addendum = π × m", "Addendum = m / 2", "Addendum = 2m"],
+    "answer": "Addendum = m"
+  },
+  {
+    "question": "Dedendum of gear:",
+    "options": ["Dedendum = 1.25m", "Dedendum = m", "Dedendum = 0.8m", "Dedendum = 2m"],
+    "answer": "Dedendum = 1.25m"
+  },
+  {
+    "question": "Backlash in gears:",
+    "options": ["Backlash = Difference between tooth space and tooth thickness", "Backlash = Difference between addendum and dedendum", "Backlash = Difference between pitch and module", "Backlash = Difference between PCD and base circle"],
+    "answer": "Backlash = Difference between tooth space and tooth thickness"
+  },
+  {
+    "question": "Minimum number of teeth to avoid interference (in involute gear, 20° pressure angle):",
+    "options": ["T_min = 18", "T_min = 12", "T_min = 14", "T_min = 16"],
+    "answer": "T_min = 18"
+  },
+  {
+    "question": "Length of path of contact in gears:",
+    "options": ["Path = √(r_a^2 - r_b^2)", "Path = π × m", "Path = r_a - r_b", "Path = r_b - r_a"],
+    "answer": "Path = √(r_a^2 - r_b^2)"
+  },
+  {
+    "question": "Length of arc of contact in gears:",
+    "options": ["Arc = Path / cos(φ)", "Arc = Path × cos(φ)", "Arc = Path × sin(φ)", "Arc = Path / sin(φ)"],
+    "answer": "Arc = Path / cos(φ)"
+  },
+  {
+    "question": "Interference in gears occurs when:",
+    "options": ["Involute portion of tooth is below base circle", "Addendum is too small", "Dedendum is too large", "Module is too high"],
+    "answer": "Involute portion of tooth is below base circle"
+  },
+  {
+    "question": "Train value in gear trains:",
+    "options": ["Train value = Speed of driver / Speed of follower", "Train value = Speed of follower / Speed of driver", "Train value = Number of gears", "Train value = Number of teeth"],
+    "answer": "Train value = Speed of follower / Speed of driver"
+  },
+  {
+    "question": "Epicyclic gear train velocity ratio:",
+    "options": ["VR = 1 + (T_ring / T_sun)", "VR = T_sun / T_ring", "VR = T_ring / T_sun", "VR = 1 - (T_ring / T_sun)"],
+    "answer": "VR = 1 + (T_ring / T_sun)"
+  },
+  {
+    "question": "Pitch point in cam profile:",
+    "options": ["Point of maximum velocity", "Point of minimum velocity", "Point where pressure angle is maximum", "Point where pressure angle is minimum"],
+    "answer": "Point where pressure angle is maximum"
+  },
+  {
+    "question": "Pressure angle in cam profile:",
+    "options": ["φ = tan⁻¹(V_r / V_t)", "φ = tan⁻¹(V_t / V_r)", "φ = sin⁻¹(V_r / V_t)", "φ = cos⁻¹(V_t / V_r)"],
+    "answer": "φ = tan⁻¹(V_r / V_t)"
+  },
+  {
+    "question": "Base circle of cam:",
+    "options": ["Smallest circle from cam center to cam profile", "Largest circle from cam center to cam profile", "Circle passing through cam nose", "Circle passing through cam heel"],
+    "answer": "Smallest circle from cam center to cam profile"
+  },
+  {
+    "question": "Prime circle of cam:",
+    "options": ["Circle passing through center of roller", "Circle passing through cam nose", "Circle passing through cam heel", "Smallest circle from cam center to cam profile"],
+    "answer": "Circle passing through center of roller"
+  },
+  {
+    "question": "Displacement for cycloidal motion (cam):",
+    "options": ["s = h/2π (θ - sinθ)", "s = h(1 - cosθ)/2", "s = hθ/π", "s = h(θ - sinθ)/π"],
+    "answer": "s = h/2π (θ - sinθ)"
+  },
+  {
+    "question": "Maximum velocity in SHM cam motion:",
+    "options": ["v_max = (hπ)/(2T)", "v_max = (hπ)/T", "v_max = h/T", "v_max = h/2T"],
+    "answer": "v_max = (hπ)/(2T)"
+  },
+  {
+    "question": "Maximum acceleration in SHM cam motion:",
+    "options": ["a_max = (hπ²)/(2T²)", "a_max = (hπ²)/T²", "a_max = h/T²", "a_max = h/2T²"],
+    "answer": "a_max = (hπ²)/(2T²)"
+  },
+  {
+    "question": "Coriolis acceleration direction:",
+    "options": ["Perpendicular to sliding velocity", "Parallel to sliding velocity", "Opposite to sliding velocity", "At 45° to sliding velocity"],
+    "answer": "Perpendicular to sliding velocity"
+  },
+  {
+    "question": "Centrifugal force on rotating mass:",
+    "options": ["F = mrω²", "F = mω²/r", "F = mω/r", "F = mr/ω²"],
     "answer": "F = mrω²"
   },
   {
-    "question": "Balancing condition for rotating mass:",
-    "options": ["Σmr = 0", "Σm = 0", "Σmv = 0", "Σmr² = 0"],
-    "answer": "Σmr = 0"
+    "question": "Maximum fluctuation of energy in flywheel:",
+    "options": ["ΔE = Iω²CS", "ΔE = IωCS", "ΔE = I/ω²", "ΔE = Iω/CS"],
+    "answer": "ΔE = Iω²CS"
   },
   {
-    "question": "Gyroscopic couple:",
-    "options": ["C = Iωω_p", "C = Iω²", "C = mv² / r", "C = mgh"],
-    "answer": "C = Iωω_p"
+    "question": "Coefficient of fluctuation of speed (flywheel):",
+    "options": ["CS = (N_max - N_min)/N", "CS = (N_max + N_min)/N", "CS = N/(N_max - N_min)", "CS = N/(N_max + N_min)"],
+    "answer": "CS = (N_max - N_min)/N"
+  },
+  {
+    "question": "Radius of gyration (k):",
+    "options": ["k = √(I/M)", "k = I/M", "k = M/I", "k = √(M/I)"],
+    "answer": "k = √(I/M)"
+  },
+  {
+    "question": "Mass moment of inertia of thin rod about center:",
+    "options": ["I = (1/12)ML²", "I = (1/3)ML²", "I = (1/2)ML²", "I = ML²"],
+    "answer": "I = (1/12)ML²"
+  },
+  {
+    "question": "Mass moment of inertia of ring about center:",
+    "options": ["I = MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = (2/5)MR²"],
+    "answer": "I = MR²"
+  },
+  {
+    "question": "Mass moment of inertia of solid sphere:",
+    "options": ["I = (2/5)MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = MR²"],
+    "answer": "I = (2/5)MR²"
+  },
+  {
+    "question": "Mass moment of inertia of hollow sphere:",
+    "options": ["I = (2/3)MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = MR²"],
+    "answer": "I = (2/3)MR²"
+  },
+  {
+    "question": "Natural frequency of torsional vibration (single rotor):",
+    "options": ["f_n = (1/2π)√(GJ/IL)", "f_n = (1/2π)√(IL/GJ)", "f_n = (1/2π)√(GJ/L)", "f_n = (1/2π)√(L/GJ)"],
+    "answer": "f_n = (1/2π)√(GJ/IL)"
+  },
+  {
+    "question": "Critical speed of shaft (Jeffcott rotor):",
+    "options": ["N_c = (1/2π)√(g/δ)", "N_c = (1/2π)√(δ/g)", "N_c = (1/2π)√(gδ)", "N_c = (1/2π)√(δg)"],
+    "answer": "N_c = (1/2π)√(g/δ)"
+  },
+  {
+    "question": "Dunkerley’s equation for critical speed:",
+    "options": ["1/N² = 1/N₁² + 1/N₂² + ...", "N = N₁ + N₂ + ...", "N = N₁N₂/(N₁+N₂)", "N = N₁N₂/(N₁-N₂)"],
+    "answer": "1/N² = 1/N₁² + 1/N₂² + ..."
+  },
+  {
+    "question": "Rayleigh’s method for critical speed:",
+    "options": ["N = (1/2π)√(g × Σmw/Σmwδ)", "N = (1/2π)√(Σmw/Σmwδ)", "N = (1/2π)√(g/Σmwδ)", "N = (1/2π)√(Σmwδ/g)"],
+    "answer": "N = (1/2π)√(g × Σmw/Σmwδ)"
+  },
+  {
+    "question": "Transmissibility ratio in vibration isolation:",
+    "options": ["T = √[(1 + (2ζr)²)/((1 - r²)² + (2ζr)²)]", "T = (1 - r²)/ζ", "T = ζ/(1 - r²)", "T = (1 - r²)/r"],
+    "answer": "T = √[(1 + (2ζr)²)/((1 - r²)² + (2ζr)²)]"
+  },
+  {
+    "question": "Magnification factor in forced vibration:",
+    "options": ["MF = 1/√[(1 - r²)² + (2ζr)²]", "MF = 1/(1 - r²)", "MF = ζ/r", "MF = r/ζ"],
+    "answer": "MF = 1/√[(1 - r²)² + (2ζr)²]"
+  },
+  {
+    "question": "Logarithmic decrement for underdamped system:",
+    "options": ["δ = (1/n)ln(x₀/xₙ)", "δ = ln(xₙ/x₀)", "δ = x₀ - xₙ", "δ = xₙ/x₀"],
+    "answer": "δ = (1/n)ln(x₀/xₙ)"
+  },
+  {
+    "question": "Damping ratio (ζ):",
+    "options": ["ζ = c/2√(km)", "ζ = 2c√(k/m)", "ζ = c/k", "ζ = c/m"],
+    "answer": "ζ = c/2√(km)"
+  },
+  {
+    "question": "Critical damping coefficient (c_c):",
+    "options": ["c_c = 2√(km)", "c_c = √(km)", "c_c = k/m", "c_c = m/k"],
+    "answer": "c_c = 2√(km)"
+  },
+  {
+    "question": "Frequency ratio (r):",
+    "options": ["r = ω/ω_n", "r = ω_n/ω", "r = k/m", "r = m/k"],
+    "answer": "r = ω/ω_n"
   },
   {
     "question": "Natural frequency of single DOF system:",
@@ -75,54 +235,13 @@
     "answer": "ω_n = √(k/m)"
   },
   {
-    "question": "Damping ratio:",
-    "options": ["ζ = c / 2√(km)", "ζ = 2c√(k/m)", "ζ = c / k", "ζ = c / m"],
-    "answer": "ζ = c / 2√(km)"
-  },
-  {
-    "question": "Transmissibility in vibration isolation:",
-    "options": ["T = √[(1 + (2ζr)²) / ((1 - r²)² + (2ζr)²)]", "T = ω_n / ω", "T = k / m", "T = ζ / r"],
-    "answer": "T = √[(1 + (2ζr)²) / ((1 - r²)² + (2ζr)²)]"
-  },
-  
-  {
-    "question": "Frequency ratio:",
-    "options": ["r = ω / ω_n", "r = ω_n / ω", "r = k / m", "r = m / k"],
-    "answer": "r = ω / ω_n"
-  },
-  {
-    "question": "Critical damping coefficient:",
-    "options": ["c_c = 2√(km)", "c_c = √(km)", "c_c = k / m", "c_c = m / k"],
-    "answer": "c_c = 2√(km)"
-  },
-  {
-    "question": "Magnification factor in forced vibrations:",
-    "options": ["MF = 1 / √[(1 - r²)² + (2ζr)²]", "MF = 1 / (1 - r²)", "MF = ζ / r", "MF = r / ζ"],
-    "answer": "MF = 1 / √[(1 - r²)² + (2ζr)²]"
-  },
-  {
-    "question": "Torsional vibration natural frequency:",
-    "options": ["ω_n = √(GJ / IL)", "ω_n = √(G / JI)", "ω_n = GJ / L", "ω_n = √(L / GJ)"],
-    "answer": "ω_n = √(GJ / IL)"
-  },
-  {
-    "question": "Condition for maximum magnification:",
-    "options": ["r = √(1 - 2ζ²)", "r = 1", "r = 0", "r = ζ"],
-    "answer": "r = √(1 - 2ζ²)"
-  },
-  {
-    "question": "Logarithmic decrement:",
-    "options": ["δ = (1/n) ln(x₀ / xₙ)", "δ = ln(xₙ / x₀)", "δ = x₀ - xₙ", "δ = xₙ / x₀"],
-    "answer": "δ = (1/n) ln(x₀ / xₙ)"
-  },
-  {
     "question": "Whirling speed of shaft:",
-    "options": ["ω = √(g / δ)", "ω = √(δ / g)", "ω = g × δ", "ω = δ / g"],
-    "answer": "ω = √(g / δ)"
+    "options": ["ω = √(g/δ)", "ω = √(δ/g)", "ω = g × δ", "ω = δ/g"],
+    "answer": "ω = √(g/δ)"
   },
   {
     "question": "Frequency equation for 2 DOF system:",
-    "options": ["ω⁴ - (k₁/m₁ + k₂/m₁ + k₂/m₂)ω² + (k₁k₂)/(m₁m₂) = 0", "ω² = k/m", "ω = √(k₁ / m₁)", "ω = √(k₂ / m₂)"],
+    "options": ["ω⁴ - (k₁/m₁ + k₂/m₁ + k₂/m₂)ω² + (k₁k₂)/(m₁m₂) = 0", "ω² = k/m", "ω = √(k₁/m₁)", "ω = √(k₂/m₂)"],
     "answer": "ω⁴ - (k₁/m₁ + k₂/m₁ + k₂/m₂)ω² + (k₁k₂)/(m₁m₂) = 0"
   },
   {
@@ -132,23 +251,23 @@
   },
   {
     "question": "Sensitivity of governor:",
-    "options": ["S = (N_max - N_min) / N_mean", "S = N_mean / (N_max - N_min)", "S = N_max - N_min", "S = 1 / (N_max - N_min)"],
-    "answer": "S = (N_max - N_min) / N_mean"
+    "options": ["S = (N_max - N_min)/N_mean", "S = N_mean/(N_max - N_min)", "S = N_max - N_min", "S = 1/(N_max - N_min)"],
+    "answer": "S = (N_max - N_min)/N_mean"
   },
   {
     "question": "Stability of governor:",
-    "options": ["dF/dR < 0", "dF/dR = 0", "dF/dR > 0", "F = constant"],
+    "options": ["dF/dR > 0", "dF/dR < 0", "dF/dR = 0", "F = constant"],
     "answer": "dF/dR > 0"
   },
   {
     "question": "Pitch of cam follower with uniform acceleration:",
-    "options": ["s = ht² / T²", "s = h(2t - T)t / T²", "s = ht / T", "s = ht² / 2T"],
-    "answer": "s = h(2t - T)t / T²"
+    "options": ["s = h(2t - T)t/T²", "s = ht²/T²", "s = ht/T", "s = ht²/2T"],
+    "answer": "s = h(2t - T)t/T²"
   },
   {
     "question": "Cam displacement with uniform velocity:",
-    "options": ["s = ht / T", "s = ht² / T²", "s = h(1 - cos(πt/T))", "s = h(2t - T)t / T²"],
-    "answer": "s = ht / T"
+    "options": ["s = ht/T", "s = ht²/T²", "s = h(1 - cos(πt/T))", "s = h(2t - T)t/T²"],
+    "answer": "s = ht/T"
   },
   {
     "question": "Effect of friction in governor operation:",
@@ -157,33 +276,33 @@
   },
   {
     "question": "Primary unbalanced force:",
-    "options": ["F = mrω² cosθ", "F = mrω² sinθ", "F = mω² / r", "F = m / r"],
+    "options": ["F = mrω² cosθ", "F = mrω² sinθ", "F = mω²/r", "F = m/r"],
     "answer": "F = mrω² cosθ"
   },
   {
     "question": "Secondary unbalanced force:",
-    "options": ["F = mrω² cos2θ", "F = mrω² sin2θ", "F = mω² / r", "F = m / r"],
+    "options": ["F = mrω² cos2θ", "F = mrω² sin2θ", "F = mω²/r", "F = m/r"],
     "answer": "F = mrω² cos2θ"
   },
   {
     "question": "Swaying couple:",
-    "options": ["C = (mrω²l) cosθ", "C = (mrω²l) sinθ", "C = mgl sinθ", "C = Iω² sinθ"],
+    "options": ["C = (mrω²l) sinθ", "C = (mrω²l) cosθ", "C = mgl sinθ", "C = Iω² sinθ"],
     "answer": "C = (mrω²l) sinθ"
   },
   {
     "question": "Couple in precession:",
-    "options": ["C = Iωω_p", "C = mgl", "C = T / r", "C = F × d"],
+    "options": ["C = Iωω_p", "C = mgl", "C = T/r", "C = F × d"],
     "answer": "C = Iωω_p"
   },
   {
     "question": "Coefficient of fluctuation of energy in flywheel:",
-    "options": ["CE = (E_max - E_min) / E_mean", "CE = (E_max + E_min) / E_mean", "CE = E_max / E_min", "CE = E_mean / E_max"],
-    "answer": "CE = (E_max - E_min) / E_mean"
+    "options": ["CE = (E_max - E_min)/E_mean", "CE = (E_max + E_min)/E_mean", "CE = E_max/E_min", "CE = E_mean/E_max"],
+    "answer": "CE = (E_max - E_min)/E_mean"
   },
   {
     "question": "Coefficient of fluctuation of speed:",
-    "options": ["CS = (N_max - N_min) / N", "CS = N / (N_max - N_min)", "CS = N_min / N_max", "CS = 1 / (N_max - N_min)"],
-    "answer": "CS = (N_max - N_min) / N"
+    "options": ["CS = (N_max - N_min)/N", "CS = N/(N_max - N_min)", "CS = N_min/N_max", "CS = 1/(N_max - N_min)"],
+    "answer": "CS = (N_max - N_min)/N"
   },
   {
     "question": "Mass moment of inertia of solid disc:",
@@ -194,5 +313,215 @@
     "question": "Mass moment of inertia of hollow cylinder:",
     "options": ["I = MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = (2/5)MR²"],
     "answer": "I = MR²"
+  },
+  {
+    "question": "Pitch circle velocity of gear:",
+    "options": ["v = πDN/60", "v = πD/60N", "v = D/πN", "v = πN/D"],
+    "answer": "v = πDN/60"
+  },
+  {
+    "question": "Sliding velocity at point of contact in gears:",
+    "options": ["v_s = ω × (r1 + r2)", "v_s = ω × (r1 - r2)", "v_s = ω × r1", "v_s = ω × r2"],
+    "answer": "v_s = ω × (r1 - r2)"
+  },
+  {
+    "question": "Pitch line velocity in belt drive:",
+    "options": ["v = πDN/60", "v = πD/60N", "v = D/πN", "v = πN/D"],
+    "answer": "v = πDN/60"
+  },
+  {
+    "question": "Length of open belt drive:",
+    "options": ["L = π(R + r) + 2C + (R - r)²/4C", "L = π(R - r) + 2C + (R + r)²/4C", "L = π(R + r) + 2C - (R - r)²/4C", "L = π(R + r) - 2C + (R - r)²/4C"],
+    "answer": "L = π(R + r) + 2C + (R - r)²/4C"
+  },
+  {
+    "question": "Length of crossed belt drive:",
+    "options": ["L = π(R + r) + 2C + (R + r)²/4C", "L = π(R - r) + 2C + (R + r)²/4C", "L = π(R + r) + 2C - (R + r)²/4C", "L = π(R + r) - 2C + (R + r)²/4C"],
+    "answer": "L = π(R + r) + 2C + (R + r)²/4C"
+  },
+  {
+    "question": "Ratio of tensions in flat belt drive:",
+    "options": ["T1/T2 = e^(μθ)", "T1/T2 = μθ", "T1/T2 = e^(θ/μ)", "T1/T2 = θ/μ"],
+    "answer": "T1/T2 = e^(μθ)"
+  },
+  {
+    "question": "Centrifugal tension in belt:",
+    "options": ["T_c = mv²", "T_c = m/v²", "T_c = v²/m", "T_c = m/v"],
+    "answer": "T_c = mv²"
+  },
+  {
+    "question": "Maximum power transmitted by belt:",
+    "options": ["P = (T1 - T2)v", "P = (T1 + T2)v", "P = T1v", "P = T2v"],
+    "answer": "P = (T1 - T2)v"
+  },
+  {
+    "question": "Initial tension in belt:",
+    "options": ["T0 = (T1 + T2)/2", "T0 = (T1 - T2)/2", "T0 = T1 + T2", "T0 = T1 - T2"],
+    "answer": "T0 = (T1 + T2)/2"
+  },
+  {
+    "question": "Slip in belt drive (%):",
+    "options": ["S = (N1 - N2)/N1 × 100", "S = (N2 - N1)/N2 × 100", "S = (N1 + N2)/N1 × 100", "S = (N1 - N2)/N2 × 100"],
+    "answer": "S = (N1 - N2)/N1 × 100"
+  },
+  {
+    "question": "Creep in belt drive:",
+    "options": ["Due to elastic stretch", "Due to friction", "Due to centrifugal force", "Due to slip"],
+    "answer": "Due to elastic stretch"
+  },
+  {
+    "question": "Velocity ratio of compound gear train:",
+    "options": ["VR = Product of driver teeth / Product of follower teeth", "VR = Product of follower teeth / Product of driver teeth", "VR = Sum of driver teeth / Sum of follower teeth", "VR = Sum of follower teeth / Sum of driver teeth"],
+    "answer": "VR = Product of driver teeth / Product of follower teeth"
+  },
+  {
+    "question": "Velocity ratio of epicyclic gear train:",
+    "options": ["VR = 1 + (T_ring/T_sun)", "VR = T_sun/T_ring", "VR = T_ring/T_sun", "VR = 1 - (T_ring/T_sun)"],
+    "answer": "VR = 1 + (T_ring/T_sun)"
+  },
+  {
+    "question": "Pitch point in cam profile:",
+    "options": ["Point of maximum velocity", "Point of minimum velocity", "Point where pressure angle is maximum", "Point where pressure angle is minimum"],
+    "answer": "Point where pressure angle is maximum"
+  },
+  {
+    "question": "Pressure angle in cam profile:",
+    "options": ["φ = tan⁻¹(V_r/V_t)", "φ = tan⁻¹(V_t/V_r)", "φ = sin⁻¹(V_r/V_t)", "φ = cos⁻¹(V_t/V_r)"],
+    "answer": "φ = tan⁻¹(V_r/V_t)"
+  },
+  {
+    "question": "Base circle of cam:",
+    "options": ["Smallest circle from cam center to cam profile", "Largest circle from cam center to cam profile", "Circle passing through cam nose", "Circle passing through cam heel"],
+    "answer": "Smallest circle from cam center to cam profile"
+  },
+  {
+    "question": "Prime circle of cam:",
+    "options": ["Circle passing through center of roller", "Circle passing through cam nose", "Circle passing through cam heel", "Smallest circle from cam center to cam profile"],
+    "answer": "Circle passing through center of roller"
+  },
+  {
+    "question": "Displacement for cycloidal motion (cam):",
+    "options": ["s = h/2π (θ - sinθ)", "s = h(1 - cosθ)/2", "s = hθ/π", "s = h(θ - sinθ)/π"],
+    "answer": "s = h/2π (θ - sinθ)"
+  },
+  {
+    "question": "Maximum velocity in SHM cam motion:",
+    "options": ["v_max = (hπ)/(2T)", "v_max = (hπ)/T", "v_max = h/T", "v_max = h/2T"],
+    "answer": "v_max = (hπ)/(2T)"
+  },
+  {
+    "question": "Maximum acceleration in SHM cam motion:",
+    "options": ["a_max = (hπ²)/(2T²)", "a_max = (hπ²)/T²", "a_max = h/T²", "a_max = h/2T²"],
+    "answer": "a_max = (hπ²)/(2T²)"
+  },
+  {
+    "question": "Coriolis acceleration direction:",
+    "options": ["Perpendicular to sliding velocity", "Parallel to sliding velocity", "Opposite to sliding velocity", "At 45° to sliding velocity"],
+    "answer": "Perpendicular to sliding velocity"
+  },
+  {
+    "question": "Centrifugal force on rotating mass:",
+    "options": ["F = mrω²", "F = mω²/r", "F = mω/r", "F = mr/ω²"],
+    "answer": "F = mrω²"
+  },
+  {
+    "question": "Maximum fluctuation of energy in flywheel:",
+    "options": ["ΔE = Iω²CS", "ΔE = IωCS", "ΔE = I/ω²", "ΔE = Iω/CS"],
+    "answer": "ΔE = Iω²CS"
+  },
+  {
+    "question": "Coefficient of fluctuation of speed (flywheel):",
+    "options": ["CS = (N_max - N_min)/N", "CS = (N_max + N_min)/N", "CS = N/(N_max - N_min)", "CS = N/(N_max + N_min)"],
+    "answer": "CS = (N_max - N_min)/N"
+  },
+  {
+    "question": "Radius of gyration (k):",
+    "options": ["k = √(I/M)", "k = I/M", "k = M/I", "k = √(M/I)"],
+    "answer": "k = √(I/M)"
+  },
+  {
+    "question": "Mass moment of inertia of thin rod about center:",
+    "options": ["I = (1/12)ML²", "I = (1/3)ML²", "I = (1/2)ML²", "I = ML²"],
+    "answer": "I = (1/12)ML²"
+  },
+  {
+    "question": "Mass moment of inertia of ring about center:",
+    "options": ["I = MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = (2/5)MR²"],
+    "answer": "I = MR²"
+  },
+  {
+    "question": "Mass moment of inertia of solid sphere:",
+    "options": ["I = (2/5)MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = MR²"],
+    "answer": "I = (2/5)MR²"
+  },
+  {
+    "question": "Mass moment of inertia of hollow sphere:",
+    "options": ["I = (2/3)MR²", "I = (1/2)MR²", "I = (1/3)MR²", "I = MR²"],
+    "answer": "I = (2/3)MR²"
+  },
+  {
+    "question": "Natural frequency of torsional vibration (single rotor):",
+    "options": ["f_n = (1/2π)√(GJ/IL)", "f_n = (1/2π)√(IL/GJ)", "f_n = (1/2π)√(GJ/L)", "f_n = (1/2π)√(L/GJ)"],
+    "answer": "f_n = (1/2π)√(GJ/IL)"
+  },
+  {
+    "question": "Critical speed of shaft (Jeffcott rotor):",
+    "options": ["N_c = (1/2π)√(g/δ)", "N_c = (1/2π)√(δ/g)", "N_c = (1/2π)√(gδ)", "N_c = (1/2π)√(δg)"],
+    "answer": "N_c = (1/2π)√(g/δ)"
+  },
+  {
+    "question": "Dunkerley’s equation for critical speed:",
+    "options": ["1/N² = 1/N₁² + 1/N₂² + ...", "N = N₁ + N₂ + ...", "N = N₁N₂/(N₁+N₂)", "N = N₁N₂/(N₁-N₂)"],
+    "answer": "1/N² = 1/N₁² + 1/N₂² + ..."
+  },
+  {
+    "question": "Rayleigh’s method for critical speed:",
+    "options": ["N = (1/2π)√(g × Σmw/Σmwδ)", "N = (1/2π)√(Σmw/Σmwδ)", "N = (1/2π)√(g/Σmwδ)", "N = (1/2π)√(Σmwδ/g)"],
+    "answer": "N = (1/2π)√(g × Σmw/Σmwδ)"
+  },
+  {
+    "question": "Transmissibility ratio in vibration isolation:",
+    "options": ["T = √[(1 + (2ζr)²)/((1 - r²)² + (2ζr)²)]", "T = (1 - r²)/ζ", "T = ζ/(1 - r²)", "T = (1 - r²)/r"],
+    "answer": "T = √[(1 + (2ζr)²)/((1 - r²)² + (2ζr)²)]"
+  },
+  {
+    "question": "Magnification factor in forced vibration:",
+    "options": ["MF = 1/√[(1 - r²)² + (2ζr)²]", "MF = 1/(1 - r²)", "MF = ζ/r", "MF = r/ζ"],
+    "answer": "MF = 1/√[(1 - r²)² + (2ζr)²]"
+  },
+  {
+    "question": "Logarithmic decrement for underdamped system:",
+    "options": ["δ = (1/n)ln(x₀/xₙ)", "δ = ln(xₙ/x₀)", "δ = x₀ - xₙ", "δ = xₙ/x₀"],
+    "answer": "δ = (1/n)ln(x₀/xₙ)"
+  },
+  {
+    "question": "Damping ratio (ζ):",
+    "options": ["ζ = c/2√(km)", "ζ = 2c√(k/m)", "ζ = c/k", "ζ = c/m"],
+    "answer": "ζ = c/2√(km)"
+  },
+  {
+    "question": "Critical damping coefficient (c_c):",
+    "options": ["c_c = 2√(km)", "c_c = √(km)", "c_c = k/m", "c_c = m/k"],
+    "answer": "c_c = 2√(km)"
+  },
+  {
+    "question": "Frequency ratio (r):",
+    "options": ["r = ω/ω_n", "r = ω_n/ω", "r = k/m", "r = m/k"],
+    "answer": "r = ω/ω_n"
+  },
+  {
+    "question": "Natural frequency of single DOF system:",
+    "options": ["ω_n = √(k/m)", "ω_n = k/m", "ω_n = m/k", "ω_n = √(m/k)"],
+    "answer": "ω_n = √(k/m)"
+  },
+  {
+    "question": "Whirling speed of shaft:",
+    "options": ["ω = √(g/δ)", "ω = √(δ/g)", "ω = g × δ", "ω = δ/g"],
+    "answer": "ω = √(g/δ)"
+  },
+  {
+    "question": "Frequency equation for 2 DOF system:",
+    "options": ["ω⁴ - (k₁/m₁ + k₂/m₁ + k₂/m₂)ω² + (k₁k₂)/(m₁m₂) = 0", "ω² = k/m", "ω = √(k₁/m₁)", "ω = √(k₂/m₂)"],
+    "answer": "ω⁴ - (k₁/m₁ + k₂/m₁ + k₂/m₂)ω² + (k₁k₂)/(m₁m₂) = 0"
   }
 ]
