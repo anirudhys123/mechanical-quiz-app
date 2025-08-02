@@ -15,7 +15,7 @@ export default function Quiz() {
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
   const [questionStartTime, setQuestionStartTime] = useState(null);
-  const [timer, setTimer] = useState(120);
+  const [timer, setTimer] = useState(60);
   const [answerData, setAnswerData] = useState([]);
 
   useEffect(() => {
