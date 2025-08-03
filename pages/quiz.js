@@ -78,7 +78,7 @@ export default function Quiz() {
   }, [timer, questions]);
 
   useEffect(() => {
-    setTimer(120);
+    setTimer(60);
   }, [current]);
 
   const handleNext = () => {
