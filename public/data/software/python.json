@@ -1,0 +1,1042 @@
+[
+  {
+    "question": "What is the output of print(2 ** 3)?",
+    "options": ["6", "8", "9", "5"],
+    "answer": "8"
+  },
+  {
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["2var", "var_2", "var-2", "var 2"],
+    "answer": "var_2"
+  },
+  {
+    "question": "What is the correct file extension for Python files?",
+    "options": [".pyth", ".pt", ".py", ".pyt"],
+    "answer": ".py"
+  },
+  {
+    "question": "Which of the following is used to define a block of code in Python?",
+    "options": ["Brackets", "Indentation", "Parentheses", "Quotation marks"],
+    "answer": "Indentation"
+  },
+  {
+    "question": "What is the output of print(type('Hello World'))?",
+    "options": ["<class 'str'>", "<class 'int'>", "<class 'list'>", "<class 'dict'>"],
+    "answer": "<class 'str'>"
+  },
+  {
+    "question": "Which of the following is NOT a Python data type?",
+    "options": ["list", "tuple", "array", "set"],
+    "answer": "array"
+  },
+  {
+    "question": "How do you start a comment in Python?",
+    "options": ["//", "#", "/*", "<!--"],
+    "answer": "#"
+  },
+  {
+    "question": "What is the output of print(10 // 3)?",
+    "options": ["3.33", "3", "4", "3.0"],
+    "answer": "3"
+  },
+  {
+    "question": "Which function is used to get the length of a list in Python?",
+    "options": ["count()", "size()", "length()", "len()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which of the following is used to create a function in Python?",
+    "options": ["function", "def", "fun", "define"],
+    "answer": "def"
+  },
+  {
+    "question": "What is the output of print(bool(0))?",
+    "options": ["True", "False", "0", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is a mutable data type?",
+    "options": ["tuple", "str", "list", "int"],
+    "answer": "list"
+  },
+  {
+    "question": "How do you insert COMMENTS in Python code?",
+    "options": ["// This is a comment", "# This is a comment", "<!-- This is a comment -->", "/* This is a comment */"],
+    "answer": "# This is a comment"
+  },
+  {
+    "question": "What is the output of print('Hello' + 'World')?",
+    "options": ["Hello World", "HelloWorld", "Hello+World", "Error"],
+    "answer": "HelloWorld"
+  },
+  {
+    "question": "Which of the following is the correct way to create a dictionary?",
+    "options": ["{1,2,3}", "{'a':1, 'b':2}", "[1,2,3]", "(1,2,3)"],
+    "answer": "{'a':1, 'b':2}"
+  },
+  {
+    "question": "What is the output of print(5 == 5.0)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to handle exceptions in Python?",
+    "options": ["try-except", "do-catch", "try-catch", "catch-try"],
+    "answer": "try-except"
+  },
+  {
+    "question": "What is the output of print([1,2,3][1])?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following is NOT a valid keyword in Python?",
+    "options": ["pass", "eval", "assert", "nonlocal"],
+    "answer": "eval"
+  },
+  {
+    "question": "What is the output of print('5' * 2)?",
+    "options": ["10", "55", "5", "Error"],
+    "answer": "55"
+  },
+  {
+    "question": "Which of the following is used to import a module in Python?",
+    "options": ["import", "include", "require", "using"],
+    "answer": "import"
+  },
+  {
+    "question": "What is the output of print(type([]))?",
+    "options": ["<class 'list'>", "<class 'tuple'>", "<class 'dict'>", "<class 'set'>"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "question": "Which of the following is the correct way to open a file for reading?",
+    "options": ["open('file.txt', 'r')", "open('file.txt', 'w')", "open('file.txt', 'a')", "open('file.txt', 'x')"],
+    "answer": "open('file.txt', 'r')"
+  },
+  {
+    "question": "What is the output of print(3 > 2 > 1)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is NOT a built-in function in Python?",
+    "options": ["print()", "input()", "append()", "len()"],
+    "answer": "append()"
+  },
+  {
+    "question": "What is the output of print('Python'.upper())?",
+    "options": ["PYTHON", "python", "Python", "Error"],
+    "answer": "PYTHON"
+  },
+  {
+    "question": "Which of the following is used to create a tuple?",
+    "options": ["[1,2,3]", "{1,2,3}", "(1,2,3)", "<1,2,3>"],
+    "answer": "(1,2,3)"
+  },
+  {
+    "question": "What is the output of print(10 % 3)?",
+    "options": ["1", "3", "0", "10"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of the following is the correct way to write a for loop in Python?",
+    "options": ["for i in range(5):", "for (i=0; i<5; i++)", "foreach i in range(5)", "for i to 5"],
+    "answer": "for i in range(5):"
+  },
+  {
+    "question": "What is the output of print('a' in 'apple')?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to declare a string?",
+    "options": ["'Hello'", "\"Hello\"", "'''Hello'''", "Hello"],
+    "answer": "Hello"
+  },
+  {
+    "question": "What is the output of print(list('abc'))?",
+    "options": [["a", "b", "c"], "['abc']", "['a', 'b', 'c']", "('a', 'b', 'c')"],
+    "answer": "['a', 'b', 'c']"
+  },
+  {
+    "question": "Which of the following is used to get user input in Python 3?",
+    "options": ["input()", "raw_input()", "scan()", "get()"],
+    "answer": "input()"
+  },
+  {
+    "question": "What is the output of print(0.1 + 0.2 == 0.3)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is the correct way to create a set?",
+    "options": ["set([1,2,3])", "{1,2,3}", "[1,2,3]", "(1,2,3)"],
+    "answer": "{1,2,3}"
+  },
+  {
+    "question": "What is the output of print(bool('False'))?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is NOT a valid list method?",
+    "options": ["append()", "extend()", "insert()", "push()"],
+    "answer": "push()"
+  },
+  {
+    "question": "What is the output of print(len({'a':1, 'b':2}))?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following is used to define a class in Python?",
+    "options": ["class", "Class", "define", "defclass"],
+    "answer": "class"
+  },
+  {
+    "question": "What is the output of print(5 != 5)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is the correct way to write a while loop?",
+    "options": ["while x < 5:", "while (x < 5)", "while x < 5", "while x < 5 {}"],
+    "answer": "while x < 5:"
+  },
+  {
+    "question": "What is the output of print('Hello {0}'.format('World'))?",
+    "options": ["Hello World", "Hello {0}", "Hello", "World"],
+    "answer": "Hello World"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to import a module?",
+    "options": ["import math", "from math import sqrt", "import math as m", "include math"],
+    "answer": "include math"
+  },
+  {
+    "question": "What is the output of print(type(3.14))?",
+    "options": ["<class 'float'>", "<class 'int'>", "<class 'str'>", "<class 'complex'>"],
+    "answer": "<class 'float'>"
+  },
+  {
+    "question": "Which of the following is used to create a new object from a class?",
+    "options": ["object()", "class()", "new()", "constructor()"],
+    "answer": "object()"
+  },
+  {
+    "question": "What is the output of print('Python'[1])?",
+    "options": ["P", "y", "t", "h"],
+    "answer": "y"
+  },
+  {
+    "question": "Which of the following is NOT a valid escape character?",
+    "options": ["\\n", "\\t", "\\a", "\\b", "\\c"],
+    "answer": "\\c"
+  },
+  {
+    "question": "What is the output of print(2 + 3 * 4)?",
+    "options": ["20", "14", "24", "9"],
+    "answer": "14"
+  },
+  {
+    "question": "Which of the following is used to check if two variables refer to the same object?",
+    "options": ["==", "is", "equals", "==="],
+    "answer": "is"
+  },
+  {
+    "question": "What is the output of print([1,2,3] + [4,5])?",
+    "options": ["[1,2,3,4,5]", "[5,7,8]", "[1,2,3][4,5]", "Error"],
+    "answer": "[1,2,3,4,5]"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to create a list?",
+    "options": ["[1,2,3]", "list([1,2,3])", "list(1,2,3)", "[]"],
+    "answer": "list(1,2,3)"
+  },
+  {
+    "question": "What is the output of print('Hello'.replace('l', 'x'))?",
+    "options": ["Hexxo", "Hexxo", "HeXXo", "Hxxxo"],
+    "answer": "Hexxo"
+  },
+  {
+    "question": "Which of the following is used to get the ASCII value of a character?",
+    "options": ["ord()", "chr()", "ascii()", "ordval()"],
+    "answer": "ord()"
+  },
+  {
+    "question": "What is the output of print(chr(65))?",
+    "options": ["A", "a", "65", "Error"],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to concatenate strings?",
+    "options": ["'a' + 'b'", "'a'.join('b')", "'a' 'b'", "'a' * 2"],
+    "answer": "'a'.join('b')"
+  },
+  {
+    "question": "What is the output of print([1,2,3][::-1])?",
+    "options": ["[3,2,1]", "[1,2,3]", "[1,3,2]", "[2,3,1]"],
+    "answer": "[3,2,1]"
+  },
+  {
+    "question": "Which of the following is used to remove an item from a list by value?",
+    "options": ["remove()", "pop()", "del", "discard()"],
+    "answer": "remove()"
+  },
+  {
+    "question": "What is the output of print(5 and 0)?",
+    "options": ["5", "0", "True", "False"],
+    "answer": "0"
+  },
+  {
+    "question": "Which of the following is used to check if a key exists in a dictionary?",
+    "options": ["in", "exists", "has_key()", "contains"],
+    "answer": "in"
+  },
+  {
+    "question": "What is the output of print(5 or 0)?",
+    "options": ["5", "0", "True", "False"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is NOT a valid set method?",
+    "options": ["add()", "update()", "append()", "remove()"],
+    "answer": "append()"
+  },
+  {
+    "question": "What is the output of print(type({}))?",
+    "options": ["<class 'dict'>", "<class 'set'>", "<class 'list'>", "<class 'tuple'>"],
+    "answer": "<class 'dict'>"
+  },
+  {
+    "question": "Which of the following is used to convert a string to an integer?",
+    "options": ["int()", "str()", "float()", "chr()"],
+    "answer": "int()"
+  },
+  {
+    "question": "What is the output of print(10 > 5 and 5 < 2)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is used to get the maximum value from a list?",
+    "options": ["max()", "maximum()", "largest()", "biggest()"],
+    "answer": "max()"
+  },
+  {
+    "question": "What is the output of print('Hello'.find('e'))?",
+    "options": ["1", "2", "0", "-1"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of the following is used to remove whitespace from the beginning and end of a string?",
+    "options": ["strip()", "trim()", "remove()", "delete()"],
+    "answer": "strip()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].pop())?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "3"
+  },
+  {
+    "question": "Which of the following is used to get the index of an item in a list?",
+    "options": ["index()", "find()", "locate()", "search()"],
+    "answer": "index()"
+  },
+  {
+    "question": "What is the output of print('Hello'.lower())?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": "hello"
+  },
+  {
+    "question": "Which of the following is used to check if a string starts with a specific substring?",
+    "options": ["startswith()", "startwith()", "beginswith()", "starts()"],
+    "answer": "startswith()"
+  },
+  {
+    "question": "What is the output of print('Hello'.count('l'))?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following is used to convert a list to a tuple?",
+    "options": ["tuple()", "list()", "set()", "dict()"],
+    "answer": "tuple()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].extend([4,5]))?",
+    "options": ["[1,2,3,4,5]", "None", "[4,5]", "Error"],
+    "answer": "None"
+  },
+  {
+    "question": "Which of the following is used to get the sum of all items in a list?",
+    "options": ["sum()", "add()", "total()", "plus()"],
+    "answer": "sum()"
+  },
+  {
+    "question": "What is the output of print('Hello'.split('l'))?",
+    "options": [["He", "", "o"], "['He', '', 'o']", "['H', 'e', 'l', 'l', 'o']", "['Hello']"],
+    "answer": "['He', '', 'o']"
+  },
+  {
+    "question": "Which of the following is used to join a list of strings into a single string?",
+    "options": ["join()", "concat()", "append()", "combine()"],
+    "answer": "join()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isalpha())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if all characters in a string are digits?",
+    "options": ["isdigit()", "isnumber()", "isnumeric()", "isint()"],
+    "answer": "isdigit()"
+  },
+  {
+    "question": "What is the output of print('123'.isdigit())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to reverse a list?",
+    "options": ["reverse()", "reversed()", "invert()", "flip()"],
+    "answer": "reverse()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].reverse())?",
+    "options": ["[3,2,1]", "None", "[1,2,3]", "Error"],
+    "answer": "None"
+  },
+  {
+    "question": "Which of the following is used to sort a list in ascending order?",
+    "options": ["sort()", "sorted()", "order()", "arrange()"],
+    "answer": "sort()"
+  },
+  {
+    "question": "What is the output of print(sorted([3,1,2]))?",
+    "options": ["[1,2,3]", "[3,1,2]", "[2,1,3]", "[3,2,1]"],
+    "answer": "[1,2,3]"
+  },
+  {
+    "question": "Which of the following is used to get the minimum value from a list?",
+    "options": ["min()", "minimum()", "smallest()", "least()"],
+    "answer": "min()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].count(2))?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of the following is used to remove all items from a list?",
+    "options": ["clear()", "remove()", "delete()", "pop()"],
+    "answer": "clear()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].insert(1, 4))?",
+    "options": ["[1,4,2,3]", "None", "[1,2,3,4]", "Error"],
+    "answer": "None"
+  },
+  {
+    "question": "Which of the following is used to copy a list?",
+    "options": ["copy()", "clone()", "duplicate()", "replicate()"],
+    "answer": "copy()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].copy())?",
+    "options": ["[1,2,3]", "None", "Error", "[3,2,1]"],
+    "answer": "[1,2,3]"
+  },
+  {
+    "question": "Which of the following is used to remove an item from a list by index?",
+    "options": ["pop()", "remove()", "del", "discard()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What is the output of print([1,2,3].pop(1))?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following is used to check if a list is empty?",
+    "options": ["len(list) == 0", "list.isempty()", "list == None", "list.empty()"],
+    "answer": "len(list) == 0"
+  },
+  {
+    "question": "What is the output of print([] == False)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is used to check if a string is in a list?",
+    "options": ["in", "contains", "has", "exists"],
+    "answer": "in"
+  },
+  {
+    "question": "What is the output of print('a' * 3)?",
+    "options": ["aaa", "a3", "Error", "3a"],
+    "answer": "aaa"
+  },
+  {
+    "question": "Which of the following is used to check if a string is uppercase?",
+    "options": ["isupper()", "is_upper()", "isUpper()", "upper()"],
+    "answer": "isupper()"
+  },
+  {
+    "question": "What is the output of print('ABC'.isupper())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is lowercase?",
+    "options": ["islower()", "is_lower()", "isLower()", "lower()"],
+    "answer": "islower()"
+  },
+  {
+    "question": "What is the output of print('abc'.islower())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is alphanumeric?",
+    "options": ["isalnum()", "isalpha()", "isdigit()", "isnumeric()"],
+    "answer": "isalnum()"
+  },
+  {
+    "question": "What is the output of print('abc123'.isalnum())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is a digit?",
+    "options": ["isdigit()", "isnumber()", "isnumeric()", "isint()"],
+    "answer": "isdigit()"
+  },
+  {
+    "question": "What is the output of print('123'.isdigit())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is a number?",
+    "options": ["isnumeric()", "isdigit()", "isnumber()", "isint()"],
+    "answer": "isnumeric()"
+  },
+  {
+    "question": "What is the output of print('123'.isnumeric())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is a space?",
+    "options": ["isspace()", "is_space()", "isSpace()", "space()"],
+    "answer": "isspace()"
+  },
+  {
+    "question": "What is the output of print(' '.isspace())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is a title?",
+    "options": ["istitle()", "is_title()", "isTitle()", "title()"],
+    "answer": "istitle()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.istitle())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to capitalize the first character of a string?",
+    "options": ["capitalize()", "upper()", "title()", "cap()"],
+    "answer": "capitalize()"
+  },
+  {
+    "question": "What is the output of print('hello'.capitalize())?",
+    "options": ["Hello", "hello", "HELLO", "Error"],
+    "answer": "Hello"
+  },
+  {
+    "question": "Which of the following is used to swap the case of a string?",
+    "options": ["swapcase()", "switchcase()", "changecase()", "reversecase()"],
+    "answer": "swapcase()"
+  },
+  {
+    "question": "What is the output of print('Hello'.swapcase())?",
+    "options": ["hELLO", "HELLO", "hello", "Error"],
+    "answer": "hELLO"
+  },
+  {
+    "question": "Which of the following is used to center a string?",
+    "options": ["center()", "middle()", "align()", "justify()"],
+    "answer": "center()"
+  },
+  {
+    "question": "What is the output of print('Hello'.center(10, '*'))?",
+    "options": ["**Hello***", "***Hello**", "**Hello**", "Hello*****"],
+    "answer": "**Hello***"
+  },
+  {
+    "question": "Which of the following is used to left-justify a string?",
+    "options": ["ljust()", "left()", "justify()", "alignleft()"],
+    "answer": "ljust()"
+  },
+  {
+    "question": "What is the output of print('Hello'.ljust(10, '*'))?",
+    "options": ["Hello*****", "*****Hello", "**Hello***", "Hello"],
+    "answer": "Hello*****"
+  },
+  {
+    "question": "Which of the following is used to right-justify a string?",
+    "options": ["rjust()", "right()", "justify()", "alignright()"],
+    "answer": "rjust()"
+  },
+  {
+    "question": "What is the output of print('Hello'.rjust(10, '*'))?",
+    "options": ["*****Hello", "Hello*****", "**Hello***", "Hello"],
+    "answer": "*****Hello"
+  },
+  {
+    "question": "Which of the following is used to replace a substring in a string?",
+    "options": ["replace()", "substitute()", "change()", "swap()"],
+    "answer": "replace()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.replace('World', 'Python'))?",
+    "options": ["Hello Python", "Hello World", "Python Hello", "World Hello"],
+    "answer": "Hello Python"
+  },
+  {
+    "question": "Which of the following is used to split a string into a list?",
+    "options": ["split()", "divide()", "separate()", "break()"],
+    "answer": "split()"
+  },
+  {
+    "question": "What is the output of print('a,b,c'.split(','))?",
+    "options": [["a", "b", "c"], "['a', 'b', 'c']", "['a,b,c']", "('a', 'b', 'c')"],
+    "answer": "['a', 'b', 'c']"
+  },
+  {
+    "question": "Which of the following is used to join a list into a string?",
+    "options": ["join()", "concat()", "append()", "combine()"],
+    "answer": "join()"
+  },
+  {
+    "question": "What is the output of print('-'.join(['a','b','c']))?",
+    "options": ["a-b-c", "abc", "a,b,c", "['a','b','c']"],
+    "answer": "a-b-c"
+  },
+  {
+    "question": "Which of the following is used to format a string?",
+    "options": ["format()", "format_string()", "strformat()", "string()"],
+    "answer": "format()"
+  },
+  {
+    "question": "What is the output of print('Hello {0}'.format('Python'))?",
+    "options": ["Hello Python", "Hello {0}", "Hello", "Python"],
+    "answer": "Hello Python"
+  },
+  {
+    "question": "Which of the following is used to check if a string ends with a specific substring?",
+    "options": ["endswith()", "endwith()", "finishwith()", "ends()"],
+    "answer": "endswith()"
+  },
+  {
+    "question": "What is the output of print('Hello.py'.endswith('.py'))?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to get the Unicode code point of a character?",
+    "options": ["ord()", "chr()", "unicode()", "code()"],
+    "answer": "ord()"
+  },
+  {
+    "question": "What is the output of print(ord('A'))?",
+    "options": ["65", "97", "A", "Error"],
+    "answer": "65"
+  },
+  {
+    "question": "Which of the following is used to get the character from a Unicode code point?",
+    "options": ["chr()", "ord()", "unicode()", "code()"],
+    "answer": "chr()"
+  },
+  {
+    "question": "What is the output of print(chr(97))?",
+    "options": ["a", "A", "97", "Error"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is used to check if a string is printable?",
+    "options": ["isprintable()", "is_printable()", "isPrintable()", "printable()"],
+    "answer": "isprintable()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isprintable())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is a valid identifier?",
+    "options": ["isidentifier()", "is_identifier()", "isIdentifier()", "identifier()"],
+    "answer": "isidentifier()"
+  },
+  {
+    "question": "What is the output of print('var1'.isidentifier())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is decimal?",
+    "options": ["isdecimal()", "is_decimal()", "isDecimal()", "decimal()"],
+    "answer": "isdecimal()"
+  },
+  {
+    "question": "What is the output of print('123'.isdecimal())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is casefolded?",
+    "options": ["casefold()", "is_casefold()", "isCasefold()", "casefolded()"],
+    "answer": "casefold()"
+  },
+  {
+    "question": "What is the output of print('HELLO'.casefold())?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": "hello"
+  },
+  {
+    "question": "Which of the following is used to check if a string is numeric?",
+    "options": ["isnumeric()", "isdigit()", "isnumber()", "isint()"],
+    "answer": "isnumeric()"
+  },
+  {
+    "question": "What is the output of print('123'.isnumeric())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is lower?",
+    "options": ["islower()", "is_lower()", "isLower()", "lower()"],
+    "answer": "islower()"
+  },
+  {
+    "question": "What is the output of print('abc'.islower())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is upper?",
+    "options": ["isupper()", "is_upper()", "isUpper()", "upper()"],
+    "answer": "isupper()"
+  },
+  {
+    "question": "What is the output of print('ABC'.isupper())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is title?",
+    "options": ["istitle()", "is_title()", "isTitle()", "title()"],
+    "answer": "istitle()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.istitle())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is space?",
+    "options": ["isspace()", "is_space()", "isSpace()", "space()"],
+    "answer": "isspace()"
+  },
+  {
+    "question": "What is the output of print(' '.isspace())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is printable?",
+    "options": ["isprintable()", "is_printable()", "isPrintable()", "printable()"],
+    "answer": "isprintable()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isprintable())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is identifier?",
+    "options": ["isidentifier()", "is_identifier()", "isIdentifier()", "identifier()"],
+    "answer": "isidentifier()"
+  },
+  {
+    "question": "What is the output of print('var1'.isidentifier())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is decimal?",
+    "options": ["isdecimal()", "is_decimal()", "isDecimal()", "decimal()"],
+    "answer": "isdecimal()"
+  },
+  {
+    "question": "What is the output of print('123'.isdecimal())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is casefolded?",
+    "options": ["casefold()", "is_casefold()", "isCasefold()", "casefolded()"],
+    "answer": "casefold()"
+  },
+  {
+    "question": "What is the output of print('HELLO'.casefold())?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": "hello"
+  },
+  {
+    "question": "Which of the following is used to check if a string is numeric?",
+    "options": ["isnumeric()", "isdigit()", "isnumber()", "isint()"],
+    "answer": "isnumeric()"
+  },
+  {
+    "question": "What is the output of print('123'.isnumeric())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is lower?",
+    "options": ["islower()", "is_lower()", "isLower()", "lower()"],
+    "answer": "islower()"
+  },
+  {
+    "question": "What is the output of print('abc'.islower())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is upper?",
+    "options": ["isupper()", "is_upper()", "isUpper()", "upper()"],
+    "answer": "isupper()"
+  },
+  {
+    "question": "What is the output of print('ABC'.isupper())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is title?",
+    "options": ["istitle()", "is_title()", "isTitle()", "title()"],
+    "answer": "istitle()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.istitle())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is space?",
+    "options": ["isspace()", "is_space()", "isSpace()", "space()"],
+    "answer": "isspace()"
+  },
+  {
+    "question": "What is the output of print(' '.isspace())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is printable?",
+    "options": ["isprintable()", "is_printable()", "isPrintable()", "printable()"],
+    "answer": "isprintable()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isprintable())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is identifier?",
+    "options": ["isidentifier()", "is_identifier()", "isIdentifier()", "identifier()"],
+    "answer": "isidentifier()"
+  },
+  {
+    "question": "What is the output of print('var1'.isidentifier())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is decimal?",
+    "options": ["isdecimal()", "is_decimal()", "isDecimal()", "decimal()"],
+    "answer": "isdecimal()"
+  },
+  {
+    "question": "What is the output of print('123'.isdecimal())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is casefolded?",
+    "options": ["casefold()", "is_casefold()", "isCasefold()", "casefolded()"],
+    "answer": "casefold()"
+  },
+  {
+    "question": "What is the output of print('HELLO'.casefold())?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": "hello"
+  },
+  {
+    "question": "Which of the following is used to check if a string is numeric?",
+    "options": ["isnumeric()", "isdigit()", "isnumber()", "isint()"],
+    "answer": "isnumeric()"
+  },
+  {
+    "question": "What is the output of print('123'.isnumeric())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is lower?",
+    "options": ["islower()", "is_lower()", "isLower()", "lower()"],
+    "answer": "islower()"
+  },
+  {
+    "question": "What is the output of print('abc'.islower())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is upper?",
+    "options": ["isupper()", "is_upper()", "isUpper()", "upper()"],
+    "answer": "isupper()"
+  },
+  {
+    "question": "What is the output of print('ABC'.isupper())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is title?",
+    "options": ["istitle()", "is_title()", "isTitle()", "title()"],
+    "answer": "istitle()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.istitle())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is space?",
+    "options": ["isspace()", "is_space()", "isSpace()", "space()"],
+    "answer": "isspace()"
+  },
+  {
+    "question": "What is the output of print(' '.isspace())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is printable?",
+    "options": ["isprintable()", "is_printable()", "isPrintable()", "printable()"],
+    "answer": "isprintable()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isprintable())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is identifier?",
+    "options": ["isidentifier()", "is_identifier()", "isIdentifier()", "identifier()"],
+    "answer": "isidentifier()"
+  },
+  {
+    "question": "What is the output of print('var1'.isidentifier())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is decimal?",
+    "options": ["isdecimal()", "is_decimal()", "isDecimal()", "decimal()"],
+    "answer": "isdecimal()"
+  },
+  {
+    "question": "What is the output of print('123'.isdecimal())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is casefolded?",
+    "options": ["casefold()", "is_casefold()", "isCasefold()", "casefolded()"],
+    "answer": "casefold()"
+  },
+  {
+    "question": "What is the output of print('HELLO'.casefold())?",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "answer": "hello"
+  },
+  {
+    "question": "Which of the following is used to check if a string is numeric?",
+    "options": ["isnumeric()", "isdigit()", "isnumber()", "isint()"],
+    "answer": "isnumeric()"
+  },
+  {
+    "question": "What is the output of print('123'.isnumeric())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is lower?",
+    "options": ["islower()", "is_lower()", "isLower()", "lower()"],
+    "answer": "islower()"
+  },
+  {
+    "question": "What is the output of print('abc'.islower())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is upper?",
+    "options": ["isupper()", "is_upper()", "isUpper()", "upper()"],
+    "answer": "isupper()"
+  },
+  {
+    "question": "What is the output of print('ABC'.isupper())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is title?",
+    "options": ["istitle()", "is_title()", "isTitle()", "title()"],
+    "answer": "istitle()"
+  },
+  {
+    "question": "What is the output of print('Hello World'.istitle())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is space?",
+    "options": ["isspace()", "is_space()", "isSpace()", "space()"],
+    "answer": "isspace()"
+  },
+  {
+    "question": "What is the output of print(' '.isspace())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is used to check if a string is printable?",
+    "options": ["isprintable()", "is_printable()", "isPrintable()", "printable()"],
+    "answer": "isprintable()"
+  },
+  {
+    "question": "What is the output of print('Hello'.isprintable())?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  }
+]
