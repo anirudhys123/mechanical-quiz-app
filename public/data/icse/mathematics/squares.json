@@ -1,0 +1,278 @@
+[
+    {
+      "question": "Find the square of 12",
+      "options": ["144", "124", "121", "132"],
+      "answer": "144"
+    },
+    {
+      "question": "Find the square root of 169",
+      "options": ["13", "12", "14", "15"],
+      "answer": "13"
+    },
+    {
+      "question": "Find the square of 25",
+      "options": ["625", "600", "520", "550"],
+      "answer": "625"
+    },
+    {
+      "question": "Find the square root of 256",
+      "options": ["16", "14", "15", "18"],
+      "answer": "16"
+    },
+    {
+      "question": "Find the square of 18",
+      "options": ["324", "3240", "288", "336"],
+      "answer": "324"
+    },
+    {
+      "question": "Find the square root of 121",
+      "options": ["11", "10", "12", "13"],
+      "answer": "11"
+    },
+    {
+      "question": "Find the square of 7",
+      "options": ["49", "42", "56", "36"],
+      "answer": "49"
+    },
+    {
+      "question": "Find the square root of 64",
+      "options": ["8", "6", "7", "9"],
+      "answer": "8"
+    },
+    {
+      "question": "Find the square of 15",
+      "options": ["225", "215", "235", "245"],
+      "answer": "225"
+    },
+    {
+      "question": "Find the square root of 400",
+      "options": ["20", "18", "22", "25"],
+      "answer": "20"
+    },
+    {
+      "question": "Find the square of 9",
+      "options": ["81", "72", "90", "99"],
+      "answer": "81"
+    },
+    {
+      "question": "Find the square root of 81",
+      "options": ["9", "8", "7", "10"],
+      "answer": "9"
+    },
+    {
+      "question": "Find the square of 30",
+      "options": ["900", "850", "950", "925"],
+      "answer": "900"
+    },
+    {
+      "question": "Find the square root of 225",
+      "options": ["15", "12", "14", "16"],
+      "answer": "15"
+    },
+    {
+      "question": "Find the square of 11",
+      "options": ["121", "111", "130", "115"],
+      "answer": "121"
+    },
+    {
+      "question": "Find the square root of 36",
+      "options": ["6", "5", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "question": "Find the square of 5",
+      "options": ["25", "20", "30", "15"],
+      "answer": "25"
+    },
+    {
+      "question": "Find the square root of 49",
+      "options": ["7", "6", "8", "5"],
+      "answer": "7"
+    },
+    {
+      "question": "Find the square of 20",
+      "options": ["400", "420", "380", "405"],
+      "answer": "400"
+    },
+    {
+      "question": "Find the square root of 196",
+      "options": ["14", "12", "16", "15"],
+      "answer": "14"
+    },
+    {
+      "question": "Find the square of 6",
+      "options": ["36", "30", "42", "32"],
+      "answer": "36"
+    },
+    {
+      "question": "Find the square root of 289",
+      "options": ["17", "15", "16", "18"],
+      "answer": "17"
+    },
+    {
+      "question": "Find the square of 14",
+      "options": ["196", "184", "200", "210"],
+      "answer": "196"
+    },
+    {
+      "question": "Find the square root of 324",
+      "options": ["18", "17", "19", "16"],
+      "answer": "18"
+    },
+    {
+      "question": "Find the square of 8",
+      "options": ["64", "56", "72", "60"],
+      "answer": "64"
+    },
+    {
+      "question": "Find the square root of 529",
+      "options": ["23", "21", "22", "24"],
+      "answer": "23"
+    },
+    {
+      "question": "Find the square of 13",
+      "options": ["169", "159", "179", "180"],
+      "answer": "169"
+    },
+    {
+      "question": "Find the square root of 1024",
+      "options": ["32", "30", "34", "36"],
+      "answer": "32"
+    },
+    {
+      "question": "Find the square of 16",
+      "options": ["256", "246", "260", "250"],
+      "answer": "256"
+    },
+    {
+      "question": "Find the square root of 144",
+      "options": ["12", "11", "13", "10"],
+      "answer": "12"
+    },
+    {
+      "question": "Find the square of 4",
+      "options": ["16", "12", "20", "14"],
+      "answer": "16"
+    },
+    {
+      "question": "Find the square root of 225",
+      "options": ["15", "14", "16", "12"],
+      "answer": "15"
+    },
+    {
+      "question": "Find the square of 3",
+      "options": ["9", "6", "12", "8"],
+      "answer": "9"
+    },
+    {
+      "question": "Find the square root of 64",
+      "options": ["8", "7", "6", "9"],
+      "answer": "8"
+    },
+    {
+      "question": "Find the square of 19",
+      "options": ["361", "371", "351", "380"],
+      "answer": "361"
+    },
+    {
+      "question": "Find the square root of 441",
+      "options": ["21", "20", "22", "23"],
+      "answer": "21"
+    },
+    {
+      "question": "Find the square of 21",
+      "options": ["441", "451", "431", "425"],
+      "answer": "441"
+    },
+    {
+      "question": "Find the square root of 900",
+      "options": ["30", "25", "28", "32"],
+      "answer": "30"
+    },
+    {
+      "question": "Find the square of 2",
+      "options": ["4", "2", "6", "8"],
+      "answer": "4"
+    },
+    {
+      "question": "Find the square root of 36",
+      "options": ["6", "5", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "question": "Find the square of 23",
+      "options": ["529", "539", "519", "540"],
+      "answer": "529"
+    },
+    {
+      "question": "Find the square root of 676",
+      "options": ["26", "25", "27", "28"],
+      "answer": "26"
+    },
+    {
+      "question": "Find the square of 17",
+      "options": ["289", "279", "299", "285"],
+      "answer": "289"
+    },
+    {
+      "question": "Find the square root of 121",
+      "options": ["11", "10", "12", "13"],
+      "answer": "11"
+    },
+    {
+      "question": "Find the square of 24",
+      "options": ["576", "566", "586", "550"],
+      "answer": "576"
+    },
+    {
+      "question": "Find the square root of 169",
+      "options": ["13", "12", "14", "15"],
+      "answer": "13"
+    },
+    {
+      "question": "Find the square of 26",
+      "options": ["676", "666", "686", "690"],
+      "answer": "676"
+    },
+    {
+      "question": "Find the square root of 196",
+      "options": ["14", "15", "13", "16"],
+      "answer": "14"
+    },
+    {
+      "question": "Find the square of 28",
+      "options": ["784", "774", "794", "800"],
+      "answer": "784"
+    },
+    {
+      "question": "Find the square root of 324",
+      "options": ["18", "17", "19", "16"],
+      "answer": "18"
+    },
+    {
+      "question": "Find the square of 29",
+      "options": ["841", "831", "851", "840"],
+      "answer": "841"
+    },
+    {
+      "question": "Find the square root of 529",
+      "options": ["23", "22", "24", "25"],
+      "answer": "23"
+    },
+    {
+      "question": "Find the square of 31",
+      "options": ["961", "951", "971", "960"],
+      "answer": "961"
+    },
+    {
+      "question": "Find the square root of 1024",
+      "options": ["32", "30", "34", "36"],
+      "answer": "32"
+    },
+    {
+      "question": "Find the square of 32",
+      "options": ["1024", "1000", "1050", "1010"],
+      "answer": "1024"
+    }
+  ]
+  
