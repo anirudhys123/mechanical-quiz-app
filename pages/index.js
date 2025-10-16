@@ -8,24 +8,20 @@ const examSubjects = {
   PGNEET: ["Pathology"],
   SOFTWARE: ["Python", "Data Science"],
   UPSC: ["Static"],
-  JEE: ["Maths", "Physics", "Chemistry"]
+  JEE: ["Maths", "Physics", "Chemistry"],
+  HVAC: ["Chillers"],
+  ICSE: ["Mathematics"]
 };
 
 const subjectChapters = {
-  // GMAT
   "Quantitative Reasoning": ["Algebra", "Percentages", "Ratios and Proportions", "SI and CI"],
   "Verbal Reasoning": ["Reading Comprehension", "Sentence Correction"],
-
-  // PGNEET
   "Pathology": ["Cell Injury", "Neoplasia", "Inflammation"],
-
-  // UPSC
   "Static": ["Art and Culture", "Geography"],
-
-  // JEE
   "Maths": ["Trigonometry", "Vectors"],
   "Physics": ["Laws of Motion"],
-  "Chemistry": ["Periodic Table"]
+  "Chemistry": ["Periodic Table"],
+  "Mathematics": ["Exponents"]
 };
 
 export default function Home() {
@@ -35,9 +31,22 @@ export default function Home() {
   const [chapter, setChapter] = useState('');
 
   const startQuiz = () => {
-    const needsChapter = ['GMAT', 'PGNEET', 'UPSC', 'JEE'].includes(exam);
+    const needsChapter = ['GMAT', 'PGNEET', 'UPSC', 'JEE', 'ICSE'].includes(exam);
+
     if (!exam || !subject || (needsChapter && !chapter)) {
       alert('Please complete all fields.');
+      return;
+    }
+
+    // ✅ Special case for HVAC → Chillers
+    if (exam === 'HVAC' && subject === 'Chillers') {
+      router.push(`/quiz?category=HVAC_Chillers`);
+      return;
+    }
+
+    // ✅ Special case for ICSE → Mathematics → Exponents
+    if (exam === 'ICSE' && subject === 'Mathematics' && chapter === 'Exponents') {
+      router.push(`/quiz?category=ICSE_Mathematics_Exponents`);
       return;
     }
 
@@ -54,6 +63,7 @@ export default function Home() {
         Quiz App
       </h1>
 
+      {/* Exam selection */}
       <div className="mb-3">
         <label className="form-label fw-semibold">Select Exam</label>
         <select
@@ -73,9 +83,12 @@ export default function Home() {
           <option value="SOFTWARE">Software Engineering</option>
           <option value="UPSC">UPSC</option>
           <option value="JEE">JEE Formulae Test</option>
+          <option value="HVAC">HVAC</option>
+          <option value="ICSE">ICSE</option>
         </select>
       </div>
 
+      {/* Subject selection */}
       {exam && (
         <div className="mb-3">
           <label className="form-label fw-semibold">Select Subject</label>
@@ -95,7 +108,8 @@ export default function Home() {
         </div>
       )}
 
-      {(exam === 'GMAT' || exam === 'PGNEET' || exam === 'UPSC' || exam === 'JEE') && subject && (
+      {/* Chapter selection */}
+      {(exam === 'GMAT' || exam === 'PGNEET' || exam === 'UPSC' || exam === 'JEE' || exam === 'ICSE') && subject && (
         <div className="mb-4">
           <label className="form-label fw-semibold">Select Chapter</label>
           <select
@@ -111,6 +125,7 @@ export default function Home() {
         </div>
       )}
 
+      {/* Start Quiz Button */}
       <div className="text-center mb-2">
         <button
           className="btn btn-outline-primary px-4 py-2 fw-semibold"

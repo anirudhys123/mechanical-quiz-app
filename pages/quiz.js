@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-// Shuffle utility
+// ✅ Utility: Shuffle array
 const shuffleArray = (arr) =>
   Array.isArray(arr) ? [...arr].sort(() => Math.random() - 0.5) : [];
 
@@ -18,6 +18,7 @@ export default function Quiz() {
   const [timer, setTimer] = useState(60);
   const [answerData, setAnswerData] = useState([]);
 
+  // ✅ Load quiz questions
   useEffect(() => {
     if (!category) return;
 
@@ -25,10 +26,21 @@ export default function Quiz() {
     let filePath = '';
 
     try {
-      if (parts.length === 2) {
+      // ✅ Special case 1: HVAC → Chillers
+      if (category === 'HVAC_Chillers') {
+        filePath = '/data/hvac/chillers/chillers.json';
+      }
+      // ✅ Special case 2: ICSE → Mathematics → Exponents
+      else if (category === 'ICSE_Mathematics_Exponents') {
+        filePath = '/data/icse/mathematics/exponents.json';
+      }
+      // ✅ Generic 2-level path (e.g., GATE_Thermodynamics)
+      else if (parts.length === 2) {
         const [exam, subject] = parts;
         filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-      } else if (parts.length === 3) {
+      }
+      // ✅ Generic 3-level path (e.g., ICSE_Mathematics_Exponents)
+      else if (parts.length === 3) {
         const [exam, subject, chapter] = parts;
         filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
       } else {
@@ -63,24 +75,20 @@ export default function Quiz() {
     }
   }, [category]);
 
+  // ✅ Countdown Timer
   useEffect(() => {
     if (!questions.length) return;
     if (timer === 0) {
       handleNext();
       return;
     }
-
-    const interval = setInterval(() => {
-      setTimer((prev) => prev - 1);
-    }, 1000);
-
+    const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
     return () => clearInterval(interval);
   }, [timer, questions]);
 
-  useEffect(() => {
-    setTimer(60);
-  }, [current]);
+  useEffect(() => setTimer(60), [current]);
 
+  // ✅ Next Question Logic
   const handleNext = () => {
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
@@ -93,6 +101,7 @@ export default function Quiz() {
       correct: currentQuestion.answer,
       timeSpent: `${timeSpent} sec`,
     };
+
     setAnswerData((prev) => [...prev, currentAnswerData]);
 
     if (current + 1 < questions.length) {
@@ -101,14 +110,17 @@ export default function Quiz() {
       setSelected('');
       setQuestionStartTime(Date.now());
     } else {
-      const timeTaken = Math.floor((Date.now() - startTime) / 1000);
+      const totalTime = Math.floor((Date.now() - startTime) / 1000);
       const accuracy = Math.round((updatedScore / questions.length) * 100);
       const finalData = [...answerData, currentAnswerData];
       localStorage.setItem('quiz-analysis', JSON.stringify(finalData));
-      router.push(`/result?score=${updatedScore}&total=${questions.length}&time=${timeTaken}&accuracy=${accuracy}`);
+      router.push(
+        `/result?score=${updatedScore}&total=${questions.length}&time=${totalTime}&accuracy=${accuracy}`
+      );
     }
   };
 
+  // ✅ Early Submit
   const submitImmediately = () => {
     if (!confirm('Are you sure you want to submit the quiz early?')) return;
 
@@ -124,27 +136,39 @@ export default function Quiz() {
       timeSpent: `${timeSpent} sec`,
     };
     const finalData = [...answerData, currentAnswerData];
-    const timeTaken = Math.floor((Date.now() - startTime) / 1000);
+    const totalTime = Math.floor((Date.now() - startTime) / 1000);
     const accuracy = Math.round((finalScore / questions.length) * 100);
 
     localStorage.setItem('quiz-analysis', JSON.stringify(finalData));
-    router.push(`/result?score=${finalScore}&total=${questions.length}&time=${timeTaken}&accuracy=${accuracy}`);
+    router.push(
+      `/result?score=${finalScore}&total=${questions.length}&time=${totalTime}&accuracy=${accuracy}`
+    );
   };
 
   if (!questions.length)
-    return <div className="container mt-5">Loading questions...</div>;
+    return (
+      <div className="container mt-5 text-center">
+        <h4>Loading questions...</h4>
+      </div>
+    );
+
+  const question = questions[current];
 
   return (
     <div className="container mt-5">
-      <h4>Question {current + 1} of {questions.length}</h4>
-      <p className="lead">{questions[current].question}</p>
-      <div className="mb-2 text-danger fw-bold">Time left: {timer}s</div>
+      <h4>
+        Question {current + 1} of {questions.length}
+      </h4>
+      <p className="lead">{question.question}</p>
+      <div className="mb-2 text-danger fw-bold">⏱ Time left: {timer}s</div>
 
       <div className="list-group">
-        {questions[current].options.map((opt, idx) => (
+        {question.options.map((opt, idx) => (
           <button
             key={idx}
-            className={`list-group-item list-group-item-action ${selected === opt ? 'active' : ''}`}
+            className={`list-group-item list-group-item-action ${
+              selected === opt ? 'active' : ''
+            }`}
             onClick={() => setSelected(opt)}
           >
             {opt}
@@ -160,11 +184,7 @@ export default function Quiz() {
         >
           {current + 1 === questions.length ? 'Finish' : 'Next'}
         </button>
-        <button
-          className="btn btn-danger"
-          disabled={!selected}
-          onClick={submitImmediately}
-        >
+        <button className="btn btn-danger" onClick={submitImmediately}>
           Submit Quiz
         </button>
       </div>

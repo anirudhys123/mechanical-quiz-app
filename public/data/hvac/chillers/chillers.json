@@ -1,0 +1,271 @@
+[
+    {
+      "question": "What is the main function of a chiller in an HVAC system?",
+      "options": ["To heat the air", "To remove moisture from air", "To remove heat from water", "To compress air"],
+      "answer": "To remove heat from water"
+    },
+    {
+      "question": "Which component in a chiller absorbs heat from the chilled water?",
+      "options": ["Condenser", "Compressor", "Evaporator", "Expansion valve"],
+      "answer": "Evaporator"
+    },
+    {
+      "question": "In a water-cooled chiller, heat is rejected to the:",
+      "options": ["Cooling tower", "Air directly", "Room air", "Drain water"],
+      "answer": "Cooling tower"
+    },
+    {
+      "question": "Which refrigerant is commonly used in modern chillers?",
+      "options": ["R-22", "R-134a", "R-12", "Ammonia only"],
+      "answer": "R-134a"
+    },
+    {
+      "question": "Which type of chiller is more energy efficient for large buildings?",
+      "options": ["Air-cooled", "Water-cooled"],
+      "answer": "Water-cooled"
+    },
+    {
+      "question": "The expansion valve in a chiller controls:",
+      "options": ["Flow of refrigerant to condenser", "Flow of refrigerant to evaporator", "Flow of water to cooling tower", "Compressor speed"],
+      "answer": "Flow of refrigerant to evaporator"
+    },
+    {
+      "question": "The compressor in a chiller:",
+      "options": ["Expands refrigerant", "Circulates water", "Increases refrigerant pressure and temperature", "Removes heat from air"],
+      "answer": "Increases refrigerant pressure and temperature"
+    },
+    {
+      "question": "The condenser in a chiller rejects heat to:",
+      "options": ["Chilled water", "Cooling water or air", "Refrigerant", "Evaporator"],
+      "answer": "Cooling water or air"
+    },
+    {
+      "question": "COP (Coefficient of Performance) of a chiller is defined as:",
+      "options": ["Output power/Input power", "Input power/Output power", "Cooling effect/Input power", "Heat rejected/Input power"],
+      "answer": "Cooling effect/Input power"
+    },
+    {
+      "question": "Which of the following chillers uses absorption process instead of mechanical compression?",
+      "options": ["Screw chiller", "Scroll chiller", "Absorption chiller", "Centrifugal chiller"],
+      "answer": "Absorption chiller"
+    },
+    
+        {
+          "question": "What is the recommended inlet dry-bulb temperature range for servers per ASHRAE TC 9.9 guidelines?",
+          "options": ["8-18°C", "18-27°C", "25-35°C", "30-40°C"],
+          "answer": "18-27°C"
+        },
+        {
+          "question": "In a data center cooling system, what is the benefit of raising the chilled water supply temperature?",
+          "options": ["Improves chiller efficiency", "Decreases capacity", "Increases humidity", "Requires more compressor power"],
+          "answer": "Improves chiller efficiency"
+        },
+        {
+          "question": "What does 'free cooling' refer to in data center chiller systems?",
+          "options": ["Using ambient outside air or cool external temperature to assist or replace refrigeration compression", "Running chillers at 100% capacity", "Using only backup chillers", "Cooling using fossil fuels"],
+          "answer": "Using ambient outside air or cool external temperature to assist or replace refrigeration compression"
+        },
+        {
+          "question": "Which type of chiller tends to consume **less water** and have simpler water treatment requirements?",
+          "options": ["Water-cooled chiller", "Air-cooled chiller"],
+          "answer": "Air-cooled chiller"
+        },
+        {
+          "question": "What is the meaning of N+1 redundancy in data center chiller plant design?",
+          "options": ["One extra unit beyond required capacity", "All units are redundant", "No redundancy", "Half of units redundant"],
+          "answer": "One extra unit beyond required capacity"
+        },
+        {
+          "question": "Which component is responsible for rejecting heat to the environment in a water-cooled chiller system?",
+          "options": ["Cooling tower", "Evaporator", "Expansion valve", "Air handler"],
+          "answer": "Cooling tower"
+        },
+        {
+          "question": "In a data center, what is a CRAH unit?",
+          "options": ["Computer Room Air Handler, using chilled water to cool air", "Compressor Room Air Handler", "Chiller Room Air Handler", "Computer Room Air Heater"],
+          "answer": "Computer Room Air Handler, using chilled water to cool air"
+        },
+        {
+          "question": "Which type of refrigerant property is important for reducing environmental impact?",
+          "options": ["High GWP", "Low Global Warming Potential", "High Ozone Depletion Potential", "High toxicity"],
+          "answer": "Low Global Warming Potential"
+        },
+        {
+          "question": "Why is part-load efficiency important for chillers in data centers?",
+          "options": ["Because the cooling load fluctuates and chillers often run below full capacity", "Because full load is always needed", "Because maintenance happens only at full load", "Because part load is never used"],
+          "answer": "Because the cooling load fluctuates and chillers often run below full capacity"
+        },
+        {
+          "question": "Which of these control strategies helps reduce energy usage in a chiller plant?",
+          "options": ["Sequencing/staging chillers based on load", "Running all chillers all the time", "Turning off monitoring systems", "Fixing temperature very low always"],
+          "answer": "Sequencing/staging chillers based on load"
+        },
+        {
+          "question": "What is the impact of increasing chilled water loop supply temperature by 1°F (about 0.55°C)?",
+          "options": ["Improves efficiency by ~1-2%", "Decreases efficiency by ~5%", "No impact", "Requires larger compressors"],
+          "answer": "Improves efficiency by ~1-2%"
+        },
+        {
+          "question": "What does PUE stand for in data center operations?",
+          "options": ["Power Usage Effectiveness", "Performance Under Energy", "Power Utility Efficiency", "Peak Usage Estimate"],
+          "answer": "Power Usage Effectiveness"
+        },
+        {
+          "question": "Which cooling loop carries heat from the data hall to the condenser or heat rejection system?",
+          "options": ["Chilled water loop", "Condenser water loop", "Steam loop", "Ventilation loop"],
+          "answer": "Condenser water loop"
+        },
+        {
+          "question": "In the refrigeration cycle of a chiller, what comes immediately after the compressor?",
+          "options": ["Condenser", "Evaporator", "Expansion valve", "Chiller pump"],
+          "answer": "Condenser"
+        },
+        {
+          "question": "What happens if a data center fails to maintain enough redundancy in its chiller system?",
+          "options": ["Risk of downtime if a chiller fails", "More efficiency", "Lower capital costs", "No risk"],
+          "answer": "Risk of downtime if a chiller fails"
+        },
+        {
+          "question": "Which is a risk associated with water-cooled chillers in data centers?",
+          "options": ["Water treatment issues", "Freezing risk", "No risk", "No need for a cooling tower"],
+          "answer": "Water treatment issues"
+        },
+        {
+          "question": "What is the “lift” in the context of a chiller?",
+          "options": ["Difference between condenser and evaporator pressures/temperatures", "Height of the chiller installation", "Energy uplift", "The cooling load"],
+          "answer": "Difference between condenser and evaporator pressures/temperatures"
+        },
+        {
+          "question": "Which mode allows a chiller to stop its compressor and use external cooler source, like outside air or cooling tower, in certain conditions?",
+          "options": ["Economizer mode / Free Cooling mode", "Over-drive mode", "Emergency mode", "Full load mode"],
+          "answer": "Economizer mode / Free Cooling mode"
+        },
+        {
+          "question": "Why is monitoring and diagnostics important for data center chiller plants?",
+          "options": ["To detect failures, optimize performance, reduce maintenance costs", "To increase downtime", "To ignore small issues", "To run at max capacity always"],
+          "answer": "To detect failures, optimize performance, reduce maintenance costs"
+        },
+        {
+          "question": "Which metric indicates how much of the cooling energy is used for useful cooling vs overhead (fans, pumps, etc.)?",
+          "options": ["Chiller COP", "PUE", "SLR", "MTTR"],
+          "answer": "PUE"
+        },
+        {
+          "question": "What is the effect of oversizing a chiller for data center load?",
+          "options": ["Higher capital cost, less efficient operation at part load", "Always better efficiency", "No downside", "Lower maintenance"],
+          "answer": "Higher capital cost, less efficient operation at part load"
+        },
+        {
+          "question": "What is a centrifugal chiller?",
+          "options": ["A type of chiller using centrifugal compressor, generally for large capacities", "One using absorption cycle", "An air-cooled small chiller", "One without compressor"],
+          "answer": "A type of chiller using centrifugal compressor, generally for large capacities"
+        },
+        {
+          "question": "What is an advantage of screw compressor chillers in data center applications?",
+          "options": ["Good part-load efficiency", "Poor reliability", "Very high cost always", "Low capacity only"],
+          "answer": "Good part-load efficiency"
+        },
+        {
+          "question": "How does chiller plant sequencing affect reliability and wear-and-tear?",
+          "options": ["Reduces compressor cycling, improves life", "Increases wear by frequent start/stop", "No effect", "Only matters for air-cooled chillers"],
+          "answer": "Reduces compressor cycling, improves life"
+        },
+        {
+          "question": "Which practice helps reduce hot spots in data center halls?",
+          "options": ["Cold aisle / hot aisle containment", "Turn off airflow", "Random server placement", "Mix cold/hot air randomly"],
+          "answer": "Cold aisle / hot aisle containment"
+        },
+        {
+          "question": "What is the typical chilled water temperature supplied in data centers (comfort vs data center)?",
+          "options": ["~42°F for comfort vs ~47-55°F for data center", "Same as comfort", "Below 32°F always", "Above 90°F"],
+          "answer": "~42°F for comfort vs ~47-55°F for data center"
+        },
+        {
+          "question": "What role does the condenser pump play in a water-cooled chiller plant?",
+          "options": ["Pumping condenser water to cooling towers", "Pumping chilled water to servers", "Compressing refrigerant", "Expanding refrigerant"],
+          "answer": "Pumping condenser water to cooling towers"
+        },
+        {
+          "question": "Which is true about raising the chilled water loop temperature supply point?",
+          "options": ["It decreases the delta T", "It reduces the chiller lift and improves efficiency", "It forces the system to use more power", "It always makes capacity inadequate"],
+          "answer": "It reduces the chiller lift and improves efficiency"
+        },
+        {
+          "question": "Which water-side component helps improve temperature approach in chillers (i.e., reduce the temperature difference between chilled water out and return)?",
+          "options": ["Plate-type heat exchanger", "Thick coils with low flow", "No flow control", "Oversized evaporator only"],
+          "answer": "Plate-type heat exchanger"
+        },
+        {
+          "question": "What is the main reason data centers use closed water loops rather than open loops in chillers?",
+          "options": ["To avoid contamination and maintain water quality", "Lower capital cost", "Easier maintenance", "Use outdoor water directly"],
+          "answer": "To avoid contamination and maintain water quality"
+        },
+        {
+          "question": "Which cooling system configuration can reduce cooling path length and losses in airflow?",
+          "options": ["In-row cooling / close-coupled cooling", "Central CRAC only at entrance", "No containment", "Random fan placement"],
+          "answer": "In-row cooling / close-coupled cooling"
+        },
+        {
+          "question": "What is the effect of condenser water temperature being too high?",
+          "options": ["Chiller has to do more work (higher lift), efficiency drops", "Chiller efficiency improves", "No effect", "Chiller stops immediately"],
+          "answer": "Chiller has to do more work (higher lift), efficiency drops"
+        },
+        {
+          "question": "Why are variable speed drives (VSDs) used in chiller compressors and pumps in data centers?",
+          "options": ["To match capacity with load and reduce energy use", "To run at full speed always", "To simplify wiring only", "Because cheaper"],
+          "answer": "To match capacity with load and reduce energy use"
+        },
+        {
+          "question": "Which of these is a standard for data center thermal environment guidelines?",
+          "options": ["ASHRAE TC 9.9", "IEEE 802.3", "ISO 9001", "OSHA 1910"],
+          "answer": "ASHRAE TC 9.9"
+        },
+        {
+          "question": "How does free cooling become feasible for a data center?",
+          "options": ["When ambient outside air or cooling tower source is cooler than required chilled water supply", "When it’s summer midday", "When all chillers fail", "It’s never feasible"],
+          "answer": "When ambient outside air or cooling tower source is cooler than required chilled water supply"
+        },
+        {
+          "question": "What is the benefit of liquid cooling (direct-to-chip / immersion) compared to air cooling in data centers?",
+          "options": ["Better heat removal, higher efficiency, smaller air-handling needed", "Worse efficiency", "More noise always", "Only useful in very small data centers"],
+          "answer": "Better heat removal, higher efficiency, smaller air-handling needed"
+        },
+        {
+          "question": "Which of these can help reduce energy cost due to utility demand charges in large data centers?",
+          "options": ["Soft-start capability, limiting inrush, spreading chiller startup", "Running all chillers at once", "Using only emergency chillers", "Never scheduling maintenance"],
+          "answer": "Soft-start capability, limiting inrush, spreading chiller startup"
+        },
+        {
+          "question": "Why is humidity control important in data center HVAC along with temperature?",
+          "options": ["To avoid static discharge and condensation on equipment", "Not important", "Only for human comfort", "Always keep humidity as high as possible"],
+          "answer": "To avoid static discharge and condensation on equipment"
+        },
+        {
+          "question": "What is an economizer mode in chillers related to data centers?",
+          "options": ["Using outside air or cooler external medium to reduce compressor usage", "Running chillers at double speed", "Turning off all fans", "Overcooling always"],
+          "answer": "Using outside air or cooler external medium to reduce compressor usage"
+        },
+        {
+          "question": "Which kind of sensor data is critical for optimizing chiller plant performance?",
+          "options": ["Temperature, pressure, flow, humidity", "Only temperature", "Only flow", "Only pressure"],
+          "answer": "Temperature, pressure, flow, humidity"
+        },
+        {
+          "question": "What does lift in chiller systems refer to, and why is low lift desirable?",
+          "options": ["Temperature/pressure difference between evaporator and condenser; low lift reduces work for compressor", "Height difference of pipes; low height reduces piping cost", "Water cleanliness; low lift means cleaner water", "No meaning"],
+          "answer": "Temperature/pressure difference between evaporator and condenser; low lift reduces work for compressor"
+        },
+        {
+          "question": "What is the benefit of monitoring chiller plant operations remotely (IoT / BMS)?",
+          "options": ["Predict issues, schedule preventive maintenance, reduce downtime", "Wait for failure then repair", "Ignore minor faults", "Run at max load always"],
+          "answer": "Predict issues, schedule preventive maintenance, reduce downtime"
+        },
+        {
+          "question": "Which parameter directly affects the humidity inside a data center hall?",
+          "options": ["Dew point of supply air", "Water loop temperature", "Compressor size", "Cooling tower height"],
+          "answer": "Dew point of supply air"
+        }
+      
+      
+  ]
+  
