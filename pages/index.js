@@ -21,7 +21,7 @@ const subjectChapters = {
   "Maths": ["Trigonometry", "Vectors"],
   "Physics": ["Laws of Motion"],
   "Chemistry": ["Periodic Table"],
-  "Mathematics": ["Exponents","Squares"]
+  "Mathematics": ["Exponents","Squares","Cubes","Proportions","Percentages","Mensuration","Factorization","Sets","Inequations"]
 };
 
 export default function Home() {

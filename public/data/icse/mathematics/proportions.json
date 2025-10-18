@@ -1,0 +1,228 @@
+[
+    {
+      "question": "If 5 pens cost ₹25, how much will 8 pens cost?",
+      "options": ["₹30", "₹40", "₹35", "₹45"],
+      "answer": "₹40"
+    },
+    {
+      "question": "If 7 books take 14 hours to read, how long will 10 books take?",
+      "options": ["20 hours", "24 hours", "28 hours", "30 hours"],
+      "answer": "20 hours"
+    },
+    {
+      "question": "If 6 workers can complete a task in 12 days, how many days will 4 workers take?",
+      "options": ["18", "16", "20", "24"],
+      "answer": "18"
+    },
+    {
+      "question": "If 8 kg of sugar costs ₹320, what is the cost of 5 kg?",
+      "options": ["₹200", "₹180", "₹250", "₹160"],
+      "answer": "₹200"
+    },
+    {
+      "question": "If 3 machines produce 180 units in a day, how many units will 5 machines produce?",
+      "options": ["250", "300", "280", "270"],
+      "answer": "300"
+    },
+    {
+      "question": "The time taken to travel a distance is inversely proportional to speed. If a car takes 6 hours at 40 km/h, how long at 60 km/h?",
+      "options": ["4 hours", "3 hours", "5 hours", "6 hours"],
+      "answer": "4 hours"
+    },
+    {
+      "question": "If 12 litres of paint cover 96 m², how much area will 18 litres cover?",
+      "options": ["144 m²", "150 m²", "120 m²", "132 m²"],
+      "answer": "144 m²"
+    },
+    {
+      "question": "If 5 men can do a piece of work in 15 days, how long will 10 men take?",
+      "options": ["7.5 days", "8 days", "10 days", "6 days"],
+      "answer": "7.5 days"
+    },
+    {
+      "question": "If 7 kg of rice costs ₹210, how much will 10 kg cost?",
+      "options": ["₹300", "₹280", "₹250", "₹320"],
+      "answer": "₹300"
+    },
+    {
+      "question": "The number of workers is directly proportional to the work done. If 6 workers do 36 units, how many units will 9 workers do?",
+      "options": ["48", "54", "60", "45"],
+      "answer": "54"
+    },
+    {
+      "question": "If 5 hours of work costs ₹150, how much does 8 hours of work cost?",
+      "options": ["₹240", "₹250", "₹260", "₹200"],
+      "answer": "₹240"
+    },
+    {
+      "question": "If 3 men take 10 days to build a wall, how many men are required to do it in 5 days?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "question": "If 4 kg of apples cost ₹320, what is the cost of 7 kg?",
+      "options": ["₹560", "₹540", "₹500", "₹520"],
+      "answer": "₹560"
+    },
+    {
+      "question": "If 5 machines make 200 parts in a day, how many parts will 8 machines make?",
+      "options": ["320", "300", "350", "280"],
+      "answer": "320"
+    },
+    {
+      "question": "If a car travels 240 km in 4 hours, how long will it take to travel 360 km at the same speed?",
+      "options": ["5 hours", "6 hours", "7 hours", "8 hours"],
+      "answer": "6 hours"
+    },
+    {
+      "question": "If 12 workers complete a task in 18 days, how long will 9 workers take?",
+      "options": ["20 days", "24 days", "18 days", "22 days"],
+      "answer": "24 days"
+    },
+    {
+      "question": "If 6 men can dig a trench in 8 days, how long will 12 men take?",
+      "options": ["4 days", "6 days", "8 days", "10 days"],
+      "answer": "4 days"
+    },
+    {
+      "question": "If 15 litres of milk costs ₹540, what is the cost of 25 litres?",
+      "options": ["₹900", "₹850", "₹950", "₹800"],
+      "answer": "₹900"
+    },
+    {
+      "question": "If 7 workers can complete a job in 14 days, how long will 14 workers take?",
+      "options": ["7 days", "10 days", "8 days", "6 days"],
+      "answer": "7 days"
+    },
+    {
+      "question": "If 9 men can complete a work in 12 days, how many days for 6 men?",
+      "options": ["16", "18", "20", "22"],
+      "answer": "18"
+    },
+    {
+      "question": "If 5 pens cost ₹100, how much do 8 pens cost?",
+      "options": ["₹150", "₹160", "₹170", "₹180"],
+      "answer": "₹160"
+    },
+    {
+      "question": "If 4 workers can complete a task in 10 days, how long will 8 workers take?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "question": "If 3 men take 12 hours to paint a wall, how long will 4 men take?",
+      "options": ["8 hours", "9 hours", "10 hours", "12 hours"],
+      "answer": "9 hours"
+    },
+    {
+      "question": "If 6 kg of sugar costs ₹240, how much for 10 kg?",
+      "options": ["₹400", "₹420", "₹360", "₹380"],
+      "answer": "₹400"
+    },
+    {
+      "question": "If 5 workers build a wall in 20 days, how many workers needed for 10 days?",
+      "options": ["10", "8", "12", "15"],
+      "answer": "10"
+    },
+    {
+      "question": "If 12 pencils cost ₹36, how much for 20 pencils?",
+      "options": ["₹60", "₹50", "₹55", "₹70"],
+      "answer": "₹60"
+    },
+    {
+      "question": "If 8 machines produce 400 items in a day, how many items do 5 machines produce?",
+      "options": ["250", "200", "300", "280"],
+      "answer": "250"
+    },
+    {
+      "question": "If a car travels 180 km in 3 hours, how long for 240 km?",
+      "options": ["3 hours", "4 hours", "5 hours", "6 hours"],
+      "answer": "4 hours"
+    },
+    {
+      "question": "If 9 men can complete work in 15 days, how many men needed for 5 days?",
+      "options": ["27", "25", "30", "20"],
+      "answer": "27"
+    },
+    {
+      "question": "If 7 workers complete a job in 21 days, how long will 3 workers take?",
+      "options": ["49", "50", "42", "45"],
+      "answer": "49"
+    },
+    {
+      "question": "If 5 kg of rice costs ₹250, how much for 8 kg?",
+      "options": ["₹400", "₹350", "₹450", "₹420"],
+      "answer": "₹400"
+    },
+    {
+      "question": "If 6 machines produce 180 items in a day, how many machines for 360 items?",
+      "options": ["10", "12", "15", "18"],
+      "answer": "12"
+    },
+    {
+      "question": "If 4 men take 12 days to dig a trench, how many men for 6 days?",
+      "options": ["8", "6", "12", "10"],
+      "answer": "8"
+    },
+    {
+      "question": "If 3 workers complete a task in 9 days, how long will 6 workers take?",
+      "options": ["4.5 days", "5 days", "6 days", "3 days"],
+      "answer": "4.5 days"
+    },
+    {
+      "question": "If 7 pens cost ₹56, how much for 10 pens?",
+      "options": ["₹80", "₹75", "₹70", "₹85"],
+      "answer": "₹80"
+    },
+    {
+      "question": "If 5 men take 10 days to do a job, how long for 10 men?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "question": "If 8 kg sugar costs ₹400, cost for 5 kg?",
+      "options": ["₹250", "₹200", "₹300", "₹220"],
+      "answer": "₹250"
+    },
+    {
+      "question": "If 6 workers build a wall in 12 days, how many workers for 8 days?",
+      "options": ["9", "8", "10", "12"],
+      "answer": "9"
+    },
+    {
+      "question": "If 10 men can complete work in 15 days, how many men for 5 days?",
+      "options": ["30", "25", "20", "35"],
+      "answer": "30"
+    },
+    {
+      "question": "If 7 machines produce 350 units in a day, how many machines for 700 units?",
+      "options": ["10", "12", "14", "15"],
+      "answer": "14"
+    },
+    {
+      "question": "If 5 men take 20 days to finish a task, how long for 10 men?",
+      "options": ["10", "12", "15", "8"],
+      "answer": "10"
+    },
+    {
+      "question": "If 6 kg of sugar costs ₹180, cost of 9 kg?",
+      "options": ["₹270", "₹250", "₹260", "₹280"],
+      "answer": "₹270"
+    },
+    {
+      "question": "If 4 workers take 16 days, how long for 8 workers?",
+      "options": ["8", "10", "12", "6"],
+      "answer": "8"
+    },
+    {
+      "question": "If 3 men take 18 days to complete work, how many men for 6 days?",
+      "options": ["9", "6", "8", "12"],
+      "answer": "9"
+    },
+    {
+      "question": "If 5 pens cost ₹25, how much for 12 pens?",
+      "options": ["₹60", "₹55", "₹50", "₹65"],
+      "answer": "₹60"
+    }
+  ]
+  

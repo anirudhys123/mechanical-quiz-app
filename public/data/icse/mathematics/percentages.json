@@ -1,0 +1,243 @@
+[
+    {
+      "question": "What is 25% of 200?",
+      "options": ["40", "50", "60", "45"],
+      "answer": "50"
+    },
+    {
+      "question": "A shop offers 10% discount on a ₹500 item. What is the price after discount?",
+      "options": ["₹450", "₹400", "₹420", "₹480"],
+      "answer": "₹450"
+    },
+    {
+      "question": "If a number is increased by 20% to become 120, what is the original number?",
+      "options": ["100", "110", "90", "95"],
+      "answer": "100"
+    },
+    {
+      "question": "A student scored 75 out of 100. What is the percentage?",
+      "options": ["70%", "75%", "80%", "65%"],
+      "answer": "75%"
+    },
+    {
+      "question": "An item priced at ₹600 is sold at 25% profit. Selling price is:",
+      "options": ["₹700", "₹750", "₹720", "₹650"],
+      "answer": "₹750"
+    },
+    {
+      "question": "20% of a number is 40. Find the number.",
+      "options": ["180", "200", "160", "150"],
+      "answer": "200"
+    },
+    {
+      "question": "A salary of ₹12,000 is increased by 15%. New salary is:",
+      "options": ["₹13,800", "₹13,500", "₹14,000", "₹13,600"],
+      "answer": "₹13,800"
+    },
+    {
+      "question": "A TV costing ₹20,000 is sold at 10% discount. Selling price is:",
+      "options": ["₹18,000", "₹18,500", "₹19,000", "₹17,500"],
+      "answer": "₹18,000"
+    },
+    {
+      "question": "A student got 45 out of 60 marks. Find the percentage.",
+      "options": ["70%", "75%", "80%", "72%"],
+      "answer": "75%"
+    },
+    {
+      "question": "If ₹5000 is invested at 12% per annum simple interest, interest after 2 years is:",
+      "options": ["₹1200", "₹1000", "₹1100", "₹1250"],
+      "answer": "₹1200"
+    },
+    {
+      "question": "A shopkeeper buys an item for ₹400 and sells at 20% profit. Selling price is:",
+      "options": ["₹480", "₹500", "₹450", "₹460"],
+      "answer": "₹480"
+    },
+    {
+      "question": "The price of an item increased from ₹200 to ₹250. Percentage increase is:",
+      "options": ["20%", "25%", "30%", "15%"],
+      "answer": "25%"
+    },
+    {
+      "question": "If 60% of students are boys and there are 120 boys, total students are:",
+      "options": ["180", "200", "150", "220"],
+      "answer": "200"
+    },
+    {
+      "question": "A number is decreased by 10% to get 540. Original number is:",
+      "options": ["600", "550", "580", "620"],
+      "answer": "600"
+    },
+    {
+      "question": "Find 15% of 360.",
+      "options": ["54", "55", "56", "50"],
+      "answer": "54"
+    },
+    {
+      "question": "A product sold at ₹750 after 25% discount. Marked price is:",
+      "options": ["₹1000", "₹950", "₹900", "₹850"],
+      "answer": "₹1000"
+    },
+    {
+      "question": "A number is increased by 50% to get 90. Original number is:",
+      "options": ["50", "60", "55", "40"],
+      "answer": "60"
+    },
+    {
+      "question": "A man spends 40% of his income and saves ₹6000. His income is:",
+      "options": ["₹10000", "₹12000", "₹15000", "₹14000"],
+      "answer": "₹10000"
+    },
+    {
+      "question": "A shopkeeper gives 12% discount on an item worth ₹2500. Selling price is:",
+      "options": ["₹2200", "₹2200", "₹2200", "₹2200"],
+      "answer": "₹2200"
+    },
+    {
+      "question": "An article's price rises from ₹400 to ₹500. Percentage increase is:",
+      "options": ["25%", "20%", "30%", "15%"],
+      "answer": "25%"
+    },
+    {
+      "question": "A shirt costing ₹600 is sold at 10% discount. Selling price is:",
+      "options": ["₹540", "₹550", "₹560", "₹520"],
+      "answer": "₹540"
+    },
+    {
+      "question": "Find 8% of 2500.",
+      "options": ["200", "180", "220", "210"],
+      "answer": "200"
+    },
+    {
+      "question": "If 45% of a number is 90, find the number.",
+      "options": ["180", "200", "220", "190"],
+      "answer": "200"
+    },
+    {
+      "question": "A shopkeeper bought an item for ₹300 and sold at 10% profit. Selling price is:",
+      "options": ["₹330", "₹320", "₹340", "₹350"],
+      "answer": "₹330"
+    },
+    {
+      "question": "A student scored 180 out of 240. Find percentage marks.",
+      "options": ["75%", "70%", "80%", "72%"],
+      "answer": "75%"
+    },
+    {
+      "question": "The price of an item decreased from ₹800 to ₹720. Percentage decrease is:",
+      "options": ["10%", "12%", "15%", "8%"],
+      "answer": "10%"
+    },
+    {
+      "question": "A person invests ₹5000 at 5% simple interest per year. Interest for 3 years is:",
+      "options": ["₹750", "₹700", "₹800", "₹650"],
+      "answer": "₹750"
+    },
+    {
+      "question": "A number increased by 20% becomes 240. Original number is:",
+      "options": ["200", "210", "220", "230"],
+      "answer": "200"
+    },
+    {
+      "question": "The population of a town increased from 5000 to 5500. Percentage increase is:",
+      "options": ["10%", "12%", "8%", "15%"],
+      "answer": "10%"
+    },
+    {
+      "question": "A TV costs ₹15,000. If sold at 20% profit, selling price is:",
+      "options": ["₹18,000", "₹17,500", "₹18,500", "₹17,000"],
+      "answer": "₹18,000"
+    },
+    {
+      "question": "A student scored 48 out of 60. Percentage marks is:",
+      "options": ["80%", "75%", "78%", "82%"],
+      "answer": "80%"
+    },
+    {
+      "question": "A book price decreased by 20% and now costs ₹240. Original price is:",
+      "options": ["₹300", "₹320", "₹280", "₹260"],
+      "answer": "₹300"
+    },
+    {
+      "question": "A sum of ₹8000 is increased by 12%. New sum is:",
+      "options": ["₹8960", "₹9000", "₹8800", "₹8900"],
+      "answer": "₹8960"
+    },
+    {
+      "question": "A shopkeeper earns 15% profit on an item costing ₹600. Selling price is:",
+      "options": ["₹690", "₹680", "₹700", "₹710"],
+      "answer": "₹690"
+    },
+    {
+      "question": "A number decreased by 25% becomes 75. Original number is:",
+      "options": ["100", "90", "95", "110"],
+      "answer": "100"
+    },
+    {
+      "question": "Find 30% of 450.",
+      "options": ["135", "130", "140", "125"],
+      "answer": "135"
+    },
+    {
+      "question": "A machine costing ₹50,000 is sold at 10% discount. Selling price is:",
+      "options": ["₹45,000", "₹46,000", "₹47,000", "₹48,000"],
+      "answer": "₹45,000"
+    },
+    {
+      "question": "A man saved ₹400 which is 20% of his income. Total income is:",
+      "options": ["₹2000", "₹1800", "₹2200", "₹2400"],
+      "answer": "₹2000"
+    },
+    {
+      "question": "If 70% of a number is 210, find the number.",
+      "options": ["300", "280", "250", "290"],
+      "answer": "300"
+    },
+    {
+      "question": "A commodity costing ₹500 is sold at 12% profit. Selling price is:",
+      "options": ["₹560", "₹550", "₹570", "₹580"],
+      "answer": "₹560"
+    },
+    {
+      "question": "A salary of ₹8000 is decreased by 15%. New salary is:",
+      "options": ["₹6800", "₹7000", "₹6900", "₹6700"],
+      "answer": "₹6800"
+    },
+    {
+      "question": "The price of sugar rises from ₹40 to ₹50 per kg. Percentage increase is:",
+      "options": ["25%", "20%", "22%", "18%"],
+      "answer": "25%"
+    },
+    {
+      "question": "An item costing ₹600 is sold at ₹720. Profit percentage is:",
+      "options": ["20%", "15%", "25%", "18%"],
+      "answer": "20%"
+    },
+    {
+      "question": "A person spends 30% of his income and saves ₹14,000. His income is:",
+      "options": ["₹20,000", "₹25,000", "₹30,000", "₹28,000"],
+      "answer": "₹20,000"
+    },
+    {
+      "question": "A number is increased by 18% to get 118. Original number is:",
+      "options": ["100", "105", "110", "108"],
+      "answer": "100"
+    },
+    {
+      "question": "A student scored 54 out of 60 marks. Percentage is:",
+      "options": ["90%", "85%", "88%", "92%"],
+      "answer": "90%"
+    },
+    {
+      "question": "A shirt priced ₹400 is sold at 10% discount. Selling price is:",
+      "options": ["₹360", "₹370", "₹380", "₹350"],
+      "answer": "₹360"
+    },
+    {
+      "question": "A product's price decreases from ₹500 to ₹450. Percentage decrease is:",
+      "options": ["10%", "12%", "15%", "8%"],
+      "answer": "10%"
+    }
+  ]
+  

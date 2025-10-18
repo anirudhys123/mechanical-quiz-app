@@ -1,0 +1,213 @@
+[
+    {
+      "question": "Which of the following is a set?",
+      "options": ["{1, 2, 3}", "(1, 2, 3)", "1, 2, 3", "[1, 2, 3]"],
+      "answer": "{1, 2, 3}"
+    },
+    {
+      "question": "The number of elements in set A = {a, b, c, d} is",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, then A ∪ B is",
+      "options": ["{1, 2, 3}", "{3, 4, 5}", "{1, 2, 3, 4, 5}", "{}"],
+      "answer": "{1, 2, 3, 4, 5}"
+    },
+    {
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, then A ∩ B is",
+      "options": ["{1, 2}", "{3}", "{4, 5}", "{}"],
+      "answer": "{3}"
+    },
+    {
+      "question": "Which of the following is an empty set?",
+      "options": ["{}", "{0}", "{1}", "{a}"],
+      "answer": "{}"
+    },
+    {
+      "question": "If U = {1,2,3,4,5,6} and A = {1,3,5}, then A' is",
+      "options": ["{1,3,5}", "{2,4,6}", "{1,2,3,4,5,6}", "{}"],
+      "answer": "{2,4,6}"
+    },
+    {
+      "question": "If A = {x | x is an even number less than 10}, then A is",
+      "options": ["{2, 4, 6, 8}", "{1, 3, 5, 7, 9}", "{0, 2, 4, 6}", "{2, 4, 6, 8, 10}"],
+      "answer": "{2, 4, 6, 8}"
+    },
+    {
+      "question": "If A = {1,2} and B = {3,4}, then A ∩ B is",
+      "options": ["{1,2,3,4}", "{1,2}", "{3,4}", "{}"],
+      "answer": "{}"
+    },
+    {
+      "question": "If A ⊆ B and B ⊆ C, then A ⊆ C is",
+      "options": ["True", "False", "Sometimes true", "Cannot say"],
+      "answer": "True"
+    },
+    {
+      "question": "The number of subsets of a set with n elements is",
+      "options": ["n", "2n", "2^n", "n^2"],
+      "answer": "2^n"
+    },
+    {
+      "question": "The number of proper subsets of a set with 4 elements is",
+      "options": ["16", "15", "4", "8"],
+      "answer": "15"
+    },
+    {
+      "question": "If A = {1,2,3}, then power set of A has",
+      "options": ["3 elements", "6 elements", "7 elements", "8 elements"],
+      "answer": "8 elements"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {2,3,4}, then A - B is",
+      "options": ["{1,4}", "{1}", "{4}", "{2,3}"],
+      "answer": "{1}"
+    },
+    {
+      "question": "The set of all natural numbers is",
+      "options": ["Finite set", "Infinite set", "Empty set", "Singleton set"],
+      "answer": "Infinite set"
+    },
+    {
+      "question": "Which of the following is a singleton set?",
+      "options": ["{0}", "{1,2}", "{a,b}", "{}"],
+      "answer": "{0}"
+    },
+    {
+      "question": "If A ∪ B = B, then A is",
+      "options": ["Subset of B", "Equal to B", "Empty set", "Superset of B"],
+      "answer": "Subset of B"
+    },
+    {
+      "question": "If A ∩ B = A, then A is",
+      "options": ["Subset of B", "Superset of B", "Empty set", "Equal to B"],
+      "answer": "Subset of B"
+    },
+    {
+      "question": "If A = {1,2,3,4} and B = {3,4,5,6}, then A ∪ B has",
+      "options": ["6 elements", "5 elements", "7 elements", "8 elements"],
+      "answer": "6 elements"
+    },
+    {
+      "question": "If A = {x | x is prime less than 10}, then A is",
+      "options": ["{2,3,5,7}", "{1,2,3,5,7}", "{2,3,5,7,9}", "{2,3,5,7,11}"],
+      "answer": "{2,3,5,7}"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {1,2,3}, then A ∆ B is",
+      "options": ["{1,2,3}", "{}","{1,2}","{3}"],
+      "answer": "{}"
+    },
+    {
+      "question": "The union of any set with the empty set is",
+      "options": ["Empty set", "Set itself", "Universal set", "{}"],
+      "answer": "Set itself"
+    },
+    {
+      "question": "The intersection of any set with the empty set is",
+      "options": ["Empty set", "Set itself", "Universal set", "{}"],
+      "answer": "Empty set"
+    },
+    {
+      "question": "If U = {1,2,3,4,5,6} and A = {1,2,3}, then A' ∪ A is",
+      "options": ["U", "Empty set", "A", "A'"],
+      "answer": "U"
+    },
+    {
+      "question": "If U = {1,2,3,4,5,6} and A = {1,2,3}, then A' ∩ A is",
+      "options": ["Empty set", "U", "A", "A'"],
+      "answer": "Empty set"
+    },
+    {
+      "question": "Which of the following is a finite set?",
+      "options": ["{1,2,3}", "N (natural numbers)", "Z (integers)", "R (real numbers)"],
+      "answer": "{1,2,3}"
+    },
+    {
+      "question": "A set with no elements is called",
+      "options": ["Empty set", "Singleton set", "Universal set", "Finite set"],
+      "answer": "Empty set"
+    },
+    {
+      "question": "If A = {2,4,6} and B = {4,6,8}, then A ∪ B is",
+      "options": ["{2,4,6,8}", "{2,4,6}", "{4,6,8}", "{2,8}"],
+      "answer": "{2,4,6,8}"
+    },
+    {
+      "question": "If A = {2,4,6} and B = {4,6,8}, then A ∩ B is",
+      "options": ["{4,6}", "{2,4,6,8}", "{2,4,6}", "{8}"],
+      "answer": "{4,6}"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {4,5,6}, then A ∩ B is",
+      "options": ["Empty set", "{1,2,3}", "{4,5,6}", "{1,2}"],
+      "answer": "Empty set"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {3,4,5}, then A - B is",
+      "options": ["{1,2}", "{3}", "{4,5}", "{}"],
+      "answer": "{1,2}"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {3,4,5}, then B - A is",
+      "options": ["{4,5}", "{3}", "{1,2}", "{}"],
+      "answer": "{4,5}"
+    },
+    {
+      "question": "If A = {x | x is a multiple of 2 < 10}, then A is",
+      "options": ["{2,4,6,8}", "{1,3,5,7,9}", "{2,4,6,8,10}", "{0,2,4,6,8}"],
+      "answer": "{2,4,6,8}"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {2,3,4}, then A ∆ B is",
+      "options": ["{1,4}", "{2,3}", "{1,2,3,4}", "{}"],
+      "answer": "{1,4}"
+    },
+    {
+      "question": "Two sets A and B are disjoint if",
+      "options": ["A ∩ B = {}", "A ∪ B = U", "A ⊆ B", "A = B"],
+      "answer": "A ∩ B = {}"
+    },
+    {
+      "question": "The complement of the universal set is",
+      "options": ["Empty set", "Universal set", "A", "{}"],
+      "answer": "Empty set"
+    },
+    {
+      "question": "If A = {a,b,c} and B = {c,d,e}, then (A ∪ B) - (A ∩ B) is",
+      "options": ["{a,b,d,e}", "{c}", "{a,b,c,d,e}", "{a,b}"],
+      "answer": "{a,b,d,e}"
+    },
+    {
+      "question": "If A = {1,2,3,4} and B = {3,4,5,6}, then (A ∪ B) ∩ A is",
+      "options": ["{1,2,3,4}", "{3,4,5,6}", "{1,2}", "{3,4}"],
+      "answer": "{1,2,3,4}"
+    },
+    {
+      "question": "The number of elements in set {a,b,c,d,e,f} is",
+      "options": ["5", "6", "7", "4"],
+      "answer": "6"
+    },
+    {
+      "question": "The power set of {x,y} is",
+      "options": ["{ {}, {x}, {y}, {x,y} }", "{ {x}, {y} }", "{ {}, {x}, {y} }", "{ {x,y} }"],
+      "answer": "{ {}, {x}, {y}, {x,y} }"
+    },
+    {
+      "question": "If A = {1,2,3}, B = {3,4,5}, and C = {5,6}, then (A ∪ B) ∩ C is",
+      "options": ["{5}", "{3}", "{1,2,3,4,5,6}", "{}"],
+      "answer": "{5}"
+    },
+    {
+      "question": "The set of all vowels in English is",
+      "options": ["{a,e,i,o,u}", "{a,b,c,d,e}", "{a,e,i,o,u,y}", "{a,e,i,o}"],
+      "answer": "{a,e,i,o,u}"
+    },
+    {
+      "question": "If A = {1,2,3} and B = {1,2,3,4}, then A ⊆ B is",
+      "options": ["True", "False", "Cannot say", "None"],
+      "answer": "True"
+    }
+  ]
+  

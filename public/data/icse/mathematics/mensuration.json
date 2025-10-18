@@ -1,0 +1,233 @@
+[
+    {
+      "question": "Find the area of a rectangle with length 12 cm and breadth 8 cm.",
+      "options": ["96 cm²", "100 cm²", "88 cm²", "104 cm²"],
+      "answer": "96 cm²"
+    },
+    {
+      "question": "Find the perimeter of a square whose side is 10 cm.",
+      "options": ["40 cm", "50 cm", "30 cm", "60 cm"],
+      "answer": "40 cm"
+    },
+    {
+      "question": "The radius of a circle is 7 cm. Find its area (use π = 22/7).",
+      "options": ["154 cm²", "140 cm²", "132 cm²", "150 cm²"],
+      "answer": "154 cm²"
+    },
+    {
+      "question": "A cylinder has radius 7 cm and height 10 cm. Find its volume (use π = 22/7).",
+      "options": ["1540 cm³", "1400 cm³", "1500 cm³", "1600 cm³"],
+      "answer": "1540 cm³"
+    },
+    {
+      "question": "The height of a cone is 15 cm and radius of base is 7 cm. Find its volume (π = 22/7).",
+      "options": ["770 cm³", "650 cm³", "700 cm³", "800 cm³"],
+      "answer": "770 cm³"
+    },
+    {
+      "question": "The surface area of a cube with side 6 cm is:",
+      "options": ["216 cm²", "144 cm²", "196 cm²", "180 cm²"],
+      "answer": "216 cm²"
+    },
+    {
+      "question": "The volume of a cube with side 5 cm is:",
+      "options": ["125 cm³", "150 cm³", "100 cm³", "120 cm³"],
+      "answer": "125 cm³"
+    },
+    {
+      "question": "Find the circumference of a circle with diameter 14 cm (π = 22/7).",
+      "options": ["44 cm", "42 cm", "48 cm", "40 cm"],
+      "answer": "44 cm"
+    },
+    {
+      "question": "A cuboid has length 12 cm, breadth 8 cm and height 6 cm. Its volume is:",
+      "options": ["576 cm³", "500 cm³", "600 cm³", "580 cm³"],
+      "answer": "576 cm³"
+    },
+    {
+      "question": "The total surface area of a sphere of radius 7 cm (π = 22/7) is:",
+      "options": ["616 cm²", "540 cm²", "550 cm²", "600 cm²"],
+      "answer": "616 cm²"
+    },
+    {
+      "question": "The volume of a sphere with radius 7 cm (π = 22/7) is:",
+      "options": ["1436 cm³", "1500 cm³", "1250 cm³", "1400 cm³"],
+      "answer": "1436 cm³"
+    },
+    {
+      "question": "The height of a cylinder is 14 cm and radius is 7 cm. Find its curved surface area (π = 22/7).",
+      "options": ["616 cm²", "600 cm²", "650 cm²", "620 cm²"],
+      "answer": "616 cm²"
+    },
+    {
+      "question": "The radius of a cone is 7 cm and slant height is 25 cm. Find its curved surface area (π = 22/7).",
+      "options": ["550 cm²", "500 cm²", "560 cm²", "540 cm²"],
+      "answer": "550 cm²"
+    },
+    {
+      "question": "Find the area of a triangle with base 12 cm and height 8 cm.",
+      "options": ["48 cm²", "50 cm²", "52 cm²", "44 cm²"],
+      "answer": "48 cm²"
+    },
+    {
+      "question": "A rectangle has perimeter 60 cm and length 20 cm. Find the breadth.",
+      "options": ["10 cm", "12 cm", "8 cm", "15 cm"],
+      "answer": "10 cm"
+    },
+    {
+      "question": "The diagonal of a square is 14 cm. Find its area.",
+      "options": ["98 cm²", "100 cm²", "96 cm²", "92 cm²"],
+      "answer": "98 cm²"
+    },
+    {
+      "question": "A cuboid has surface area 94 cm². Its length = 5 cm, breadth = 3 cm. Find the height.",
+      "options": ["4 cm", "5 cm", "6 cm", "3 cm"],
+      "answer": "4 cm"
+    },
+    {
+      "question": "The radius of a hemisphere is 7 cm. Find its curved surface area (π = 22/7).",
+      "options": ["154 cm²", "140 cm²", "150 cm²", "160 cm²"],
+      "answer": "154 cm²"
+    },
+    {
+      "question": "A cylinder has radius 7 cm and height 10 cm. Find its total surface area (π = 22/7).",
+      "options": ["726 cm²", "700 cm²", "720 cm²", "710 cm²"],
+      "answer": "726 cm²"
+    },
+    {
+      "question": "Volume of a cylinder = 1540 cm³, height = 10 cm. Find radius (π = 22/7).",
+      "options": ["7 cm", "8 cm", "6 cm", "5 cm"],
+      "answer": "7 cm"
+    },
+    {
+      "question": "The slant height of a cone is 13 cm and radius is 5 cm. Find the curved surface area (π = 22/7).",
+      "options": ["205 cm²", "200 cm²", "210 cm²", "220 cm²"],
+      "answer": "205 cm²"
+    },
+    {
+      "question": "The side of a cube is 8 cm. Find total surface area.",
+      "options": ["384 cm²", "350 cm²", "360 cm²", "400 cm²"],
+      "answer": "384 cm²"
+    },
+    {
+      "question": "The volume of a cube is 512 cm³. Find the side.",
+      "options": ["8 cm", "6 cm", "7 cm", "9 cm"],
+      "answer": "8 cm"
+    },
+    {
+      "question": "The radius of a circle is 14 cm. Find the circumference (π = 22/7).",
+      "options": ["88 cm", "80 cm", "84 cm", "86 cm"],
+      "answer": "88 cm"
+    },
+    {
+      "question": "A rectangle has length 15 cm and breadth 8 cm. Its diagonal is:",
+      "options": ["17 cm", "16 cm", "18 cm", "15 cm"],
+      "answer": "17 cm"
+    },
+    {
+      "question": "The radius of a circle is 21 cm. Find area (π = 22/7).",
+      "options": ["1386 cm²", "1400 cm²", "1450 cm²", "1350 cm²"],
+      "answer": "1386 cm²"
+    },
+    {
+      "question": "A cone has radius 7 cm and height 24 cm. Find volume (π = 22/7).",
+      "options": ["1232 cm³", "1200 cm³", "1250 cm³", "1300 cm³"],
+      "answer": "1232 cm³"
+    },
+    {
+      "question": "A sphere has volume 1436 cm³. Find radius (π = 22/7).",
+      "options": ["7 cm", "8 cm", "6 cm", "5 cm"],
+      "answer": "7 cm"
+    },
+    {
+      "question": "A hemisphere has radius 7 cm. Find total surface area (π = 22/7).",
+      "options": ["616 cm²", "600 cm²", "620 cm²", "610 cm²"],
+      "answer": "616 cm²"
+    },
+    {
+      "question": "The length of a rectangle is 10 cm and perimeter is 36 cm. Find breadth.",
+      "options": ["8 cm", "6 cm", "10 cm", "9 cm"],
+      "answer": "8 cm"
+    },
+    {
+      "question": "Find area of triangle with sides 5 cm, 12 cm, 13 cm.",
+      "options": ["30 cm²", "32 cm²", "28 cm²", "36 cm²"],
+      "answer": "30 cm²"
+    },
+    {
+      "question": "A square has area 144 cm². Find its side.",
+      "options": ["12 cm", "14 cm", "10 cm", "16 cm"],
+      "answer": "12 cm"
+    },
+    {
+      "question": "Volume of a cuboid = 480 cm³, length = 8 cm, breadth = 5 cm. Find height.",
+      "options": ["12 cm", "10 cm", "8 cm", "15 cm"],
+      "answer": "12 cm"
+    },
+    {
+      "question": "A cylinder has radius 7 cm and curved surface area 308 cm². Find height (π = 22/7).",
+      "options": ["7 cm", "8 cm", "6 cm", "10 cm"],
+      "answer": "7 cm"
+    },
+    {
+      "question": "A cone has slant height 13 cm, base radius 5 cm. Find base area (π = 22/7).",
+      "options": ["78.5 cm²", "80 cm²", "75 cm²", "70 cm²"],
+      "answer": "78.5 cm²"
+    },
+    {
+      "question": "The perimeter of a triangle with sides 7 cm, 10 cm, 12 cm is:",
+      "options": ["29 cm", "30 cm", "28 cm", "31 cm"],
+      "answer": "29 cm"
+    },
+    {
+      "question": "The radius of a cylinder is 14 cm, height 10 cm. Find volume (π = 22/7).",
+      "options": ["6160 cm³", "6000 cm³", "6200 cm³", "6100 cm³"],
+      "answer": "6160 cm³"
+    },
+    {
+      "question": "A cuboid has surface area 94 cm², length = 5 cm, breadth = 3 cm. Find height.",
+      "options": ["4 cm", "5 cm", "6 cm", "3 cm"],
+      "answer": "4 cm"
+    },
+    {
+      "question": "A sphere has radius 14 cm. Find volume (π = 22/7).",
+      "options": ["11464 cm³", "11000 cm³", "11500 cm³", "12000 cm³"],
+      "answer": "11464 cm³"
+    },
+    {
+      "question": "The diagonal of a square is 10√2 cm. Find side.",
+      "options": ["10 cm", "12 cm", "8 cm", "14 cm"],
+      "answer": "10 cm"
+    },
+    {
+      "question": "A cone has radius 7 cm and height 24 cm. Find slant height.",
+      "options": ["25 cm", "26 cm", "24 cm", "28 cm"],
+      "answer": "25 cm"
+    },
+    {
+      "question": "A rectangular tank is 10 m long, 5 m wide and 2 m deep. Find volume.",
+      "options": ["100 m³", "90 m³", "110 m³", "120 m³"],
+      "answer": "100 m³"
+    },
+    {
+      "question": "The side of a cube is 10 cm. Find volume.",
+      "options": ["1000 cm³", "900 cm³", "1200 cm³", "1100 cm³"],
+      "answer": "1000 cm³"
+    },
+    {
+      "question": "A circular pond has diameter 14 m. Find area of water surface (π = 22/7).",
+      "options": ["154 m²", "140 m²", "150 m²", "160 m²"],
+      "answer": "154 m²"
+    },
+    {
+      "question": "Find area of a triangle with sides 13 cm, 14 cm, 15 cm.",
+      "options": ["84 cm²", "85 cm²", "80 cm²", "82 cm²"],
+      "answer": "84 cm²"
+    },
+    {
+      "question": "A rectangle has length 12 cm, breadth 9 cm. Its diagonal is:",
+      "options": ["15 cm", "14 cm", "13 cm", "16 cm"],
+      "answer": "15 cm"
+    }
+  ]
+  
