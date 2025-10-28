@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 // ✅ Utility: Shuffle array
 const shuffleArray = (arr) =>
@@ -11,50 +11,59 @@ export default function Quiz() {
 
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState('');
+  const [selected, setSelected] = useState("");
   const [score, setScore] = useState(0);
   const [startTime, setStartTime] = useState(null);
   const [questionStartTime, setQuestionStartTime] = useState(null);
   const [timer, setTimer] = useState(60);
   const [answerData, setAnswerData] = useState([]);
 
-  // ✅ Load quiz questions
+  // ✅ Load quiz questions dynamically
   useEffect(() => {
     if (!category) return;
 
-    const parts = category.split('_');
-    let filePath = '';
+    let filePath = "";
 
     try {
-      // ✅ Special case 1: HVAC → Chillers
-      if (category === 'HVAC_Chillers') {
-        filePath = '/data/hvac/chillers/chillers.json';
-      }
-      // ✅ Special case 2: ICSE → Mathematics → Exponents
-      else if (category === 'ICSE_Mathematics_Exponents') {
-        filePath = '/data/icse/mathematics/exponents.json';
-      }
-      // ✅ Generic 2-level path (e.g., GATE_Thermodynamics)
-      else if (parts.length === 2) {
-        const [exam, subject] = parts;
-        filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}.json`;
-      }
-      // ✅ Generic 3-level path (e.g., ICSE_Mathematics_Exponents)
-      else if (parts.length === 3) {
-        const [exam, subject, chapter] = parts;
-        filePath = `/data/${exam.toLowerCase()}/${subject.toLowerCase().replace(/\s+/g, '_')}/${chapter.toLowerCase().replace(/\s+/g, '_')}.json`;
-      } else {
-        alert('❌ Invalid quiz category format.');
-        return;
+      // 🔹 Handle HVAC dynamic folders (auto detect path like hvac/ahu/ahu.json)
+      if (category.startsWith("hvac/")) {
+        const folder = category.split("/")[1];
+        filePath = `/data/hvac/${folder}/${folder}.json`;
       }
 
+      // 🔹 Handle ICSE special path (case insensitive)
+      else if (category === "ICSE_Mathematics_Exponents") {
+        filePath = "/data/icse/mathematics/exponents.json";
+      }
+
+      // 🔹 Handle all other 2-level or 3-level exam paths dynamically
+      else {
+        const parts = category.split("_");
+        if (parts.length === 2) {
+          const [exam, subject] = parts;
+          filePath = `/data/${exam.toLowerCase()}/${subject
+            .toLowerCase()
+            .replace(/\s+/g, "_")}.json`;
+        } else if (parts.length === 3) {
+          const [exam, subject, chapter] = parts;
+          filePath = `/data/${exam.toLowerCase()}/${subject
+            .toLowerCase()
+            .replace(/\s+/g, "_")}/${chapter
+            .toLowerCase()
+            .replace(/\s+/g, "_")}.json`;
+        } else {
+          throw new Error("Invalid category format");
+        }
+      }
+
+      // 🔹 Fetch the JSON file directly (no API)
       fetch(filePath)
         .then((res) => {
-          if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
           return res.json();
         })
         .then((data) => {
-          if (!Array.isArray(data)) throw new Error('Invalid question format');
+          if (!Array.isArray(data)) throw new Error("Invalid question format");
           const randomTen = shuffleArray(data)
             .slice(0, 10)
             .map((q) => ({
@@ -66,12 +75,12 @@ export default function Quiz() {
           setQuestionStartTime(Date.now());
         })
         .catch((err) => {
-          console.error('❌ Failed to load quiz:', err.message);
-          alert('❌ Could not load quiz. Check file path or format.');
+          console.error("❌ Failed to load quiz:", err.message);
+          alert("❌ Could not load quiz. Please check your folder or file name.");
         });
     } catch (e) {
-      console.error('❌ Error:', e.message);
-      alert('❌ Could not build quiz path.');
+      console.error("❌ Error building quiz path:", e.message);
+      alert("❌ Could not build quiz path.");
     }
   }, [category]);
 
@@ -88,7 +97,7 @@ export default function Quiz() {
 
   useEffect(() => setTimer(60), [current]);
 
-  // ✅ Next Question Logic
+  // ✅ Next Question
   const handleNext = () => {
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
@@ -97,7 +106,7 @@ export default function Quiz() {
 
     const currentAnswerData = {
       question: currentQuestion.question,
-      selected: selected || 'Not Answered',
+      selected: selected || "Not Answered",
       correct: currentQuestion.answer,
       timeSpent: `${timeSpent} sec`,
     };
@@ -107,23 +116,16 @@ export default function Quiz() {
     if (current + 1 < questions.length) {
       setScore(updatedScore);
       setCurrent(current + 1);
-      setSelected('');
+      setSelected("");
       setQuestionStartTime(Date.now());
     } else {
-      const totalTime = Math.floor((Date.now() - startTime) / 1000);
-      const accuracy = Math.round((updatedScore / questions.length) * 100);
-      const finalData = [...answerData, currentAnswerData];
-      localStorage.setItem('quiz-analysis', JSON.stringify(finalData));
-      router.push(
-        `/result?score=${updatedScore}&total=${questions.length}&time=${totalTime}&accuracy=${accuracy}`
-      );
+      finishQuiz(updatedScore, [...answerData, currentAnswerData]);
     }
   };
 
-  // ✅ Early Submit
+  // ✅ Submit early
   const submitImmediately = () => {
-    if (!confirm('Are you sure you want to submit the quiz early?')) return;
-
+    if (!confirm("Submit quiz now?")) return;
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;
     const finalScore = score + (isCorrect ? 1 : 0);
@@ -131,15 +133,21 @@ export default function Quiz() {
 
     const currentAnswerData = {
       question: currentQuestion.question,
-      selected: selected || 'Not Answered',
+      selected: selected || "Not Answered",
       correct: currentQuestion.answer,
       timeSpent: `${timeSpent} sec`,
     };
-    const finalData = [...answerData, currentAnswerData];
+
+    finishQuiz(finalScore, [...answerData, currentAnswerData]);
+  };
+
+  // ✅ Finish quiz helper
+  const finishQuiz = (finalScore, finalData) => {
     const totalTime = Math.floor((Date.now() - startTime) / 1000);
     const accuracy = Math.round((finalScore / questions.length) * 100);
 
-    localStorage.setItem('quiz-analysis', JSON.stringify(finalData));
+    localStorage.setItem("quiz-analysis", JSON.stringify(finalData));
+
     router.push(
       `/result?score=${finalScore}&total=${questions.length}&time=${totalTime}&accuracy=${accuracy}`
     );
@@ -147,7 +155,7 @@ export default function Quiz() {
 
   if (!questions.length)
     return (
-      <div className="container mt-5 text-center">
+      <div className="container mt-5 text-center text-light">
         <h4>Loading questions...</h4>
       </div>
     );
@@ -155,7 +163,7 @@ export default function Quiz() {
   const question = questions[current];
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 text-light">
       <h4>
         Question {current + 1} of {questions.length}
       </h4>
@@ -167,7 +175,7 @@ export default function Quiz() {
           <button
             key={idx}
             className={`list-group-item list-group-item-action ${
-              selected === opt ? 'active' : ''
+              selected === opt ? "active" : ""
             }`}
             onClick={() => setSelected(opt)}
           >
@@ -182,7 +190,7 @@ export default function Quiz() {
           disabled={!selected}
           onClick={handleNext}
         >
-          {current + 1 === questions.length ? 'Finish' : 'Next'}
+          {current + 1 === questions.length ? "Finish" : "Next"}
         </button>
         <button className="btn btn-danger" onClick={submitImmediately}>
           Submit Quiz

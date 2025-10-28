@@ -1,0 +1,103 @@
+[
+    {
+      "question": "What does VRF stand for in HVAC systems?",
+      "options": ["Variable Refrigerant Flow", "Variable Return Flow", "Vapor Return Flow", "Ventilation Refrigerant Flow"],
+      "answer": "Variable Refrigerant Flow"
+    },
+    {
+      "question": "Which component in a VRF system controls refrigerant flow to multiple indoor units?",
+      "options": ["Compressor", "Expansion valve", "Branch Selector Box", "Evaporator"],
+      "answer": "Branch Selector Box"
+    },
+    {
+      "question": "In data centers, what is a key advantage of VRF systems?",
+      "options": ["High humidity", "Independent zone control", "High noise", "Single speed operation"],
+      "answer": "Independent zone control"
+    },
+    {
+      "question": "Ductable VRF systems primarily differ by using:",
+      "options": ["Water-based cooling", "Air ducts for distribution", "Separate compressors per room", "No outdoor unit"],
+      "answer": "Air ducts for distribution"
+    },
+    {
+      "question": "Split AC systems are best suited for:",
+      "options": ["Small server rooms", "Large data halls", "Industrial chillers", "Outdoor cooling"],
+      "answer": "Small server rooms"
+    },
+    {
+      "question": "Which refrigerant is commonly used in modern VRF systems?",
+      "options": ["R22", "R410A", "R134a", "Ammonia"],
+      "answer": "R410A"
+    },
+    {
+      "question": "What type of compressor is typically used in VRF systems?",
+      "options": ["Scroll compressor", "Reciprocating compressor", "Centrifugal compressor", "Rotary compressor"],
+      "answer": "Scroll compressor"
+    },
+    {
+      "question": "How does a VRF system enhance energy efficiency?",
+      "options": ["By using constant-speed compressors", "By varying refrigerant flow as per load", "By running all units at full load", "By increasing suction pressure"],
+      "answer": "By varying refrigerant flow as per load"
+    },
+    {
+      "question": "In a ductable VRF system, air is distributed using:",
+      "options": ["Copper pipes", "Flexible ducts", "Refrigerant lines only", "Chilled water"],
+      "answer": "Flexible ducts"
+    },
+    {
+      "question": "What is a limitation of split ACs in data centers?",
+      "options": ["High initial cost", "Limited coverage area", "High zoning control", "Centralized control"],
+      "answer": "Limited coverage area"
+    },
+    {
+      "question": "What does the outdoor unit in a VRF system mainly contain?",
+      "options": ["Evaporator and fan", "Compressor and condenser", "Expansion valve", "Humidifier"],
+      "answer": "Compressor and condenser"
+    },
+    {
+      "question": "In data centers, VRF systems are preferred for which reason?",
+      "options": ["Constant airflow only", "Precise temperature control and scalability", "Low installation cost only", "Single zone cooling"],
+      "answer": "Precise temperature control and scalability"
+    },
+    {
+      "question": "Ductable VRF units are commonly installed where?",
+      "options": ["Under raised floor", "On rooftop", "In server racks", "Inside CRAC units"],
+      "answer": "Under raised floor"
+    },
+    {
+      "question": "What kind of refrigerant piping configuration is used in VRF systems?",
+      "options": ["Two-pipe or three-pipe network", "Single large pipe", "Chilled water piping", "Copper busbar"],
+      "answer": "Two-pipe or three-pipe network"
+    },
+    {
+      "question": "In a VRF heat recovery system, what additional feature is provided?",
+      "options": ["Simultaneous cooling and heating", "Faster compressor start", "Lower refrigerant charge", "Manual control only"],
+      "answer": "Simultaneous cooling and heating"
+    },
+    {
+      "question": "Which control system is used to manage multiple VRF indoor units?",
+      "options": ["PLC", "Individual thermostats only", "Centralized BMS", "None"],
+      "answer": "Centralized BMS"
+    },
+    {
+      "question": "What happens when one indoor unit demands cooling and another demands heating in a heat recovery VRF?",
+      "options": ["System stops", "Compressor shuts off", "Refrigerant flow is redirected via branch selector", "Error code displayed"],
+      "answer": "Refrigerant flow is redirected via branch selector"
+    },
+    {
+      "question": "In split AC systems, the refrigerant line connects which two components?",
+      "options": ["Compressor and blower", "Outdoor and indoor unit", "Condenser and humidifier", "Fan coil and duct"],
+      "answer": "Outdoor and indoor unit"
+    },
+    {
+      "question": "Why is VRF preferred over ductable split systems in large data centers?",
+      "options": ["Lower flexibility", "Higher zoning efficiency and modularity", "High noise levels", "Low initial cost only"],
+      "answer": "Higher zoning efficiency and modularity"
+    },
+    {
+      "question": "In VRF systems, which sensor is critical for load modulation?",
+      "options": ["Ambient humidity sensor", "Refrigerant temperature sensor", "Light sensor", "Fire detector"],
+      "answer": "Refrigerant temperature sensor"
+    }
+  ]
+  

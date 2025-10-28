@@ -1,0 +1,53 @@
+[
+    {
+      "question": "What is the primary function of a dehumidifier in a data center?",
+      "options": ["Add moisture to the air", "Remove moisture from the air", "Control air temperature only", "Increase air pressure"],
+      "answer": "Remove moisture from the air"
+    },
+    {
+      "question": "Why is humidity control important in data centers?",
+      "options": ["To improve lighting", "To prevent corrosion and static electricity", "To increase fan speed", "To cool the servers faster"],
+      "answer": "To prevent corrosion and static electricity"
+    },
+    {
+      "question": "Which component in a refrigerant-based dehumidifier condenses moisture from the air?",
+      "options": ["Evaporator coil", "Condenser coil", "Compressor", "Expansion valve"],
+      "answer": "Evaporator coil"
+    },
+    {
+      "question": "What is the ideal relative humidity range for data centers?",
+      "options": ["10–20%", "30–60%", "70–80%", "90–100%"],
+      "answer": "30–60%"
+    },
+    {
+      "question": "Which type of dehumidifier is commonly used for precise humidity control in data centers?",
+      "options": ["Desiccant dehumidifier", "Refrigerant dehumidifier", "Evaporative cooler", "Air washer"],
+      "answer": "Desiccant dehumidifier"
+    },
+    {
+      "question": "What happens if humidity in a data center is too low?",
+      "options": ["Condensation on equipment", "Corrosion of components", "Static discharge risk increases", "Cooling efficiency improves"],
+      "answer": "Static discharge risk increases"
+    },
+    {
+      "question": "What happens if humidity in a data center is too high?",
+      "options": ["Static discharge risk increases", "Condensation and corrosion may occur", "Cooling load decreases", "Air becomes too dry"],
+      "answer": "Condensation and corrosion may occur"
+    },
+    {
+      "question": "In a refrigerant dehumidifier, what role does the compressor play?",
+      "options": ["Removes moisture directly", "Compresses refrigerant vapor", "Cools the air", "Heats the air"],
+      "answer": "Compresses refrigerant vapor"
+    },
+    {
+      "question": "Desiccant dehumidifiers use which material to absorb moisture?",
+      "options": ["Silica gel", "Ammonia", "Copper", "Freon"],
+      "answer": "Silica gel"
+    },
+    {
+      "question": "Where is the condensate from a dehumidifier typically drained in a data center?",
+      "options": ["Onto the floor", "Into the return air duct", "To a condensate drain line", "Into the UPS system"],
+      "answer": "To a condensate drain line"
+    }
+  ]
+  

@@ -9,7 +9,7 @@ const examSubjects = {
   SOFTWARE: ["Python", "Data Science"],
   UPSC: ["Static"],
   JEE: ["Maths", "Physics", "Chemistry"],
-  HVAC: ["Chillers"],
+  HVAC: ["Chillers", "Dehumidifiers", "Refrigeration"],   // ✅ Added both HVAC topics
   ICSE: ["Mathematics"]
 };
 
@@ -38,18 +38,29 @@ export default function Home() {
       return;
     }
 
-    // ✅ Special case for HVAC → Chillers
-    if (exam === 'HVAC' && subject === 'Chillers') {
-      router.push(`/quiz?category=HVAC_Chillers`);
-      return;
+    // ✅ HVAC Special handling
+    if (exam === 'HVAC') {
+      if (subject === 'Chillers') {
+        router.push(`/quiz?category=hvac/chillers/chillers`);
+        return;
+      }
+      if (subject === 'Dehumidifiers') {
+        router.push(`/quiz?category=hvac/dehumidifiers/dehumidifiers`);
+        return;
+      }
+      if (subject === 'Refrigeration') {
+        router.push(`/quiz?category=hvac/refrigeration/refrigeration`);
+        return;
+      }
     }
 
-    // ✅ Special case for ICSE → Mathematics → Exponents
+    // ✅ ICSE Exponent special case
     if (exam === 'ICSE' && subject === 'Mathematics' && chapter === 'Exponents') {
       router.push(`/quiz?category=ICSE_Mathematics_Exponents`);
       return;
     }
 
+    // Default path for other exams
     const category = needsChapter
       ? `${exam}_${subject}_${chapter}`
       : `${exam}_${subject}`;
