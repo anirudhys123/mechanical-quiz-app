@@ -1,0 +1,298 @@
+[
+    {
+      "question": "What are the three core functions of a UPS in a data centre environment?",
+      "options": ["Voltage regulation, filtering, uninterrupted supply", "Cooling, filtering, backup generator", "Power factor correction, surge protection, monitoring", "Battery maintenance, load balancing, redundancy"],
+      "answer": "Voltage regulation, filtering, uninterrupted supply"
+    },
+    {
+      "question": "Why is UPS capacity typically expressed in VA (volt-amperes) rather than watts?",
+      "options": ["Because it includes both active and reactive power", "Because watts can’t be measured easily", "Because VA is only used for batteries", "Because data centres don’t care about real power"],
+      "answer": "Because it includes both active and reactive power"
+    },
+    {
+      "question": "What is the impact of having a largely capacitive load on a UPS designed for inductive loads?",
+      "options": ["Reduced load-carrying ability", "Improved efficiency", "Longer battery runtime", "No impact"],
+      "answer": "Reduced load-carrying ability"
+    },
+    {
+      "question": "In data centre UPS design, what does the term 'double-conversion online mode' refer to?",
+      "options": ["AC-DC conversion to battery then DC-AC to load continuously", "Switching between mains and generator", "Bypass mode when mains is stable", "Simple standby UPS"],
+      "answer": "AC-DC conversion to battery then DC-AC to load continuously"
+    },
+    {
+      "question": "When choosing a UPS for a data centre, which of the following questions is critical?",
+      "options": ["What size do you need? What voltage is available? What runtime do you want?", "What colour is the cabinet? What brand? What warranty length?", "How many servers will be off-line? What software licence is needed? What cooling type?", "What is the colour of the battery? What is the age of technicians? What is the floor height?"],
+      "answer": "What size do you need? What voltage is available? What runtime do you want?"
+    },
+    {
+      "question": "What role does a Static Transfer Switch (STS) play in a UPS system?",
+      "options": ["Switching between two AC inputs with minimal interruption", "Starting the generator", "Charging the batteries", "Monitoring network traffic"],
+      "answer": "Switching between two AC inputs with minimal interruption"
+    },
+    {
+      "question": "What is meant by ‘N+1 redundancy’ in the context of parallel UPS modules?",
+      "options": ["One extra module above required capacity for reliability", "Two modules exactly matching load", "One oversized module only", "Load sharing with no backups"],
+      "answer": "One extra module above required capacity for reliability"
+    },
+    {
+      "question": "Why is battery runtime a critical specification for data-centre UPS systems?",
+      "options": ["It determines how long the load will remain powered during mains failure until generator or mains returns", "It tells you the colour of the battery cabinet", "It defines how many data-centres you can build", "It is not important if generator is present"],
+      "answer": "It determines how long the load will remain powered during mains failure until generator or mains returns"
+    },
+    {
+      "question": "What does the term ‘maintenance bypass’ refer to in UPS systems?",
+      "options": ["A built-in path to bypass the UPS for service or replacement while load remains powered", "Skipping battery maintenance", "Ignoring alarms", "Using a manual generator bypass"],
+      "answer": "A built-in path to bypass the UPS for service or replacement while load remains powered"
+    },
+    {
+      "question": "How does input power factor and harmonic distortion from UPS affect data-centre power quality?",
+      "options": ["Poor input power factor and high harmonics increase losses and can cause upstream equipment stress", "They don’t affect anything", "They reduce battery capacity only", "They only matter for cooling systems"],
+      "answer": "Poor input power factor and high harmonics increase losses and can cause upstream equipment stress"
+    },
+    {
+      "question": "What is the difference between ‘online UPS’ and ‘line-interactive UPS’?",
+      "options": ["Online always converts, line-interactive uses mains most of time; online better for data centre applications", "Line-interactive is more expensive", "Online has no battery", "Line-interactive is only for homes"],
+      "answer": "Online always converts, line-interactive uses mains most of time; online better for data centre applications"
+    },
+    {
+      "question": "Why is modular UPS architecture becoming more common in data centres?",
+      "options": ["Easier scalability, redundancy, lower downtime for maintenance", "Cheaper batteries", "It uses less floor space always", "It needs fewer technicians"],
+      "answer": "Easier scalability, redundancy, lower downtime for maintenance"
+    },
+    {
+      "question": "What monitoring or software capabilities should you expect from a UPS in a critical data centre?",
+      "options": ["Communications cards, SNMP, remote monitoring, trend logging, automatic shutdown", "Only power on/off switch", "A colour screen only", "None of these"],
+      "answer": "Communications cards, SNMP, remote monitoring, trend logging, automatic shutdown"
+    },
+    {
+      "question": "What is the impact of UPS efficiency on data-centre operating cost and cooling load?",
+      "options": ["Higher efficiency reduces energy losses and thus cooling load and cost", "Efficiency only matters for battery life", "Efficiency doesn’t matter if generator is present", "Lower efficiency is better"],
+      "answer": "Higher efficiency reduces energy losses and thus cooling load and cost"
+    },
+    {
+      "question": "In a multi-phase UPS system, why is synchronisation between modules important?",
+      "options": ["To ensure modules share load evenly and switch-over is seamless", "To make them louder", "To reduce battery size only", "It is not needed"],
+      "answer": "To ensure modules share load evenly and switch-over is seamless"
+    },
+    {
+      "question": "What is the role of bypass switching during UPS maintenance or failure?",
+      "options": ["It routes load around UPS so the load stays powered while UPS is serviced or fails", "It shuts down the load", "It increases battery runtime", "It triggers generator only"],
+      "answer": "It routes load around UPS so the load stays powered while UPS is serviced or fails"
+    },
+    {
+      "question": "What is battery discharge rate and why is it critical for UPS backup performance?",
+      "options": ["Battery discharge rate (e.g., C10, C20) influences runtime and thermal stress; wrong rate hurts performance", "It tells you battery age only", "It is the time you recharge only", "It is not critical"],
+      "answer": "Battery discharge rate (e.g., C10, C20) influences runtime and thermal stress; wrong rate hurts performance"
+    },
+    {
+      "question": "What safety and fire risk considerations are associated with large UPS installations in data centres?",
+      "options": ["Thermal runaway from batteries, proper ventilation, fire suppression, safe battery handling", "Only battery life matters", "Only UPS modules matter", "No risks at all"],
+      "answer": "Thermal runaway from batteries, proper ventilation, fire suppression, safe battery handling"
+    },
+    {
+      "question": "Why is it important that a UPS be placed downstream of a proper power distribution system (PDU) and electrical architecture?",
+      "options": ["To ensure voltage quality, proper protective devices, load balancing, safe maintenance", "To reduce cable cost only", "To share cooling with server racks", "It is not important"],
+      "answer": "To ensure voltage quality, proper protective devices, load balancing, safe maintenance"
+    },
+    {
+      "question": "What is meant by ‘runtime extension’ for a UPS and how is it typically achieved in a data centre?",
+      "options": ["Adding external battery modules or cabinets to increase backup time", "Adding more servers", "Increasing cooling capacity", "Shortening battery lifespan"],
+      "answer": "Adding external battery modules or cabinets to increase backup time"
+    },
+    {
+      "question": "How do you determine the correct UPS size (kVA) for a data centre load?",
+      "options": ["Calculate load in kW, convert to kVA using power factor, add overhead for future growth and redundancy", "Just choose the biggest available", "Match number of servers only", "Look at floor space"],
+      "answer": "Calculate load in kW, convert to kVA using power factor, add overhead for future growth and redundancy"
+    },
+    {
+      "question": "What environmental conditions (temperature, humidity) affect UPS battery performance and life in a data centre?",
+      "options": ["High ambient temperature shortens battery life; humidity affects corrosion; ventilation matters", "Only colour of room matters", "Battery performance unaffected by environment", "Only server temperature matters"],
+      "answer": "High ambient temperature shortens battery life; humidity affects corrosion; ventilation matters"
+    },
+    {
+      "question": "What is the significance of parallel redundant UPS modules and how does it improve reliability?",
+      "options": ["If one module fails, others continue to carry load; maintenance can be done without shutdown", "It uses more energy always", "It reduces battery runtime only", "It complicates operations without benefit"],
+      "answer": "If one module fails, others continue to carry load; maintenance can be done without shutdown"
+    },
+    {
+      "question": "Explain the difference between an STS and an LBS in a UPS system.",
+      "options": ["STS: static switch; LBS: load-bus synchroniser; STS switches inputs, LBS synchronises dual paths", "STS is battery charger; LBS is breaker", "STS is generator; LBS is UPS", "They are the same"],
+      "answer": "STS: static switch; LBS: load-bus synchroniser; STS switches inputs, LBS synchronises dual paths"
+    },
+    {
+      "question": "How often should preventive maintenance be performed on large data-centre UPS systems and batteries?",
+      "options": ["At least twice a year and after significant events", "Only when failure happens", "Never", "Every ten years"],
+      "answer": "At least twice a year and after significant events"
+    },
+    {
+      "question": "What is the typical expected lifespan of UPS batteries in a data centre and what are the major signs of end-of-life?",
+      "options": ["5–10 years depending on type; signs: rising internal resistance, decreased runtime, swelling casing", "2 years only", "20 years always", "No lifespan, replace when failure occurs"],
+      "answer": "5–10 years depending on type; signs: rising internal resistance, decreased runtime, swelling casing"
+    },
+    {
+      "question": "Why is harmonics mitigation important in UPS systems supporting IT loads?",
+      "options": ["Harmonics can heat cables, reduce equipment life, cause failures; UPS should mitigate or handle them", "Harmonics only affect sound", "Harmonics are irrelevant", "They only affect cooling"],
+      "answer": "Harmonics can heat cables, reduce equipment life, cause failures; UPS should mitigate or handle them"
+    },
+    {
+      "question": "How does a UPS interact with a standby generator in a data-centre power chain?",
+      "options": ["The UPS bridges the gap until generator takes over; the generator supplies mains input to the UPS", "Generator bypasses UPS always", "They don’t interact", "UPS replaces generator"],
+      "answer": "The UPS bridges the gap until generator takes over; the generator supplies mains input to the UPS"
+    },
+    {
+      "question": "What is the ‘bypass mode’ of a UPS and when is it used?",
+      "options": ["When the UPS switches off its inverter and load is fed directly from mains or alternate source; used during failure or maintenance", "When battery backs up load", "When cooling fails", "Never used"],
+      "answer": "When the UPS switches off its inverter and load is fed directly from mains or alternate source; used during failure or maintenance"
+    },
+    {
+      "question": "What is the importance of power quality (voltage, frequency, transients) for the input to a UPS in a data centre?",
+      "options": ["Poor input power quality can reduce UPS lifetime, cause faults, and destabilise attached IT loads", "It doesn’t matter", "Only battery matters", "Only cooling matters"],
+      "answer": "Poor input power quality can reduce UPS lifetime, cause faults, and destabilise attached IT loads"
+    },
+    {
+      "question": "What is the concept of ‘battery runtime vs load curve’ in UPS sizing?",
+      "options": ["As load increases, runtime decreases; sizing must consider load and runtime requirement", "Higher load gives longer runtime", "Runtime independent of load", "Load not relevant to runtime"],
+      "answer": "As load increases, runtime decreases; sizing must consider load and runtime requirement"
+    },
+    {
+      "question": "Why is remote monitoring and alarms for UPS systems critical in a modern data centre?",
+      "options": ["It enables early detection of issues, automates responses, supports preventive maintenance, and integrates with DCIM", "Only for big UPS", "It is optional", "No benefit"],
+      "answer": "It enables early detection of issues, automates responses, supports preventive maintenance, and integrates with DCIM"
+    },
+    {
+      "question": "What are lithium-ion vs lead-acid batteries in UPS systems—what are the trade-offs for data centres?",
+      "options": ["Li-ion: higher energy density, longer life, higher cost; lead-acid: cheaper but shorter life and more maintenance", "Lead-acid always better", "Li-ion always worse", "No difference"],
+      "answer": "Li-ion: higher energy density, longer life, higher cost; lead-acid: cheaper but shorter life and more maintenance"
+    },
+    {
+      "question": "How does ambient temperature affect UPS battery capacity and life?",
+      "options": ["Higher temperature reduces battery capacity and life; operating at lower temperature extends lifespan", "Temperature has no effect", "Lower temperature always bad", "Only humidity matters"],
+      "answer": "Higher temperature reduces battery capacity and life; operating at lower temperature extends lifespan"
+    },
+    {
+      "question": "What is the significance of UPS input and output isolation transformer in a data-centre risk mitigation design?",
+      "options": ["Provides galvanic isolation, reduces harmonics, mitigates common mode noise and improves safety", "Only for aesthetics", "Never required", "It only affects battery life"],
+      "answer": "Provides galvanic isolation, reduces harmonics, mitigates common mode noise and improves safety"
+    },
+    {
+      "question": "What does the term ‘factory parallel redundant’ mean in UPS architecture?",
+      "options": ["Multiple UPS modules manufactured to operate in parallel sharing load with redundancy built-in", "Single large UPS only", "No redundancy", "Only in small offices"],
+      "answer": "Multiple UPS modules manufactured to operate in parallel sharing load with redundancy built-in"
+    },
+    {
+      "question": "When a UPS module fails and goes into bypass, what are the implications for the data centre load and what actions should be taken?",
+      "options": ["Load is fed via bypass or other modules; check redundancy health, schedule replacement, verify battery bank, maintain load sharing", "Nothing needs to be done", "Shut down load immediately", "Ignore failure"],
+      "answer": "Load is fed via bypass or other modules; check redundancy health, schedule replacement, verify battery bank, maintain load sharing"
+    },
+    {
+      "question": "What is a dual-bus UPS architecture and why might it be used in a mission-critical data centre?",
+      "options": ["Two independent power buses each with separate UPS and distribution so maintenance or fault on one side doesn’t interrupt load", "It uses two colours", "It doubles cooling only", "It halves runtime"],
+      "answer": "Two independent power buses each with separate UPS and distribution so maintenance or fault on one side doesn’t interrupt load"
+    },
+    {
+      "question": "Explain the concept of UPS ‘hot-swapping’ modules and why this is beneficial in modular UPS systems.",
+      "options": ["Replacing a module while the system is live with zero interruption; beneficial for uptime and maintenance", "Swapping battery cables only", "Only for small UPS", "Not important"],
+      "answer": "Replacing a module while the system is live with zero interruption; beneficial for uptime and maintenance"
+    },
+    {
+      "question": "What testing procedures should be regularly performed on UPS and battery systems in a data centre?",
+      "options": ["Load bank testing, battery discharge test, thermal imaging, inspection of connections, firmware updates", "Only visual inspection", "No tests", "Test only when failure happens"],
+      "answer": "Load bank testing, battery discharge test, thermal imaging, inspection of connections, firmware updates"
+    },
+    {
+      "question": "Why is the ratio of UPS runtime vs generator startup time important in a data-centre power chain?",
+      "options": ["UPS must cover until generator takes over; if generator startup is slow, UPS runtime must be longer", "Generator time doesn’t matter", "UPS runtime always fixed", "Only battery matters"],
+      "answer": "UPS must cover until generator takes over; if generator startup is slow, UPS runtime must be longer"
+    },
+    {
+      "question": "What is meant by ‘site-specific harmonics and load profile’ when sizing a UPS for a data centre?",
+      "options": ["Understanding actual load behaviour, harmonics from IT equipment, peak demands and transient behaviour to correctly size UPS", "Ideal load always used", "Harmonics irrelevant", "Load profile always constant"],
+      "answer": "Understanding actual load behaviour, harmonics from IT equipment, peak demands and transient behaviour to correctly size UPS"
+    },
+    {
+      "question": "What cooling and ventilation considerations apply to large UPS and battery rooms in data centres?",
+      "options": ["Battery rooms generate heat, need airflow, proper ventilation, temperature control, fire suppression and safe spacing", "No cooling needed", "Cooling only for servers", "Battery rooms can be sealed"],
+      "answer": "Battery rooms generate heat, need airflow, proper ventilation, temperature control, fire suppression and safe spacing"
+    },
+    {
+      "question": "How is the lifecycle cost of a UPS in a data centre computed beyond initial purchase cost?",
+      "options": ["Energy consumption, efficiency losses, maintenance, battery replacement, downtime cost, cooling cost", "Just purchase cost", "Only battery cost", "No cost beyond purchase"],
+      "answer": "Energy consumption, efficiency losses, maintenance, battery replacement, downtime cost, cooling cost"
+    },
+    {
+      "question": "Why is a proper electrical grounding/earthing system critical for UPS operation in data centres?",
+      "options": ["Prevents common mode noise, ensures safety, reduces risk of faults and improves power quality", "Grounding only aesthetics", "Only for generators", "Not critical"],
+      "answer": "Prevents common mode noise, ensures safety, reduces risk of faults and improves power quality"
+    },
+    {
+      "question": "What are the best practices for battery maintenance and monitoring in data-centre UPS systems?",
+      "options": ["Regular visual checks, temperature monitoring, impedance/resistance testing, record keeping, remote alerts", "Only replace when failure happens", "No checks needed", "Ignore temperature"],
+      "answer": "Regular visual checks, temperature monitoring, impedance/resistance testing, record keeping, remote alerts"
+    },
+    {
+      "question": "How does the concept of DC-link or energy storage integration (e.g., UPS used as battery buffer) help in advanced data-centre power management?",
+      "options": ["Allows UPS to act as energy buffer, shift loads, reduce peak demand charges, integrate with renewables", "Only for solar farms", "Not for data centres", "It reduces battery life only"],
+      "answer": "Allows UPS to act as energy buffer, shift loads, reduce peak demand charges, integrate with renewables"
+    },
+    {
+      "question": "What happens to UPS performance and reliability if the ambient air temperature is consistently 10 °C above manufacturer’s rated condition?",
+      "options": ["Battery life shortened significantly, increased internal losses, higher maintenance costs and earlier failure", "No change", "Performance improves", "Only runtime increases"],
+      "answer": "Battery life shortened significantly, increased internal losses, higher maintenance costs and earlier failure"
+    },
+    {
+      "question": "Explain how UPS efficiencies vary with load levels and why operating a UPS at 30% load may be less efficient than at 70% load.",
+      "options": ["At low load the fixed losses dominate so efficiency is lower; higher load means higher efficiency up to design point", "Efficiency constant always", "Lower load = better efficiency", "Efficiency irrelevant"],
+      "answer": "At low load the fixed losses dominate so efficiency is lower; higher load means higher efficiency up to design point"
+    },
+    {
+      "question": "In the event of a mains spike or sag, how does an online double-conversion UPS protect the data-centre load differently than a standby UPS?",
+      "options": ["It constantly regenerates clean power via its inverter so the load sees stable output despite input disturbances", "It shuts down the load", "It bypasses the load", "Only standby does that"],
+      "answer": "It constantly regenerates clean power via its inverter so the load sees stable output despite input disturbances"
+    },
+    {
+      "question": "Why is maintaining full documentation of UPS configuration, battery bank details, maintenance logs and test results essential in data-centre operations?",
+      "options": ["It supports compliance, helps troubleshooting, tracks ageing, ensures record for maintenance planning", "Only for auditors", "Not essential", "Only for customers"],
+      "answer": "It supports compliance, helps troubleshooting, tracks ageing, ensures record for maintenance planning"
+    },
+    {
+      "question": "What is the purpose of a UPS output isolation transformer in a data-centre design?",
+      "options": ["Provides galvanic isolation, reduces common-mode noise, improves safety and helps meet grounding requirements", "Reduces battery size only", "Extends runtime only", "No purpose"],
+      "answer": "Provides galvanic isolation, reduces common-mode noise, improves safety and helps meet grounding requirements"
+    },
+    {
+      "question": "How does a UPS system interact with a site’s overall electrical distribution and PDU architecture in a data centre?",
+      "options": ["UPS output feeds PDUs, which distribute power to IT racks; coordination of breakers, load balancing, phases and redundancy is required", "UPS only plugs into server racks", "No interaction", "Only cooling matters"],
+      "answer": "UPS output feeds PDUs, which distribute power to IT racks; coordination of breakers, load balancing, phases and redundancy is required"
+    },
+    {
+      "question": "What are the indicators of battery bank degradation in a UPS system, and what monitoring metrics should be tracked?",
+      "options": ["Increasing internal resistance, decreasing runtime, voltage drop, temperature rise, IR/impedance results", "Only runtime matters", "Temperature only", "No indicators"],
+      "answer": "Increasing internal resistance, decreasing runtime, voltage drop, temperature rise, IR/impedance results"
+    },
+    {
+      "question": "Why should UPS modules and battery cabinets be located in dedicated rooms with controlled access, ventilation and fire suppression in data centres?",
+      "options": ["Because of high risk of electrical fault, thermal runaway in batteries, need for safe maintenance and minimal risk to IT load", "Only for aesthetics", "Not required", "Only servers need rooms"],
+      "answer": "Because of high risk of electrical fault, thermal runaway in batteries, need for safe maintenance and minimal risk to IT load"
+    },
+    {
+      "question": "What is the concept of ‘virtualisation of UPS capacity’ or power sharing in modular UPS systems, and how can it help in a data-centre environment?",
+      "options": ["Treat UPS modules as fluid resource, share load dynamically, scale easily, improve availability", "Only for software licences", "Not applicable", "It reduces battery life"],
+      "answer": "Treat UPS modules as fluid resource, share load dynamically, scale easily, improve availability"
+    },
+    {
+      "question": "What is the difference between design for ‘N’, ‘N+1’, ‘2N’, and ‘2N+1’ redundancy in UPS systems in data centres?",
+      "options": ["N = required capacity only; N+1 = one extra; 2N = double capacity; 2N+1 = double plus one extra; each increases reliability", "They are all same", "Only N matters", "Redundancy unrelated to UPS"],
+      "answer": "N = required capacity only; N+1 = one extra; 2N = double capacity; 2N+1 = double plus one extra; each increases reliability"
+    },
+    {
+      "question": "How can UPS systems be leveraged for energy-cost optimisation in data centres beyond just providing backup power?",
+      "options": ["Using UPS batteries and modules to shift loads, provide peak shaving, integrate with renewables and energy storage strategies", "Only for backup", "They can’t", "Only generator can do that"],
+      "answer": "Using UPS batteries and modules to shift loads, provide peak shaving, integrate with renewables and energy storage strategies"
+    },
+    {
+      "question": "What is the impact of poor ventilation around battery cabinets on UPS performance and safety?",
+      "options": ["Poor ventilation leads to high battery temperature, accelerated aging, higher failure risk, thermal runaway potential", "No impact", "Only server cooling matters", "Only inverter matters"],
+      "answer": "Poor ventilation leads to high battery temperature, accelerated aging, higher failure risk, thermal runaway potential"
+    }
+  ]
+  

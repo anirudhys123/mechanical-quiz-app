@@ -25,18 +25,23 @@ export default function Quiz() {
     let filePath = "";
 
     try {
-      // 🔹 Handle HVAC dynamic folders (auto detect path like hvac/ahu/ahu.json)
+      // 🔹 HVAC special handling
       if (category.startsWith("hvac/")) {
         const folder = category.split("/")[1];
         filePath = `/data/hvac/${folder}/${folder}.json`;
       }
 
-      // 🔹 Handle ICSE special path (case insensitive)
+      // 🔹 Electrical → GIS special handling
+      else if (category === "electrical/gis") {
+        filePath = `/data/electrical/gis.json`;
+      }
+
+      // 🔹 ICSE special handling
       else if (category === "ICSE_Mathematics_Exponents") {
         filePath = "/data/icse/mathematics/exponents.json";
       }
 
-      // 🔹 Handle all other 2-level or 3-level exam paths dynamically
+      // 🔹 Generic dynamic handler
       else {
         const parts = category.split("_");
         if (parts.length === 2) {
@@ -56,7 +61,7 @@ export default function Quiz() {
         }
       }
 
-      // 🔹 Fetch the JSON file directly (no API)
+      // 🔹 Fetch JSON data
       fetch(filePath)
         .then((res) => {
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -84,7 +89,7 @@ export default function Quiz() {
     }
   }, [category]);
 
-  // ✅ Countdown Timer
+  // ✅ Timer
   useEffect(() => {
     if (!questions.length) return;
     if (timer === 0) {
@@ -97,7 +102,7 @@ export default function Quiz() {
 
   useEffect(() => setTimer(60), [current]);
 
-  // ✅ Next Question
+  // ✅ Next question handler
   const handleNext = () => {
     const currentQuestion = questions[current];
     const isCorrect = selected === currentQuestion.answer;

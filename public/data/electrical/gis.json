@@ -1,0 +1,243 @@
+[
+    {
+      "question": "Which spatial datasets are most critical for data center site selection using GIS?",
+      "options": ["Topography, Soil, Land use", "Traffic Data Only", "Population Density Only", "Meteorological Data Only"],
+      "answer": "Topography, Soil, Land use"
+    },
+    {
+      "question": "Which data model best represents elevation and slope for site grading?",
+      "options": ["Raster", "Vector", "Tabular", "Relational"],
+      "answer": "Raster"
+    },
+    {
+      "question": "How does slope analysis using DEMs assist in GIS planning?",
+      "options": ["Determines foundation stability", "Shows water color", "Counts population", "Estimates traffic"],
+      "answer": "Determines foundation stability"
+    },
+    {
+      "question": "Buffer analysis in GIS is mainly used for:",
+      "options": ["Risk zone assessment", "File compression", "Image processing", "Web hosting"],
+      "answer": "Risk zone assessment"
+    },
+    {
+      "question": "Which interpolation method is best suited for spatial temperature mapping?",
+      "options": ["Kriging", "Nearest Neighbor", "Thiessen", "Random Sampling"],
+      "answer": "Kriging"
+    },
+    {
+      "question": "GIS supports fiber optic network optimization using:",
+      "options": ["Network analysis", "Raster overlay", "Image mosaic", "Tabular join"],
+      "answer": "Network analysis"
+    },
+    {
+      "question": "Which coordinate system ensures accurate global distance measurement?",
+      "options": ["UTM", "Cartesian", "Arbitrary Grid", "Pixel Coordinates"],
+      "answer": "UTM"
+    },
+    {
+      "question": "Network topology in GIS helps analyze:",
+      "options": ["Power redundancy", "Color patterns", "Map labels", "Raster compression"],
+      "answer": "Power redundancy"
+    },
+    {
+      "question": "Spatial joins are used in GIS to:",
+      "options": ["Integrate attribute data based on location", "Compress map layers", "Digitize polygons", "Change coordinate systems"],
+      "answer": "Integrate attribute data based on location"
+    },
+    {
+      "question": "Overlay analysis in GIS is used for:",
+      "options": ["Combining multiple thematic layers", "Printing maps", "Creating projections", "Digitizing points"],
+      "answer": "Combining multiple thematic layers"
+    },
+    {
+      "question": "Viewshed analysis in GIS determines:",
+      "options": ["Visible areas from a point", "Water table depth", "Temperature zones", "Soil salinity"],
+      "answer": "Visible areas from a point"
+    },
+    {
+      "question": "Georeferencing ensures:",
+      "options": ["Alignment of CAD drawings with basemaps", "Database indexing", "Compression of data", "Raster clipping"],
+      "answer": "Alignment of CAD drawings with basemaps"
+    },
+    {
+      "question": "TIN models are primarily used to represent:",
+      "options": ["Surface elevation", "Fiber routes", "Population", "Temperature"],
+      "answer": "Surface elevation"
+    },
+    {
+      "question": "Digitizing in GIS is the process of:",
+      "options": ["Converting analog maps to digital format", "Data encryption", "Terrain modeling", "Raster smoothing"],
+      "answer": "Converting analog maps to digital format"
+    },
+    {
+      "question": "Spatial autocorrelation (Moran’s I) helps analyze:",
+      "options": ["Spatial pattern clustering", "Color gradients", "File sizes", "Label alignment"],
+      "answer": "Spatial pattern clustering"
+    },
+    {
+      "question": "LiDAR data in GIS is mainly used for:",
+      "options": ["High-resolution surface modeling", "Noise mapping", "Traffic control", "Data encryption"],
+      "answer": "High-resolution surface modeling"
+    },
+    {
+      "question": "Spatial interpolation in GIS helps in:",
+      "options": ["Estimating unknown values between points", "Data labeling", "Map projection", "Raster compression"],
+      "answer": "Estimating unknown values between points"
+    },
+    {
+      "question": "Metadata in GIS provides information about:",
+      "options": ["Data source, accuracy, and update history", "Color scheme", "Display resolution", "Server address"],
+      "answer": "Data source, accuracy, and update history"
+    },
+    {
+      "question": "Satellite image classification helps identify:",
+      "options": ["Land cover and terrain type", "Map projections", "Grid spacing", "File formats"],
+      "answer": "Land cover and terrain type"
+    },
+    {
+      "question": "Geocoding converts:",
+      "options": ["Addresses into geographic coordinates", "Images into vectors", "Rasters into tables", "Lines into polygons"],
+      "answer": "Addresses into geographic coordinates"
+    },
+    {
+      "question": "Global coordinate transformations are used for:",
+      "options": ["Aligning different map projections", "Color balancing", "Raster resizing", "Web mapping only"],
+      "answer": "Aligning different map projections"
+    },
+    {
+      "question": "Right-of-way management for power corridors uses:",
+      "options": ["Buffer and overlay analysis", "Histogram equalization", "Image mosaic", "Attribute joins only"],
+      "answer": "Buffer and overlay analysis"
+    },
+    {
+      "question": "Attribute queries in GIS help in:",
+      "options": ["Filtering sites by criteria", "Coloring maps", "Compressing files", "Creating polygons"],
+      "answer": "Filtering sites by criteria"
+    },
+    {
+      "question": "Topology rules in GIS ensure:",
+      "options": ["No gaps or overlaps in polygon data", "High resolution", "Color uniformity", "Raster smoothness"],
+      "answer": "No gaps or overlaps in polygon data"
+    },
+    {
+      "question": "Spatial risk analysis for data centers involves:",
+      "options": ["Overlaying hazard and infrastructure layers", "Changing projection", "Labeling roads", "Vector to raster conversion"],
+      "answer": "Overlaying hazard and infrastructure layers"
+    },
+    {
+      "question": "Watershed analysis is used for:",
+      "options": ["Assessing cooling water sources", "Fiber layout", "Traffic mapping", "Noise zoning"],
+      "answer": "Assessing cooling water sources"
+    },
+    {
+      "question": "Integration of BIM with GIS helps in:",
+      "options": ["3D smart facility design", "Map compression", "Raster indexing", "Data encryption"],
+      "answer": "3D smart facility design"
+    },
+    {
+      "question": "Proximity analysis in GIS helps find:",
+      "options": ["Distance to utilities and networks", "Map projection type", "Image histogram", "Grid size"],
+      "answer": "Distance to utilities and networks"
+    },
+    {
+      "question": "MCDA in GIS stands for:",
+      "options": ["Multi-Criteria Decision Analysis", "Map Coordinate Data Attribute", "Multiple Core Data Access", "Map Code Distance Array"],
+      "answer": "Multi-Criteria Decision Analysis"
+    },
+    {
+      "question": "Temporal GIS data helps in:",
+      "options": ["Monitoring spatial changes over time", "3D modeling", "Coordinate transformation", "Buffer creation"],
+      "answer": "Monitoring spatial changes over time"
+    },
+    {
+      "question": "NDVI index helps assess:",
+      "options": ["Vegetation health", "Soil resistivity", "Water depth", "Temperature gradient"],
+      "answer": "Vegetation health"
+    },
+    {
+      "question": "Spatial indexing in GIS improves:",
+      "options": ["Query performance", "Color contrast", "Raster resolution", "Map styling"],
+      "answer": "Query performance"
+    },
+    {
+      "question": "Heat maps in GIS visualize:",
+      "options": ["Intensity of spatial variables", "Elevation contours", "Raster grids", "Projection lines"],
+      "answer": "Intensity of spatial variables"
+    },
+    {
+      "question": "Underground utility mapping is used for:",
+      "options": ["Preventing accidental damage during construction", "Color coding", "Projection setup", "Data encryption"],
+      "answer": "Preventing accidental damage during construction"
+    },
+    {
+      "question": "3D GIS modeling assists in:",
+      "options": ["Visualizing multi-tier data centers", "Raster overlay", "Symbol rotation", "Color calibration"],
+      "answer": "Visualizing multi-tier data centers"
+    },
+    {
+      "question": "Topology validation ensures:",
+      "options": ["Connectivity accuracy in networks", "Raster size reduction", "Map scaling", "Color balance"],
+      "answer": "Connectivity accuracy in networks"
+    },
+    {
+      "question": "Hydrological modeling in GIS supports:",
+      "options": ["Flood risk mitigation", "Urban zoning", "Color blending", "Projection setup"],
+      "answer": "Flood risk mitigation"
+    },
+    {
+      "question": "GPS and GIS integration helps in:",
+      "options": ["Real-time asset tracking", "Raster cropping", "Color balancing", "Database normalization"],
+      "answer": "Real-time asset tracking"
+    },
+    {
+      "question": "GIS supports renewable energy siting using:",
+      "options": ["Spatial analysis of solar and wind potential", "Raster blending", "Vector buffering only", "Map styling"],
+      "answer": "Spatial analysis of solar and wind potential"
+    },
+    {
+      "question": "Main challenge of integrating IoT data with GIS:",
+      "options": ["Handling real-time spatial data streams", "Projection errors", "Image mosaic", "Metadata duplication"],
+      "answer": "Handling real-time spatial data streams"
+    },
+    {
+      "question": "Spatial clustering helps analyze:",
+      "options": ["Outage or failure patterns", "Raster alignment", "File paths", "Coordinate systems"],
+      "answer": "Outage or failure patterns"
+    },
+    {
+      "question": "AutoCAD layouts are converted to GIS layers using:",
+      "options": ["Georeferencing", "Histogram matching", "Color enhancement", "Rasterization only"],
+      "answer": "Georeferencing"
+    },
+    {
+      "question": "Unsupervised classification groups pixels based on:",
+      "options": ["Spectral similarity", "Manual labeling", "Metadata", "Projection type"],
+      "answer": "Spectral similarity"
+    },
+    {
+      "question": "Network analysis in GIS helps design:",
+      "options": ["Redundant communication routes", "Map legends", "File indexes", "Raster masks"],
+      "answer": "Redundant communication routes"
+    },
+    {
+      "question": "Raster analysis is limited in modeling:",
+      "options": ["Microclimate variations", "Land area", "Projection grid", "Color ramp"],
+      "answer": "Microclimate variations"
+    },
+    {
+      "question": "PostGIS is primarily used for:",
+      "options": ["Spatial database management and queries", "Raster enhancement", "Map printing", "Grid interpolation"],
+      "answer": "Spatial database management and queries"
+    },
+    {
+      "question": "GIS dashboards help visualize:",
+      "options": ["Live operational data spatially", "Database schemas", "Raster histograms", "Metadata files"],
+      "answer": "Live operational data spatially"
+    },
+    {
+      "question": "GIS assists lifecycle asset management by:",
+      "options": ["Tracking spatial condition and maintenance data", "3D rendering", "Color coding", "Raster reprojection"],
+      "answer": "Tracking spatial condition and maintenance data"
+    }
+  ]
+  

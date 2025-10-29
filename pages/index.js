@@ -10,7 +10,8 @@ const examSubjects = {
   UPSC: ["Static"],
   JEE: ["Maths", "Physics", "Chemistry"],
   HVAC: ["Chillers", "Dehumidifiers", "Refrigeration"],   // ✅ Added both HVAC topics
-  ICSE: ["Mathematics"]
+  ICSE: ["Mathematics"],
+  ELECTRICAL :["gis","ups"]
 };
 
 const subjectChapters = {
@@ -54,6 +55,14 @@ export default function Home() {
       }
     }
 
+    // ✅ Electrical (GIS) special handling
+if (exam === 'ELECTRICAL') {
+  if (subject === 'gis') {
+    router.push(`/quiz?category=electrical/gis`);
+    return;
+  }
+}
+
     // ✅ ICSE Exponent special case
     if (exam === 'ICSE' && subject === 'Mathematics' && chapter === 'Exponents') {
       router.push(`/quiz?category=ICSE_Mathematics_Exponents`);
@@ -96,6 +105,7 @@ export default function Home() {
           <option value="JEE">JEE Formulae Test</option>
           <option value="HVAC">HVAC</option>
           <option value="ICSE">ICSE</option>
+          <option value = "ELECTRICAL"> Electrical</option>
         </select>
       </div>
 
